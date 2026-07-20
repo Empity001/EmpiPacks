@@ -2,8 +2,8 @@
   "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "CulonesRPG (Minecraft 1.20.1)",
-    "description": "CulonesRPG Running Minecraft 1.20.1 (Forge v47.4.10)",
+    "name": "MiPackForge (Minecraft 1.20.1)",
+    "description": "MiPackForge Running Minecraft 1.20.1 (Forge v47.4.10)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {

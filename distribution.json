@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "rss": "https://github.com/Empity001/EmpiPacks/releases.atom",
+  "servers": [
+    {
+      "id": "culones-rpg",
+      "name": "Culones RPG",
+      "description": "Versión de prueba del modpack",
+      "icon": "https://empity001.github.io/EmpiPacks/icon.png",
+      "version": "1.0.0",
+      "address": "localhost",
+      "minecraftVersion": "1.20.1",
+      "javaOptions": {
+        "supported": ">=17",
+        "suggestedMajor": 17,
+        "ram": {
+          "recommended": 4096,
+          "minimum": 2048
+        }
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": []
+    }
+  ]
+}

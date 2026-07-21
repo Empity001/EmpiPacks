@@ -166,7 +166,7 @@
       "name": "PanolisSMP",
       "description": "Server de PanolisSMP",
       "icon": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "address": "PanolisSMP.aternos.me",
       "minecraftVersion": "1.21.11",
       "mainServer": false,

@@ -6,7 +6,8 @@
     "icon": "",
     "address": "localhost:25565",
     "mainServer": false,
-    "autoconnect": false
+    "autoconnect": false,
+    "whitelist": true
   },
   "fabric": {
     "version": "0.19.3"

@@ -17,6 +17,7 @@
       "minecraftVersion": "26.1.2",
       "mainServer": true,
       "autoconnect": false,
+      "whitelist": true,
       "javaOptions": {
         "supported": ">=25 <26",
         "suggestedMajor": 25,
@@ -170,6 +171,7 @@
       "minecraftVersion": "1.21.11",
       "mainServer": false,
       "autoconnect": false,
+      "whitelist": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",

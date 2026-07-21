@@ -8,135 +8,10 @@
   },
   "servers": [
     {
-      "id": "MiPackFabric1201-1.20.1",
-      "name": "Mi Pack Fabric 1.20.1",
-      "description": "Modpack Fabric para Minecraft 1.20.1",
-      "icon": "https://empity001.github.io/EmpiPacks/servers/MiPackFabric1201-1.20.1/icon.png",
-      "version": "1.0.0",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.20.1",
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.16.14",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1416842,
-            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
-            "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.1-fabric-0.16.14",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2849,
-                "MD5": "319b31b37382b6b6b6fdf97932d4296a",
-                "url": "https://empity001.github.io/EmpiPacks/repo/versions/1.20.1-fabric-0.16.14/1.20.1-fabric-0.16.14.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.8",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126113,
-                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.8",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35151,
-                "MD5": "3d63508405f5610fc2ea673ff5471553",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.8",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 73498,
-                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.8",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51934,
-                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.8",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94559,
-                "MD5": "62498ef324bdab15f407d703f7d78d19",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1499194,
-                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.20.1",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 573365,
-                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
-                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "generated.fabricmod:fabric-api:0.92.11+1.20.1@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 2137144,
-            "url": "https://empity001.github.io/EmpiPacks/servers/MiPackFabric1201-1.20.1/fabricmods/required/fabric-api-0.92.11+1.20.1.jar",
-            "MD5": "480888e4128874e4be052b0e7ee81697"
-          }
-        },
-        {
-          "id": "com.terraformersmc:modmenu:7.2.2@jar",
-          "name": "Mod Menu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 721366,
-            "url": "https://empity001.github.io/EmpiPacks/servers/MiPackFabric1201-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
-            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
-          }
-        }
-      ]
-    },
-    {
-      "id": "testneoforge-26.1.2",
-      "name": "testneoforge (Minecraft 26.1.2)",
-      "description": "testneoforge Running Minecraft 26.1.2",
-      "icon": null,
+      "id": "CulonesRPG-26.1.2",
+      "name": "CulonesRPG (Minecraft 26.1.2)",
+      "description": "CulonesRPG Running Minecraft 26.1.2 (Fabric v0.19.3)",
+      "icon": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "26.1.2",
@@ -145,9 +20,112 @@
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
-      "modules": []
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "26.1.2-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2782,
+                "MD5": "7e5ad28ed3be16ccddaa1ea2e56bce24",
+                "url": "https://empity001.github.io/EmpiPacks/repo/versions/26.1.2-fabric-0.19.3/26.1.2-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.155.2+26.1.2@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2520724,
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/fabric-api-0.155.2+26.1.2.jar",
+            "MD5": "2b1d35a85b9ff988c2513c3d7e57a8fb"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:18.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 857151,
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/modmenu-18.0.0.jar",
+            "MD5": "8e8e0702a41de5e10fb9676595cb1bce"
+          }
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "CulonesRPG (Minecraft 26.1.2)",
+    "description": "CulonesRPG Running Minecraft 26.1.2 (Fabric v0.19.3)",
+    "icon": "",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.19.3"
+  },
+  "untrackedFiles": []
+}

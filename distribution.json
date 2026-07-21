@@ -166,7 +166,7 @@
       "name": "PanolisSMP",
       "description": "Server de PanolisSMP",
       "icon": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "address": "PanolisSMP.aternos.me",
       "minecraftVersion": "1.21.11",
       "mainServer": false,
@@ -286,13 +286,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.10.7+mc1.21.11@jar",
+          "id": "generated.fabricmod:iris:1.10.6+mc1.21.11@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2807547,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/iris-fabric-1.10.7+mc1.21.11.jar",
-            "MD5": "5a7742b06041a0a98aa5df00ec8ce9a9"
+            "size": 2805791,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/iris-fabric-1.10.6+mc1.21.11.jar",
+            "MD5": "1fad457f15178da18d7b2309b23d64a0"
           }
         },
         {
@@ -316,13 +316,13 @@
           }
         },
         {
-          "id": "net.caffeinemc.mods:sodium:0.8.12+mc1.21.11@jar",
+          "id": "net.caffeinemc.mods:sodium:0.8.13+mc1.21.11@jar",
           "name": "Sodium",
           "type": "FabricMod",
           "artifact": {
-            "size": 1905890,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/sodium-fabric-0.8.12+mc1.21.11.jar",
-            "MD5": "bc4ab71a5462424e1b23294522e9b170"
+            "size": 1907864,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/sodium-fabric-0.8.13+mc1.21.11.jar",
+            "MD5": "6403d1a66a960c76845b21264548e8d2"
           }
         },
         {

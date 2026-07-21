@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "name": "PanolisSMP",
+    "description": "Server de PanolisSMP",
+    "icon": "",
+    "address": "localhost:25565",
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.19.3"
+  },
+  "untrackedFiles": []
+}

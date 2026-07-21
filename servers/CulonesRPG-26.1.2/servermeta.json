@@ -1,13 +1,18 @@
 {
   "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "CulonesRPG",
     "description": "CulonesRPG Running Minecraft 26.1.2 (Fabric v0.19.3)",
     "icon": "",
     "address": "161.129.181.219:25565",
     "mainServer": true,
-    "autoconnect": false
+    "autoconnect": false,
+    "javaOptions": {
+  "supported": ">=25 <26",
+  "suggestedMajor": 25,
+  "distribution": "TEMURIN"
+}
   },
   "fabric": {
     "version": "0.19.3"

@@ -1,7 +1,7 @@
 {
   "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "CulonesRPG",
     "description": "CulonesRPG Running Minecraft 26.1.2 (Fabric v0.19.3)",
     "icon": "",

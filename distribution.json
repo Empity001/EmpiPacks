@@ -306,13 +306,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:sodium-extra:0.9.3+mc1.21.11@jar",
+          "id": "generated.fabricmod:sodium-extra:0.8.3+mc1.21.11@jar",
           "name": "Sodium Extra",
           "type": "FabricMod",
           "artifact": {
-            "size": 469564,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/sodium-extra-fabric-0.9.3+mc1.21.11.jar",
-            "MD5": "8db573ef789a4542a9d9aa2a2e9b9944"
+            "size": 394219,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+            "MD5": "6d9e005c52ed09fe681330408f05815c"
           }
         },
         {

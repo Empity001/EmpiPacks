@@ -7,7 +7,7 @@
     "address": "localhost:25565",
     "mainServer": false,
     "autoconnect": false,
-    "whitelist": true
+    "whitelist": false
   },
   "fabric": {
     "version": "0.19.3"

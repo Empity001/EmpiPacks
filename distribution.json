@@ -264,14 +264,14 @@
           ]
         },
         {
-          "id": "Bacground.gif",
-          "name": "Bacground.gif",
+          "id": "background.gif",
+          "name": "background.gif",
           "type": "File",
           "artifact": {
             "size": 161301,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/Bacground.gif",
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/background.gif",
             "MD5": "c4274dcd3cdf38149de72e5dd53f9a5b",
-            "path": "Bacground.gif"
+            "path": "background.gif"
           }
         },
         {
@@ -283,6 +283,17 @@
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/banner.gif",
             "MD5": "ef98fefbd78a1b2ed8035828914d70f2",
             "path": "banner.gif"
+          }
+        },
+        {
+          "id": "theme.json",
+          "name": "theme.json",
+          "type": "File",
+          "artifact": {
+            "size": 27,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/theme.json",
+            "MD5": "88c4f4ca1a0067553679115d56ed3371",
+            "path": "theme.json"
           }
         }
       ]

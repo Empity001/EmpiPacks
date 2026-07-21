@@ -286,13 +286,13 @@
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.10.6+mc1.21.11@jar",
+          "id": "generated.fabricmod:iris:1.10.7+mc1.21.11@jar",
           "name": "Iris",
           "type": "FabricMod",
           "artifact": {
-            "size": 2805791,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/iris-fabric-1.10.6+mc1.21.11.jar",
-            "MD5": "1fad457f15178da18d7b2309b23d64a0"
+            "size": 2807547,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/iris-fabric-1.10.7+mc1.21.11.jar",
+            "MD5": "5a7742b06041a0a98aa5df00ec8ce9a9"
           }
         },
         {

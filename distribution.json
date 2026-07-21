@@ -166,12 +166,12 @@
       "name": "PanolisSMP",
       "description": "Server de PanolisSMP",
       "icon": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "address": "PanolisSMP.aternos.me",
       "minecraftVersion": "1.21.11",
       "mainServer": false,
       "autoconnect": false,
-      "whitelist": false,
+      "whitelist": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.19.3",
@@ -266,6 +266,66 @@
           ]
         },
         {
+          "id": "generated.fabricmod:entityculling:neoforge-1.10.5-mc1.21.11@jar",
+          "name": "Entityculling",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1596185,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/entityculling-neoforge-1.10.5-mc1.21.11.jar",
+            "MD5": "860f42afe31d57dc522b1c014f085564"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.141.5+1.21.11@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2425434,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/fabric-api-0.141.5+1.21.11.jar",
+            "MD5": "cf1adf5135603c104519fe66c61d56f1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.10.7+mc1.21.11@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2807547,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/iris-fabric-1.10.7+mc1.21.11.jar",
+            "MD5": "5a7742b06041a0a98aa5df00ec8ce9a9"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:17.0.0@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1115809,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/modmenu-17.0.0.jar",
+            "MD5": "c46182d61ea8f99e68f5d86af1b3fdd8"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.9.3+mc1.21.11@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 469564,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/sodium-extra-fabric-0.9.3+mc1.21.11.jar",
+            "MD5": "8db573ef789a4542a9d9aa2a2e9b9944"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.8.13+mc1.21.11@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1907864,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/sodium-fabric-0.8.13+mc1.21.11.jar",
+            "MD5": "6403d1a66a960c76845b21264548e8d2"
+          }
+        },
+        {
           "id": "background.gif",
           "name": "background.gif",
           "type": "File",
@@ -285,6 +345,17 @@
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/banner.png",
             "MD5": "3f7e5a77d7b4b2acc8e1607235934373",
             "path": "banner.png"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.8.1.zip",
+          "name": "ComplementaryReimagined_r5.8.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 546925,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/shaderpacks/ComplementaryReimagined_r5.8.1.zip",
+            "MD5": "8dbb914ed233d6e8183ce34eb26beaab",
+            "path": "shaderpacks/ComplementaryReimagined_r5.8.1.zip"
           }
         },
         {

@@ -1,13 +1,13 @@
 {
   "meta": {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "name": "PanolisSMP",
     "description": "Server de PanolisSMP",
     "icon": "",
     "address": "PanolisSMP.aternos.me",
     "mainServer": false,
     "autoconnect": false,
-    "whitelist": false
+    "whitelist": true
   },
   "fabric": {
     "version": "0.19.3"

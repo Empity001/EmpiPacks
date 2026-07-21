@@ -165,7 +165,7 @@
       "id": "PanolisSMP-1.21.11",
       "name": "PanolisSMP",
       "description": "Server de PanolisSMP",
-      "icon": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.jpg",
+      "icon": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png",
       "version": "1.0.2",
       "address": "PanolisSMP.aternos.me",
       "minecraftVersion": "1.21.11",
@@ -277,14 +277,14 @@
           }
         },
         {
-          "id": "banner.gif",
-          "name": "banner.gif",
+          "id": "banner.png",
+          "name": "banner.png",
           "type": "File",
           "artifact": {
-            "size": 71830,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/banner.gif",
-            "MD5": "ef98fefbd78a1b2ed8035828914d70f2",
-            "path": "banner.gif"
+            "size": 350395,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/banner.png",
+            "MD5": "3f7e5a77d7b4b2acc8e1607235934373",
+            "path": "banner.png"
           }
         },
         {

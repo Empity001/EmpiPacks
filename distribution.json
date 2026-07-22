@@ -166,7 +166,7 @@
       "name": "PanolisSMP",
       "description": "Server de PanolisSMP",
       "icon": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png",
-      "version": "1.0.6",
+      "version": "1.1.0",
       "address": "PanolisSMP.aternos.me",
       "minecraftVersion": "1.21.11",
       "mainServer": false,
@@ -266,6 +266,16 @@
           ]
         },
         {
+          "id": "de.keksuccino:drippyloadingscreen:3.1.3@jar",
+          "name": "Drippy Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 284926,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/drippyloadingscreen_fabric_3.1.3_MC_1.21.11.jar",
+            "MD5": "7dc392d60a375b5b79b741d3e6f269ca"
+          }
+        },
+        {
           "id": "generated.fabricmod:entityculling:neoforge-1.10.5-mc1.21.11@jar",
           "name": "Entityculling",
           "type": "FabricMod",
@@ -286,6 +296,16 @@
           }
         },
         {
+          "id": "de.keksuccino:fancymenu:3.9.8@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25815120,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/fancymenu_fabric_3.9.8_MC_1.21.11.jar",
+            "MD5": "dd25fd02512e9b5696144a7aed68942a"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.10.7+mc1.21.11@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -296,6 +316,26 @@
           }
         },
         {
+          "id": "de.keksuccino:konkrete:1.9.18@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 771623,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/konkrete_fabric_1.9.18_MC_1.21.11.jar",
+            "MD5": "13a0bbba48a016a3ca7ac55ac1612027"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.15@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 227886,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/melody_fabric_1.0.15_MC_1.21.11.jar",
+            "MD5": "8b7f0aef2acc3c59d67f79809608b5a8"
+          }
+        },
+        {
           "id": "com.terraformersmc:modmenu:17.0.0@jar",
           "name": "Mod Menu",
           "type": "FabricMod",
@@ -303,6 +343,26 @@
             "size": 1115809,
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/modmenu-17.0.0.jar",
             "MD5": "c46182d61ea8f99e68f5d86af1b3fdd8"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:17.0.1-beta.1@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 958351,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/modmenu-17.0.1-beta.1.jar",
+            "MD5": "783391fc50141119bec2eff784b0b410"
+          }
+        },
+        {
+          "id": "generated.fabricmod:placeholder-api:2.8.2+1.21.10@jar",
+          "name": "Placeholder API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 268662,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/placeholder-api-2.8.2+1.21.10.jar",
+            "MD5": "392f27ec00dd71b8b4a9819f9449e856"
           }
         },
         {
@@ -326,6 +386,16 @@
           }
         },
         {
+          "id": "de.keksuccino:spiffyhud:3.1.2@jar",
+          "name": "SpiffyHUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 846061,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/spiffyhud_fabric_3.1.2_MC_1.21.11.jar",
+            "MD5": "5738b2dcaecd0122971e5f8f6147c57f"
+          }
+        },
+        {
           "id": "background.gif",
           "name": "background.gif",
           "type": "File",
@@ -345,6 +415,391 @@
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/banner.png",
             "MD5": "3f7e5a77d7b4b2acc8e1607235934373",
             "path": "banner.png"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2465,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/drippyloadingscreen/options.txt",
+            "MD5": "8cb60f41a51a70a5c4912e3d24d904b6",
+            "path": "config/drippyloadingscreen/options.txt"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 260,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fabric/indigo-renderer.properties",
+            "MD5": "d2eddc772d17fa37e46f4309f8d41258",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "background.gif",
+          "name": "background.gif",
+          "type": "File",
+          "artifact": {
+            "size": 20003822,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/assets/background.gif",
+            "MD5": "fc7ee3bacf08b829e6a7dc6730d4bb77",
+            "path": "config/fancymenu/assets/background.gif"
+          }
+        },
+        {
+          "id": "banner.png",
+          "name": "banner.png",
+          "type": "File",
+          "artifact": {
+            "size": 350395,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/assets/banner.png",
+            "MD5": "3f7e5a77d7b4b2acc8e1607235934373",
+            "path": "config/fancymenu/assets/banner.png"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "319867b0710b0bd2cbf473a5d35615db",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51096,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "35ca6ed435e98fc2acdb4639a420d9f0",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4399,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/options.txt",
+            "MD5": "bbf58ab289630a4c3f1d54f35be42baa",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "cherry_blossom.json",
+          "name": "cherry_blossom.json",
+          "type": "File",
+          "artifact": {
+            "size": 9349,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/cherry_blossom.json",
+            "MD5": "90e358ee1c6bbd1d17bbcdad0a504f3d",
+            "path": "config/fancymenu/ui_themes/cherry_blossom.json"
+          }
+        },
+        {
+          "id": "cozy_campfire.json",
+          "name": "cozy_campfire.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/cozy_campfire.json",
+            "MD5": "02b0cd78a482dbd7ec793e123f4c007b",
+            "path": "config/fancymenu/ui_themes/cozy_campfire.json"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 9329,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "cbf30e731636c918d598f1ad9b0ea371",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "dark_high_contrast.json",
+          "name": "dark_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9359,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/dark_high_contrast.json",
+            "MD5": "4b532a7a5c5ecd839e55a3c083c8bca3",
+            "path": "config/fancymenu/ui_themes/dark_high_contrast.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 9331,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "f3980d6eed1064c36d794d7b1030fd06",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "light_high_contrast.json",
+          "name": "light_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9361,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/light_high_contrast.json",
+            "MD5": "700ff9cd0e95ac2234e0494af729226a",
+            "path": "config/fancymenu/ui_themes/light_high_contrast.json"
+          }
+        },
+        {
+          "id": "pumpkin_soup.json",
+          "name": "pumpkin_soup.json",
+          "type": "File",
+          "artifact": {
+            "size": 9345,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/pumpkin_soup.json",
+            "MD5": "d322c4bde872420ddeb2eaa124d0f16a",
+            "path": "config/fancymenu/ui_themes/pumpkin_soup.json"
+          }
+        },
+        {
+          "id": "purple_void.json",
+          "name": "purple_void.json",
+          "type": "File",
+          "artifact": {
+            "size": 9343,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/purple_void.json",
+            "MD5": "79df3b7ab7a74d55e3f5bb70cd996dea",
+            "path": "config/fancymenu/ui_themes/purple_void.json"
+          }
+        },
+        {
+          "id": "spooky_season.json",
+          "name": "spooky_season.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/ui_themes/spooky_season.json",
+            "MD5": "c45cc6e6bd9c4a296227e764dcf1e953",
+            "path": "config/fancymenu/ui_themes/spooky_season.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/iris.properties",
+            "MD5": "f07839c08f20fd137747a2456b41d885",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "modmenu.json",
+          "name": "modmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 840,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/modmenu.json",
+            "MD5": "6f801fc101c146e1c993f05544858c34",
+            "path": "config/modmenu.json"
+          }
+        },
+        {
+          "id": "sodium-extra-options.json",
+          "name": "sodium-extra-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 2626,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/sodium-extra-options.json",
+            "MD5": "2927861231934f199e7dbda0f699fff0",
+            "path": "config/sodium-extra-options.json"
+          }
+        },
+        {
+          "id": "sodium-extra.properties",
+          "name": "sodium-extra.properties",
+          "type": "File",
+          "artifact": {
+            "size": 360,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/sodium-extra.properties",
+            "MD5": "72b9d6dd6ada7b00ef334ee176054dbf",
+            "path": "config/sodium-extra.properties"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/sodium-fingerprint.json",
+            "MD5": "544b114d7c5abdd751b06c8e880f5f04",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 776,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/sodium-options.json",
+            "MD5": "b30a5b433c48a5066a9e3e028e80f4a6",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "fabric_default_resource_packs.json",
+          "name": "fabric_default_resource_packs.json",
+          "type": "File",
+          "artifact": {
+            "size": 13,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/data/fabric_default_resource_packs.json",
+            "MD5": "9c70e0b30ff6d3ac8f1f4d0dd7742b20",
+            "path": "data/fabric_default_resource_packs.json"
+          }
+        },
+        {
+          "id": "browser_audio_settings.json",
+          "name": "browser_audio_settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/fancymenu_data/browser_audio_settings.json",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "fancymenu_data/browser_audio_settings.json"
+          }
+        },
+        {
+          "id": "browser_video_settings.json",
+          "name": "browser_video_settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/fancymenu_data/browser_video_settings.json",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "fancymenu_data/browser_video_settings.json"
+          }
+        },
+        {
+          "id": "buddy_leveling_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json",
+          "name": "buddy_leveling_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json",
+          "type": "File",
+          "artifact": {
+            "size": 1619,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/fancymenu_data/buddy/buddy_leveling_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json",
+            "MD5": "e04a398b8ea5086f2c2d1287cdf72ffa",
+            "path": "fancymenu_data/buddy/buddy_leveling_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json"
+          }
+        },
+        {
+          "id": "buddy_save_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json",
+          "name": "buddy_save_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json",
+          "type": "File",
+          "artifact": {
+            "size": 380,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/fancymenu_data/buddy/buddy_save_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json",
+            "MD5": "deb5867ac62825c6a9a49f8eac526a2b",
+            "path": "fancymenu_data/buddy/buddy_save_MzE5MzJkNzgtZmRiOS00MjhjLWE0ODUtNGE2OTcyM2NmN2ZmLTE3ODQ2Nzk5MzU2NjA.json"
+          }
+        },
+        {
+          "id": "last_world.fmdata",
+          "name": "last_world.fmdata",
+          "type": "File",
+          "artifact": {
+            "size": 66,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/fancymenu_data/last_world.fmdata",
+            "MD5": "ffb7dad647c44ed0d395e6f3c92acae4",
+            "path": "fancymenu_data/last_world.fmdata"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5286,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/options.txt",
+            "MD5": "a8cec040ab63c875cc6a53b3646ecad3",
+            "path": "options.txt"
           }
         },
         {

@@ -1,13 +1,18 @@
 {
   "meta": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "name": "PanolisSMP",
     "description": "Server de PanolisSMP",
     "icon": "",
     "address": "PanolisSMP.aternos.me",
     "mainServer": false,
     "autoconnect": false,
-    "whitelist": true
+    "whitelist": true,
+    "discord": {
+      "shortId": "CulonesRPG",
+      "largeImageText": "Jugando CulonesRPG",
+      "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png"
+}
   },
   "fabric": {
     "version": "0.19.3"

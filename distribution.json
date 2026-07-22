@@ -136,21 +136,43 @@
           "name": "background.gif",
           "type": "File",
           "artifact": {
-            "size": 4334490,
+            "size": 7121320,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/background.gif",
-            "MD5": "c08ff8593c82e83a95f06b754ec2fb81",
+            "MD5": "1da5569dbe2e6cf2afe35c733179eca4",
             "path": "background.gif"
           }
         },
         {
-          "id": "banner.png",
-          "name": "banner.png",
+          "id": "banner.gif",
+          "name": "banner.gif",
+          "type": "File",
+          "artifact": {
+            "size": 13459130,
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/banner.gif",
+            "MD5": "669b22852e49fc6cc7dae79fab97d8ef",
+            "path": "banner.gif"
+          }
+        },
+        {
+          "id": "last_background.gif",
+          "name": "last_background.gif",
+          "type": "File",
+          "artifact": {
+            "size": 4334490,
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/last_background.gif",
+            "MD5": "c08ff8593c82e83a95f06b754ec2fb81",
+            "path": "last_background.gif"
+          }
+        },
+        {
+          "id": "last_banner.png",
+          "name": "last_banner.png",
           "type": "File",
           "artifact": {
             "size": 74413,
-            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/banner.png",
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/last_banner.png",
             "MD5": "b85b42f5a2aeb25a1cfa6c87f0ae7ed1",
-            "path": "banner.png"
+            "path": "last_banner.png"
           }
         },
         {
@@ -160,7 +182,7 @@
           "artifact": {
             "size": 27,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/theme.json",
-            "MD5": "56a4b51452bcfbe714e249f5c90132c3",
+            "MD5": "3b73a439cf39d814d50acf279689cf2d",
             "path": "theme.json"
           }
         }

@@ -1,0 +1,28 @@
+{
+    useBlockModels: true,
+    useItemModels: true,
+    flowersPlantsAndFoliage: {
+        useRandomizedFoliagePatches: true,
+        useFlowerModels: true,
+        useCropModels: true,
+        useGrassModels: true,
+        useBushAndDryGrassModels: true,
+        useMushroomAndFungiModels: true,
+        useSugarCaneModels: true
+    },
+    caveStuff: {
+        useOreModels: true,
+        disableOreGlowing: false,
+        useAmethystModels: true,
+        useDripstoneModels: true
+    },
+    utility: {
+        useWorkbenchModels: true,
+        useBarrelModels: true,
+        useFurnaceModels: true
+    },
+    miscellaneousAndCompatFixes: {
+        useThemedMenu: true,
+        fixHoldMyItemsCompatOnNewestVersion: false
+    }
+}

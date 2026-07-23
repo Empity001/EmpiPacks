@@ -1337,7 +1337,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 143710524,
-            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/watermedia_binaries-3.0.0-rc.4.jar",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/assets-v1/watermedia_binaries-3.0.0-rc.4.jar",
             "MD5": "833fd900255e5b15c76a9fdde7df15c4"
           }
         },
@@ -4913,8 +4913,8 @@
       "address": "PanolisSMP.aternos.me",
       "minecraftVersion": "1.21.11",
       "discord": {
-        "shortId": "CulonesRPG",
-        "largeImageText": "Jugando CulonesRPG",
+        "shortId": "PanolisSMP",
+        "largeImageText": "Jugando PanolisSMP",
         "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png"
       },
       "mainServer": false,
@@ -5024,16 +5024,6 @@
           }
         },
         {
-          "id": "generated.fabricmod:entityculling:neoforge-1.10.5-mc1.21.11@jar",
-          "name": "Entityculling",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1596185,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/entityculling-neoforge-1.10.5-mc1.21.11.jar",
-            "MD5": "860f42afe31d57dc522b1c014f085564"
-          }
-        },
-        {
           "id": "generated.fabricmod:fabric-api:0.141.5+1.21.11@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -5081,16 +5071,6 @@
             "size": 227886,
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/melody_fabric_1.0.15_MC_1.21.11.jar",
             "MD5": "8b7f0aef2acc3c59d67f79809608b5a8"
-          }
-        },
-        {
-          "id": "com.terraformersmc:modmenu:17.0.0@jar",
-          "name": "Mod Menu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 1115809,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/modmenu-17.0.0.jar",
-            "MD5": "c46182d61ea8f99e68f5d86af1b3fdd8"
           }
         },
         {

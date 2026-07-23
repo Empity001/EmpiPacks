@@ -12,7 +12,7 @@
       "name": "CulonesRPG",
       "description": "",
       "icon": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/icon.png",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "address": "161.129.181.219:25565",
       "minecraftVersion": "26.1.2",
       "discord": {
@@ -542,13 +542,13 @@
           }
         },
         {
-          "id": "dev.empi:empicheck:1.0.0@jar",
+          "id": "dev.empi:empicheck:1.0.2@jar",
           "name": "EmpiCheck Client",
           "type": "FabricMod",
           "artifact": {
-            "size": 9949,
-            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/EmpiCheck-Client-1.0.0+fabric-26.1.2.jar",
-            "MD5": "a911279aaeb60e9e24842f6c748fb117"
+            "size": 7048,
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/EmpiCheck-Client-1.0.2+fabric-26.1.2.jar",
+            "MD5": "67bc46b180e9581c4f5483a47f66edb0"
           }
         },
         {
@@ -1337,7 +1337,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 143710524,
-            "url": "https://github.com/Empity001/EmpiPacks/releases/download/assets-v1/watermedia_binaries-3.0.0-rc.4.jar",
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/watermedia_binaries-3.0.0-rc.4.jar",
             "MD5": "833fd900255e5b15c76a9fdde7df15c4"
           }
         },

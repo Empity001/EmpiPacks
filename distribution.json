@@ -1337,7 +1337,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 143710524,
-            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/fabricmods/required/watermedia_binaries-3.0.0-rc.4.jar",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/assets-v1/watermedia_binaries-3.0.0-rc.4.jar",
             "MD5": "833fd900255e5b15c76a9fdde7df15c4"
           }
         },

@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "pack_format": 84,
+    "description": "CulonesRPG Original Pack",
+    "min_format":[80,0],
+    "max_format":[84,0]
+  }
+}

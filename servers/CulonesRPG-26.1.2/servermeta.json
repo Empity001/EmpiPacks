@@ -1,13 +1,18 @@
 {
   "meta": {
-    "version": "1.0.5",
+    "version": "1.1.0",
     "name": "CulonesRPG",
-    "description": "CulonesRPG Running Minecraft 26.1.2 (Fabric v0.19.3)",
+    "description": "",
     "icon": "",
     "address": "161.129.181.219:25565",
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false,
     "whitelist": true,
+    "discord": {
+      "shortId": "CulonesRPG",
+      "largeImageText": "Jugando CulonesRPG",
+      "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/icon.png"
+},
     "javaOptions": {
   "supported": ">=25 <26",
   "suggestedMajor": 25,

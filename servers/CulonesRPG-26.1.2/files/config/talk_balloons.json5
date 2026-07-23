@@ -1,0 +1,26 @@
+{
+  "balloonsHeightOffset": 0.4,
+  "distanceBetweenBalloons": 3,
+  "maxBalloons": 7,
+  "minBalloonWidth": 8,
+  "maxBalloonWidth": 180,
+  "balloonPadding": 2
+  /* In seconds */,
+  "balloonAge": 15,
+  "balloonOpacity": 0.95,
+  "balloonSneakingOpacity": 0.65,
+  "balloonStyle": "talk_balloons:classic/rounded",
+  "textColor": 1315860,
+  "balloonTint": 15857400,
+  "isEnabled": true,
+  "showOwnBalloon": true,
+  "onlyDisplayBalloons": false,
+  "balloonFadeOut": 0.4,
+  "syncedConfigs": [
+    "balloon_style",
+    "text_color",
+    "balloon_tint",
+    "balloon_padding",
+    "only_display_balloons"
+  ]
+}

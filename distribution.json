@@ -12,7 +12,7 @@
       "name": "CulonesRPG",
       "description": "",
       "icon": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/icon.png",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "address": "161.129.181.219:25565",
       "minecraftVersion": "26.1.2",
       "discord": {
@@ -1717,9 +1717,9 @@
           "name": "modlist.json",
           "type": "File",
           "artifact": {
-            "size": 36407,
+            "size": 34125,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/crash_assistant/modlist.json",
-            "MD5": "6d3f31c5a90de33406c675c7901d47a4",
+            "MD5": "7086de61662bac33f62533c38bfd4880",
             "path": "config/crash_assistant/modlist.json"
           }
         },
@@ -2665,7 +2665,7 @@
           "artifact": {
             "size": 282,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/iris.properties",
-            "MD5": "97330821970a84a05777aee7482dce0f",
+            "MD5": "3c202568d824c53b713ae4dc77f8ddb9",
             "path": "config/iris.properties"
           }
         },
@@ -3114,9 +3114,9 @@
           "name": "config.json5",
           "type": "File",
           "artifact": {
-            "size": 5877,
+            "size": 5807,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/roughlyenoughitems/config.json5",
-            "MD5": "a4e00dca4b3e114aeba80fa9c69ffba2",
+            "MD5": "d4a5265e71b6a8ad476938a9b35738ba",
             "path": "config/roughlyenoughitems/config.json5"
           }
         },
@@ -3149,7 +3149,7 @@
           "artifact": {
             "size": 48,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/roughlyenoughitems/pinyin.properties",
-            "MD5": "3df1786740bcb24cb9e71921f7f655e9",
+            "MD5": "760486513a586b6ceddefaf9b9ff3327",
             "path": "config/roughlyenoughitems/pinyin.properties"
           }
         },
@@ -3160,7 +3160,7 @@
           "artifact": {
             "size": 73,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/roughlyenoughitems/pinyin_double.properties",
-            "MD5": "f2bd26f2e4c88a3904ac33b29c0a01fb",
+            "MD5": "bcd476e784e972793ecc330727b9f69b",
             "path": "config/roughlyenoughitems/pinyin_double.properties"
           }
         },
@@ -3224,9 +3224,9 @@
           "name": "presets.json",
           "type": "File",
           "artifact": {
-            "size": 227,
+            "size": 233,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/skinshuffle/presets.json",
-            "MD5": "4769cb0385eadb104b456c4fafecb922",
+            "MD5": "b2f9f3f6dcb070ebaaa9e606503bd566",
             "path": "config/skinshuffle/presets.json"
           }
         },
@@ -3250,6 +3250,17 @@
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/skinshuffle/skins/1117158761.png",
             "MD5": "ec092bb0edd3baff81d5629d80d00ea5",
             "path": "config/skinshuffle/skins/1117158761.png"
+          }
+        },
+        {
+          "id": "1209486509.png",
+          "name": "1209486509.png",
+          "type": "File",
+          "artifact": {
+            "size": 2188,
+            "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/config/skinshuffle/skins/1209486509.png",
+            "MD5": "dc2009ace6f896ec358103f63c78e780",
+            "path": "config/skinshuffle/skins/1209486509.png"
           }
         },
         {
@@ -3699,7 +3710,7 @@
           "artifact": {
             "size": 65,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/data/servers_playtime.dat",
-            "MD5": "081ab8e47e561f89f376fd01bfec7568",
+            "MD5": "3a62aceba0ce41c4e4442f41e8eae9fc",
             "path": "data/servers_playtime.dat"
           }
         },
@@ -4346,9 +4357,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 8959,
+            "size": 8910,
             "url": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/files/options.txt",
-            "MD5": "f1639be9efb5f19d3f057fef8e8fcdfe",
+            "MD5": "09ddd4637f234365900af051eddbaf16",
             "path": "options.txt"
           }
         },

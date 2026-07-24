@@ -285,14 +285,6 @@
     "curseForgeHash": 1213492648,
     "modrinthHash": "30088b52318ef2e75f08981177a92f696dace20f"
   },
-  "dungeons-and-taverns-5.2.0.jar": {
-    "jarName": "dungeons-and-taverns-5.2.0.jar",
-    "modId": "mr_dungeons_andtaverns",
-    "name": "Dungeons and Taverns",
-    "version": "5.2.0",
-    "curseForgeHash": 2577718696,
-    "modrinthHash": "b901b257006c93b839b3ed0893e45f6bdb6f7abd"
-  },
   "dynamic-fps-3.11.7+minecraft-26.1.0-fabric.jar": {
     "jarName": "dynamic-fps-3.11.7+minecraft-26.1.0-fabric.jar",
     "modId": "dynamic_fps",
@@ -325,13 +317,13 @@
     "curseForgeHash": 403437201,
     "modrinthHash": "649be572e8a8a9ba5aaab55db008e75f1b53a54a"
   },
-  "EmpiCheck-Client-1.0.0+fabric-26.1.2.jar": {
-    "jarName": "EmpiCheck-Client-1.0.0+fabric-26.1.2.jar",
+  "EmpiCheck-Client-1.0.2+fabric-26.1.2.jar": {
+    "jarName": "EmpiCheck-Client-1.0.2+fabric-26.1.2.jar",
     "modId": "empicheck",
     "name": "EmpiCheck Client",
-    "version": "1.0.0",
-    "curseForgeHash": 2790140809,
-    "modrinthHash": "01dee973e6686ab62104298e52c1eee4f6629f8b"
+    "version": "1.0.2",
+    "curseForgeHash": 2308681414,
+    "modrinthHash": "05e26cb4c5d90e418181897fae00890c358c1fa2"
   },
   "enchantment-glint-outline-26.1-3.2.jar": {
     "jarName": "enchantment-glint-outline-26.1-3.2.jar",
@@ -405,14 +397,6 @@
     "curseForgeHash": 3015350271,
     "modrinthHash": "a3b113f3d469c97eeb63360f290d1921a1dfe5d6"
   },
-  "fastquit-3.1.4+mc26.1.x.jar": {
-    "jarName": "fastquit-3.1.4+mc26.1.x.jar",
-    "modId": "fastquit",
-    "name": "FastQuit",
-    "version": "3.1.4+mc26.1.x",
-    "curseForgeHash": 2472763190,
-    "modrinthHash": "51efa22cfe15e4068167cc96da430496afa3ab7e"
-  },
   "ferritecore-9.0.0-fabric.jar": {
     "jarName": "ferritecore-9.0.0-fabric.jar",
     "modId": "ferritecore",
@@ -452,14 +436,6 @@
     "version": "1.9.1",
     "curseForgeHash": 2540929734,
     "modrinthHash": "c4b0f3cdbced8501b0143f2d5e213198bb902f42"
-  },
-  "horseman-fabric-26.1.1-1.7.3.jar": {
-    "jarName": "horseman-fabric-26.1.1-1.7.3.jar",
-    "modId": "horseman",
-    "name": "Horseman",
-    "version": "1.7.3",
-    "curseForgeHash": 2131070156,
-    "modrinthHash": "ef2e6e3101082868af7e61d18958968d56abe680"
   },
   "Iceberg-26.1.2-fabric-1.4.1.1.jar": {
     "jarName": "Iceberg-26.1.2-fabric-1.4.1.1.jar",
@@ -516,14 +492,6 @@
     "version": "1.11.2+mc26.1.2",
     "curseForgeHash": 1372087619,
     "modrinthHash": "5f23dc2bae9fa28a18ef1ec6a60c0d6f8fcc5b13"
-  },
-  "isxander-main-menu-credits-1.3.0.jar": {
-    "jarName": "isxander-main-menu-credits-1.3.0.jar",
-    "modId": "isxander-main-menu-credits",
-    "name": "Main Menu Credits",
-    "version": "1.3.0",
-    "curseForgeHash": 1854259639,
-    "modrinthHash": "e4b0c3671d0f634ae5aac194253348dcebc3d6fc"
   },
   "Ixeris-4.5.2+26.1.2-fabric.jar": {
     "jarName": "Ixeris-4.5.2+26.1.2-fabric.jar",
@@ -693,14 +661,6 @@
     "curseForgeHash": 477951890,
     "modrinthHash": "fbbeba9df9e63351086b95f316156be96b5aa0dc"
   },
-  "PanoramaScreenMake-1.0.0-fix.jar": {
-    "jarName": "PanoramaScreenMake-1.0.0-fix.jar",
-    "modId": "panorama_screenmake",
-    "name": "Panorama ScreenMake",
-    "version": "1.0.1-SNAPSHOT",
-    "curseForgeHash": 3897218300,
-    "modrinthHash": "e8478c770189ef4f60476af089b465726f9a2b8d"
-  },
   "ParticleEffects-1.5.0+26.1+fabric.jar": {
     "jarName": "ParticleEffects-1.5.0+26.1+fabric.jar",
     "modId": "particle_effects",
@@ -805,14 +765,6 @@
     "curseForgeHash": 3359701989,
     "modrinthHash": "c164bed1e6c80dbe2c28b592c08d63817cd0e8f8"
   },
-  "rightclickharvest-fabric-4.6.2+26.1.x.jar": {
-    "jarName": "rightclickharvest-fabric-4.6.2+26.1.x.jar",
-    "modId": "rightclickharvest",
-    "name": "Right Click Harvest",
-    "version": "4.6.2+26.1.x",
-    "curseForgeHash": 3810959441,
-    "modrinthHash": "5e4f249021f53f48a0ff94f85607514d769eb9ca"
-  },
   "RoughlyEnoughItems-26.1.819.jar": {
     "jarName": "RoughlyEnoughItems-26.1.819.jar",
     "modId": "roughlyenoughitems",
@@ -836,14 +788,6 @@
     "version": "1.0.2",
     "curseForgeHash": 1932258443,
     "modrinthHash": "d643ea38eda14a43ddc640ed906fcebde611c8e8"
-  },
-  "simple-datapacks-2.7.1-fabric+26.1.jar": {
-    "jarName": "simple-datapacks-2.7.1-fabric+26.1.jar",
-    "modId": "simple_datapacks",
-    "name": "Simple Datapacks",
-    "version": "2.7.1-fabric+26.1",
-    "curseForgeHash": 1382378627,
-    "modrinthHash": "75d8e0549593d9924e0a835ee087865267f32bf8"
   },
   "skinlayers3d-fabric-1.11.2-mc26.1.jar": {
     "jarName": "skinlayers3d-fabric-1.11.2-mc26.1.jar",
@@ -892,14 +836,6 @@
     "version": "7.0.0",
     "curseForgeHash": 3897544311,
     "modrinthHash": "1399156a64c7bfbc38fa21af935495cfb74923c3"
-  },
-  "spark-1.10.173-fabric.jar": {
-    "jarName": "spark-1.10.173-fabric.jar",
-    "modId": "spark",
-    "name": "spark",
-    "version": "1.10.173",
-    "curseForgeHash": 980481000,
-    "modrinthHash": "fab7a3fec7dd01936fa21c88af40f8093b714dd2"
   },
   "spiffyhud_fabric_3.1.2_MC_26.1.1-26.1.2.jar": {
     "jarName": "spiffyhud_fabric_3.1.2_MC_26.1.1-26.1.2.jar",

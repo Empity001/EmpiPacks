@@ -2,8 +2,8 @@
   "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "NombrePack (Minecraft 1.21.1)",
-    "description": "NombrePack Running Minecraft 1.21.1 (NeoForge v21.1.26)",
+    "name": "PruebaNeoForge (Minecraft 1.21.1)",
+    "description": "PruebaNeoForge Running Minecraft 1.21.1 (NeoForge v21.1.220)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {
@@ -16,7 +16,7 @@
     "whitelist": false
   },
   "neoforge": {
-    "version": "21.1.26"
+    "version": "21.1.220"
   },
   "untrackedFiles": []
 }

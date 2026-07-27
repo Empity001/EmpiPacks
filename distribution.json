@@ -5421,6 +5421,36 @@
                 "MD5": "ccdcb2e70aeef9297e9e39d79dcfeb39",
                 "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/bus/8.0.1/bus-8.0.1.jar"
               }
+            },
+            {
+              "id": "net.minecraft:client:1.21.1-20240808.144430:srg@jar",
+              "name": "NeoForge (generated client component: client-srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 18725656,
+                "MD5": "24d790d385dff0146020f1875b969e52",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar"
+              }
+            },
+            {
+              "id": "net.minecraft:client:1.21.1-20240808.144430:extra@jar",
+              "name": "NeoForge (generated client component: client-extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 12372293,
+                "MD5": "973b9700852b66bb7b74df75b0113db2",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:neoforge:21.1.26:client@jar",
+              "name": "NeoForge (generated client component: neoforge-client)",
+              "type": "Library",
+              "artifact": {
+                "size": 5518139,
+                "MD5": "d59209a77a08729c153294d473ced1bb",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/neoforge/21.1.26/neoforge-21.1.26-client.jar"
+              }
             }
           ]
         }

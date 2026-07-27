@@ -5570,7 +5570,7 @@
       "name": "PruebaNeoForge (Minecraft 1.21.1)",
       "description": "PruebaNeoForge Running Minecraft 1.21.1 (NeoForge v21.1.220)",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.1",
       "discord": {
@@ -6076,6 +6076,7 @@
               "id": "net.minecraft:client:1.21.1-20240808.144430:srg@jar",
               "name": "NeoForge (generated client component: client-srg)",
               "type": "Library",
+              "classpath": false,
               "artifact": {
                 "size": 18725656,
                 "MD5": "24d790d385dff0146020f1875b969e52",
@@ -6086,6 +6087,7 @@
               "id": "net.minecraft:client:1.21.1-20240808.144430:extra@jar",
               "name": "NeoForge (generated client component: client-extra)",
               "type": "Library",
+              "classpath": false,
               "artifact": {
                 "size": 12372293,
                 "MD5": "973b9700852b66bb7b74df75b0113db2",
@@ -6096,6 +6098,7 @@
               "id": "net.neoforged:neoforge:21.1.220:client@jar",
               "name": "NeoForge (generated client component: neoforge-client)",
               "type": "Library",
+              "classpath": false,
               "artifact": {
                 "size": 5670483,
                 "MD5": "a21d486caacfcb3dd66ce869b9bc74f6",

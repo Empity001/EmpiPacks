@@ -1,7 +1,0 @@
-{
-	"enabled": true,
-	"renderSunMoon": true,
-	"renderStars": false,
-	"showOverworldForUnknownDimension": true,
-	"debug": false
-}

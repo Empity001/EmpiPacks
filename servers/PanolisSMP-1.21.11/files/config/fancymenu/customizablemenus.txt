@@ -6,6 +6,15 @@ de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 de.keksuccino.spiffyhud.customization.SpiffyOverlayScreen {
 }
 
+net.minecraft.class_500 {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
+}
+
+net.minecraft.class_433 {
+}
+
 net.minecraft.class_442 {
 }
 

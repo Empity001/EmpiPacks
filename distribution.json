@@ -384,6 +384,16 @@
           }
         },
         {
+          "id": "dev.empi:empicheck:1.2.1@jar",
+          "name": "EmpiCheck Client",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 42051,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/EmpiCheck-Client-1.2.1+fabric-1.21.11.jar",
+            "MD5": "f32f7d38bc4e6ea84b81b91848e4b45b"
+          }
+        },
+        {
           "id": "net.enchantoutline:enchant-outline:3.2@jar",
           "name": "Enchantment Glint Outline",
           "type": "FabricMod",

@@ -1331,17 +1331,6 @@
           }
         },
         {
-          "id": "spiffy_overlay_layout.txt",
-          "name": "spiffy_overlay_layout.txt",
-          "type": "File",
-          "artifact": {
-            "size": 57407,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/config/fancymenu/customization/spiffy_overlay_layout.txt",
-            "MD5": "d3a58c06e29154e3763eb16ac90f9d17",
-            "path": "config/fancymenu/customization/spiffy_overlay_layout.txt"
-          }
-        },
-        {
           "id": "title_screen_layout.txt",
           "name": "title_screen_layout.txt",
           "type": "File",

@@ -69,13 +69,13 @@
     "curseForgeHash": 1006531363,
     "modrinthHash": "b816a30ec627c4a45a6ee4cf62d8b1c31e42d7e5"
   },
-  "BetterF3-17.0.0-Fabric-1.21.11.jar": {
-    "jarName": "BetterF3-17.0.0-Fabric-1.21.11.jar",
-    "modId": "betterf3",
-    "name": "BetterF3",
-    "version": "17.0.0",
-    "curseForgeHash": 78753924,
-    "modrinthHash": "e1c57a6377d12d6d26c039d317eec00ae7f08e2b"
+  "betterbiomereblend-1.6.0.jar": {
+    "jarName": "betterbiomereblend-1.6.0.jar",
+    "modId": "betterbiomeblend",
+    "name": "Better Biome ReBlend",
+    "version": "1.6.0",
+    "curseForgeHash": 565907302,
+    "modrinthHash": "8c95dbe97010a922e34912f5e6d6b4afdeabb77e"
   },
   "BetterGrassify-1.8.7+fabric.1.21.11.jar": {
     "jarName": "BetterGrassify-1.8.7+fabric.1.21.11.jar",
@@ -205,6 +205,14 @@
     "curseForgeHash": 1065381796,
     "modrinthHash": "0875c6c2df92be68e80498eac092c1b46f5ac961"
   },
+  "EmpiCheck-Client-1.2.1+fabric-1.21.11.jar": {
+    "jarName": "EmpiCheck-Client-1.2.1+fabric-1.21.11.jar",
+    "modId": "empicheck",
+    "name": "EmpiCheck Client",
+    "version": "1.2.1",
+    "curseForgeHash": 1469778883,
+    "modrinthHash": "8aa49977e4824f85ffaecea20cf3647964ab70ef"
+  },
   "enchantment-glint-outline-1.21.11-3.2.jar": {
     "jarName": "enchantment-glint-outline-1.21.11-3.2.jar",
     "modId": "enchant-outline",
@@ -220,6 +228,14 @@
     "version": "21.11.1",
     "curseForgeHash": 1509336569,
     "modrinthHash": "5f26cf6b7392bc49301d1440073b923428096970"
+  },
+  "entity-view-distance-1.7.1+1.21.11.jar": {
+    "jarName": "entity-view-distance-1.7.1+1.21.11.jar",
+    "modId": "entity-view-distance",
+    "name": "Entity View Distance",
+    "version": "1.7.1+1.21.11",
+    "curseForgeHash": 1389636806,
+    "modrinthHash": "c5965956edd0b280e8afe5dae8af7f15345e9669"
   },
   "entityculling-fabric-1.10.5-mc1.21.11.jar": {
     "jarName": "entityculling-fabric-1.10.5-mc1.21.11.jar",
@@ -317,6 +333,14 @@
     "curseForgeHash": 558487872,
     "modrinthHash": "1f1e5177098880bcb751bc6231217ddd6b08301a"
   },
+  "inventory-item-groups-1.3.8-fabric+1.21.11.jar": {
+    "jarName": "inventory-item-groups-1.3.8-fabric+1.21.11.jar",
+    "modId": "inventory_item_groups",
+    "name": "Inventory Item Groups",
+    "version": "1.3.7-fabric+1.21.11",
+    "curseForgeHash": 281225735,
+    "modrinthHash": "d7b7da0bb48d247cea87e0acd4a5b488e6859cb1"
+  },
   "iris-fabric-1.10.7+mc1.21.11.jar": {
     "jarName": "iris-fabric-1.10.7+mc1.21.11.jar",
     "modId": "iris",
@@ -332,6 +356,14 @@
     "version": "1.9.18",
     "curseForgeHash": 2011451000,
     "modrinthHash": "734866bdeed1af0b1fa23b131bd841648af96f69"
+  },
+  "krypton-0.2.10.jar": {
+    "jarName": "krypton-0.2.10.jar",
+    "modId": "krypton",
+    "name": "Krypton",
+    "version": "0.2.10",
+    "curseForgeHash": 2945997157,
+    "modrinthHash": "94ddaeeae6ca7fecc79e54a0aa02a5438a775a99"
   },
   "LetMeDespawn-1.21.11-x-fabric-1.6.2.jar": {
     "jarName": "LetMeDespawn-1.21.11-x-fabric-1.6.2.jar",
@@ -412,6 +444,14 @@
     "version": "1.5.0+1.21.11+fabric",
     "curseForgeHash": 82183473,
     "modrinthHash": "88934c12f3f22719a8183b02443e743dc7f9681e"
+  },
+  "PatPat-1.3.1+1.21.11+fabric.jar": {
+    "jarName": "PatPat-1.3.1+1.21.11+fabric.jar",
+    "modId": "patpat",
+    "name": "PatPat",
+    "version": "1.3.1+1.21.11+fabric",
+    "curseForgeHash": 4211284671,
+    "modrinthHash": "f1b2bdfba247a1619ab43729c76243444d3b1fca"
   },
   "PickUpNotifier-v21.11.0-mc1.21.11-Fabric.jar": {
     "jarName": "PickUpNotifier-v21.11.0-mc1.21.11-Fabric.jar",

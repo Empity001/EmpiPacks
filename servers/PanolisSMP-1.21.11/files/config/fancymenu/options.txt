@@ -26,20 +26,20 @@ S:custom_game_intro_skip_text = '';
 ##[window]
 
 B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
-S:custom_window_title = '';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_macos = '/config/fancymenu/assets/iconmac.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/icon32.png';
+S:custom_window_title = 'PanolisSMP';
+S:custom_window_icon_16 = '/config/fancymenu/assets/icon16.png';
 
 
 ##[global_customizations]
 
 B:global_slider_background_nine_slice = 'false';
-S:global_slider_handle_hover = '';
-S:global_button_background_normal = '';
+S:global_slider_handle_hover = '[source:local]/config/fancymenu/assets/sprites/buttoms/output/colors/blue/style/fancy/buttom_bar8.png';
+S:global_button_background_normal = '[source:local]/config/fancymenu/assets/sprites/buttoms/output/colors/blue/style/fancy/buttom7.png';
 B:global_button_label_shadow = 'true';
 S:global_button_background_inactive = '';
-B:global_button_background_nine_slice = 'false';
+B:global_button_background_nine_slice = 'true';
 S:global_button_label_hover_color = '';
 F:global_slider_label_scale = '1.0';
 S:global_button_label_base_color = '';
@@ -60,7 +60,7 @@ S:global_slider_label_hover_color = '';
 I:global_slider_background_nine_slice_border_bottom = '5';
 S:global_menu_music_tracks = '';
 I:global_slider_background_nine_slice_border_left = '5';
-S:global_button_background_hover = '';
+S:global_button_background_hover = '[source:local]/config/fancymenu/assets/sprites/buttoms/output/colors/blue/style/fancy/buttom8.png';
 I:global_button_background_nine_slice_border_top = '5';
 S:global_slider_background = '';
 I:global_button_background_nine_slice_border_bottom = '5';
@@ -70,7 +70,7 @@ I:global_button_background_nine_slice_border_left = '5';
 B:global_button_background_transparent = 'false';
 B:seamless_world_loading = 'false';
 B:global_slider_background_transparent = 'false';
-S:global_slider_handle_normal = '';
+S:global_slider_handle_normal = '[source:local]/config/fancymenu/assets/sprites/buttoms/output/colors/blue/style/fancy/buttom_bar7.png';
 I:global_slider_background_nine_slice_border_right = '5';
 S:global_background_panorama = '';
 I:global_slider_handle_nine_slice_border_left = '5';
@@ -150,6 +150,6 @@ L:requirement_caching_duration_ms = '0';
 
 B:mcp_server_enabled = 'false';
 B:dev_pip_window_debug = 'false';
-B:dev_force_mcef_missing = 'false';
-B:dev_force_watermedia_missing = 'false';
+B:dev_force_mcef_missing = 'true';
+B:dev_force_watermedia_missing = 'true';
 I:mcp_server_port = '48561';

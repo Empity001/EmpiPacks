@@ -13,7 +13,7 @@
 	"presetEditScreenRenderStyle": "ROTATION",
 	"rotationMultiplier": 1.0,
 	"showCapeInPreview": false,
-	"carouselView": "COMPACT",
+	"carouselView": "LARGE",
 	"welcomeGuideShown": true,
 	"mineskinProxyDomain": "skinshuffle.imb11.dev",
 	"playKeybindSoundEffect": true,

@@ -175,25 +175,47 @@
           }
         },
         {
-          "id": "Sonidos Épicos 1.5.zip",
-          "name": "Sonidos Épicos 1.5.zip",
+          "id": "Sonidos epicos 1.5.zip",
+          "name": "Sonidos epicos 1.5.zip",
           "type": "File",
           "artifact": {
-            "size": 2300366,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/Sonidos%20%C3%89picos%201.5.zip",
-            "MD5": "b86be5ce898b99ffd81b68840033b37e",
-            "path": "resourcepacks/Sonidos Épicos 1.5.zip"
+            "size": 2303747,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/Sonidos%20epicos%201.5.zip",
+            "MD5": "88d3cc14111606e3595ad5edea19dc8e",
+            "path": "resourcepacks/Sonidos epicos 1.5.zip"
           }
         },
         {
-          "id": "Sonidos Épicos 1.5.zip",
-          "name": "Sonidos Épicos 1.5.zip",
+          "id": "Sonidos epicos 1.5.zip",
+          "name": "Sonidos epicos 1.5.zip",
           "type": "File",
           "artifact": {
-            "size": 2300366,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/Sonidos%20%C3%89picos%201.5.zip",
-            "MD5": "b86be5ce898b99ffd81b68840033b37e",
-            "path": "resourcepacks/Sonidos Épicos 1.5.zip"
+            "size": 2303747,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/Sonidos%20epicos%201.5.zip",
+            "MD5": "88d3cc14111606e3595ad5edea19dc8e",
+            "path": "resourcepacks/Sonidos epicos 1.5.zip"
+          }
+        },
+        {
+          "id": "NewGlowingOres-§6[Border]§r.zip",
+          "name": "NewGlowingOres-§6[Border]§r.zip",
+          "type": "File",
+          "artifact": {
+            "size": 344937,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/NewGlowingOres-%C2%A76[Border]%C2%A7r.zip",
+            "MD5": "2980443baca6693874591bdd6c384f57",
+            "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip"
+          }
+        },
+        {
+          "id": "NewGlowingOres-§6[Border]§r.zip",
+          "name": "NewGlowingOres-§6[Border]§r.zip",
+          "type": "File",
+          "artifact": {
+            "size": 344937,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/NewGlowingOres-%C2%A76[Border]%C2%A7r.zip",
+            "MD5": "2980443baca6693874591bdd6c384f57",
+            "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip"
           }
         },
         {

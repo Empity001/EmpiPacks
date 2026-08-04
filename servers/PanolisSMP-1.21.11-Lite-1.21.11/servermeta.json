@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "name": "PanolisSMP Lite",
+    "description": "Version obejtivo para bajos recursos",
+    "icon": "",
+    "address": "199.115.73.161:9165",
+    "mainServer": true,
+    "autoconnect": false,
+    "whitelist": true,
+    "discord": {
+      "shortId": "PanolisSMP",
+      "largeImageText": "Jugando PanolisSMP",
+      "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/icon.png"
+},
+    "javaOptions": {
+  "supported": ">=25 <26",
+  "suggestedMajor": 25,
+  "distribution": "TEMURIN"
+}
+  },
+  "fabric": {
+    "version": "0.19.3"
+  },
+  "untrackedFiles": []
+}

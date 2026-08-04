@@ -1,0 +1,6 @@
+{
+  "compat_settings": {
+    "skip_wayland_patches": false,
+    "force_x11": false
+  }
+}

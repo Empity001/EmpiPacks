@@ -175,6 +175,28 @@
           }
         },
         {
+          "id": "Sonidos Épicos 1.5.zip",
+          "name": "Sonidos Épicos 1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2300366,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/Sonidos%20%C3%89picos%201.5.zip",
+            "MD5": "b86be5ce898b99ffd81b68840033b37e",
+            "path": "resourcepacks/Sonidos Épicos 1.5.zip"
+          }
+        },
+        {
+          "id": "Sonidos Épicos 1.5.zip",
+          "name": "Sonidos Épicos 1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2300366,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/Sonidos%20%C3%89picos%201.5.zip",
+            "MD5": "b86be5ce898b99ffd81b68840033b37e",
+            "path": "resourcepacks/Sonidos Épicos 1.5.zip"
+          }
+        },
+        {
           "id": "dev.architectury.utils:architectury:19.0.1@jar",
           "name": "Architectury",
           "type": "FabricMod",

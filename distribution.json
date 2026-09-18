@@ -6835,7 +6835,7 @@
       "name": "Testeo",
       "description": "",
       "icon": null,
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.11",
       "mainServer": false,

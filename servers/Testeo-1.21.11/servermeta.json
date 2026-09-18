@@ -1,0 +1,17 @@
+{
+  "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Testeo",
+    "description": "",
+    "icon": "",
+    "address": "localhost:25565",
+    "mainServer": false,
+    "autoconnect": false,
+    "whitelist": false
+  },
+  "neoforge": {
+    "version": "21.11.45"
+  },
+  "untrackedFiles": []
+}

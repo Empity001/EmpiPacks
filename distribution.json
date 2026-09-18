@@ -157,7 +157,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 84821614,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/optionalon/AmbientSounds_FABRIC_v6.3.5_mc1.21.11.jar",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/large-assets/servers__PanolisSMP-1.21.11__fabricmods__optionalon__AmbientSounds_FABRIC_v6.3.5_mc1.21.11.jar",
             "MD5": "74e1d8065ebe800761812329cf1398ef"
           },
           "required": {
@@ -172,50 +172,6 @@
             "size": 180107,
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/fabricmods/required/appleskin-fabric-mc1.21.11-3.0.8.jar",
             "MD5": "e725606e8b0ae1c83ade7cfd0aea9e73"
-          }
-        },
-        {
-          "id": "Sonidos epicos 1.5.zip",
-          "name": "Sonidos epicos 1.5.zip",
-          "type": "File",
-          "artifact": {
-            "size": 2303747,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/Sonidos%20epicos%201.5.zip",
-            "MD5": "88d3cc14111606e3595ad5edea19dc8e",
-            "path": "resourcepacks/Sonidos epicos 1.5.zip"
-          }
-        },
-        {
-          "id": "Sonidos epicos 1.5.zip",
-          "name": "Sonidos epicos 1.5.zip",
-          "type": "File",
-          "artifact": {
-            "size": 2303747,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/Sonidos%20epicos%201.5.zip",
-            "MD5": "88d3cc14111606e3595ad5edea19dc8e",
-            "path": "resourcepacks/Sonidos epicos 1.5.zip"
-          }
-        },
-        {
-          "id": "NewGlowingOres-§6[Border]§r.zip",
-          "name": "NewGlowingOres-§6[Border]§r.zip",
-          "type": "File",
-          "artifact": {
-            "size": 344937,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/NewGlowingOres-%C2%A76[Border]%C2%A7r.zip",
-            "MD5": "2980443baca6693874591bdd6c384f57",
-            "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip"
-          }
-        },
-        {
-          "id": "NewGlowingOres-§6[Border]§r.zip",
-          "name": "NewGlowingOres-§6[Border]§r.zip",
-          "type": "File",
-          "artifact": {
-            "size": 344937,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/NewGlowingOres-%C2%A76[Border]%C2%A7r.zip",
-            "MD5": "2980443baca6693874591bdd6c384f57",
-            "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip"
           }
         },
         {
@@ -956,7 +912,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 143710524,
-            "url": "https://github.com/Empity001/EmpiPacks/releases/download/assets-v2/watermedia_binaries-3.0.0-rc.4.jar",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/large-assets/servers__PanolisSMP-1.21.11__fabricmods__required__watermedia_binaries-3.0.0-rc.4.jar",
             "MD5": "707d4c1a22e3382b35fe751f1cc3ab2b"
           }
         },
@@ -996,7 +952,7 @@
           "type": "File",
           "artifact": {
             "size": 278697298,
-            "url": "https://github.com/Empity001/EmpiPacks/releases/download/assets-panolis/background.webp",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/large-assets/servers__PanolisSMP-1.21.11__files__background.webp",
             "MD5": "068652b818ecef7ed9551293f9e7b16e",
             "path": "background.webp"
           }
@@ -1414,7 +1370,7 @@
           "type": "File",
           "artifact": {
             "size": 107572033,
-            "url": "https://github.com/Empity001/EmpiPacks/releases/download/assets-panolis/background.gif",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/large-assets/servers__PanolisSMP-1.21.11__files__config__fancymenu__assets__background.gif",
             "MD5": "800a8c3396667eb9d9f5ac5c66f1f7e6",
             "path": "config/fancymenu/assets/background.gif"
           }
@@ -4115,6 +4071,28 @@
           }
         },
         {
+          "id": "NewGlowingOres-§6[Border]§r.zip",
+          "name": "NewGlowingOres-§6[Border]§r.zip",
+          "type": "File",
+          "artifact": {
+            "size": 344937,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/NewGlowingOres-%C2%A76[Border]%C2%A7r.zip",
+            "MD5": "2980443baca6693874591bdd6c384f57",
+            "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip"
+          }
+        },
+        {
+          "id": "Sonidos epicos 1.5.zip",
+          "name": "Sonidos epicos 1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2303747,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/files/resourcepacks/Sonidos%20epicos%201.5.zip",
+            "MD5": "88d3cc14111606e3595ad5edea19dc8e",
+            "path": "resourcepacks/Sonidos epicos 1.5.zip"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",
@@ -4358,7 +4336,7 @@
           "type": "FabricMod",
           "artifact": {
             "size": 84821614,
-            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/fabricmods/optionaloff/AmbientSounds_FABRIC_v6.3.5_mc1.21.11.jar",
+            "url": "https://github.com/Empity001/EmpiPacks/releases/download/large-assets/servers__PanolisSMP-1.21.11-Lite-1.21.11__fabricmods__optionaloff__AmbientSounds_FABRIC_v6.3.5_mc1.21.11.jar",
             "MD5": "74e1d8065ebe800761812329cf1398ef"
           },
           "required": {
@@ -6741,6 +6719,28 @@
           }
         },
         {
+          "id": "NewGlowingOres-§6[Border]§r.zip",
+          "name": "NewGlowingOres-§6[Border]§r.zip",
+          "type": "File",
+          "artifact": {
+            "size": 344937,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/NewGlowingOres-%C2%A76[Border]%C2%A7r.zip",
+            "MD5": "2980443baca6693874591bdd6c384f57",
+            "path": "resourcepacks/NewGlowingOres-§6[Border]§r.zip"
+          }
+        },
+        {
+          "id": "Sonidos epicos 1.5.zip",
+          "name": "Sonidos epicos 1.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2303747,
+            "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/resourcepacks/Sonidos%20epicos%201.5.zip",
+            "MD5": "88d3cc14111606e3595ad5edea19dc8e",
+            "path": "resourcepacks/Sonidos epicos 1.5.zip"
+          }
+        },
+        {
           "id": "servers.dat",
           "name": "servers.dat",
           "type": "File",
@@ -6826,6 +6826,312 @@
             "url": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/files/theme.json",
             "MD5": "88c4f4ca1a0067553679115d56ed3371",
             "path": "theme.json"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Testeo-1.21.11",
+      "name": "Testeo",
+      "description": "",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.11",
+      "mainServer": false,
+      "autoconnect": false,
+      "whitelist": false,
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.11.45:universal",
+          "name": "NeoForge",
+          "type": "NeoForgeHosted",
+          "artifact": {
+            "size": 3831805,
+            "MD5": "5c7f6daaaf7ac63cf62f22a5647da923",
+            "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/neoforge/21.11.45/neoforge-21.11.45-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "21.11.45",
+              "name": "NeoForge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 11513,
+                "MD5": "def66e77861456e7e29c70ecc52b00d9",
+                "url": "https://empity001.github.io/EmpiPacks/repo/versions/1.21.11-neoforge-21.11.45/1.21.11-neoforge-21.11.45.json"
+              }
+            },
+            {
+              "id": "net.neoforged.fancymodloader:earlydisplay:10.0.36",
+              "name": "NeoForge (earlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 360483,
+                "MD5": "dbdfdec98b7526babeb6dfd5401f84dc",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/fancymodloader/earlydisplay/10.0.36/earlydisplay-10.0.36.jar"
+              }
+            },
+            {
+              "id": "net.neoforged.fancymodloader:loader:10.0.36",
+              "name": "NeoForge (loader)",
+              "type": "Library",
+              "artifact": {
+                "size": 660602,
+                "MD5": "8e7ef402f4d5f924c7d44612da59795e",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/fancymodloader/loader/10.0.36/loader-10.0.36.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:accesstransformers:11.0.2",
+              "name": "NeoForge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 20292,
+                "MD5": "922dcbacd9dcc03115e38ace7f518970",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/accesstransformers/11.0.2/accesstransformers-11.0.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "NeoForge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:mergetool:2.0.0:api",
+              "name": "NeoForge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2550,
+                "MD5": "818b398f65b8dc5af802b721fd1d0b56",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "NeoForge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "NeoForge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "NeoForge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:bus:8.0.5",
+              "name": "NeoForge (bus)",
+              "type": "Library",
+              "artifact": {
+                "size": 30340,
+                "MD5": "95eee080d9de7cb764adcb8fa2ecf3fb",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/bus/8.0.5/bus-8.0.5.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "NeoForge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.8.3",
+              "name": "NeoForge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 39516,
+                "MD5": "71c9f7b86422f206c0d78c1a0600fd3a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.8.3",
+              "name": "NeoForge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 382911,
+                "MD5": "a69db71d5c9c274ff08f175d7c12cb1a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarSelector:0.5.0",
+              "name": "NeoForge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17083,
+                "MD5": "b8b5bd53f99bbfd58bbe0eae2ea983a2",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/JarJarSelector/0.5.0/JarJarSelector-0.5.0.jar"
+              }
+            },
+            {
+              "id": "net.neoforged:JarJarMetadata:0.5.0",
+              "name": "NeoForge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15648,
+                "MD5": "2dc2e683f2fde9fff7c5b834c9c3efaf",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/JarJarMetadata/0.5.0/JarJarMetadata-0.5.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.9.9",
+              "name": "NeoForge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58819,
+                "MD5": "fcb27c2b8225edec3f2356973fa39e98",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "NeoForge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.3.0",
+              "name": "NeoForge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 16949,
+                "MD5": "179d3abaf9736dbd8fbd4fa98e1c6ea1",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "NeoForge (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.neoforged.accesstransformers:at-parser:11.0.2",
+              "name": "NeoForge (at-parser)",
+              "type": "Library",
+              "artifact": {
+                "size": 19331,
+                "MD5": "700238db71cb897292eb5e11e76ca769",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/accesstransformers/at-parser/11.0.2/at-parser-11.0.2.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.20.0",
+              "name": "NeoForge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 171052,
+                "MD5": "9ece57ca56a1688d1d09fe2c48e7a292",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.20.0",
+              "name": "NeoForge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 228481,
+                "MD5": "e45dace437743e6b5e75c81eb455fd3e",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:srgutils:0.4.15",
+              "name": "NeoForge (srgutils)",
+              "type": "Library",
+              "artifact": {
+                "size": 69393,
+                "MD5": "79812fd073afe1c046bc1ea46ad28095",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+              "name": "NeoForge (listenablefuture)",
+              "type": "Library",
+              "artifact": {
+                "size": 2199,
+                "MD5": "d094c22570d65e132c19cea5d352e381",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+              }
+            },
+            {
+              "id": "com.google.errorprone:error_prone_annotations:2.41.0",
+              "name": "NeoForge (error_prone_annotations)",
+              "type": "Library",
+              "artifact": {
+                "size": 20389,
+                "MD5": "75e3b25da8b8a2136463c4674f5e49bf",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar"
+              }
+            },
+            {
+              "id": "com.google.j2objc:j2objc-annotations:3.1",
+              "name": "NeoForge (j2objc-annotations)",
+              "type": "Library",
+              "artifact": {
+                "size": 16762,
+                "MD5": "abe8bd3abff622b9a8b15c3a737aa741",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar"
+              }
+            },
+            {
+              "id": "org.codehaus.plexus:plexus-utils:3.5.1",
+              "name": "NeoForge (plexus-utils)",
+              "type": "Library",
+              "artifact": {
+                "size": 269335,
+                "MD5": "cdec471a77f52e687d0df4c43f392a71",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.neoforgemod:sodium:0.8.14+mc1.21.11@jar",
+          "name": "Sodium",
+          "type": "NeoForgeMod",
+          "artifact": {
+            "size": 1138833,
+            "url": "https://empity001.github.io/EmpiPacks/servers/Testeo-1.21.11/neoforgemods/required/sodium-neoforge-0.8.14+mc1.21.11.jar",
+            "MD5": "68e1fba1b1044d52b36a9d7e70205f91"
           }
         }
       ]

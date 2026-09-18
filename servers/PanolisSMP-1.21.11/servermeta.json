@@ -12,12 +12,12 @@
       "shortId": "PanolisSMP",
       "largeImageText": "Jugando PanolisSMP",
       "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png"
-},
+    },
     "javaOptions": {
-  "supported": ">=25 <26",
-  "suggestedMajor": 25,
-  "distribution": "TEMURIN"
-}
+      "supported": ">=25 <26",
+      "suggestedMajor": 25,
+      "distribution": "TEMURIN"
+    }
   },
   "fabric": {
     "version": "0.19.3"

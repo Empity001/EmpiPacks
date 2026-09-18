@@ -6863,6 +6863,16 @@
               }
             },
             {
+              "id": "net.neoforged:minecraft-client-patched:21.11.45",
+              "name": "NeoForge (minecraft-client-patched)",
+              "type": "Library",
+              "artifact": {
+                "size": 33569833,
+                "MD5": "8ae203b959d22b22028ba6e9417b4343",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/neoforged/minecraft-client-patched/21.11.45/minecraft-client-patched-21.11.45.jar"
+              }
+            },
+            {
               "id": "net.neoforged.fancymodloader:earlydisplay:10.0.36",
               "name": "NeoForge (earlydisplay)",
               "type": "Library",

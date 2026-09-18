@@ -6835,12 +6835,15 @@
       "name": "Testeo",
       "description": "",
       "icon": null,
-      "version": "1.0.1",
+      "version": "2.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.11",
       "mainServer": false,
       "autoconnect": false,
       "whitelist": false,
+      "protection": {
+        "revision": 0
+      },
       "modules": [
         {
           "id": "net.neoforged:neoforge:21.11.45:universal",
@@ -7142,7 +7145,8 @@
             "size": 1138833,
             "url": "https://empity001.github.io/EmpiPacks/servers/Testeo-1.21.11/neoforgemods/required/sodium-neoforge-0.8.14+mc1.21.11.jar",
             "MD5": "68e1fba1b1044d52b36a9d7e70205f91"
-          }
+          },
+          "policy": "free"
         }
       ]
     }

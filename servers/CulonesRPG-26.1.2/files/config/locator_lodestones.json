@@ -1,0 +1,10 @@
+{
+  "tab_display": "DEFAULT",
+  "tab_shows_names": true,
+  "show_recovery_compasses": true,
+  "show_bundled_compasses": true,
+  "show_in_spectator": true,
+  "color_customization": true,
+  "lodestone_color": "random",
+  "recovery_color": "bce0eb"
+}

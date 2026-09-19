@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "requireShift": false,
+  "showTitle": true,
+  "showItemCounts": true,
+  "tintStrength": 0.85,
+  "slotDarkness": 0.45
+}

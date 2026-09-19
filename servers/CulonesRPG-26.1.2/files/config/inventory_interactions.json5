@@ -1,0 +1,9 @@
+{
+  "main": {
+    "mod_enabled": true,
+    "debug_mode_enabled": false
+  },
+  "cache": {
+    "invalidate_mode": "manual_invalidate"
+  }
+}

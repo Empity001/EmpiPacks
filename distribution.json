@@ -4195,7 +4195,7 @@
         "largeImageText": "Jugando PanolisSMP",
         "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11-Lite-1.21.11/icon.png"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "whitelist": true,
       "javaOptions": {
@@ -6869,6 +6869,7 @@
               "id": "net.neoforged:minecraft-client-patched:21.11.45",
               "name": "NeoForge (minecraft-client-patched)",
               "type": "Library",
+              "classpath": false,
               "artifact": {
                 "size": 33569833,
                 "MD5": "8ae203b959d22b22028ba6e9417b4343",

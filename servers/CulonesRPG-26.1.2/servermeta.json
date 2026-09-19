@@ -22,5 +22,37 @@
   "fabric": {
     "version": "0.19.3"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [],
+  "profiles": {
+    "default": "normal",
+    "list": [
+      {
+        "id": "normal",
+        "name": "Normal",
+        "description": "",
+        "recommendedBelowGb": null,
+        "ram": null,
+        "exclude": {
+          "mods": [],
+          "files": []
+        },
+        "optionalOff": []
+      },
+      {
+        "id": "lite",
+        "name": "Lite",
+        "description": "",
+        "recommendedBelowGb": 2,
+        "ram": {
+          "minimumMb": 512,
+          "maximumMb": 11264
+        },
+        "exclude": {
+          "mods": [],
+          "files": []
+        },
+        "optionalOff": []
+      }
+    ]
+  }
 }

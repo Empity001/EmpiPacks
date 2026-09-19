@@ -22,5 +22,26 @@
   "fabric": {
     "version": "0.19.3"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [],
+  "profiles": {
+    "self": {
+      "name": "Normal",
+      "description": "",
+      "recommendedBelowGb": null
+    },
+    "list": [
+      {
+        "pack": "PanolisSMP-1.21.11-Lite-1.21.11",
+        "name": "Lite",
+        "description": "",
+        "recommendedBelowGb": null
+      },
+      {
+        "pack": "CulonesRPG-26.1.2",
+        "name": "CulonesRPG",
+        "description": "",
+        "recommendedBelowGb": null
+      }
+    ]
+  }
 }

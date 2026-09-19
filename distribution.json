@@ -20,7 +20,7 @@
         "largeImageText": "Jugando CulonesRPG",
         "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/CulonesRPG-26.1.2/icon.png"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "whitelist": true,
       "javaOptions": {
@@ -4928,7 +4928,7 @@
         "largeImageText": "Jugando PanolisSMP",
         "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/PanolisSMP-1.21.11/icon.png"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "whitelist": true,
       "javaOptions": {

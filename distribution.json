@@ -7149,6 +7149,625 @@
           "policy": "free"
         }
       ]
+    },
+    {
+      "id": "testeofabric-1.21.11",
+      "name": "testeofabric",
+      "description": "",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.11",
+      "mainServer": false,
+      "autoconnect": false,
+      "whitelist": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.21.11-61.2.0:universal",
+          "name": "Minecraft Forge (universal jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 2908730,
+            "MD5": "3be48ae60804a33ba8f3e4876000dc4d",
+            "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.11-61.2.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 22002,
+                "MD5": "e7a93aab282345ab625246393d553d1b",
+                "url": "https://empity001.github.io/EmpiPacks/repo/versions/1.21.11-forge-61.2.0/1.21.11-forge-61.2.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge:1.21.11-61.2.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 32624066,
+                "MD5": "37dd0d9f136ea1d39bd0ce738f1da0d7",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.21.11-61.2.0:shim",
+              "name": "Minecraft Forge (client shim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 16301,
+                "MD5": "987392d6e249c355c2f6d09e8a13d180",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-shim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.21.11-61.2.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 128228,
+                "MD5": "a41634c57d591db5ad17ce479095feee",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/fmlcore/1.21.11-61.2.0/fmlcore-1.21.11-61.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.21.11-61.2.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 27045,
+                "MD5": "46c15511ce0e16e9909821458c4c3e0a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/javafmllanguage/1.21.11-61.2.0/javafmllanguage-1.21.11-61.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.21.11-61.2.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4820,
+                "MD5": "2689c5fc131b7ceb8cfd67df241fb3a5",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/mclanguage/1.21.11-61.2.0/mclanguage-1.21.11-61.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:lowcodelanguage:1.21.11-61.2.0",
+              "name": "Minecraft Forge (lowcodelanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 7179,
+                "MD5": "d10fcfe5b86a477db12dc0dd54dbf63d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/lowcodelanguage/1.21.11-61.2.0/lowcodelanguage-1.21.11-61.2.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.21.11-61.2.0:universal",
+              "name": "Minecraft Forge (forge)",
+              "type": "Library",
+              "artifact": {
+                "size": 2908730,
+                "MD5": "3be48ae60804a33ba8f3e4876000dc4d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/forge/1.21.11-61.2.0/forge-1.21.11-61.2.0-universal.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.4.2",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 33497,
+                "MD5": "344ebab83a0d8c2ab3a428a44cacec37",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/JarJarFileSystems/0.4.2/JarJarFileSystems-0.4.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:roimfs:1.0.0",
+              "name": "Minecraft Forge (roimfs)",
+              "type": "Library",
+              "artifact": {
+                "size": 30240,
+                "MD5": "d174cdf26574775cbc86572d7fdbf523",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/roimfs/1.0.0/roimfs-1.0.0.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:33.5.0-jre",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 3017283,
+                "MD5": "d9fbf39a41a5bab891348f07668e18c5",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:failureaccess:1.0.3",
+              "name": "Minecraft Forge (failureaccess)",
+              "type": "Library",
+              "artifact": {
+                "size": 10763,
+                "MD5": "29a782e90f6b37218b18bb880d2a8f4a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:securemodules:2.2.24",
+              "name": "Minecraft Forge (securemodules)",
+              "type": "Library",
+              "artifact": {
+                "size": 101247,
+                "MD5": "f10f10eadf7bb25079383b3d24d0219d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/securemodules/2.2.24/securemodules-2.2.24.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.9.2",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 7768,
+                "MD5": "a4b1f17fbeea6b548c3530451e45c5c6",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/unsafe/0.9.2/unsafe-0.9.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "de.oceanlabs.mcp:mcp_config:1.21.11-20251223.124241:srg2off",
+              "name": "Minecraft Forge (mcp_config)",
+              "type": "Library",
+              "artifact": {
+                "size": 689876,
+                "MD5": "cc88bab1f0eb0baf7d21fe69bb87ea9a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/de/oceanlabs/mcp/mcp_config/1.21.11-20251223.124241/mcp_config-1.21.11-20251223.124241-srg2off.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.4.2",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 33497,
+                "MD5": "344ebab83a0d8c2ab3a428a44cacec37",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/JarJarFileSystems/0.4.2/JarJarFileSystems-0.4.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:roimfs:1.0.0",
+              "name": "Minecraft Forge (roimfs)",
+              "type": "Library",
+              "artifact": {
+                "size": 30240,
+                "MD5": "d174cdf26574775cbc86572d7fdbf523",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/roimfs/1.0.0/roimfs-1.0.0.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:33.5.0-jre",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 3017283,
+                "MD5": "d9fbf39a41a5bab891348f07668e18c5",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:failureaccess:1.0.3",
+              "name": "Minecraft Forge (failureaccess)",
+              "type": "Library",
+              "artifact": {
+                "size": 10763,
+                "MD5": "29a782e90f6b37218b18bb880d2a8f4a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:securemodules:2.2.24",
+              "name": "Minecraft Forge (securemodules)",
+              "type": "Library",
+              "artifact": {
+                "size": 101247,
+                "MD5": "f10f10eadf7bb25079383b3d24d0219d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/securemodules/2.2.24/securemodules-2.2.24.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.9.2",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 7768,
+                "MD5": "a4b1f17fbeea6b548c3530451e45c5c6",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/unsafe/0.9.2/unsafe-0.9.2.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:bootstrap:2.1.8",
+              "name": "Minecraft Forge (bootstrap)",
+              "type": "Library",
+              "artifact": {
+                "size": 11124,
+                "MD5": "5e88694e0e5f6656830eee83d462550e",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/bootstrap/2.1.8/bootstrap-2.1.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:bootstrap-api:2.1.8",
+              "name": "Minecraft Forge (bootstrap-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 2059,
+                "MD5": "80e1ccc33e0ac0a995a352ec2977d131",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/bootstrap-api/2.1.8/bootstrap-api-2.1.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.2.17",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 41635,
+                "MD5": "ec2fef14ed858e65ae30d272120296e8",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/accesstransformers/8.2.17/accesstransformers-8.2.17.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:7.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 55412,
+                "MD5": "220104b9b1c230e9c12ffda9904357e5",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/eventbus/7.0.5/eventbus-7.0.5.jar"
+              }
+            },
+            {
+              "id": "org.jspecify:jspecify:1.0.0",
+              "name": "Minecraft Forge (jspecify)",
+              "type": "Library",
+              "artifact": {
+                "size": 3819,
+                "MD5": "9133aba420d0ca3b001dbb6ae9992cf6",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:8.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 30082,
+                "MD5": "ed71a7cbf3126f8765d72cd4999dcc3c",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/forgespi/8.0.0/forgespi-8.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods-api:5.3.1",
+              "name": "Minecraft Forge (coremods-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 15300,
+                "MD5": "558301ce3ab4b4ba776426db8ea7cd52",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/coremods-api/5.3.1/coremods-api-5.3.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:modlauncher:10.2.6",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 136147,
+                "MD5": "aa1ba31366be1167875c5e16f9e94e24",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/modlauncher/10.2.6/modlauncher-10.2.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool-api:1.0",
+              "name": "Minecraft Forge (mergetool-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 2624,
+                "MD5": "848efa1631b460b715de574b2beaba8e",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/mergetool-api/1.0/mergetool-api-1.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.7.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 39542,
+                "MD5": "90e668945d6a9f65956267f6698496a1",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/electronwill/night-config/toml/3.7.4/toml-3.7.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.7.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 360099,
+                "MD5": "91f883024d3fda9862f93d9ffbb83c0b",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/com/electronwill/night-config/core/3.7.4/core-3.7.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.8",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58097,
+                "MD5": "62c96f80b30e8a0c3e706bc0a27b4384",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/apache/maven/maven-artifact/3.8.8/maven-artifact-3.8.8.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.25.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 183668,
+                "MD5": "e0761241f55f4f1a46999f57c7a419a1",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/jline/jline-reader/3.25.1/jline-reader-3.25.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.25.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 261895,
+                "MD5": "6e319770f036ccab1928b8de68a62ca5",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/jline/jline-terminal/3.25.1/jline-terminal-3.25.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal-jna:3.25.1",
+              "name": "Minecraft Forge (jline-terminal-jna)",
+              "type": "Library",
+              "artifact": {
+                "size": 73759,
+                "MD5": "a9b17e3a4bc39309cbc1243e81400615",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/jline/jline-terminal-jna/3.25.1/jline-terminal-jna-3.25.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.7",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1134454,
+                "MD5": "b433b4dfbad09313e143c6097cd0b676",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar"
+              }
+            },
+            {
+              "id": "io.github.llamalad7:mixinextras-forge:0.5.4",
+              "name": "Minecraft Forge (mixinextras-forge)",
+              "type": "Library",
+              "artifact": {
+                "size": 634046,
+                "MD5": "3c25976ca8a6c9f601a4a41fdf88fdd6",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/io/github/llamalad7/mixinextras-forge/0.5.4/mixinextras-forge-0.5.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.4.2",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 16658,
+                "MD5": "aa48a8a5dccf343b771c8aaa2b6ee4fb",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/JarJarSelector/0.4.2/JarJarSelector-0.4.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.4.2",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15990,
+                "MD5": "33b1bd52bbf0a7f481ab51430a13895d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/JarJarMetadata/0.4.2/JarJarMetadata-0.4.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.21.11-61.2.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "artifact": {
+                "size": 128228,
+                "MD5": "a41634c57d591db5ad17ce479095feee",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/fmlcore/1.21.11-61.2.0/fmlcore-1.21.11-61.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.21.11-61.2.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 265393,
+                "MD5": "3564aadd5376ad4dc0b9e22c6990fb7d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/fmlloader/1.21.11-61.2.0/fmlloader-1.21.11-61.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.21.11-61.2.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 169741,
+                "MD5": "6c01b9bbb9b0244c40a5fdc88479035f",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/fmlearlydisplay/1.21.11-61.2.0/fmlearlydisplay-1.21.11-61.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.21.11-61.2.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 27045,
+                "MD5": "46c15511ce0e16e9909821458c4c3e0a",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/javafmllanguage/1.21.11-61.2.0/javafmllanguage-1.21.11-61.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:lowcodelanguage:1.21.11-61.2.0",
+              "name": "Minecraft Forge (lowcodelanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 7179,
+                "MD5": "d10fcfe5b86a477db12dc0dd54dbf63d",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/lowcodelanguage/1.21.11-61.2.0/lowcodelanguage-1.21.11-61.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.21.11-61.2.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 4820,
+                "MD5": "2689c5fc131b7ceb8cfd67df241fb3a5",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/mclanguage/1.21.11-61.2.0/mclanguage-1.21.11-61.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forge-transformers:1.21.11-61.2.0",
+              "name": "Minecraft Forge (forge-transformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 14753,
+                "MD5": "783f828634d4ccb324a1300c91e20fb3",
+                "url": "https://empity001.github.io/EmpiPacks/repo/lib/net/minecraftforge/forge-transformers/1.21.11-61.2.0/forge-transformers-1.21.11-61.2.0.jar"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -8,10 +8,21 @@
     "address": "localhost:25565",
     "mainServer": false,
     "autoconnect": false,
-    "whitelist": false
+    "whitelist": false,
+    "accent": "#ae41be"
   },
   "forge": {
     "version": "61.2.0"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [],
+  "protection": {
+    "default": "locked",
+    "revision": 0,
+    "rules": [
+      {
+        "path": "theme.json",
+        "mode": "locked"
+      }
+    ]
+  }
 }

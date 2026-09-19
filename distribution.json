@@ -7161,6 +7161,7 @@
       "mainServer": false,
       "autoconnect": false,
       "whitelist": false,
+      "accent": "#ae41be",
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.21.11-61.2.0:universal",
@@ -7766,6 +7767,17 @@
               }
             }
           ]
+        },
+        {
+          "id": "theme.json",
+          "name": "theme.json",
+          "type": "File",
+          "artifact": {
+            "size": 25,
+            "url": "https://empity001.github.io/EmpiPacks/servers/testeofabric-1.21.11/files/theme.json",
+            "MD5": "c3b49f993e520b3ef8b4fc4028076965",
+            "path": "theme.json"
+          }
         }
       ]
     }

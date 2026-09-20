@@ -1,8 +1,22 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T21:09:28.069Z",
+  "generatedAt": "2026-09-20T21:20:56.109Z",
   "launcher": {},
-  "notices": [],
+  "notices": [
+    {
+      "id": "nmuabckj0abda",
+      "title": "Aviso nuevo",
+      "severity": "critical",
+      "targets": [
+        "*"
+      ],
+      "page": "avisos/nmuabckj0abda-858eedc6dd.webp",
+      "pageHash": "858eedc6dd",
+      "summary": "EMPI LAUNCHER · HI BIENVENIDOS Pues ola de olivas :3 Besiyos a todowos Hola a todos los que vienen a jugar a este... Launcher chistoso. Aqui estaran todas las versiones y/o modpacks que agregue yo (Empi) o mis amigowos. Esto lo hice pensando en la comodidad de muchos para diferentes escenarios, asique espero no tengan muchos problemas. En todo caso si tienen un error porfa escribir a este correo c",
+      "publishedAt": "2026-09-20T21:13:24.204Z",
+      "expiresAt": null
+    }
+  ],
   "modpacks": {
     "CulonesRPG-26.1.2": {
       "maintenance": {

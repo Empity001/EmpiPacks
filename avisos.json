@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T21:20:56.109Z",
+  "generatedAt": "2026-09-20T21:26:37.974Z",
   "launcher": {},
   "notices": [
     {
       "id": "nmuabckj0abda",
-      "title": "Aviso nuevo",
+      "title": "Bienvenidos al oyo",
       "severity": "critical",
       "targets": [
         "*"

@@ -1,8 +1,21 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T20:20:15.344Z",
+  "generatedAt": "2026-09-20T20:23:03.016Z",
   "launcher": {},
   "notices": [
+    {
+      "id": "nmua9je0022dd",
+      "title": "Aviso nuevo",
+      "severity": "critical",
+      "targets": [
+        "CulonesRPG-26.1.2"
+      ],
+      "page": "avisos/nmua9je0022dd-1eefcea6e7.webp",
+      "pageHash": "1eefcea6e7",
+      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
+      "publishedAt": "2026-09-20T20:22:43.104Z",
+      "expiresAt": null
+    },
     {
       "id": "nmua9fi9s5b36",
       "title": "Testeo Critico",

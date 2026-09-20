@@ -5,7 +5,7 @@
     "description": "",
     "icon": "",
     "address": "161.129.181.219:25565",
-    "mainServer": true,
+    "mainServer": false,
     "autoconnect": false,
     "whitelist": true,
     "discord": {

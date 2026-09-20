@@ -1,60 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T20:49:51.547Z",
+  "generatedAt": "2026-09-20T20:50:53.480Z",
   "launcher": {},
-  "notices": [
-    {
-      "id": "nmua9je0022dd",
-      "title": "Aviso nuevo",
-      "severity": "critical",
-      "targets": [
-        "CulonesRPG-26.1.2"
-      ],
-      "page": "avisos/nmua9je0022dd-1eefcea6e7.webp",
-      "pageHash": "1eefcea6e7",
-      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
-      "publishedAt": "2026-09-20T20:22:43.104Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nmua9fi9s5b36",
-      "title": "Testeo Critico",
-      "severity": "critical",
-      "targets": [
-        "*"
-      ],
-      "page": "avisos/nmua9fi9s5b36-3c94863eee.webp",
-      "pageHash": "3c94863eee",
-      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
-      "publishedAt": "2026-09-20T20:19:42.017Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nmua9ey291a8a",
-      "title": "Testeo Importante",
-      "severity": "important",
-      "targets": [
-        "*"
-      ],
-      "page": "avisos/nmua9ey291a8a-6d5c626285.webp",
-      "pageHash": "6d5c626285",
-      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
-      "publishedAt": "2026-09-20T20:19:15.825Z",
-      "expiresAt": null
-    },
-    {
-      "id": "nmua92u6803df",
-      "title": "Testeo informacion",
-      "severity": "info",
-      "targets": [
-        "*"
-      ],
-      "page": "avisos/nmua92u6803df-6d5c626285.webp",
-      "pageHash": "6d5c626285",
-      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
-      "publishedAt": "2026-09-20T20:19:27.269Z",
-      "expiresAt": null
-    }
-  ],
+  "notices": [],
   "modpacks": {}
 }

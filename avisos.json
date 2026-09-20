@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T20:10:11.681Z",
+  "generatedAt": "2026-09-20T20:20:15.344Z",
   "launcher": {},
-  "notices": [],
+  "notices": [
+    {
+      "id": "nmua9fi9s5b36",
+      "title": "Testeo Critico",
+      "severity": "critical",
+      "targets": [
+        "*"
+      ],
+      "page": "avisos/nmua9fi9s5b36-3c94863eee.webp",
+      "pageHash": "3c94863eee",
+      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
+      "publishedAt": "2026-09-20T20:19:42.017Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nmua9ey291a8a",
+      "title": "Testeo Importante",
+      "severity": "important",
+      "targets": [
+        "*"
+      ],
+      "page": "avisos/nmua9ey291a8a-6d5c626285.webp",
+      "pageHash": "6d5c626285",
+      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
+      "publishedAt": "2026-09-20T20:19:15.825Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nmua92u6803df",
+      "title": "Testeo informacion",
+      "severity": "info",
+      "targets": [
+        "*"
+      ],
+      "page": "avisos/nmua92u6803df-6d5c626285.webp",
+      "pageHash": "6d5c626285",
+      "summary": "EMPI · AVISOS TITULAR DEL AVISO Una nota corta que cuenta de qué va el aviso Escribe aquí el cuerpo del aviso. Puedes ponerlo en una o dos columnas. Una nota aparte, más corta.",
+      "publishedAt": "2026-09-20T20:19:27.269Z",
+      "expiresAt": null
+    }
+  ],
   "modpacks": {}
 }

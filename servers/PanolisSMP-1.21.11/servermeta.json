@@ -35,12 +35,6 @@
         "name": "Lite",
         "description": "",
         "recommendedBelowGb": null
-      },
-      {
-        "pack": "CulonesRPG-26.1.2",
-        "name": "CulonesRPG",
-        "description": "",
-        "recommendedBelowGb": null
       }
     ]
   }

@@ -1,7 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T20:50:53.480Z",
+  "generatedAt": "2026-09-20T21:09:28.069Z",
   "launcher": {},
   "notices": [],
-  "modpacks": {}
+  "modpacks": {
+    "CulonesRPG-26.1.2": {
+      "maintenance": {
+        "active": true,
+        "message": "",
+        "until": null,
+        "allow": []
+      },
+      "schedule": {
+        "from": null,
+        "until": "2026-09-20T21:08:00.000Z"
+      }
+    }
+  }
 }

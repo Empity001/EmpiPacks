@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T21:26:37.974Z",
+  "generatedAt": "2026-09-20T22:41:33.433Z",
   "launcher": {},
   "notices": [
     {
-      "id": "nmuabckj0abda",
-      "title": "Bienvenidos al oyo",
+      "id": "nmuaeg16811e5",
+      "title": "Bienvenilodraos",
       "severity": "critical",
       "targets": [
         "*"
       ],
-      "page": "avisos/nmuabckj0abda-858eedc6dd.webp",
-      "pageHash": "858eedc6dd",
-      "summary": "EMPI LAUNCHER · HI BIENVENIDOS Pues ola de olivas :3 Besiyos a todowos Hola a todos los que vienen a jugar a este... Launcher chistoso. Aqui estaran todas las versiones y/o modpacks que agregue yo (Empi) o mis amigowos. Esto lo hice pensando en la comodidad de muchos para diferentes escenarios, asique espero no tengan muchos problemas. En todo caso si tienen un error porfa escribir a este correo c",
-      "publishedAt": "2026-09-20T21:13:24.204Z",
+      "page": "avisos/nmuaeg16811e5-6ec251091a.webp",
+      "pageHash": "6ec251091a",
+      "summary": "COMUNICADO Bienvenidowos Hola a todos los que vienen a jugar a este... Launcher chistoso. Aqui estaran todas las versiones y/o modpacks que agregue yo (Empi) o mis amigowos. Esto lo hice pensando en la comodidad de muchos para diferentes escenarios, asique espero no tengan muchos problemas. En todo caso si tienen un error porfa escribir a este correo con su error bien explicado ;3 empi.ty001@gmail",
+      "publishedAt": "2026-09-20T22:40:04.592Z",
       "expiresAt": null
     }
   ],

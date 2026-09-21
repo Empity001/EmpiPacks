@@ -1,8 +1,47 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T01:37:11.566Z",
+  "generatedAt": "2026-09-21T02:42:20.634Z",
   "launcher": {},
   "notices": [
+    {
+      "id": "nmuan24u5624c",
+      "title": "Ui no, que critico",
+      "severity": "critical",
+      "targets": [
+        "Fast-Version---Retirada-26.3"
+      ],
+      "page": "avisos/nmuan24u5624c-97f994dea9.webp",
+      "pageHash": "97f994dea9",
+      "summary": "COMUNICADO Apoco si muy critico Gracias por leerlo.",
+      "publishedAt": "2026-09-21T02:41:12.701Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nmuan03gv1669",
+      "title": "Aviso algo importaten?",
+      "severity": "important",
+      "targets": [
+        "Fast-Version---Mantenimiento-26.3"
+      ],
+      "page": "avisos/nmuan03gv1669-80ef964901.webp",
+      "pageHash": "80ef964901",
+      "summary": "COMUNICADO Eso no eran tacos Gracias por leerlo.",
+      "publishedAt": "2026-09-21T02:39:37.615Z",
+      "expiresAt": null
+    },
+    {
+      "id": "nmuamy7ui078a",
+      "title": "Avino normal, superinformativo",
+      "severity": "info",
+      "targets": [
+        "Fast-Version-26.3"
+      ],
+      "page": "avisos/nmuamy7ui078a-363679f70c.webp",
+      "pageHash": "363679f70c",
+      "summary": "COMUNICADO Deltatula 4ever Gracias por leerlo.",
+      "publishedAt": "2026-09-21T02:38:09.979Z",
+      "expiresAt": null
+    },
     {
       "id": "nmuaiob373cd9",
       "title": "Bienvenilodraos",

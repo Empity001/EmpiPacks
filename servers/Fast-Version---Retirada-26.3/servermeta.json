@@ -1,0 +1,17 @@
+{
+  "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Fast Version - Retirada",
+    "description": "",
+    "icon": "",
+    "address": "localhost:25565",
+    "mainServer": false,
+    "autoconnect": false,
+    "whitelist": false
+  },
+  "fabric": {
+    "version": "0.19.5"
+  },
+  "untrackedFiles": []
+}

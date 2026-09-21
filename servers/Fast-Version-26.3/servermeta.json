@@ -1,0 +1,38 @@
+{
+  "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Fast Version",
+    "description": "",
+    "icon": "",
+    "address": "localhost:25565",
+    "mainServer": false,
+    "autoconnect": false,
+    "whitelist": false
+  },
+  "fabric": {
+    "version": "0.19.5"
+  },
+  "untrackedFiles": [],
+  "profiles": {
+    "self": {
+      "name": "Normal",
+      "description": "",
+      "recommendedBelowGb": null
+    },
+    "list": [
+      {
+        "pack": "Fast-Version---Mantenimiento-26.3",
+        "name": "Mantenimiento",
+        "description": "",
+        "recommendedBelowGb": null
+      },
+      {
+        "pack": "Fast-Version---Retirada-26.3",
+        "name": "Retirada",
+        "description": "",
+        "recommendedBelowGb": null
+      }
+    ]
+  }
+}

@@ -1,12 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T00:39:16.875Z",
-  "launcher": {
-    "support": {
-      "service": "appsscript",
-      "key": "AKfycbwvacTV0HZhs0a-ABNyEXEI-mJSFBk-RDF4AIm0Il8OQzjHH3ejR8-HLGzImUi12pRwVA"
-    }
-  },
+  "generatedAt": "2026-09-21T01:37:11.566Z",
+  "launcher": {},
   "notices": [
     {
       "id": "nmuaiob373cd9",
@@ -33,6 +28,26 @@
       "schedule": {
         "from": null,
         "until": "2026-09-20T21:08:00.000Z"
+      }
+    },
+    "Fast-Version---Mantenimiento-26.3": {
+      "maintenance": {
+        "active": true,
+        "message": "Ya volvemos",
+        "until": "2115-09-21T01:35:00.000Z",
+        "allow": []
+      }
+    },
+    "Fast-Version---Retirada-26.3": {
+      "maintenance": {
+        "active": true,
+        "message": "",
+        "until": null,
+        "allow": []
+      },
+      "schedule": {
+        "from": null,
+        "until": "2026-09-21T01:35:00.000Z"
       }
     }
   }

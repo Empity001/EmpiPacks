@@ -1,19 +1,24 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T22:41:33.433Z",
-  "launcher": {},
+  "generatedAt": "2026-09-21T00:39:16.875Z",
+  "launcher": {
+    "support": {
+      "service": "appsscript",
+      "key": "AKfycbwvacTV0HZhs0a-ABNyEXEI-mJSFBk-RDF4AIm0Il8OQzjHH3ejR8-HLGzImUi12pRwVA"
+    }
+  },
   "notices": [
     {
-      "id": "nmuaeg16811e5",
+      "id": "nmuaiob373cd9",
       "title": "Bienvenilodraos",
       "severity": "critical",
       "targets": [
         "*"
       ],
-      "page": "avisos/nmuaeg16811e5-6ec251091a.webp",
-      "pageHash": "6ec251091a",
+      "page": "avisos/nmuaiob373cd9-6bf4c59df9.webp",
+      "pageHash": "6bf4c59df9",
       "summary": "COMUNICADO Bienvenidowos Hola a todos los que vienen a jugar a este... Launcher chistoso. Aqui estaran todas las versiones y/o modpacks que agregue yo (Empi) o mis amigowos. Esto lo hice pensando en la comodidad de muchos para diferentes escenarios, asique espero no tengan muchos problemas. En todo caso si tienen un error porfa escribir a este correo con su error bien explicado ;3 empi.ty001@gmail",
-      "publishedAt": "2026-09-20T22:40:04.592Z",
+      "publishedAt": "2026-09-21T00:38:29.155Z",
       "expiresAt": null
     }
   ],

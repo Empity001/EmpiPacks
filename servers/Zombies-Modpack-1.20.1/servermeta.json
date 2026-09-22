@@ -19,5 +19,10 @@
   "forge": {
     "version": "47.4.10"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [],
+  "protection": {
+    "default": "free",
+    "revision": 0,
+    "rules": []
+  }
 }

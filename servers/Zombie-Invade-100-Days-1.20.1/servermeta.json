@@ -9,7 +9,12 @@
     "mainServer": false,
     "autoconnect": false,
     "whitelist": false,
-    "accent": "#bf0000"
+    "accent": "#bf0000",
+    "javaOptions": {
+      "supported": ">=17 <18",
+      "suggestedMajor": 17,
+      "distribution": "TEMURIN"
+    }
   },
   "forge": {
     "version": "47.4.10"

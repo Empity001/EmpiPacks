@@ -6960,6 +6960,11 @@
       "mainServer": false,
       "autoconnect": false,
       "whitelist": false,
+      "javaOptions": {
+        "supported": ">=17 <18",
+        "suggestedMajor": 17,
+        "distribution": "TEMURIN"
+      },
       "accent": "#bf0000",
       "modules": [
         {

@@ -1,0 +1,86 @@
+{
+	// Don't modify non-custom keys, otherwise those config can't be load
+	"attribute": [
+		{
+			"title": "",
+			"key": "attack_damage",
+			"type": "ATTACK_DAMAGE",
+			"day": 10,
+			"invalidDay": 100,
+			"value": 0.02,
+			"compute": "MULTIPLY"
+		},
+		{
+			"title": "",
+			"key": "attack_speed",
+			"type": "ATTACK_SPEED",
+			"day": 1,
+			"invalidDay": 100,
+			"value": 1.0,
+			"compute": "NONE"
+		},
+		{
+			"title": "",
+			"key": "armor",
+			"type": "ARMOR",
+			"day": 10,
+			"invalidDay": 100,
+			"value": 0.01,
+			"compute": "MULTIPLY"
+		},
+		{
+			"title": "",
+			"key": "health",
+			"type": "HEALTH",
+			"day": 10,
+			"invalidDay": 100,
+			"value": 0.2,
+			"compute": "MULTIPLY"
+		},
+		{
+			"title": "",
+			"key": "build",
+			"type": "BUILD_SPEED",
+			"day": 60,
+			"invalidDay": 100,
+			"value": 0.02,
+			"compute": "MULTIPLY"
+		},
+		{
+			"title": "",
+			"key": "breaker",
+			"type": "BREAKER_SPEED",
+			"day": 80,
+			"invalidDay": 100,
+			"value": 2.0,
+			"compute": "NONE"
+		},
+		{
+			"title": "",
+			"key": "follow",
+			"type": "FOLLOW_RANGE",
+			"day": 10,
+			"invalidDay": 100,
+			"value": 128.0,
+			"compute": "NONE"
+		},
+		{
+			"title": "",
+			"key": "xray_follow",
+			"type": "XRAY_FOLLOW_RANGE",
+			"day": 30,
+			"invalidDay": 100,
+			"value": 32.0,
+			"compute": "NONE"
+		},
+		{
+			"title": "",
+			"key": "move_speed",
+			"type": "MOVE_SPEED",
+			"day": 20,
+			"invalidDay": 100,
+			"value": 1.0E-4,
+			"compute": "MULTIPLY"
+		}
+	]
+}

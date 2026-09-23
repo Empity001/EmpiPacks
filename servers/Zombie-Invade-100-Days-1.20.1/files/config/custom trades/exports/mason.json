@@ -1,0 +1,374 @@
+{
+  "profession": "minecraft:mason",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 48,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:sand",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:brick",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 99,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:brick",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:clay_ball",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:chiseled_stone_bricks",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:cobblestone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:polished_andesite",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:polished_diorite",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:polished_granite",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:dripstone_block",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "quark:limestone",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "quark:polished_limestone",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "quark:jasper",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "quark:polished_jasper",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "quark:shale",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:emerald",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "quark:polished_shale",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:quartz",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:white_terracotta",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 24,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:green_concrete",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 20,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:pink_glazed_terracotta",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:quartz_block",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:quartz_pillar",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:2": "{Count:1b,id:\"minecraft:wooden_pickaxe\",tag:{Damage:0}}",
+    "0:6": "{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"patchouli:notebook\"}}",
+    "0:7": "{Count:10b,id:\"minecraft:cooked_beef\"}",
+    "0:0": "{Count:1b,id:\"spartanweaponry:wooden_greatsword\",tag:{Damage:0}}",
+    "0:1": "{Count:1b,id:\"spartanweaponry:wooden_battleaxe\",tag:{Damage:0}}",
+    "0:8": "{Count:1b,id:\"sophisticatedbackpacks:backpack\",tag:{contentsUuid:[I;1742134962,845300442,-1897120587,-2116416424],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\"}]},upgradeSlots:1}}"
+  },
+  "wipeBlacklist": []
+}

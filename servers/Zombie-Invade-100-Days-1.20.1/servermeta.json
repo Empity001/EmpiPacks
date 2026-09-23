@@ -1,0 +1,18 @@
+{
+  "$schema": "file:///C:/EmpiPacksRoot/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Zombie Invade 100 Days",
+    "description": "",
+    "icon": "",
+    "address": "localhost:25565",
+    "mainServer": false,
+    "autoconnect": false,
+    "whitelist": false,
+    "accent": "#bf0000"
+  },
+  "forge": {
+    "version": "47.4.10"
+  },
+  "untrackedFiles": []
+}

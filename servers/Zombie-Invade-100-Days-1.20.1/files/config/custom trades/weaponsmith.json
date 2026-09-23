@@ -1,0 +1,703 @@
+{
+  "profession": "minecraft:weaponsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 5,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:rpg_rocket\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 12,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:50bmg\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 24,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:30_06\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:338\"}"
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 16,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 14,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 12,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 10,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 64,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_multioffer_ammo_for_multirequest_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 36,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:762x54\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 32,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:12g\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 45,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:357mag\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 28,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:556x45\"}"
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 12,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 11,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 10,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 64,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_multioffer_ammo_for_multirequest_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:68x51fury\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:58x42\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 32,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:308\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:50ae\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:45_70\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 6,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:40mm\"}"
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 8,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 7,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 6,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 5,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 64,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:weaponsmith_multioffer_ammo_for_multirequest_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 45,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:762x25\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:57x28\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:46x30\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 30,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:762x39\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 36,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:45acp\"}"
+        },
+        {
+          "itemKey": "tacz:ammo",
+          "amount": 64,
+          "priceModifier": 0,
+          "advancedNBTData": "{AmmoId: \"tacz:9mm\"}"
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 5,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 4,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 3,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 64,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_multioffer_ammo_for_multirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:coal",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:charcoal",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 32,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_coal_for_charcoal"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "spartanweaponry:silver_saber",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_warhammer",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_lance",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_flanged_mace",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_scythe",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_longsword",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_rapier",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_greatsword",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_battle_hammer",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_halberd",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_battleaxe",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_dagger",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_spear",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_pike",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_throwing_knife",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_javelin",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_boomerang",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_parrying_dagger",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_parrying_dagger",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_katana",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_tomahawk",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_glaive",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:silver_quarterstaff",
+          "amount": 1,
+          "priceModifier": 0
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 16,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 14,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 12,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 10,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 10,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:weaponsmith_multioffer_silver_saber_for_multirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:flint",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_flint_for_bronze_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "spartanweaponry:diamond_saber",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_warhammer",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_lance",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_flanged_mace",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_scythe",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_longsword",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_rapier",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_greatsword",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_battle_hammer",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_halberd",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_battleaxe",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_dagger",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_spear",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_pike",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_throwing_knife",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_javelin",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_boomerang",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_parrying_dagger",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_parrying_dagger",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_katana",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_tomahawk",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_glaive",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:diamond_quarterstaff",
+          "amount": 1,
+          "priceModifier": 0
+        }
+      ],
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 40,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 35,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 30,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 30,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:weaponsmith_multioffer_diamond_saber_for_multirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "quark:gunpowder_sack",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_gunpowder_sack_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "tacz:gun_smith_table",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 80,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_gun_smith_table_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "tacz:workbench_a",
+          "amount": 1,
+          "priceModifier": 0,
+          "advancedNBTData": "{BlockId: \"tacz:ammo_workbench\"}"
+        },
+        {
+          "itemKey": "tacz:workbench_c",
+          "amount": 1,
+          "priceModifier": 0,
+          "advancedNBTData": "{BlockId: \"tacz:attachment_workbench\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "tradeExp": 80,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:weaponsmith_multioffer_workbench_a_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:bane_of_arthropods#minecraft:sharpness#minecraft:smite",
+            "enchantmentLevel": 5,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:fire_aspect#minecraft:knockback",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:looting#minecraft:sweeping",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "spartanweaponry:razors_edge#spartanweaponry:collectorang",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "spartanweaponry:incendiary#spartanweaponry:hydrodynamic",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "spartanweaponry:propel#spartanweaponry:lucky_throw#spartanweaponry:sharpshooter#spartanweaponry:supercharge#spartanweaponry:expanse",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "enchanted_arsenal:armour_piercing#enchanted_arsenal:hollow_point",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "enchanted_arsenal:enflamed#enchanted_arsenal:illuminating#enchanted_arsenal:poison_tipped#enchanted_arsenal:shell_shock",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "enchanted_arsenal:juggernaught#enchanted_arsenal:lightweight",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 80,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:weaponsmith_enchanted_book_for_gold_coin_and_silver_coin"
+    }
+  ]
+}

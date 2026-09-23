@@ -1,0 +1,389 @@
+{
+  "profession": "minecraft:fletcher",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:stick",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_bronze_coin_for_stick"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:flint",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "tradeExp": 3,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_flint_for_bronze_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "spartanweaponry:aluminum_longbow",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:steel_longbow",
+          "amount": 1,
+          "priceModifier": 0
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fletcher_multioffer_aluminum_longbow_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:arrow",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 4,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher_arrow_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bow",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:power",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 2
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fletcher_bow_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 80,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 16,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_bronze_coin_for_string"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "spartanweaponry:aluminum_heavy_crossbow",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "spartanweaponry:steel_heavy_crossbow",
+          "amount": 1,
+          "priceModifier": 0
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_multioffer_aluminum_heavy_crossbow_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 24,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 20,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 16,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 20,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
+        },
+        {
+          "itemKey": "minecraft:tipped_arrow",
+          "amount": 12,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fletcher_multioffer_tipped_arrow_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:feather",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher_feather_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "spartanweaponry:diamond_longbow",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:power",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 5
+          },
+          {
+            "enchantmentKey": "minecraft:flame#minecraft:punch",
+            "enchantmentLevel": 1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 60,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "spartanweaponry:diamond_longbow",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 20,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fletcher_diamond_longbow_for_diamond_longbow_and_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:slowness\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_slowness\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_weakness\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_diamond_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_multioffer_tipped_diamond_arrow_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:slowness\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_slowness\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_weakness\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:regeneration\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:healing\"}"
+        },
+        {
+          "itemKey": "spartanweaponry:tipped_netherite_arrow",
+          "amount": 2,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 6,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fletcher_multioffer_tipped_netherite_arrow_for_silver_coin"
+    }
+  ]
+}

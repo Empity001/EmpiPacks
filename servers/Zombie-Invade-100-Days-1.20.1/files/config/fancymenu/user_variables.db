@@ -1,0 +1,14 @@
+type = user_variables
+
+variable {
+  name = recommend_preset
+  value = minecraft:bedrock,130*minecraft:dirt,minecraft:grass_block;minecraft:plains
+  reset_on_launch = false
+}
+
+variable {
+  name = dont_show_again
+  value = 1
+  reset_on_launch = false
+}
+

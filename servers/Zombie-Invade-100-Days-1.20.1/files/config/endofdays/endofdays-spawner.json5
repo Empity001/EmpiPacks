@@ -1,0 +1,554 @@
+{
+	// Don't modify non-custom keys, otherwise those config can't be load
+	"spawner_double": [
+		{
+			"value": 0.0,
+			"DefaultValue": 0.5,
+			"key": "endofdays_use_fishing_probability"
+		},
+		{
+			"value": 0.05,
+			"DefaultValue": 0.05,
+			"key": "endofdays_blood_probability"
+		},
+		{
+			"value": 0.0,
+			"DefaultValue": 0.0,
+			"key": "endofdays_spawner"
+		},
+		{
+			"value": 0.01,
+			"DefaultValue": 0.01,
+			"key": "endofdays_explode_spawn"
+		},
+		{
+			"value": 0.0,
+			"DefaultValue": 0.02,
+			"key": "endofdays_fishing_spawn"
+		},
+		{
+			"value": 0.05,
+			"DefaultValue": 0.05,
+			"key": "endofdays_entity_shield_place"
+		},
+		{
+			"value": 0.01,
+			"DefaultValue": 0.01,
+			"key": "endofdays_tnt_place"
+		},
+		{
+			"value": 0.02,
+			"DefaultValue": 0.02,
+			"key": "endofdays_throw_place"
+		},
+		{
+			"value": 0.03,
+			"DefaultValue": 0.03,
+			"key": "endofdays_entity_bow_place"
+		},
+		{
+			"value": 1.0,
+			"DefaultValue": 1.0,
+			"key": "endofdays_entity_bow_speed"
+		},
+		{
+			"value": 1.0,
+			"DefaultValue": 1.0,
+			"key": "endofdays_throw_place_speed"
+		},
+		{
+			"value": 1.0,
+			"DefaultValue": 1.0,
+			"key": "endofdays_tnt_entity_speed"
+		},
+		{
+			"value": 1.0,
+			"DefaultValue": 1.0,
+			"key": "endofdays_entity_shield_pro"
+		}
+	],
+	"spawner_int": [
+		{
+			"value": 300,
+			"DefaultValue": 300,
+			"key": "endofdays_spawner_exist_time"
+		},
+		{
+			"value": 30,
+			"DefaultValue": 30,
+			"key": "endofdays_fishing_time"
+		},
+		{
+			"value": 16,
+			"DefaultValue": 16,
+			"key": "endofdays_spawner_spawner"
+		},
+		{
+			"value": 30,
+			"DefaultValue": 30,
+			"key": "endofdays_entity_bow_tick"
+		},
+		{
+			"value": 16,
+			"DefaultValue": 16,
+			"key": "endofdays_entity_bow_radius"
+		},
+		{
+			"value": 15,
+			"DefaultValue": 15,
+			"key": "endofdays_throw_place_tick"
+		},
+		{
+			"value": 15,
+			"DefaultValue": 15,
+			"key": "endofdays_throw_place_radius"
+		},
+		{
+			"value": 5,
+			"DefaultValue": 5,
+			"key": "endofdays_tnt_entity_tick"
+		},
+		{
+			"value": 20,
+			"DefaultValue": 20,
+			"key": "endofdays_tnt_entity_radius"
+		},
+		{
+			"value": 3,
+			"DefaultValue": 3,
+			"key": "endofdays_entity_shield_max_time"
+		}
+	],
+	"spawner_boolean": [],
+	"spawner_list": [
+		{
+			"key": "stage_1",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 0,
+			"nightday": 10,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 4
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 50,
+			"groupDistance": 30,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 0
+		},
+		{
+			"key": "stage_2",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 11,
+			"nightday": 20,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 4
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 60,
+			"groupDistance": 30,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 1
+		},
+		{
+			"key": "stage_3",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 21,
+			"nightday": 30,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 4
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 75,
+			"groupDistance": 25,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 2
+		},
+		{
+			"key": "stage_4",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 31,
+			"nightday": 40,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 5
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 100,
+			"groupDistance": 20,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 3
+		},
+		{
+			"key": "stage_5",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 41,
+			"nightday": 50,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 5
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 120,
+			"groupDistance": 15,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 4
+		},
+		{
+			"key": "stage_6",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 51,
+			"nightday": 60,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 6
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 140,
+			"groupDistance": 10,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 5
+		},
+		{
+			"key": "stage_7",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 61,
+			"nightday": 70,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 6
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 160,
+			"groupDistance": 10,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 6
+		},
+		{
+			"key": "stage_8",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 71,
+			"nightday": 80,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 7
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 180,
+			"groupDistance": 10,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 7
+		},
+		{
+			"key": "stage_9",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 81,
+			"nightday": 90,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 7
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 200,
+			"groupDistance": 10,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 7
+		},
+		{
+			"key": "stage_10",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 91,
+			"nightday": 100,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 8
+				}
+			],
+			"mode": "ALL_PLAYER_POS",
+			"SpawnerTimeMax": 120,
+			"SpawnerTimeMin": 60,
+			"MaxWeight": 1.0,
+			"MaxEntity": 240,
+			"groupDistance": 10,
+			"isInAir": false,
+			"isInWater": false,
+			"isInLava": false,
+			"isInLiquid": false,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 120,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": false,
+			"isNoRestrictions": false,
+			"MaxLight": 7
+		},
+		{
+			"key": "stage_blood",
+			"levelInfo": {
+				"level": "minecraft:overworld",
+				"biome": "minecraft:all"
+			},
+			"day": 1,
+			"nightday": 100,
+			"SpawnerInfo": [
+				{
+					"probability": 1.0,
+					"weight": 1.0,
+					"target": [
+						"minecraft:zombie"
+					],
+					"SpawnerCount": 50
+				}
+			],
+			"mode": "BLOOD_ALL_POS",
+			"SpawnerTimeMax": 40,
+			"SpawnerTimeMin": 20,
+			"MaxWeight": 1.0,
+			"MaxEntity": 350,
+			"groupDistance": 10,
+			"isInAir": false,
+			"isInWater": true,
+			"isInLava": false,
+			"isInLiquid": true,
+			"MinHeiGht": 1,
+			"MaxHeiGht": 255,
+			"Maxdist": 128,
+			"MinDist": 24,
+			"verticalmin": -1,
+			"verticalmax": -1,
+			"isValidSpawn": true,
+			"isSturdy": true,
+			"isNoRestrictions": true,
+			"MaxLight": 7
+		}
+	]
+}

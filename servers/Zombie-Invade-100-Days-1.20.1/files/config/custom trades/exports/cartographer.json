@@ -1,0 +1,522 @@
+{
+  "profession": "minecraft:cartographer",
+  "removeOtherTrades": false,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 96,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:paper",
+        "amount": 24,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:map",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 9,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:glass_pane",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 5,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:item_frame",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:glow_item_frame",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 4,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:blue_banner",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:snowy_plains\",targetBiomeColor:8381695,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 9,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:windswept_hills\",targetBiomeColor:9079434,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:dark_forest\",targetBiomeColor:22794,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:desert\",targetBiomeColor:13416782,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:savanna\",targetBiomeColor:10200418,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:swamp\",targetBiomeColor:2242319,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:mangrove_swamp\",targetBiomeColor:2242319,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 14,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:old_growth_pine_taiga\",targetBiomeColor:5980703,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 13,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:flower_banner_pattern",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:globe_banner_pattern",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:mojang_banner_pattern",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:flower_forest\",targetBiomeColor:13518562,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 17,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:jungle\",targetBiomeColor:2274816,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 21,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:bamboo_jungle\",targetBiomeColor:4055575,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 18,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:badlands\",targetBiomeColor:13008674,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 21,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:mushroom_fields\",targetBiomeColor:5063283,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:ice_spikes\",targetBiomeColor:2015433,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 26,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    },
+    {
+      "offer": {
+        "itemKey": "quark:pathfinders_quill",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{targetBiome:\"minecraft:cherry_grove\",targetBiomeColor:15313384,targetBiomeUnderground:0b}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 12,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 5
+    }
+  ]
+}

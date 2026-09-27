@@ -8,7 +8,19 @@
     "address": "localhost:25565",
     "mainServer": false,
     "autoconnect": false,
-    "whitelist": false
+    "whitelist": false,
+    "javaOptions": {
+      "ram": {
+        "recommended": 6144,
+        "minimum": 2048,
+        "maximum": 6144
+      }
+    },
+    "discord": {
+      "shortId": "",
+      "largeImageText": "",
+      "largeImageKey": "https://empity001.github.io/EmpiPacks/servers/TR-world-project-1.21.1/icon.png"
+    }
   },
   "neoforge": {
     "version": "21.1.252"

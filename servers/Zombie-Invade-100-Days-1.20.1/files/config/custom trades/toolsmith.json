@@ -1,0 +1,354 @@
+{
+  "profession": "minecraft:toolsmith",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 32,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_silver_coin_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_shovel",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_iron_shovel_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:iron_axe",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:iron_pickaxe",
+          "amount": 1,
+          "priceModifier": 0
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:toolsmith_multioffer_iron_axe_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:iron_ingot",
+        "amount": 7,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 14,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_silver_coin_for_iron_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bell",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 12,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:toolsmith_bell_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_hoe",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 25,
+        "priceModifier": 0
+      },
+      "tradeExp": 20,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_diamond_hoe_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 40,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_axe_for_iron_axe_and_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 40,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_pickaxe_for_iron_pickaxe_and_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:iron_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:iron_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 40,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:toolsmith_iron_shovel_for_iron_shovel_and_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": -1
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_shovel",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 50,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_diamond_shovel_for_diamond_shovel_and_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:efficiency",
+            "enchantmentLevel": -1
+          },
+          {
+            "enchantmentKey": "minecraft:fortune#minecraft:silk_touch",
+            "enchantmentLevel": -1
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_axe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 50,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:toolsmith_diamond_axe_for_diamond_axe_and_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:diamond_pickaxe",
+          "amount": 1,
+          "priceModifier": 0,
+          "enchantments": [
+            {
+              "enchantmentKey": "minecraft:efficiency",
+              "enchantmentLevel": -1
+            },
+            {
+              "enchantmentKey": "minecraft:fortune",
+              "enchantmentLevel": -1
+            },
+            {
+              "enchantmentKey": "minecraft:unbreaking",
+              "enchantmentLevel": -1
+            },
+            {
+              "enchantmentKey": "minecraft:mending",
+              "enchantmentLevel": 1
+            }
+          ]
+        },
+        {
+          "itemKey": "minecraft:diamond_pickaxe",
+          "amount": 1,
+          "priceModifier": 0,
+          "enchantments": [
+            {
+              "enchantmentKey": "minecraft:efficiency",
+              "enchantmentLevel": -1
+            },
+            {
+              "enchantmentKey": "minecraft:silk_touch",
+              "enchantmentLevel": 1
+            },
+            {
+              "enchantmentKey": "minecraft:unbreaking",
+              "enchantmentLevel": -1
+            },
+            {
+              "enchantmentKey": "minecraft:mending",
+              "enchantmentLevel": 1
+            }
+          ]
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_pickaxe",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 50,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:toolsmith_multioffer_diamond_pickaxe_for_diamond_pickaxe_and_gold_coin"
+    }
+  ]
+}

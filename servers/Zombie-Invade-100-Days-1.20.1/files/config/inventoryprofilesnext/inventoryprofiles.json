@@ -1,0 +1,190 @@
+{
+    "ModSettings": {
+        "move_all_modifier": {
+            "main": {
+                "keys": "LEFT_CONTROL,LEFT_SHIFT",
+                "settings": {
+                    "order_sensitive": false
+                }
+            }
+        },
+        "move_focus_mach_modifier": {
+            "main": {
+                "settings": {
+                    "order_sensitive": false
+                }
+            }
+        },
+        "always_include_hotbar": true,
+        "highlight_foused_items": {
+            "value": false
+        },
+        "enable_profiles": {
+            "value": false
+        },
+        "villager_trading_enable": {
+            "value": false
+        },
+        "enable_updates_check": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "continuous_crafting_saved_value": false,
+        "regular_sort_order": "DEFAULT",
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        }
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_delay_keeper_reinit_ticks": 200,
+        "show_locked_slots_background": {
+            "value": false
+        },
+        "also_show_locked_slots_in_hotbar": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "ignore_locked_slots": false,
+        "auto_refill_prefer_smaller_stacks": true,
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "auto_refill_temp_disable_refill_for_tools": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "allow_break_for_non_enchanted": {
+            "value": true
+        },
+        "visual_durability_notification": {
+            "value": false
+        },
+        "audio_durability_notification": {
+            "value": false
+        },
+        "visual_replace_success_notification": {
+            "value": false
+        },
+        "audio_replace_success_notification": {
+            "value": false
+        },
+        "visual_replace_failed_notification": {
+            "value": false
+        },
+        "audio_replace_failed_notification": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_3"
+            }
+        },
+        "move_all_items": {
+            "main": {
+                "keys": "LEFT_CONTROL,BUTTON_1",
+                "settings": {
+                    "order_sensitive": false
+                }
+            }
+        },
+        "throw_all_items": {
+            "main": {
+                "keys": "LEFT_SHIFT,Q",
+                "settings": {
+                    "order_sensitive": false
+                }
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "apply_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "next_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "prev_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_1": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_2": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_3": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "save_as_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "global_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "local_bookmark_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_global_trade": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "do_local_trade": {
+            "main": {
+                "keys": ""
+            }
+        }
+    },
+    "Tweaks": {
+        "prevent_close_gui_drop_item": {
+            "value": true
+        },
+        "swipe_move_crafting_result_slot": {
+            "value": true
+        }
+    }
+}

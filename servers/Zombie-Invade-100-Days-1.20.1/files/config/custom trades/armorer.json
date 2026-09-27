@@ -1,0 +1,481 @@
+{
+  "profession": "minecraft:armorer",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:coal",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 32,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_silver_coin_for_coal"
+    },
+    {
+      "offer": {
+        "itemKey": "spartanshields:silver_tower_shield",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:armorer_silver_basic_shield_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bell",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_bell_for_silver_coin_0"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:protection#minecraft:blast_protection#minecraft:fire_protection#minecraft:projectile_protection",
+            "enchantmentLevel": 4,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:swift_sneak",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 60,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 58,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 56,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 54,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 52,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 50,
+          "priceModifier": 0
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_leggings",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_diamond_leggings_for_diamond_leggings_and_additionalmultirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:protection#minecraft:blast_protection#minecraft:fire_protection#minecraft:projectile_protection",
+            "enchantmentLevel": 4,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:depth_strider#minecraft:frost_walker",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 60,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 58,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 56,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 54,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 52,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 50,
+          "priceModifier": 0
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_boots",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 40,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:armorer_diamond_boots_for_diamond_boots_and_additionalmultirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:protection#minecraft:blast_protection#minecraft:fire_protection#minecraft:projectile_protection",
+            "enchantmentLevel": 4,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:aqua_affinity#minecraft:respiration",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 60,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 58,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 56,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 54,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 52,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 50,
+          "priceModifier": 0
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 50,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_helmet_for_diamond_helmet_and_additionalmultirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:diamond_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:protection#minecraft:blast_protection#minecraft:fire_protection#minecraft:projectile_protection",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 40,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 38,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 36,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 34,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 32,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 30,
+          "priceModifier": 0
+        }
+      ],
+      "additionalRequest": {
+        "itemKey": "minecraft:diamond_chestplate",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 50,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:armorer_diamond_chestplate_for_diamond_chestplate_and_additionalmultirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "spartanshields:constantan_tower_shield",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 60,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 55,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 50,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_constantan_tower_shield_for_multirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "spartanshields:steel_tower_shield",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "multiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 80,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 75,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 70,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_steel_tower_shield_for_multirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "spartanshields:platinum_tower_shield",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "additionalMultiRequest": [
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 40,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 30,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "numismatic-overhaul:silver_coin",
+          "amount": 20,
+          "priceModifier": 0
+        }
+      ],
+      "tradeExp": 15,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:armorer_platinum_tower_shield_for_gold_coin_and_additionalmultirequest_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:enchanted_book",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:protection",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:blast_protection#minecraft:fire_protection#minecraft:projectile_protection",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "minecraft:feather_falling#minecraft:thorns",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          },
+          {
+            "enchantmentKey": "spartanshields:payback#spartanshields:spikes#spartanshields:firebrand",
+            "enchantmentLevel": -1,
+            "maxEnchantmentLevel": 3
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_enchanted_book_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:totem_of_undying",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:armorer_totem_of_undying_for_gold_coin"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+	// Don't modify non-custom keys, otherwise those config can't be load
+	"target": [
+		"minecraft:player",
+		"minecraft:villager",
+		"guardvillagers:guard"
+	],
+	"target_block": [
+		{
+			"id": "minecraft:white_bed",
+			"tag": [
+				"minecraft:beds"
+			],
+			"key": "target_block_1"
+		},
+		{
+			"id": "minecraft:chest",
+			"tag": [
+				"forge:chests"
+			],
+			"key": "target_block_2"
+		},
+		{
+			"id": "minecraft:torch",
+			"tag": [],
+			"key": "target_block_3"
+		}
+	],
+	"drops_set": [],
+	"msg_set": [],
+	"armor_set": [
+		{
+			"key": "minecraft:leather",
+			"entity_armor": {
+				"ID": "minecraft:leather_helmet",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "HEAD",
+				"day": 20
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:leather_chestplate",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "CHEST",
+				"day": 20
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:leather_leggings",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "LEGS",
+				"day": 20
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:leather_boots",
+				"TAG": "",
+				"Probability": 0.02,
+				"TYPE": "FEET",
+				"day": 20
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:empty",
+				"TAG": "",
+				"Probability": 0.0,
+				"TYPE": "MAINHAND",
+				"day": 0
+			}
+		},
+		{
+			"key": "minecraft:iron_ingot",
+			"entity_armor": {
+				"ID": "minecraft:iron_helmet",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "HEAD",
+				"day": 30
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:iron_chestplate",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "CHEST",
+				"day": 30
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:iron_leggings",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "LEGS",
+				"day": 30
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:iron_boots",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "FEET",
+				"day": 30
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:iron_sword",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "MAINHAND",
+				"day": 30
+			}
+		},
+		{
+			"key": "minecraft:gold_ingot",
+			"entity_armor": {
+				"ID": "minecraft:golden_helmet",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "HEAD",
+				"day": 40
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:golden_chestplate",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "CHEST",
+				"day": 40
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:golden_leggings",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "LEGS",
+				"day": 40
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:golden_boots",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "FEET",
+				"day": 40
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:golden_sword",
+				"TAG": "",
+				"Probability": 0.01,
+				"TYPE": "MAINHAND",
+				"day": 40
+			}
+		},
+		{
+			"key": "minecraft:diamond",
+			"entity_armor": {
+				"ID": "minecraft:diamond_helmet",
+				"TAG": "",
+				"Probability": 0.005,
+				"TYPE": "HEAD",
+				"day": 50
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:diamond_chestplate",
+				"TAG": "",
+				"Probability": 0.005,
+				"TYPE": "CHEST",
+				"day": 50
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:diamond_leggings",
+				"TAG": "",
+				"Probability": 0.005,
+				"TYPE": "LEGS",
+				"day": 50
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:diamond_boots",
+				"TAG": "",
+				"Probability": 0.005,
+				"TYPE": "FEET",
+				"day": 50
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:diamond_sword",
+				"TAG": "",
+				"Probability": 0.002,
+				"TYPE": "MAINHAND",
+				"day": 50
+			}
+		},
+		{
+			"key": "minecraft:netherite_ingot",
+			"entity_armor": {
+				"ID": "minecraft:netherite_helmet",
+				"TAG": "",
+				"Probability": 0.001,
+				"TYPE": "HEAD",
+				"day": 70
+			},
+			"entity_armor_1": {
+				"ID": "minecraft:netherite_chestplate",
+				"TAG": "",
+				"Probability": 0.001,
+				"TYPE": "CHEST",
+				"day": 70
+			},
+			"entity_armor_2": {
+				"ID": "minecraft:netherite_leggings",
+				"TAG": "",
+				"Probability": 0.001,
+				"TYPE": "LEGS",
+				"day": 70
+			},
+			"entity_armor_3": {
+				"ID": "minecraft:netherite_boots",
+				"TAG": "",
+				"Probability": 0.001,
+				"TYPE": "FEET",
+				"day": 70
+			},
+			"entity_armor_4": {
+				"ID": "minecraft:netherite_sword",
+				"TAG": "",
+				"Probability": 0.001,
+				"TYPE": "MAINHAND",
+				"day": 70
+			}
+		}
+	],
+	"replace_list": [
+		{
+			"key": "endofdays_spawner_replace_list",
+			"ID": "minecraft:monster",
+			"TAG": "",
+			"replaceSpawnerType": "NATURAL",
+			"Dimension": "minecraft:overworld",
+			"Probability": 0.5,
+			"replace_ID": "minecraft:zombie"
+		}
+	]
+}

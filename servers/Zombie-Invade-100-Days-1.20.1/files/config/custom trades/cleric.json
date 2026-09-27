@@ -1,0 +1,469 @@
+{
+  "profession": "minecraft:cleric",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "minecraft:lapis_lazuli",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_lapis_lazuli_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_ingot",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 16,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_silver_coin_for_gold_ingot"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:ender_pearl",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 15,
+        "priceModifier": 0
+      },
+      "tradeExp": 18,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_ender_pearl_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:experience_bottle",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "tradeExp": 18,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:cleric_experience_bottle_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 10,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:nether_wart",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 8,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_silver_coin_for_nether_wart"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:rotten_flesh",
+        "amount": 16,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 32,
+      "priceMultiplier": 0.0,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_silver_coin_for_rotten_flesh"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:spider_eye",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 80,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:cleric_spider_eye_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:bone",
+        "amount": 6,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_bone_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:redstone",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 80,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_redstone_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:ink_sac",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:bronze_coin",
+        "amount": 80,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:cleric_ink_sac_for_bronze_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:slime_ball",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 32,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:cleric_slime_ball_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_night_vision\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_invisibility\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_fire_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_slowness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_multioffer_splash_potion_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_night_vision\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_invisibility\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_leaping\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_fire_resistance\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_swiftness\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_slowness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_multioffer_lingering_potion_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"quark:long_resilience\"}"
+        },
+        {
+          "itemKey": "minecraft:splash_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_weakness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_multioffer_splash_potion_for_silver_coin"
+    },
+    {
+      "multiOffer": [
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_turtle_master\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_healing\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_regeneration\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:strong_strength\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"quark:long_resilience\"}"
+        },
+        {
+          "itemKey": "minecraft:lingering_potion",
+          "amount": 3,
+          "priceModifier": 0,
+          "advancedNBTData": "{Potion:\"minecraft:long_weakness\"}"
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 50,
+        "priceModifier": 0
+      },
+      "tradeExp": 15,
+      "maxUses": 8,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:cleric_multioffer_lingering_potion_for_silver_coin"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+	// Don't modify non-custom keys, otherwise those config can't be load
+	"enable_set": [
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_braker_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_build_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_replace_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_xray_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_follow_enable"
+		},
+		{
+			"value": false,
+			"DefaultValue": true,
+			"key": "endofdays_fishing_enable"
+		},
+		{
+			"value": false,
+			"DefaultValue": false,
+			"key": "endofdays_spawn_spawner_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_ues_pearl_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_leap_enable"
+		},
+		{
+			"value": false,
+			"DefaultValue": true,
+			"key": "endofdays_explode_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_lava_enable"
+		},
+		{
+			"value": false,
+			"DefaultValue": false,
+			"key": "endofdays_drop_replace_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_blood_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_blood_sleep_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_entity_shield_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_attribute_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_zombie_fire_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_off_zombie_baby_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_braker_entity_block_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_fly_riding_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_ladders_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_tnt_entity_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_throw_enable"
+		},
+		{
+			"value": true,
+			"DefaultValue": true,
+			"key": "endofdays_entity_bow_enable"
+		}
+	]
+}

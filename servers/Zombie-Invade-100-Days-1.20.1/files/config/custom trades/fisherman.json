@@ -1,0 +1,318 @@
+{
+  "profession": "minecraft:fisherman",
+  "removeOtherTrades": true,
+  "maxTrades": 2,
+  "trades": [
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:string",
+        "amount": 20,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_silver_coin_for_string"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cod_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 8,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1,
+      "UTID": "minecraft:fisherman_cod_bucket_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:cod",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_silver_coin_for_cod"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_cod",
+        "amount": 12,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 2,
+      "UTID": "minecraft:fisherman_cooked_salmon_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:salmon",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_silver_coin_for_salmon"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:fishing_rod",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 3,
+      "UTID": "minecraft:fisherman_fishing_rod_for_silver_coin"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:cooked_salmon",
+        "amount": 8,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 16,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4,
+      "UTID": "minecraft:fisherman_tropical_fish_for_silver_coin"
+    },
+    {
+      "offer": [
+        {
+          "itemKey": "minecraft:oak_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:spruce_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:birch_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:jungle_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:acacia_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:dark_oak_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:mangrove_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "minecraft:cherry_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "quark:ancient_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "quark:azalea_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "quark:blossom_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:fir_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:pine_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:maple_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:redwood_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:mahogany_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:jacaranda_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:palm_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:dead_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:magic_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:umbran_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:hellbark_boat",
+          "amount": 1,
+          "priceModifier": 0
+        },
+        {
+          "itemKey": "biomesoplenty:empyreal_boat",
+          "amount": 1,
+          "priceModifier": 0
+        }
+      ],
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 4
+    },
+    {
+      "offer": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:pufferfish",
+        "amount": 4,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_silver_coin_for_pufferfish"
+    },
+    {
+      "offer": {
+        "itemKey": "minecraft:fishing_rod",
+        "amount": 1,
+        "priceModifier": 0,
+        "enchantments": [
+          {
+            "enchantmentKey": "minecraft:lure",
+            "enchantmentLevel": -1
+          },
+          {
+            "enchantmentKey": "minecraft:luck_of_the_sea",
+            "enchantmentLevel": -1
+          },
+          {
+            "enchantmentKey": "minecraft:unbreaking",
+            "enchantmentLevel": -1
+          }
+        ]
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:silver_coin",
+        "amount": 30,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:fishing_rod",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "tradeExp": 10,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 5,
+      "UTID": "minecraft:fisherman_fishing_rod_for_silver_coin_and_fishing_rod"
+    }
+  ]
+}

@@ -1,8 +1,21 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T05:51:27.977Z",
+  "generatedAt": "2026-09-27T06:44:08.201Z",
   "launcher": {},
   "notices": [
+    {
+      "id": "nmujg954yccb8",
+      "title": "Aviso nuevo",
+      "severity": "critical",
+      "targets": [
+        "TR-world-project-1.21.1"
+      ],
+      "page": "avisos/nmujg954yccb8-ea15c74406.webp",
+      "pageHash": "ea15c74406",
+      "summary": "COMUNICADO Este modpack NO es mio Este modpack no es mio, solo lo subo aqui para tenerlo a la mano, todos los creditos a su creador nulneyr Gracias por leerlo.",
+      "publishedAt": "2026-09-27T06:40:37.955Z",
+      "expiresAt": null
+    },
     {
       "id": "nmuan24u5624c",
       "title": "Ui no, que critico",

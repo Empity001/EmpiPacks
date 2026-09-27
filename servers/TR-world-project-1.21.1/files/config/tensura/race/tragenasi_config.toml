@@ -1,0 +1,193 @@
+[GenasiRace]
+	#Minimal aura.
+	minAura = 1000.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 4000.0
+	#Maximum magicule.
+	maxMagicule = 6000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 40.0
+	#Bonus Attack Damage.
+	attack = 0.4000000059604645
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+
+[AirGenasiRace]
+	#EP requirement to evolve into Air Genasi.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 20000.0
+	#Maximum aura.
+	maxAura = 30000.0
+	#Minimal magicule.
+	minMagicule = 70000.0
+	#Maximum magicule.
+	maxMagicule = 80000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 70.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 400.0
+	#Bonus Attack Damage.
+	attack = 1.2000000476837158
+	#Bonus Attack Speed.
+	attackSpeed = 0.4000000059604645
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.05999999865889549
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+
+[EarthGenasiRace]
+	#EP requirement to evolve into Earth Genasi.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 35000.0
+	#Maximum aura.
+	maxAura = 45000.0
+	#Minimal magicule.
+	minMagicule = 50000.0
+	#Maximum magicule.
+	maxMagicule = 70000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 70.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 400.0
+	#Bonus Attack Damage.
+	attack = 1.7999999523162842
+	#Bonus Attack Speed.
+	attackSpeed = 0.10000000149011612
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.44999998807907104
+	#Bonus Movement Speed.
+	movementSpeed = 0.009999999776482582
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+
+[FireGenasiRace]
+	#EP requirement to evolve into Fire Genasi.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 30000.0
+	#Maximum aura.
+	maxAura = 40000.0
+	#Minimal magicule.
+	minMagicule = 60000.0
+	#Maximum magicule.
+	maxMagicule = 70000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 70.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 400.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.30000001192092896
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.25
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+
+[WaterGenasiRace]
+	#EP requirement to evolve into Water Genasi.
+	epRequirement = 200000.0
+	#Minimal aura.
+	minAura = 25000.0
+	#Maximum aura.
+	maxAura = 35000.0
+	#Minimal magicule.
+	minMagicule = 65000.0
+	#Maximum magicule.
+	maxMagicule = 75000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 70.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 400.0
+	#Bonus Attack Damage.
+	attack = 1.2999999523162842
+	#Bonus Attack Speed.
+	attackSpeed = 0.20000000298023224
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.029999999329447746
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.699999988079071
+
+[AncientGenasiRace]
+	#EP requirement to evolve into Ancient Genasi.
+	epRequirement = 1000000.0
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 300000.0
+	#Minimal magicule.
+	minMagicule = 700000.0
+	#Maximum magicule.
+	maxMagicule = 800000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 500.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3500.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.07999999821186066
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.800000011920929
+
+[DivineGenasiRace]
+	#EP requirement to evolve into Divine Genasi.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 700000.0
+	#Maximum aura.
+	maxAura = 900000.0
+	#Minimal magicule.
+	minMagicule = 1100000.0
+	#Maximum magicule.
+	maxMagicule = 1300000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 950.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6500.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.699999988079071
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.699999988079071
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.0

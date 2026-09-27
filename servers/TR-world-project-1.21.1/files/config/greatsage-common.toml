@@ -1,0 +1,116 @@
+[general]
+	#Silence delay in ticks after a player joins the world.
+	#Tensura hands out the whole racial kit at that moment: resistances,
+	#intrinsics... Without this delay every login and every respawn would
+	#trigger an endless announce listing stuff you already had.
+	#100 = 5 seconds. Put 0 if you really want to hear everything on login.
+	# Default: 100
+	# Range: 0 ~ 600
+	joinGraceTicks = 100
+	#Progression steps that get their own announce.
+	#Possible values: hero_egg, demon_lord_seed, harvest_festival, true_hero,
+	#true_demon_lord
+	announcedCeremonies = ["hero_egg", "demon_lord_seed", "harvest_festival", "true_hero", "true_demon_lord"]
+	#Ceremonies where the player cannot take damage. Awakening animations are
+	#long and you cannot move, so dying in the middle of one would be rough.
+	shieldedCeremonies = ["true_hero", "true_demon_lord"]
+	#How long that protection lasts, in ticks. 400 = 20 seconds.
+	# Default: 400
+	# Range: 20 ~ 2400
+	ceremonyShieldTicks = 400
+	#Base duration of one analysis, in ticks. 1200 = one minute.
+	#What a class actually costs is this number times its factor
+	#below, unless that particular skill is listed in
+	#analysisSkillTimes.
+	# Default: 1200
+	# Range: 20 ~ 72000
+	analysisTicks = 1200
+	#Max distance in blocks at which a target can be read in assess mode.
+	# Default: 48.0
+	# Range: 4.0 ~ 128.0
+	assessRange = 48.0
+	#Above this EP ratio the target is beyond what Great Sage can read and the
+	#analysis fails. This is the limit that makes assess mode mean something,
+	#not everything is readable. 10 means ten times your own EP.
+	# Default: 10.0
+	# Range: 1.0 ~ 10000.0
+	assessEpRatio = 10.0
+	#EP ratio where being close to a creature makes you sick in assess mode.
+	#This is the real game nausea effect, level 3, level 4 if the gap is huge.
+	# Default: 8.0
+	# Range: 1.0 ~ 10000.0
+	assessNauseaRatio = 8.0
+	#Great Sage comments on what you are doing: ore hidden behind a block,
+	#incoming danger, tool about to break...
+	#You need the Great Sage skill for these, always. Skill announces and
+	#ceremonies are the only things that work without it.
+	#false: it only speaks for skills and ceremonies.
+	enableTips = true
+	#Minimum silence between two comments, whatever they are. 600 = 30 seconds.
+	#This is the setting that decides if Great Sage is a companion or an
+	#annoying parrot. Each comment also has its own cooldown on top of this.
+	# Default: 600
+	# Range: 20 ~ 24000
+	tipQuietTicks = 600
+	#Chance that an analysis fails at the very end.
+	#A failed analysis teaches nothing, and the magicules it cost are gone
+	#(the Second look node in the growth tree gives half of them back).
+	#The Precision branch of the tree lowers this chance: the whole branch
+	#leaves about a fifth of it. 0 disables failures entirely.
+	#In singleplayer you can also change it from the Settings page.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	analysisFailChance = 0.25
+	#How much longer each class takes, as class=factor.
+	#A factor of 0 forbids analysing that class entirely.
+	#These used to be fixed in the code; they are yours now.
+	#Resistances are not in here and cannot be put there: they cost
+	#no magicules to acquire, so analysing them was a free path to
+	#mastery. That one stays shut.
+	analysisClassFactors = ["intrinsic=2", "common=2", "extra=3", "unique=5", "ultimate=8"]
+	#Exact duration for one named skill, in ticks, as id=ticks.
+	#This wins over the class factor, so it is the way to make one
+	#specific skill cheap or brutally long.
+	#0 forbids analysing it at all.
+	#Example: tensura:great_sage=72000
+	analysisSkillTimes = []
+	#Chance that the world errs while granting a skill during the
+	#reincarnation scene, and hands over its greater form instead.
+	#Sage becomes Great Sage, Predator becomes Gluttony, and so on.
+	#This is rolled once per granted skill, not once per scene: at three
+	#grants, 0.03 means about a 9% chance of one error in a playthrough.
+	#0 disables the whole mechanic.
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	reincarnationErrorChance = 0.03
+	#How much longer it takes to analyse a skill you have not started to
+	#grasp yet. A skill you have never touched sits at negative mastery:
+	#Great Sage has to build it from nothing instead of finishing your work.
+	#3 means three times the normal duration. 1 disables the penalty.
+	# Default: 3
+	# Range: 1 ~ 20
+	latentTimeFactor = 3
+	#Extra magicule cost for the same case, as a fraction of the normal
+	#acquisition cost. 0.75 means you pay 175% instead of 100%.
+	#0 disables the extra cost.
+	# Default: 0.75
+	# Range: 0.0 ~ 10.0
+	latentMagiculeExtra = 0.75
+	#How the reincarnation figures are matched to their skills.
+	#PLAYER: a secret draw for every player of every world (default) -
+	#a list of figures shared online is worth nothing.
+	#WORLD: one secret draw per world, the same for everyone in it.
+	#OFF: the fixed table, identical in every world.
+	#Allowed Values: OFF, WORLD, PLAYER
+	reincarnationShuffle = "PLAYER"
+	#How much of the world you must discover to reach the last level of
+	#the growth tree. Experience only comes once per species, once per skill
+	#and once per completed analysis, so the curve is built from what is
+	#actually registered: every living species, every skill, every skill
+	#Great Sage can analyse. 0.55 means the last level asks for 55% of all
+	#the experience the installed mods can give. Addons that add content
+	#stretch the curve with them. The numbers are written to the log when
+	#the curve is first built.
+	# Default: 0.55
+	# Range: 0.05 ~ 1.0
+	growthContentShare = 0.55

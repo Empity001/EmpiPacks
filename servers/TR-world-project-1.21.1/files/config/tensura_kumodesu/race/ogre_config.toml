@@ -1,0 +1,141 @@
+[OgreShaman]
+	#EP requirement to evolve into an Ogre Shaman.
+	epRequirement = 15000.0
+	#The number of Essences consumed to evolve into an Ogre Shaman.
+	essenceRequirement = 10
+	#Minimal aura.
+	minAura = 9000.0
+	#Maximum aura.
+	maxAura = 9000.0
+	#Minimal magicule.
+	minMagicule = 6000.0
+	#Maximum magicule.
+	maxMagicule = 6000.0
+	#Bonus Size.
+	size = 0.25
+	#Bonus Max Health.
+	maxHealth = 20.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 150.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.12
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[HighOgre]
+	#EP requirement to evolve into a High Ogre.
+	epRequirement = 60000.0
+	#Minimal aura.
+	minAura = 30000.0
+	#Maximum aura.
+	maxAura = 30000.0
+	#Minimal magicule.
+	minMagicule = 30000.0
+	#Maximum magicule.
+	maxMagicule = 30000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 140.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 460.0
+	#Bonus Attack Damage.
+	attack = 5.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.3
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.1
+
+[OgreGeneral]
+	#EP requirement to evolve into an Ogre General.
+	epRequirement = 150000.0
+	#Minimal aura.
+	minAura = 50000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 580.0
+	#Bonus Attack Damage.
+	attack = 6.3
+	#Bonus Attack Speed.
+	attackSpeed = 2.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.35
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.3
+
+[OgreKing]
+	#EP requirement to evolve into an Ogre King.
+	epRequirement = 600000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 500000.0
+	#Maximum magicule.
+	maxMagicule = 500000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3430.0
+	#Bonus Attack Damage.
+	attack = 5.5
+	#Bonus Attack Speed.
+	attackSpeed = 2.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.45
+	#Bonus Movement Speed.
+	movementSpeed = 0.4
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 2.0
+
+[WrathOni]
+	#EP requirement to evolve into a Wrath Oni.
+	epRequirement = 3800000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 2800000.0
+	#Maximum magicule.
+	maxMagicule = 2800000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1480.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6130.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = 3.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.45
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 2.5

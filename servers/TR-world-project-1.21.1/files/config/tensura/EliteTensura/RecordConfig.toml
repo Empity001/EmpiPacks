@@ -1,0 +1,11 @@
+[Records]
+	#Apply permanent stat bonuses from earned records.
+	bonusesEnabled = true
+	#Restrict record bonuses to world-first achievements only. When true, only a record's world-first claim holder receives its bonus, and records not flagged world-first grant no bonus to anyone. When false, every earner gets the bonus.
+	worldFirstBonusOnly = false
+	#Show a Voice of the World message when a record is earned.
+	voiceAnnouncementsEnabled = true
+	#Broadcast a global Voice announcement when a world-first record is claimed.
+	worldFirstAnnouncementsEnabled = true
+	#Log condition checks to the server log.
+	debug = false

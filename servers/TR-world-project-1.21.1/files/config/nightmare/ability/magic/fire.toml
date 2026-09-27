@@ -1,0 +1,21 @@
+[NapalmBurst]
+	#Cast time in seconds.
+	castTime = 6
+	#Magicule Cost to cast.
+	magiculeCost = 20000.0
+	#Fire damage from the projectile.
+	fireDamage = 650.0
+	#Heat damage from the projectile.
+	heatDamage = 250.0
+	#Magic damage from the projectile.
+	magicDamage = 100.0
+	#Duration of the smoke area in seconds.
+	smokeDuration = 8
+	#Radius of the smoke area in blocks.
+	smokeRadius = 6.0
+	#Slowness effect level (1-4; 1 = 50%, higher = faster).
+	slownessLevel = 1
+	#Oxygen damage per tick.
+	oxygenDamagePerTick = 0.1
+	#Duration of sleep effect when oxygen reaches 0 (in seconds).
+	sleepDuration = 20

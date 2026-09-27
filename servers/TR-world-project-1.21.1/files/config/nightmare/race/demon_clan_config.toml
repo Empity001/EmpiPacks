@@ -1,0 +1,301 @@
+[LowerClassDemon]
+	#Minimal aura.
+	minAura = 2000.0
+	#Maximum aura.
+	maxAura = 6000.0
+	#Minimal magicule.
+	minMagicule = 4000.0
+	#Maximum magicule.
+	maxMagicule = 9000.0
+	#Bonus Size.
+	size = 0.1
+	#Bonus Max Health.
+	maxHealth = 12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 70.0
+	#Bonus Attack Damage.
+	attack = 0.25
+	#Bonus Attack Speed.
+	attackSpeed = -0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#List of intrinsic skills Lower Class Demon can randomly receive.
+	intrinsicPool = ["tensura:self_regeneration", "tensura:magic_sense", "tensura:flame_manipulation"]
+	#How many intrinsic skills are rolled from the pool (if used).
+	intrinsicCount = 0
+
+[MidClassDemon]
+	#EP required to evolve from Lower Class Demon into Mid Class Demon (EvolutionRequirement.EPRequirement).
+	epRequirement = 45000.0
+	#Soul Essence required to evolve from Lower Class Demon into Mid Class Demon (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 10
+	#Minimal aura.
+	minAura = 6000.0
+	#Maximum aura.
+	maxAura = 14000.0
+	#Minimal magicule.
+	minMagicule = 10000.0
+	#Maximum magicule.
+	maxMagicule = 22000.0
+	#Bonus Size.
+	size = 0.08
+	#Bonus Max Health.
+	maxHealth = 28.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 130.0
+	#Bonus Attack Damage.
+	attack = 0.45
+	#Bonus Attack Speed.
+	attackSpeed = -0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#Intrinsic pool (if used).
+	intrinsicPool = ["tensura:ultraspeed_regeneration"]
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[HighClassDemon]
+	#EP required to evolve from Mid Class Demon into High Class Demon (EvolutionRequirement.EPRequirement).
+	epRequirement = 80000.0
+	#Soul Essence required to evolve from Mid Class Demon into High Class Demon (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 15
+	#Minimal aura.
+	minAura = 18000.0
+	#Maximum aura.
+	maxAura = 40000.0
+	#Minimal magicule.
+	minMagicule = 28000.0
+	#Maximum magicule.
+	maxMagicule = 55000.0
+	#Bonus Size.
+	size = 0.05
+	#Bonus Max Health.
+	maxHealth = 45.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 200.0
+	#Bonus Attack Damage.
+	attack = 0.65
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.15
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.02
+	#Intrinsic pool (if used).
+	intrinsicPool = ["tensura:infinite_regeneration", "tensura:black_flame", "tensura:universal_perception"]
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[DemonKnight]
+	#EP required to evolve from High Class Demon into Demon Knight (EvolutionRequirement.EPRequirement).
+	epRequirement = 150000.0
+	#Soul Essence required to evolve from High Class Demon into Demon Knight (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 30
+	#Minimal aura.
+	minAura = 45000.0
+	#Maximum aura.
+	maxAura = 95000.0
+	#Minimal magicule.
+	minMagicule = 60000.0
+	#Maximum magicule.
+	maxMagicule = 120000.0
+	#Bonus Size.
+	size = 0.05
+	#Bonus Max Health.
+	maxHealth = 700.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4800.0
+	#Bonus Attack Damage.
+	attack = 5.9
+	#Bonus Attack Speed.
+	attackSpeed = 0.05
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.015
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.03
+	#Intrinsic pool (if used).
+	intrinsicPool = []
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[KnightBlack]
+	#EP required to evolve from Demon Knight into Knight Black (EvolutionRequirement.EPRequirement).
+	epRequirement = 250000.0
+	#Soul Essence required to evolve from Demon Knight into Knight Black (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 50
+	#Minimal aura.
+	minAura = 120000.0
+	#Maximum aura.
+	maxAura = 220000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 280000.0
+	#Bonus Size.
+	size = 0.03
+	#Bonus Max Health.
+	maxHealth = 950.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3480.0
+	#Bonus Attack Damage.
+	attack = 1.15
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.25
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+	#Intrinsic pool (if used).
+	intrinsicPool = []
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[TenCommandment]
+	#EP required to evolve from Knight Black into Ten Commandment (EvolutionRequirement.EPRequirement).
+	epRequirement = 350000.0
+	#Soul Essence required to evolve from Knight Black into Ten Commandment (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 75
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 320000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.02
+	#Bonus Max Health.
+	maxHealth = 1100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4500.0
+	#Bonus Attack Damage.
+	attack = 8.25
+	#Bonus Attack Speed.
+	attackSpeed = 0.12
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.28
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05
+	#Intrinsic pool (if used).
+	intrinsicPool = []
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[HellRizer]
+	#EP required to evolve into Hell Rizer (EvolutionRequirement.EPRequirement).
+	epRequirement = 200000.0
+	#Soul Essence required to evolve into Hell Rizer (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 45
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 240000.0
+	#Minimal magicule.
+	minMagicule = 140000.0
+	#Maximum magicule.
+	maxMagicule = 300000.0
+	#Bonus Size.
+	size = 0.04
+	#Bonus Max Health.
+	maxHealth = 1000.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6000.0
+	#Bonus Attack Damage.
+	attack = 1.2
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.26
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+	#Intrinsic pool (if used).
+	intrinsicPool = []
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[RoyalDemon]
+	#EP required to evolve into Royal Demon (EvolutionRequirement.EPRequirement).
+	epRequirement = 400000.0
+	#Soul Essence required to evolve into Royal Demon (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 90
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 450000.0
+	#Minimal magicule.
+	minMagicule = 280000.0
+	#Maximum magicule.
+	maxMagicule = 520000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 850.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4520.0
+	#Bonus Attack Damage.
+	attack = 1.4
+	#Bonus Attack Speed.
+	attackSpeed = 0.15
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.32
+	#Bonus Movement Speed.
+	movementSpeed = 0.025
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.06
+	#Intrinsic pool (if used).
+	intrinsicPool = []
+	#Intrinsic count (if used).
+	intrinsicCount = 0
+
+[DemonPrince]
+	#EP required to evolve into Demon Prince (EvolutionRequirement.EPRequirement).
+	epRequirement = 600000.0
+	#Soul Essence required to evolve into Demon Prince (EvolutionRequirement.ItemConsumeRequirement).
+	essenceRequirement = 150
+	#Minimal aura.
+	minAura = 350000.0
+	#Maximum aura.
+	maxAura = 700000.0
+	#Minimal magicule.
+	minMagicule = 450000.0
+	#Maximum magicule.
+	maxMagicule = 850000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1200.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6650.0
+	#Bonus Attack Damage.
+	attack = 1.65
+	#Bonus Attack Speed.
+	attackSpeed = 0.18
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.36
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07
+	#Intrinsic pool (if used).
+	intrinsicPool = []
+	#Intrinsic count (if used).
+	intrinsicCount = 0

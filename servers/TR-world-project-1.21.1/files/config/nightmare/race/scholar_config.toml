@@ -1,0 +1,327 @@
+[Scholar]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 2000.0
+	#Minimal magicule.
+	minMagicule = 5500.0
+	#Maximum magicule.
+	maxMagicule = 8000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 20.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 340.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:chant_annulment", "tensura:sage"]
+
+[Wanderer]
+	#EP requirement to evolve into Wanderer.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 20000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 20000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 740.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = -1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:magic_aura"]
+
+[Contractor]
+	#EP requirement to evolve into Contractor.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 20000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 20000.0
+	#Maximum magicule.
+	maxMagicule = 200000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1540.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = -1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.05999999865889549
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05999999865889549
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:avalon"]
+
+[Trickster]
+	#EP requirement to evolve into Trickster.
+	epRequirement = 500000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 2000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2340.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = -2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.07000000029802322
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07000000029802322
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:avalon", "tensura:magic_jamming"]
+
+[Enforcer]
+	#EP requirement to evolve into Enforcer.
+	epRequirement = 1000000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 2000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 880.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4440.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = -2.5999999046325684
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.7
+	#Bonus Movement Speed.
+	movementSpeed = 0.07999999821186066
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07999999821186066
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:avalon"]
+
+[Myrddin]
+	#EP requirement to evolve into Myrddin.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 2000000.0
+	#Minimal magicule.
+	minMagicule = 500000.0
+	#Maximum magicule.
+	maxMagicule = 4000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5840.0
+	#Bonus Attack Damage.
+	attack = 5.5
+	#Bonus Attack Speed.
+	attackSpeed = -3.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 3.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:divine_ki_release"]
+
+[Hermit]
+	#EP requirement to evolve into Hermit.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 20000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 20000.0
+	#Maximum magicule.
+	maxMagicule = 50000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 740.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = -1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.05000000074505806
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05000000074505806
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:shadow_motion"]
+
+[Sorcerer]
+	#EP requirement to evolve into Sorcerer.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 20000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 20000.0
+	#Maximum magicule.
+	maxMagicule = 200000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1540.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = -1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.05999999865889549
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05999999865889549
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:ideal"]
+
+[Apostle]
+	#EP requirement to evolve into Apostle.
+	epRequirement = 500000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 2000000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2340.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = -2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.07000000029802322
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07000000029802322
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:ranged_barrier"]
+
+[Disciple]
+	#EP requirement to evolve into Disciple.
+	epRequirement = 1000000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 2000000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 880.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4440.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = -2.5999999046325684
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.7
+	#Bonus Movement Speed.
+	movementSpeed = 0.07999999821186066
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07999999821186066
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:ideal"]
+
+[Jedidiah]
+	#EP requirement to evolve into Jedidiah.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 4000000.0
+	#Minimal magicule.
+	minMagicule = 500000.0
+	#Maximum magicule.
+	maxMagicule = 2000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1080.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5840.0
+	#Bonus Attack Damage.
+	attack = 5.5
+	#Bonus Attack Speed.
+	attackSpeed = -3.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 3.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.20000000298023224
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:divine_ki_release"]

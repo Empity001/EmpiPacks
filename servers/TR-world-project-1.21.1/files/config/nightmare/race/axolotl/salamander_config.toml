@@ -1,0 +1,215 @@
+[Salamander]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 1500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = -15.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = -10.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.30000001192092896
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:self_regeneration", "tensura:absorb_and_dissolve", "tensura:fire_breath", "tensura:poison", "tensura:poison_resistance"]
+
+[SalamanderAssassin]
+	#EP requirement to evolve.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 15.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = -1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.03999999910593033
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.6000000238418579
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:dragon_eye", "tensura:poisonous_breath"]
+
+[PoisonSpirit]
+	#EP requirement to evolve.
+	epRequirement = 250000.0
+	#Spider Eyes requirement to evolve.
+	spiderEyeRequirement = 100
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 200.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3600.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = -2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.07999999821186066
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.800000011920929
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:poison_ki_release", "tensura:darkness_attack_resistance"]
+
+[PoisonDragon]
+	#EP requirement to evolve.
+	epRequirement = 1800000.0
+	#Bosses required to evolve.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 880.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5500.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = -3.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.10000000149011612
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.0
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:poison_ki_release", "trnightmare:poison_dragon_armor", "tensura:poison_nullification", "trnightmare:axolotl_haki"]
+
+[SalamanderWarlock]
+	#EP requirement to evolve.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 1500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 90.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 640.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:thermal_fluctuation_resistance", "tensura:dragon_ear"]
+
+[FireSpirit]
+	#EP requirement to evolve.
+	epRequirement = 380000.0
+	#Flame Elemental cores required to evolve
+	coreRequirement = 6
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2740.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.07000000029802322
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:fire_ki_release", "trnightmare:flame_attack_nullification"]
+
+[FireDragon]
+	#EP requirement to evolve.
+	epRequirement = 1750000.0
+	#Bosses required to evolve.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 1004.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6240.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.09000000357627869
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.10000000149011612
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:fire_ki_release", "trnightmare:fire_dragon_armor", "tensura:thermal_fluctuation_nullification", "trnightmare:axolotl_haki"]

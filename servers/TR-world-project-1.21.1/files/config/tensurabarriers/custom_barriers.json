@@ -1,0 +1,856 @@
+{
+  "enabled": true,
+  "grantSkillOnJoin": false,
+  "acquisitionSkills": {
+    "tensura:multilayer_barrier": true,
+    "tensura:ranged_barrier": true
+  },
+  "basePoints": 3,
+  "skillPoints": {
+    "tensura:barrier": 1,
+    "tensura:magic_wall": 1,
+    "tensura:aura_shield": 1,
+    "tensura:magic_barrier": 1,
+    "tensura:ranged_barrier": 1,
+    "tensura:multilayer_barrier": 1,
+    "tensura:reinforced_barrier": 2,
+    "tensura:molecular_manipulation": 2,
+    "tensura:anti_magic_area": 2,
+    "tensura:anti_shock_area": 2,
+    "tensura:mana_manipulation": 2,
+    "tensura:spatial_manipulation": 2,
+    "tensura:spatial_domination": 2,
+    "tensura:guardian": 2,
+    "trnightmare:spacetime_domination": 2,
+    "trnightmare:spacetime_manipulation": 2,
+    "tensura:law_manipulation": 3,
+    "trnightmare:elegy": 3,
+    "tensura:infinity_prison": 3,
+    "trnightmare:beelzebub": 3,
+    "trnightmare:uriel_lord_of_vow": 4,
+    "trnightmare:uriel_lord_of_oath": 4,
+    "trnightmare:nodens": 4,
+    "trnightmare:azathoth": 4,
+    "trnightmare:yog_sothoth": 5,
+    "trnightmare:yog-sotohort": 6
+  },
+  "shapes": {
+    "sphere": {
+      "baseHealth": 500.0,
+      "magiculeCastCost": 18750.0,
+      "requiredSkills": [],
+      "requireMastery": false
+    },
+    "striped": {
+      "baseHealth": 600.0,
+      "magiculeCastCost": 21000.0,
+      "requiredSkills": [],
+      "requireMastery": false
+    },
+    "hexagon": {
+      "baseHealth": 1000.0,
+      "magiculeCastCost": 30000.0,
+      "requiredSkills": [
+        "tensura:magic_wall"
+      ],
+      "requireMastery": false
+    },
+    "black_hole": {
+      "baseHealth": 900.0,
+      "magiculeCastCost": 33500.0,
+      "requiredSkills": [
+        "tensura:gravity_domination"
+      ],
+      "requireMastery": false
+    }
+  },
+  "integrity": {
+    "maxLevel": 10,
+    "pointCostPerLevel": 1,
+    "healthBonusPerLevel": 0.35
+  },
+  "cooldownSecondsPerPoint": 0.2,
+  "mastery": {
+    "bonusPoints": 3,
+    "healthBonus": 0.5,
+    "costReduction": 0.15
+  },
+  "modifiers": {
+    "containment": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:multilayer_barrier"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "block_entry": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:multilayer_barrier"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "projectile_shield": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 0.9,
+      "requiredSkills": [
+        "tensura:ranged_barrier"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "reflect_projectiles": {
+      "enabled": false,
+      "pointCost": 2,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 0.9,
+      "requiredSkills": [
+        "tensura:ranged_barrier"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "protect_blocks": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "sound_isolation": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.1,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:wind_manipulation"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "astral_bind": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.5,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:molecular_manipulation",
+        "tensura:divine_ki_release",
+        "tensura:possession"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "multilayer": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 2,
+      "magiculeCostMultiplier": 1.25,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:multilayer_barrier"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "alert_owner": {
+      "enabled": true,
+      "pointCost": 0,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:magic_sense"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "suppress_spawns": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.5,
+      "healthMultiplier": 0.75,
+      "requiredSkills": [],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "spatial_lock": {
+      "enabled": true,
+      "pointCost": 3,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.5,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:spatial_domination",
+        "tensura:suppressor",
+        "tensura:infinity_prison"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "anti_magic": {
+      "enabled": true,
+      "pointCost": 7,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 3.5,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:anti_magic_area"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "anti_skill": {
+      "enabled": true,
+      "pointCost": 7,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 35.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:anti_skill"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "magicule_regen_down": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 5,
+      "magiculeCostMultiplier": 1.35,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:law_manipulation"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "aura_regen_down": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 5,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:law_manipulation"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "regen_down": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 5,
+      "magiculeCostMultiplier": 1.25,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:law_manipulation"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "disable_nullifications": {
+      "enabled": true,
+      "pointCost": 5,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 3.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:law_manipulation"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "magicule_drain": {
+      "enabled": false,
+      "pointCost": 1,
+      "maxLevel": 10,
+      "magiculeCostMultiplier": 1.15,
+      "healthMultiplier": 0.9,
+      "requiredSkills": [
+        "tensura:mana_manipulation"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "aura_drain": {
+      "enabled": false,
+      "pointCost": 1,
+      "maxLevel": 10,
+      "magiculeCostMultiplier": 1.15,
+      "healthMultiplier": 0.9,
+      "requiredSkills": [
+        "tensura:mana_manipulation"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "magic_jamming": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 5,
+      "magiculeCostMultiplier": 1.1,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:magic_jamming"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "distortion_field": {
+      "enabled": true,
+      "pointCost": 3,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:spatial_domination",
+        "trnightmare:spacetime_manipulation"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "magicule_efficiency": {
+      "enabled": true,
+      "pointCost": 1,
+      "maxLevel": 10,
+      "magiculeCostMultiplier": 0.95,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:great_sage",
+        "tensura:analyst",
+        "trnightmare:raphael_knowledge",
+        "trnightmare:raphael_wisdom"
+      ],
+      "requireMastery": false,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "oppression": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 5,
+      "magiculeCostMultiplier": 1.2,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:oppressor"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "dominion": {
+      "enabled": true,
+      "pointCost": 10,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 20.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "trnightmare:michael"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "domain": {
+      "enabled": true,
+      "pointCost": 10,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 20.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensurabarriers:barrier_arts"
+      ],
+      "requireMastery": true,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "arroganz": {
+      "enabled": true,
+      "pointCost": 10,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 20.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "trnightmare:lucifer",
+        "trnightmare:nodens"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "battlefield": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 10.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:commander",
+        "trnightmare:amaterasu"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "veil": {
+      "enabled": true,
+      "pointCost": 6,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 8.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:haze",
+        "tensura:falsifier",
+        "tensura:murderer"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "clash": {
+      "enabled": true,
+      "pointCost": 2,
+      "maxLevel": 10,
+      "magiculeCostMultiplier": 1.1,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:barrier",
+        "tensura:magic_barrier"
+      ],
+      "requireMastery": true,
+      "unique": false,
+      "trapsOwnerWithContainment": false
+    },
+    "embracing_drain": {
+      "enabled": true,
+      "pointCost": 9,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 15.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:lust",
+        "trnightmare:asmodeus"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "enrage": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 12.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:wrath",
+        "trnightmare:satanael"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "deep_sleep": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 12.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:sloth",
+        "trnightmare:belphegor",
+        "trnightmare:astaroth"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "nuclear_bomb": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 12.0,
+      "healthMultiplier": 0.85,
+      "requiredSkills": [
+        "tensura:fusionist"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": true
+    },
+    "last_chance": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 12.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:tuner"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "indestructible_wall": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 12.0,
+      "healthMultiplier": 1.25,
+      "requiredSkills": [
+        "tensura:guardian",
+        "trnightmare:beelzebub"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "takeover": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 15.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "tensura:usurper",
+        "trnightmare:yog_sothoth",
+        "trnightmare:yog-sotohort"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "reflector": {
+      "enabled": true,
+      "pointCost": 8,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 12.0,
+      "healthMultiplier": 0.3333333333333333,
+      "requiredSkills": [
+        "tensura:reflector"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "acceleration": {
+      "enabled": true,
+      "pointCost": 9,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 16.0,
+      "healthMultiplier": 0.9,
+      "requiredSkills": [
+        "trnightmare:acceleration"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": true
+    },
+    "family_bond": {
+      "enabled": true,
+      "pointCost": 7,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 10.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "trnightmare:sentient_being"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    },
+    "full_counter": {
+      "enabled": true,
+      "pointCost": 9,
+      "maxLevel": 1,
+      "magiculeCostMultiplier": 15.0,
+      "healthMultiplier": 1.0,
+      "requiredSkills": [
+        "trnightmare:coffin_of_darkness"
+      ],
+      "requireMastery": false,
+      "unique": true,
+      "trapsOwnerWithContainment": false
+    }
+  },
+  "baseline": {
+    "referenceRadius": 8.0,
+    "defaultRadius": 8.0,
+    "minRadius": 4.0,
+    "maxRadius": 64.0,
+    "radiusPerMagicule": 0.002,
+    "integritySizeExponent": 0.5,
+    "magiculeCastCost": 15000.0,
+    "castCooldownSeconds": 1.0,
+    "magiculeUpkeepPerSecond": 40.0,
+    "upkeepSizeExponent": 1.0,
+    "integrityDrainPerEP": 4.5E-6,
+    "contactDrainPerEntity": 0.5,
+    "escapeDrainMultiplier": 3.0,
+    "integrityRegenPerSecond": 0.0,
+    "wallDamageFactor": 1.0,
+    "projectileWallDamage": 4.0,
+    "explosionDamageFactor": 25.0,
+    "repairPercentPerSecond": 2.0,
+    "repairMagiculePerIntegrity": 75.0,
+    "repairDamageLockoutSeconds": 30.0,
+    "magicCircleCastSeconds": 3.0,
+    "magicCircleStrengthMultiplier": 2.0,
+    "regenReductionPerLevel": 0.05,
+    "healReductionPerLevel": 0.1,
+    "regenDownBlocksDeathNegation": true,
+    "regenDownDeathNegationLevelFraction": 0.5,
+    "casterSuppressionFactor": 0.5,
+    "drainPercentPerLevel": 0.5,
+    "drainIntervalSeconds": 15.0,
+    "magicJammingPerLevel": 0.05,
+    "multilayerCarryPercent": 0.3,
+    "projectileShieldDestroyEntities": [
+      "tensura:mud_spike",
+      "tensura:water_jail",
+      "tensura:disintegration",
+      "tensura:explosion_circle",
+      "tensura:magic_explosion",
+      "tensura:shadow_bind_hands",
+      "tensura:gravity_sphere",
+      "tensura:gravity_field"
+    ],
+    "filterTargets": [
+      "players",
+      "hostile_mobs",
+      "neutral_mobs",
+      "passive_mobs"
+    ],
+    "excludeOwnerSubordinates": true,
+    "glassAlpha": 0.22,
+    "lineOpacity": 0.8,
+    "colorCycleSeconds": 3.0
+  },
+  "uniques": {
+    "fieldScanSeconds": 0.5,
+    "oppression": {
+      "chancePerLevel": 0.05,
+      "intervalSeconds": 15.0,
+      "durationSeconds": 8.0
+    },
+    "dominion": {
+      "virtueSkills": [
+        "tensura:infinity_prison",
+        "tensura:great_sage",
+        "tensura:murderer",
+        "tensura:unyielding",
+        "trnightmare:saint",
+        "trnightmare:dominator",
+        "trnightmare:designer",
+        "trnightmare:glorious",
+        "trnightmare:endorse",
+        "trnightmare:stasis",
+        "trnightmare:cadence"
+      ],
+      "angelicUltimates": [
+        "trnightmare:uriel_lord_of_oath",
+        "trnightmare:uriel_lord_of_vow",
+        "trnightmare:raphael_knowledge",
+        "trnightmare:raphael_wisdom",
+        "trnightmare:haniel",
+        "trnightmare:raguel",
+        "trnightmare:gabriel",
+        "trnightmare:astarte",
+        "trnightmare:sandalphon_judgment",
+        "trnightmare:metatron",
+        "trnightmare:sariel"
+      ],
+      "allyEpRatio": 0.5,
+      "angelicResistEpRatio": 3.0,
+      "angelicCopyEpRatio": 1.25
+    },
+    "arroganz": {
+      "absorbChance": 0.25,
+      "scanChancePerLevel": 0.25,
+      "scanIntervalSeconds": 10.0
+    },
+    "battlefield": {
+      "statBoost": 0.3,
+      "dodgeChance": 25.0,
+      "dodgeNegateChance": 50.0
+    },
+    "veil": {
+      "tiers": {
+        "tensura:shadow_striker": {
+          "concealment": 1.0,
+          "senseRequired": 2.0
+        },
+        "tensura:haze": {
+          "concealment": 2.0,
+          "senseRequired": 3.0
+        },
+        "tensura:falsifier": {
+          "concealment": 2.0,
+          "senseRequired": 3.0
+        },
+        "tensura:murderer": {
+          "concealment": 3.0,
+          "senseRequired": 4.0
+        },
+        "trnightmare:sandalphon_judgment": {
+          "concealment": 5.0,
+          "senseRequired": 6.0
+        },
+        "trnightmare:sandalphon_punishment": {
+          "concealment": 5.0,
+          "senseRequired": 6.0
+        }
+      },
+      "defaultTier": {
+        "concealment": 2.0,
+        "senseRequired": 3.0
+      }
+    },
+    "clash": {
+      "damageBase": 100.0,
+      "damagePerLevel": 0.2,
+      "intervalSeconds": 3.0,
+      "sizeExponent": 0.5,
+      "selfDamagePercentOfMax": 0.1,
+      "scaleWithOverlap": true
+    },
+    "domain": {
+      "chantSpeedBonus": 1.0,
+      "stripBarrierEffects": [
+        "tensura:magic_barrier",
+        "tensura:physical_barrier",
+        "tensura:reinforcement"
+      ]
+    },
+    "embracingDrain": {
+      "intervalSeconds": 10.0,
+      "percent": 0.02,
+      "holdSeconds": 2.0,
+      "blessThreshold": 0.5,
+      "blessIntervalSeconds": 3.0,
+      "blessChance": 0.5,
+      "blessKillDamage": 10.0,
+      "blessInterferenceSeconds": 0.75
+    },
+    "enrage": {
+      "intervalSeconds": 5.0,
+      "chancePerEnemy": 0.02,
+      "durationSeconds": 30.0,
+      "ownerMaxLevel": 10,
+      "inflictIntervalSeconds": 10.0,
+      "inflictMaxLevel": 3
+    },
+    "deepSleep": {
+      "spiritualDamage": 20.0,
+      "chantSpeedFactor": 0.5,
+      "drowsinessLevel": 1,
+      "resistDegradation": 1.0,
+      "resistDegradationAttributes": [
+        "tensura:spiritual_resist_degradation",
+        "tensura:resistance_degradation"
+      ]
+    },
+    "nuclearBomb": {
+      "radius": 75,
+      "damage": 350.0,
+      "limitedGriefing": true
+    },
+    "lastChance": {
+      "reviveHealthPercent": 1.0,
+      "invulnerabilitySeconds": 3.0,
+      "reviveEnergyPercent": 0.5,
+      "cooldownSeconds": 600.0,
+      "rallyHealthThreshold": 0.25,
+      "rallyStrengthLevel": 5,
+      "rallyAttackSpeed": 0.1,
+      "rallyMoveSpeed": 0.02,
+      "rallySwimSpeed": 0.5
+    },
+    "indestructibleWall": {
+      "redirectFraction": 0.5,
+      "armor": 15.0,
+      "knockbackResist": 0.4
+    },
+    "takeover": {
+      "drainChance": 0.5,
+      "drainPercent": 0.05,
+      "plunderChance": 0.25,
+      "plunderCooldownSeconds": 15.0,
+      "plunderEpRatio": 1.0,
+      "summonEpRatio": 1.0,
+      "stealSummons": true
+    },
+    "reflector": {
+      "meleeReturnFraction": 0.5,
+      "projectileDamageMultiplier": 2.0,
+      "projectileSpeedMultiplier": 1.5,
+      "homingTicks": 200
+    },
+    "acceleration": {
+      "convertDamageToFlame": true,
+      "critCooldownSeconds": 5.0,
+      "speedPerBoost": 0.1,
+      "projectileSpeedPerBoost": 1.05,
+      "maxBoost": 10,
+      "auraStartBoost": 5,
+      "auraRadius": 5.0,
+      "auraRadiusPerBoost": 1.0,
+      "auraDamage": 4.0,
+      "auraIntervalSeconds": 1.0,
+      "overheatRadius": 15.0,
+      "overheatDamage": 150.0,
+      "decaySeconds": 30.0
+    },
+    "familyBond": {
+      "maxAllies": 3,
+      "allyFloorPercent": 0.25,
+      "preferPlayers": true
+    },
+    "fullCounter": {
+      "holdSeconds": 50.0,
+      "damageMultiplier": 3.0,
+      "maxStored": 0.0,
+      "spareAllies": false
+    }
+  }
+}

@@ -1,0 +1,195 @@
+	[wild_magic.world_isolating_barrier]
+		# Default: 90
+		# Range: > 1
+		castTicks = 90
+		# Default: 35
+		# Range: > 1
+		masteredCastTicks = 35
+		# Default: 40
+		# Range: 0 ~ 2000000
+		visibleSoulCost = 40
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 0.0
+		# Default: 72.0
+		# Range: 0.0 ~ 4096.0
+		radiusOrRange = 72.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		executeRatio = 0.0
+		# Default: 900
+		# Range: > 0
+		cooldownTicks = 900
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 6.0
+		# Range: 0.0 ~ 1024.0
+		resistanceDegradation = 6.0
+		# Default: 8.0
+		# Range: 0.0 ~ 1024.0
+		lawDegradation = 8.0
+		# Default: 8.0
+		# Range: 0.0 ~ 1024.0
+		magicInterference = 8.0
+		# Default: 1200
+		# Range: > 1
+		durationTicks = 1200
+
+	[wild_magic.old_world_cooldowns]
+		# Default: 60
+		# Range: > 1
+		castTicks = 60
+		# Default: 20
+		# Range: > 1
+		masteredCastTicks = 20
+		# Default: 80
+		# Range: 0 ~ 2000000
+		visibleSoulCost = 80
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 4096.0
+		radiusOrRange = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		executeRatio = 0.0
+		# Default: 1200
+		# Range: > 0
+		cooldownTicks = 1200
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		resistanceDegradation = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		lawDegradation = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		magicInterference = 0.0
+		# Default: 600
+		# Range: > 1
+		durationTicks = 600
+
+	[wild_magic.soulbreaker]
+		# Default: 45
+		# Range: > 1
+		castTicks = 45
+		# Default: 12
+		# Range: > 1
+		masteredCastTicks = 12
+		# Default: 35
+		# Range: 0 ~ 2000000
+		visibleSoulCost = 35
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 0.0
+		# Default: 96.0
+		# Range: 0.0 ~ 4096.0
+		radiusOrRange = 96.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		executeRatio = 0.0
+		# Default: 500
+		# Range: > 0
+		cooldownTicks = 500
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		resistanceDegradation = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		lawDegradation = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1024.0
+		magicInterference = 0.0
+		# Default: 220
+		# Range: > 1
+		durationTicks = 220
+
+	[wild_magic.dragon_emperor_displacement]
+		# Default: 60
+		# Range: > 1
+		castTicks = 60
+		# Default: 20
+		# Range: > 1
+		masteredCastTicks = 20
+		# Default: 15
+		# Range: 0 ~ 2000000
+		visibleSoulCost = 15
+		# Default: 950.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 950.0
+		# Default: 768.0
+		# Range: 0.0 ~ 4096.0
+		radiusOrRange = 768.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		executeRatio = 0.0
+		# Default: 320
+		# Range: > 0
+		cooldownTicks = 320
+		# Default: 30.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 30.0
+		# Default: 7.0
+		# Range: 0.0 ~ 1024.0
+		resistanceDegradation = 7.0
+		# Default: 7.0
+		# Range: 0.0 ~ 1024.0
+		lawDegradation = 7.0
+		# Default: 6.0
+		# Range: 0.0 ~ 1024.0
+		magicInterference = 6.0
+		# Default: 160
+		# Range: > 1
+		durationTicks = 160
+
+	[wild_magic.unlock]
+		dragonLordsOnly = true
+		# Default: 500
+		# Range: > 20
+		tickRecheckInterval = 500
+
+	[wild_magic.world_law]
+		# Default: 1000
+		# Range: 1 ~ 1000000
+		storedSoulMultiplier = 1000
+		# Default: 350
+		# Range: > 0
+		cooldownBaseStoredSoulCost = 350
+		# Default: 110
+		# Range: > 0
+		cooldownStoredSoulCostPerSecond = 110
+		# Default: 260
+		# Range: > 0
+		cooldownStoredSoulCostPerStrain = 260
+		# Default: 14
+		# Range: > 0
+		strainHpDrainStart = 14
+		# Default: 22
+		# Range: > 0
+		strainSpiritualDrainStart = 22
+		# Default: 2.5
+		# Range: 0.0 ~ 1000000.0
+		strainHealthDamage = 2.5
+		# Default: 160
+		# Range: > 1
+		soulbreakerLockTicks = 160
+		# Default: 35000
+		# Range: > 0
+		soulbreakerStoredSoulDrain = 35000
+		# Default: 240
+		# Range: > 0
+		soulbreakerCooldownTicks = 240
+		# Default: 4.5
+		# Range: 0.0 ~ 64.0
+		domainEntryRepelStrength = 4.5
+		# Default: 20
+		# Range: 1 ~ 200
+		domainEffectRefreshTicks = 20

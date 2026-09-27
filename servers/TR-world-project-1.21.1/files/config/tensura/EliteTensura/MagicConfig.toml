@@ -1,0 +1,103 @@
+[StaticChain]
+	#Cast time in ticks (20 = 1s).
+	castTime = 30
+	#Cast time in ticks when mastered.
+	castTimeMastered = 20
+	#Magicule cost per normal cast.
+	magiculeCost = 120.0
+	#Magicule cost for the charged (mastered, held-longer) cast.
+	magiculeCostCharged = 200.0
+	#Cooldown in ticks.
+	cooldown = 0
+	#Cooldown in ticks when mastered.
+	cooldownMastered = 0
+	#Magic damage dealt to the first target (decays each hop).
+	baseDamage = 20.0
+	#Base damage for the charged cast.
+	baseDamageCharged = 35.0
+	#Damage multiplier applied per chain hop (0.65 = each hop deals 65% of the previous).
+	damageDecay = 0.65
+	#Damage decay per hop for the charged cast (higher = holds damage longer).
+	chargedDamageDecay = 0.8
+	#Maximum number of targets the arc chains through.
+	maxHops = 4
+	#Extra hops added by the charged cast.
+	chargedBonusHops = 4
+	#Range (blocks) to acquire the first target in the look direction.
+	initialRange = 14.0
+	#Max distance (blocks) the arc can jump between chain links.
+	chainRange = 6.0
+	#Radius (blocks) of each lightning strike's area damage at a link.
+	strikeRadius = 1.5
+	#Glowing effect duration (ticks) applied to each hit target.
+	glowingDuration = 60
+	#Slowness effect duration (ticks) applied to each hit target.
+	slowDuration = 30
+	#Slowness amplifier (0-indexed; 2 = Slowness III).
+	slowAmplifier = 2
+
+[Kamehameha]
+	#Cast (charge) time in ticks (20 = 1s).
+	castTime = 60
+	#Cast (charge) time in ticks when mastered.
+	castTimeMastered = 40
+	#Magicule cost per normal cast.
+	magiculeCost = 2500.0
+	#Magicule cost for the charged (mastered, held-longer) cast.
+	magiculeCostCharged = 5000.0
+	#Cooldown in seconds.
+	cooldown = 10
+	#Cooldown in seconds when mastered.
+	cooldownMastered = 3
+	#Damage per beam hit. The beam hits targets repeatedly while they stay inside it, so total damage over the full beam duration is several times this value.
+	damage = 20.0
+	#Damage per beam hit for the charged cast.
+	damageCharged = 35.0
+	#Beam thickness (blocks).
+	beamSize = 1.5
+	#Beam thickness for the charged cast.
+	beamSizeCharged = 2.5
+	#Beam reach (blocks).
+	range = 40.0
+	#How long the beam lasts, in ticks (the final 20 ticks fade out).
+	beamDuration = 60
+	#Beam duration in ticks for the charged cast.
+	beamDurationCharged = 100
+	#Explosion radius where the beam meets terrain or targets (0 = no explosion).
+	explosionRadius = 1.5
+	#Explosion radius for the charged cast.
+	explosionRadiusCharged = 3.0
+
+[GravityWell]
+	#Cast (charge) time in ticks (20 = 1s).
+	castTime = 60
+	#Cast (charge) time in ticks when mastered.
+	castTimeMastered = 40
+	#Magicule cost per normal cast.
+	magiculeCost = 500.0
+	#Magicule cost for the charged (mastered, held-longer) cast.
+	magiculeCostCharged = 900.0
+	#Cooldown in seconds.
+	cooldown = 25
+	#Cooldown in seconds when mastered.
+	cooldownMastered = 18
+	#Sphere radius in blocks.
+	radius = 6.0
+	#Sphere radius for the charged cast.
+	radiusCharged = 9.0
+	#How long the well lasts, in ticks (20 = 1s).
+	durationTicks = 160
+	#Well duration in ticks for the charged cast.
+	durationTicksCharged = 200
+	#Crush damage per second as a fraction of the victim's max health (0.03 = 3%).
+	crushPercent = 0.03
+	#Crush fraction per second for the charged cast.
+	crushPercentCharged = 0.05
+	#Hard cap on a single crush hit, in half-hearts of damage. Keeps percent-max-HP crush from melting huge-HP bosses. 0 = uncapped.
+	crushDamageCap = 100.0
+	#Inward pull strength per tick at the sphere's rim (pull weakens toward the centre).
+	pullStrength = 0.15
+	#Max distance (blocks) at which the well can be anchored along the caster's aim.
+	castRange = 24.0
+	#If true the well also pulls and crushes players in the caster's own nation.
+	friendlyFire = false

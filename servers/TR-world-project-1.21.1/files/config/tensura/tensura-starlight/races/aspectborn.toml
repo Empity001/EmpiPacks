@@ -1,0 +1,1761 @@
+[lesserAspectBorn]
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.75
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = -19.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = -55.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = -1.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = -1.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = -1.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	lesserAspectBornIntrinsics = ["tensura:possession", "tensura:danger_sense"]
+
+[aspectBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 10000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.75
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = -10.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = -10.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = -1.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = -1.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	aspectBornIntrinsics = []
+
+[greaterAspectBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 50000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 25.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 165.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = -1.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	greaterAspectBornIntrinsics = ["tensura:self_regeneration"]
+
+[lesserConvergenceBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 100000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 90.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 490.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	lesserConvergenceBornIntrinsics = []
+
+[convergenceBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 200000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 235.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 1215.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	convergenceBornIntrinsics = []
+
+[greaterConvergenceBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 500000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 525.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 2665.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	greaterConvergenceBornIntrinsics = []
+
+[elderConvergenceBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 1000000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.25
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 1020.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 5140.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	elderConvergenceBornIntrinsics = ["tensura:divine_ki_release"]
+
+[lesserMemoryBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 100000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 90.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 490.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 50.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	lesserMemoryBornIntrinsics = []
+
+[memoryBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 200000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 235.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 1215.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 50.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 10.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	memoryBornIntrinsics = []
+
+[greaterMemoryBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 500000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 525.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 2665.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 50.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 10.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	greaterMemoryBornIntrinsics = []
+
+[grandMemoryBorn]
+	#EP requirement to evolve into this race.
+	epRequirement = 1000000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.5
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 1020.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 5140.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 100.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 20.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	grandMemoryBornIntrinsics = []
+
+[falseAspectOfRegression]
+	#EP requirement to evolve into this race.
+	epRequirement = 1500000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.75
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = -19.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = -55.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = -1.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = -1.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = -1.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	falseAspectOfRegressionIntrinsics = []
+
+[aspectOfRegression]
+	#EP requirement to evolve into this race.
+	epRequirement = 1500000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = -0.75
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = -19.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = -55.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = -1.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = -1.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = -1.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 0.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 0.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 0.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 0.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 0.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 0.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 0.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 0.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 0.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 0.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 0.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	aspectOfRegressionIntrinsics = ["trstarlight:memory_recreation"]
+
+[mythos]
+	#EP requirement to evolve into this race.
+	epRequirement = 3000000.0
+	#What should the minimum Aura (AP) of this race be?
+	minAura = 500.0
+	#What should the maximum Aura (AP) of this race be?
+	maxAura = 500.0
+	#What should the minimum Mana (MP) of this race be?
+	minMagicule = 500.0
+	#What should the maximum Mana (MP) of this race be?
+	maxMagicule = 500.0
+	#What should the additonal size modifier of this race be?
+	size = 0.0
+	#How much additional Max Health should this race have? (Can be Negative)
+	maxHealth = 1780.0
+	#How much additional Max Spiritual Health should this race have? (Can be Negative)
+	maxSpiritualHealth = 8940.0
+	#How much additional Attack Damage should this race have? (Can be Negative)
+	attack = 0.0
+	#How much additional Attack Speed should this race have? (Can be Negative)
+	attackSpeed = 0.0
+	#How much additional Knockback Resistance should this race have? (Can be Negative)
+	knockbackResistance = 0.0
+	#How much additional Movement Speed should this race have? (Can be Negative), (Default Movement Speed is 0.1)
+	movementSpeed = 0.0
+	#How much additional Swim Speed should this race have? (Can be Negative)
+	swimSpeed = 0.0
+	abilityLearnGain = 0.0
+	abilityMasterGain = 0.0
+	analysisDistance = 0.0
+	analysisLevel = 0.0
+	auraRegenMulti = 0.0
+	manaRegenMulti = 0.0
+	shpRegen = 0.0
+	chantSpeed = 0.0
+	darkVision = 0.0
+	magicCostMulti = 0.0
+	presenceConcealment = 0.0
+	presenceSense = 0.0
+	presenceSenseRange = 0.0
+	armorPierce = 0.0
+	armorShred = 0.0
+	arrowDamage = 0.0
+	arrowVelocity = 0.0
+	critChance = 0.0
+	critDamage = 0.0
+	healingRecieved = 0.0
+	overHeal = 0.0
+	lifeSteal = 0.0
+	currentHealthDamage = 0.0
+	dodgeChance = 0.0
+	drawSpeed = 0.0
+	experienceGained = 0.0
+	projDamage = 0.0
+	protPierce = 0.0
+	protShred = 0.0
+	armor = 0.0
+	armorToughness = 0.0
+	attackKnockback = 0.0
+	blockBreakSpeed = 0.0
+	blockInteractionRange = 0.0
+	entityInteractionRange = 2.0
+	explosionKnockbackResistance = 0.0
+	stepHeight = 0.4
+	miningEfficiency = 0.0
+	movementEfficiency = 0.0
+	waterMovementEfficiency = 0.0
+	submergedMiningSpeed = 0.0
+	fallDamageMultiplier = 0.0
+	luck = 0.0
+	gravity = 0.0
+	oxygenBonus = 0.0
+	sneakingSpeed = 0.0
+	sweepingDamageRatio = 0.0
+	safeFallDistance = 2.0
+	drygmyLootingModifier = 0.0
+	wixiePotionDuration = 0.0
+	whirlsprigSaturationModifier = 0.0
+	spellDamageBonus = 0.0
+	maxMana = 100.0
+	manaRegen = 0.0
+	feather = 0.0
+	warding = 0.0
+	weight = 0.0
+	fireSpellDamage = 5.0
+	fireSpellResistance = 0.0
+	waterSpellDamage = 5.0
+	waterSpellResistance = 0.0
+	earthSpellDamage = 5.0
+	earthSpellResistance = 0.0
+	airSpellDamage = 5.0
+	airSpellResistance = 0.0
+	abjurationSpellPower = 5.0
+	abjurationSpellResistance = 0.0
+	manipulationSpellPower = 5.0
+	manipulationSpellResistance = 0.0
+	necromancySpellPower = 5.0
+	necromancySpellResistance = 0.0
+	summonSpellPower = 5.0
+	conjurationSpellResistance = 0.0
+	elementalSpellPower = 5.0
+	elementalSpellResistance = 0.0
+	manaDiscount = 20.0
+	spellCriticalChance = 0.0
+	spellCriticalDamage = 0.0
+	arcaneResonance = 0.0
+	chargeCapacity = 0.0
+	chargeDuration = 0.0
+	chargeRecoveryRate = 0.0
+	geasLimit = 0.0
+	malignantAegisCapacity = 0.0
+	malignantAegisRecoveryGain = 0.0
+	malignantAegisRecoveryRate = 0.0
+	malignantConversion = 0.0
+	scytheProficiency = 0.0
+	soulWardCapacity = 0.0
+	soulWardIntegrity = 0.0
+	soulWardRecoveryGain = 0.0
+	soulWardRecoveryRate = 0.0
+	spiritSpoils = 0.0
+	magicDamage = 0.0
+	magicProficiency = 0.0
+	magicResistance = 0.0
+	#What intrinsics should this race have?
+	intrinsics = ["trstarlight:magicule_engravement", "trstarlight:memory_recreation", "tensura:divine_ki_release"]

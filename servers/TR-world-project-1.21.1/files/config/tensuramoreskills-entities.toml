@@ -1,0 +1,1664 @@
+#Entity balance config for Tensura More Skills. Boss and custom mob values should live here instead of being hardcoded inside entities. TO NAVIGATE THE CONFIG PRESS CONTROL+F THEN TYPE THE WANTED ENTITY
+[michael]
+
+	[michael.general]
+		persistent = true
+		noGravity = true
+		bossBarDarkenScreen = false
+		bossBarPlayMusic = true
+		bossBarCreateWorldFog = false
+		# Default: 12000
+		# Range: > 0
+		xpReward = 12000
+		# Default: 28
+		# Range: > 0
+		flyingMoveControlTurn = 28
+		# Default: 16.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lookAtPlayerRange = 16.0
+
+	[michael.attributes]
+		# Default: 8500.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 8500.0
+		# Default: 155.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		armor = 155.0
+		# Default: 520.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		armorToughness = 520.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 1.0
+		# Default: 0.64
+		# Range: 0.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.64
+		# Default: 1.02
+		# Range: 0.0 ~ 1.7976931348623157E308
+		flyingSpeed = 1.02
+		# Default: 175.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attackDamage = 175.0
+		# Default: 128.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		followRange = 128.0
+
+	[michael.sustain]
+		# Default: 220000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		enforcedAura = 220000.0
+		# Default: 220000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		enforcedMagicule = 220000.0
+		# Default: 130000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		enforcedSpiritualHealth = 130000.0
+		# Default: 40
+		# Range: > 0
+		healIntervalTicks = 40
+		# Default: 0.45
+		# Range: 0.0 ~ 1.7976931348623157E308
+		healBelowHealthPercent = 0.45
+		# Default: 12.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		healAmount = 12.0
+
+	[michael.survival]
+		# Default: 0.06
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damageCapPerHitPercent = 0.06
+		# Default: 0.14
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damageCapPerSecondPercent = 0.14
+		# Default: 0.82
+		# Range: 0.0 ~ 1.7976931348623157E308
+		incomingDamageMultiplier = 0.82
+		# Default: 20
+		# Range: > 0
+		capWindowTicks = 20
+		# Default: 10
+		# Range: > 0
+		capImmuneTicks = 10
+		# Default: 7
+		# Range: > 0
+		hardIFrameTicks = 7
+
+	[michael.follow]
+		# Default: 7.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		followAboveMasterY = 7.0
+		# Default: 8.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		followAboveTargetY = 8.0
+		# Default: 0.68
+		# Range: 0.0 ~ 1.7976931348623157E308
+		followTargetLerp = 0.68
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minimumAboveMasterY = 2.0
+		# Default: 8
+		# Range: > 0
+		topBuildPadding = 8
+		# Default: 1.78
+		# Range: 0.0 ~ 1.7976931348623157E308
+		followMoveSpeed = 1.78
+
+	[michael.ai]
+		# Default: 9999
+		# Range: > 0
+		finalMoveLockoutTicks = 9999
+		# Default: 38.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		dashTriggerDistance = 38.0
+		# Default: 110
+		# Range: > 0
+		dashCooldownTicks = 110
+
+	[michael.dash]
+		# Default: 2.5
+		# Range: 0.0 ~ 1.7976931348623157E308
+		dashStopDistance = 2.5
+		# Default: 2.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		dashCircleRadius = 2.2
+		# Default: 18
+		# Range: > 0
+		dashCircleLifeTicks = 18
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		dashTeleportYOffset = 2.0
+
+	[michael.purge]
+		# Default: 34.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeRange = 34.0
+		# Default: 0.18
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeChance = 0.18
+		# Default: 180
+		# Range: > 0
+		purgeCooldownTicks = 180
+		# Default: 5.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeCircleRadius = 5.0
+		# Default: 32
+		# Range: > 0
+		purgeCircleLifeTicks = 32
+		# Default: 30.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeRadius = 30.0
+		# Default: 120
+		# Range: > 0
+		purgeAntiSkillTicks = 120
+		# Default: 3
+		# Range: > 0
+		purgeAntiSkillAmplifier = 3
+		# Default: 120
+		# Range: > 0
+		purgeSilenceTicks = 120
+		# Default: 2
+		# Range: > 0
+		purgeSilenceAmplifier = 2
+		# Default: 100
+		# Range: > 0
+		purgeOppressionTicks = 100
+		# Default: 1
+		# Range: > 0
+		purgeOppressionAmplifier = 1
+		# Default: 90
+		# Range: > 0
+		purgeMovementTicks = 90
+		# Default: 2
+		# Range: > 0
+		purgeMovementAmplifier = 2
+		# Default: 80
+		# Range: > 0
+		purgeSpatialTicks = 80
+		# Default: 0
+		# Range: > 0
+		purgeSpatialAmplifier = 0
+		# Default: 1.35
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeBarrierBypass = 1.35
+		# Default: 1.35
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeResistanceBypass = 1.35
+		# Default: 750.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeDamage = 750.0
+		# Default: 75.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		purgeSpiritualDamage = 75.0
+
+	[michael.seal]
+		# Default: 40.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealRange = 40.0
+		# Default: 0.22
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealChance = 0.22
+		# Default: 120
+		# Range: > 0
+		sealCooldownTicks = 120
+		# Default: 3.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealCircleRadius = 3.2
+		# Default: 26
+		# Range: > 0
+		sealCircleLifeTicks = 26
+		# Default: 100
+		# Range: > 0
+		sealAntiSkillTicks = 100
+		# Default: 3
+		# Range: > 0
+		sealAntiSkillAmplifier = 3
+		# Default: 100
+		# Range: > 0
+		sealSilenceTicks = 100
+		# Default: 2
+		# Range: > 0
+		sealSilenceAmplifier = 2
+		# Default: 90
+		# Range: > 0
+		sealOppressionTicks = 90
+		# Default: 1
+		# Range: > 0
+		sealOppressionAmplifier = 1
+		# Default: 85
+		# Range: > 0
+		sealMovementTicks = 85
+		# Default: 3
+		# Range: > 0
+		sealMovementAmplifier = 3
+		# Default: 75
+		# Range: > 0
+		sealSpatialTicks = 75
+		# Default: 0
+		# Range: > 0
+		sealSpatialAmplifier = 0
+		# Default: 1.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealBarrierBypass = 1.2
+		# Default: 1.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealResistanceBypass = 1.2
+		# Default: 480.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealDamage = 480.0
+		# Default: 48.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sealSpiritualDamage = 48.0
+
+	[michael.lance]
+		# Default: 58.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceRange = 58.0
+		# Default: 0.24
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceChance = 0.24
+		# Default: 110
+		# Range: > 0
+		lanceCooldownTicks = 110
+		# Default: 3.8
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceCircleRadius = 3.8
+		# Default: 24
+		# Range: > 0
+		lanceCircleLifeTicks = 24
+		# Default: 1.8
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceCircleDistance = 1.8
+		# Default: 4
+		# Range: > 0
+		lanceBeamCount = 4
+		# Default: 2.3
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceBarrierBypass = 2.3
+		# Default: 2.1
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceResistanceBypass = 2.1
+		# Default: 1805.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceDamage = 1805.0
+		# Default: 210.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		lanceSpiritualDamage = 210.0
+
+	[michael.pulse]
+		# Default: 85
+		# Range: > 0
+		pulseCooldownTicks = 85
+		# Default: 4.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pulseCircleRadius = 4.0
+		# Default: 28
+		# Range: > 0
+		pulseCircleLifeTicks = 28
+		# Default: 26.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pulseRadius = 26.0
+		# Default: 90
+		# Range: > 0
+		pulseAntiSkillTicks = 90
+		# Default: 2
+		# Range: > 0
+		pulseAntiSkillAmplifier = 2
+		# Default: 90
+		# Range: > 0
+		pulseSilenceTicks = 90
+		# Default: 1
+		# Range: > 0
+		pulseSilenceAmplifier = 1
+		# Default: 80
+		# Range: > 0
+		pulseOppressionTicks = 80
+		# Default: 1
+		# Range: > 0
+		pulseOppressionAmplifier = 1
+		# Default: 70
+		# Range: > 0
+		pulseMovementTicks = 70
+		# Default: 1
+		# Range: > 0
+		pulseMovementAmplifier = 1
+		# Default: 1.15
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pulseBarrierBypass = 1.15
+		# Default: 1.15
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pulseResistanceBypass = 1.15
+		# Default: 504.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pulseDamage = 504.0
+		# Default: 54.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pulseSpiritualDamage = 54.0
+
+	[michael.beam]
+		# Default: 48.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamRange = 48.0
+		# Default: 90
+		# Range: > 0
+		beamCooldownTicks = 90
+		# Default: 1.2
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamCircleYOffset = 1.2
+		# Default: 3.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamCircleRadius = 3.0
+		# Default: 20
+		# Range: > 0
+		beamCircleLifeTicks = 20
+		# Default: 55
+		# Range: > 0
+		beamMovementTicks = 55
+		# Default: 3
+		# Range: > 0
+		beamMovementAmplifier = 3
+		# Default: 55
+		# Range: > 0
+		beamOppressionTicks = 55
+		# Default: 1
+		# Range: > 0
+		beamOppressionAmplifier = 1
+		# Default: 1.9
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamBarrierBypass = 1.9
+		# Default: 1.9
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamResistanceBypass = 1.9
+		# Default: 1500.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamDamage = 1500.0
+		# Default: 150.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		beamSpiritualDamage = 150.0
+
+	[michael.cage]
+		# Default: 42.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageRange = 42.0
+		# Default: 0.17
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageChance = 0.17
+		# Default: 145
+		# Range: > 0
+		cageCooldownTicks = 145
+		# Default: 4.8
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageVisualRadius = 4.8
+		# Default: 4
+		# Range: > 0
+		cageVisualRings = 4
+		# Default: 12
+		# Range: > 0
+		cageVisualStepDegrees = 12
+		# Default: 80
+		# Range: > 0
+		cageSpatialTicks = 80
+		# Default: 0
+		# Range: > 0
+		cageSpatialAmplifier = 0
+		# Default: 80
+		# Range: > 0
+		cageMovementTicks = 80
+		# Default: 2
+		# Range: > 0
+		cageMovementAmplifier = 2
+		# Default: 70
+		# Range: > 0
+		cageAntiSkillTicks = 70
+		# Default: 2
+		# Range: > 0
+		cageAntiSkillAmplifier = 2
+		# Default: 1.7
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageBarrierBypass = 1.7
+		# Default: 1.7
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageResistanceBypass = 1.7
+		# Default: 720.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageDamage = 720.0
+		# Default: 86.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		cageSpiritualDamage = 86.0
+
+	[michael.apocalypse]
+		# Default: 0.6
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseHealthPercent = 0.6
+		# Default: 70.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseRange = 70.0
+		# Default: 10
+		# Range: > 0
+		apocalypseMinPillars = 10
+		# Default: 20
+		# Range: > 0
+		apocalypseMaxPillars = 20
+		# Default: 12.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseRingRadius = 12.0
+		# Default: 7.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseCircleRadius = 7.0
+		# Default: 60
+		# Range: > 0
+		apocalypseCircleLifeTicks = 60
+		# Default: 3.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypsePillarSize = 3.0
+		# Default: 50.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypsePillarHeight = 50.0
+		# Default: 260
+		# Range: > 0
+		apocalypsePillarLifeTicks = 260
+		# Default: 360.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypsePillarDamage = 360.0
+		# Default: 4.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseCenterSize = 4.0
+		# Default: 60.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseCenterHeight = 60.0
+		# Default: 470.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		apocalypseCenterDamage = 470.0
+		# Default: 50
+		# Range: > 0
+		apocalypseTargetMovementTicks = 50
+		# Default: 7
+		# Range: > 0
+		apocalypseTargetMovementAmplifier = 7
+		# Default: 50
+		# Range: > 0
+		apocalypseTargetSpatialTicks = 50
+		# Default: 1
+		# Range: > 0
+		apocalypseTargetSpatialAmplifier = 1
+
+	[michael.sun_judgement]
+		# Default: 0.32
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementHealthPercent = 0.32
+		# Default: 90.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementCastRange = 90.0
+		# Default: 9999
+		# Range: > 0
+		sunJudgementLockoutTicks = 9999
+		# Default: 20.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementRadius = 20.0
+		# Default: 10000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementDamage = 10000.0
+		# Default: 16005.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementSpiritualDamage = 16005.0
+		# Default: 90
+		# Range: > 0
+		sunJudgementDurationTicks = 90
+		# Default: 8.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementCircleRadius = 8.0
+		# Default: 60
+		# Range: > 0
+		sunJudgementCircleLifeTicks = 60
+		# Default: 26.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementSunYOffset = 26.0
+		# Default: 2
+		# Range: > 0
+		sunJudgementInitialRays = 2
+		# Default: 45
+		# Range: > 0
+		sunJudgementSecondStageTicks = 45
+		# Default: 3
+		# Range: > 0
+		sunJudgementSecondStageRays = 3
+		# Default: 20
+		# Range: > 0
+		sunJudgementFinalStageTicks = 20
+		# Default: 4
+		# Range: > 0
+		sunJudgementFinalStageRays = 4
+		# Default: 26
+		# Range: > 0
+		sunJudgementRayVisualHeight = 26
+		# Default: 2.3
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementRayHitRadius = 2.3
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementRayHitDepth = 2.0
+		# Default: 10.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementRayHitHeight = 10.0
+		# Default: 2.1
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementBarrierBypass = 2.1
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		sunJudgementResistanceBypass = 2.0
+		# Default: 45
+		# Range: > 0
+		sunJudgementAntiSkillTicks = 45
+		# Default: 2
+		# Range: > 0
+		sunJudgementAntiSkillAmplifier = 2
+		# Default: 45
+		# Range: > 0
+		sunJudgementOppressionTicks = 45
+		# Default: 1
+		# Range: > 0
+		sunJudgementOppressionAmplifier = 1
+
+	#Basic Feldway entity settings.
+	[feldway.general]
+		#If true, Feldway is marked persistent in the constructor.
+		persistent = true
+		#XP reward dropped by Feldway.
+		# Default: 25000
+		# Range: > 0
+		xpReward = 25000
+
+	#Feldway base attributes. These are used when entity attributes are registered.
+	[feldway.attributes]
+		#Base maximum health.
+		# Default: 12000.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		maxHealth = 12000.0
+		#Base armor.
+		# Default: 80.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		armor = 80.0
+		#Base armor toughness.
+		# Default: 30.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		armorToughness = 30.0
+		#Base knockback resistance.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 1.0
+		#Base ground movement speed.
+		# Default: 0.34
+		# Range: 0.0 ~ 1024.0
+		movementSpeed = 0.34
+		#Base flying speed.
+		# Default: 0.65
+		# Range: 0.0 ~ 1024.0
+		flyingSpeed = 0.65
+		#Base attack damage attribute.
+		# Default: 220.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attackDamage = 220.0
+		#Base follow range.
+		# Default: 96.0
+		# Range: 1.0 ~ 2048.0
+		followRange = 96.0
+
+	#Core combat protections and health gates.
+	[feldway.survival]
+		#Maximum target lock distance before Feldway drops the target.
+		# Default: 160.0
+		# Range: 1.0 ~ 4096.0
+		targetLeashDistance = 160.0
+		#Feldway can truly die at or below this max-health ratio after Michael rules allow it. 0.15 = 15 percent.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		trueDeathHpPercent = 0.15
+		#Health ratio where Michael is released. 0.20 = 20 percent.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		michaelReleaseHpPercent = 0.2
+		#Maximum damage Feldway should take per cap window as a ratio of max health.
+		# Default: 0.04
+		# Range: 0.0 ~ 1.0
+		maxDamagePerSecondPercent = 0.04
+		#Maximum normal damage per hit as a ratio of max health before angel scaling.
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		maxDamagePerHitPercent = 0.01
+		#Emergency damage cap as a ratio of max health.
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		maxEmergencyDamagePercent = 0.01
+		#Health ratio Feldway recovers to during safeguard checks.
+		# Default: 0.22
+		# Range: 0.0 ~ 1.0
+		safeguardRecoverPercent = 0.22
+		#Minimum outgoing configured hit damage after damage helper clamping.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		minimumDamage = 500.0
+		#Base melee/combat hit damage used by attack calculations.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		baseHitDamage = 500.0
+		#Base dash hit damage.
+		# Default: 650.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		dashHitDamage = 650.0
+		#Command burst damage.
+		# Default: 650.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		commandBurstDamage = 650.0
+		#Command burst spiritual damage.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		commandBurstSpiritualDamage = 500.0
+
+	#Anti-burst and invulnerability timing. 20 ticks = 1 second.
+	[feldway.guard_timing]
+		#Damage cap window length.
+		# Default: 20
+		# Range: 1 ~ 72000
+		capWindowTicks = 20
+		#Cap immunity after Michael release.
+		# Default: 40
+		# Range: 0 ~ 72000
+		michaelReleaseCapImmuneTicks = 40
+		#Hard invulnerability ticks after Michael release.
+		# Default: 30
+		# Range: 0 ~ 72000
+		michaelReleaseHardIFrameTicks = 30
+		#Anti-one-shot ticks after Michael release.
+		# Default: 120
+		# Range: 0 ~ 72000
+		michaelReleaseAntiOneShotTicks = 120
+		#Cap immunity after safeguard recovery.
+		# Default: 45
+		# Range: 0 ~ 72000
+		safeguardCapImmuneTicks = 45
+		#Hard invulnerability ticks after safeguard recovery.
+		# Default: 28
+		# Range: 0 ~ 72000
+		safeguardHardIFrameTicks = 28
+		#Anti-one-shot ticks after safeguard recovery.
+		# Default: 120
+		# Range: 0 ~ 72000
+		safeguardAntiOneShotTicks = 120
+
+	#Tensura energy and resistance enforcement.
+	[feldway.energy]
+		#Minimum aura Feldway is kept at.
+		# Default: 500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		enforcedAura = 500000.0
+		#Minimum magicules Feldway is kept at.
+		# Default: 500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		enforcedMagicule = 500000.0
+		#Minimum normal spiritual health Feldway is kept at.
+		# Default: 250000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		enforcedSpiritualHealth = 250000.0
+		#Minimum spiritual health used by absolute spiritual immunity.
+		# Default: 1.0E9
+		# Range: 0.0 ~ 1.7976931348623157E308
+		absoluteSpiritualHealthMinimum = 1.0E9
+		#Max-health multiplier used by absolute spiritual immunity.
+		# Default: 1000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		absoluteSpiritualHealthMaxHealthMultiplier = 1000.0
+		#Permanent resistance degradation value applied to Feldway.
+		# Default: 100.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		resistanceDegradation = 100.0
+
+	#Cooldowns and cast durations. 20 ticks = 1 second.
+	[feldway.cooldowns]
+		#Dash cooldown before phase 3.
+		# Default: 48
+		# Range: > 0
+		dashCooldownPhaseOneTwo = 48
+		#Dash cooldown in phase 3 and above.
+		# Default: 30
+		# Range: > 0
+		dashCooldownPhaseThree = 30
+		#Pressure field cooldown.
+		# Default: 630
+		# Range: > 0
+		pressureFieldCooldownTicks = 630
+		#Pressure field active duration.
+		# Default: 42
+		# Range: > 1
+		pressureFieldDurationTicks = 42
+		#Command burst cooldown.
+		# Default: 155
+		# Range: > 0
+		commandCooldownTicks = 155
+		#Angel summon cooldown before phase 3.
+		# Default: 560
+		# Range: > 0
+		angelCooldownPhaseOneTwo = 560
+		#Angel summon cooldown in phase 3 and above.
+		# Default: 420
+		# Range: > 0
+		angelCooldownPhaseThree = 420
+		#Spatial Judgement cooldown.
+		# Default: 560
+		# Range: > 0
+		spatialCooldownTicks = 560
+		#Sky Judgement beam cooldown.
+		# Default: 720
+		# Range: > 0
+		skyBeamCooldownTicks = 720
+		#Sky Judgement beam charge duration.
+		# Default: 100
+		# Range: > 1
+		skyBeamChargeTicks = 100
+		#Celestial Lance Rain cooldown.
+		# Default: 430
+		# Range: > 0
+		lanceRainCooldownTicks = 430
+		#Solar Prison cooldown.
+		# Default: 260
+		# Range: > 0
+		prisonCooldownTicks = 260
+		#Heavenfall cooldown.
+		# Default: 910
+		# Range: > 0
+		heavenfallCooldownTicks = 910
+
+	#Angel summon limits and chances.
+	[feldway.angels]
+		#Maximum Feldway angel allies alive at once.
+		# Default: 3
+		# Range: 0 ~ 64
+		maxAngels = 3
+		#Chance to summon one angel instead of two when none are alive.
+		# Default: 0.55
+		# Range: 0.0 ~ 1.0
+		summonAngelChanceWhenNone = 0.55
+		#Chance to summon one angel instead of two when one is alive.
+		# Default: 0.7
+		# Range: 0.0 ~ 1.0
+		summonAngelChanceWhenOne = 0.7
+
+	#Spatial Judgement values.
+	[feldway.spatial_judgement]
+		#Spatial Judgement radius before mastered variant.
+		# Default: 18.0
+		# Range: 0.0 ~ 512.0
+		spatialRadius = 18.0
+		#Spatial Judgement mastered radius.
+		# Default: 24.0
+		# Range: 0.0 ~ 512.0
+		spatialRadiusMastered = 24.0
+		#Spatial Judgement damage before mastered variant.
+		# Default: 1100.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		spatialDamage = 1100.0
+		#Spatial Judgement mastered damage.
+		# Default: 1650.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		spatialDamageMastered = 1650.0
+		#Spatial Judgement spiritual damage before mastered variant.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		spatialSpiritualDamage = 500.0
+		#Spatial Judgement mastered spiritual damage.
+		# Default: 650.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		spatialSpiritualDamageMastered = 650.0
+
+	#Sky Judgement beam values.
+	[feldway.sky_judgement]
+		#Sky Judgement radius before phase 3.
+		# Default: 95.0
+		# Range: 0.0 ~ 2048.0
+		skyJudgementRadius = 95.0
+		#Sky Judgement radius in phase 3 and above.
+		# Default: 125.0
+		# Range: 0.0 ~ 2048.0
+		skyJudgementRadiusPhaseThree = 125.0
+		#Sky Judgement damage before phase 3.
+		# Default: 1200.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		skyJudgementDamage = 1200.0
+		#Sky Judgement damage in phase 3 and above.
+		# Default: 1800.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		skyJudgementDamagePhaseThree = 1800.0
+		#Sky Judgement spiritual damage before phase 3.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		skyJudgementSpiritualDamage = 500.0
+		#Sky Judgement spiritual damage in phase 3 and above.
+		# Default: 950.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		skyJudgementSpiritualDamagePhaseThree = 950.0
+
+	#Celestial Lance Rain values.
+	[feldway.lance_rain]
+		#Lance Rain radius before phase 3.
+		# Default: 7.0
+		# Range: 0.0 ~ 512.0
+		lanceRainRadius = 7.0
+		#Lance Rain radius in phase 3 and above.
+		# Default: 10.0
+		# Range: 0.0 ~ 512.0
+		lanceRainRadiusPhaseThree = 10.0
+		#Lance Rain strike count before phase 3.
+		# Default: 5
+		# Range: 0 ~ 4096
+		lanceRainStrikes = 5
+		#Lance Rain strike count in phase 3 and above.
+		# Default: 8
+		# Range: 0 ~ 4096
+		lanceRainStrikesPhaseThree = 8
+		#Lance Rain damage before phase 3.
+		# Default: 750.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		lanceRainDamage = 750.0
+		#Lance Rain damage in phase 3 and above.
+		# Default: 1150.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		lanceRainDamagePhaseThree = 1150.0
+		#Lance Rain spiritual damage before phase 3.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		lanceRainSpiritualDamage = 500.0
+		#Lance Rain spiritual damage in phase 3 and above.
+		# Default: 600.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		lanceRainSpiritualDamagePhaseThree = 600.0
+
+	#Solar Prison values.
+	[feldway.solar_prison]
+		#Solar Prison radius.
+		# Default: 5.5
+		# Range: 0.0 ~ 512.0
+		solarPrisonRadius = 5.5
+		#Solar Prison damage before phase 3.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		solarPrisonDamage = 500.0
+		#Solar Prison damage in phase 3 and above.
+		# Default: 750.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		solarPrisonDamagePhaseThree = 750.0
+		#Solar Prison spiritual damage.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		solarPrisonSpiritualDamage = 500.0
+
+	#Heavenfall values.
+	[feldway.heavenfall]
+		#Heavenfall damage before phase 3.
+		# Default: 950.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		heavenfallDamage = 950.0
+		#Heavenfall damage in phase 3 and above.
+		# Default: 1350.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		heavenfallDamagePhaseThree = 1350.0
+		#Heavenfall spiritual damage before phase 3.
+		# Default: 500.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		heavenfallSpiritualDamage = 500.0
+		#Heavenfall spiritual damage in phase 3 and above.
+		# Default: 650.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		heavenfallSpiritualDamagePhaseThree = 650.0
+
+[awakened_feldway]
+	awakenedPersistent = true
+	awakenedNoGravity = true
+	awakenedBossBarDarkenScreen = true
+	awakenedBossBarPlayMusic = true
+	# Default: 50000
+	# Range: > 0
+	awakenedXpReward = 50000
+	# Default: 16
+	# Range: > 0
+	awakenedFlyingMoveControlTurn = 16
+	# Default: 16.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedLookAtPlayerRange = 16.0
+	# Default: 32000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	awakenedMaxHealth = 32000.0
+	# Default: 120.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedArmor = 120.0
+	# Default: 80.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedArmorToughness = 80.0
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	awakenedKnockbackResistance = 1.0
+	# Default: 0.42
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedMovementSpeed = 0.42
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedFlyingSpeed = 1.0
+	# Default: 420.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedAttackDamage = 420.0
+	# Default: 160.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedFollowRange = 160.0
+	# Default: 10.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedPresenceSense = 10.0
+	# Default: 160.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedPresenceSenseRadius = 160.0
+	# Default: 250.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedSpiritualHealthRegeneration = 250.0
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedAuraRegenMultiplier = 20.0
+	# Default: 20.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	awakenedMagiculeRegenMultiplier = 20.0
+	# Default: 8
+	# Range: > 1
+	targetingTickInterval = 8
+	# Default: 48.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	targetingMinRange = 48.0
+	# Default: 48.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	targetingVerticalInflate = 48.0
+	revealPresenceConcealment = true
+	revealShadowStep = true
+	# Default: 1600
+	# Range: > 0
+	blackHoleForceCombatTicks = 1600
+	# Default: 35
+	# Range: > 0
+	weightImperialHaloShot = 35
+	# Default: 27
+	# Range: > 0
+	weightLightningShot = 27
+	# Default: 24
+	# Range: > 0
+	weightMirageExecution = 24
+	# Default: 4
+	# Range: > 0
+	weightChronoJudgementClock = 4
+	# Default: 4
+	# Range: > 0
+	weightSeraphicGuillotine = 4
+	# Default: 3
+	# Range: > 0
+	weightAvatarOblivion = 3
+	# Default: 3
+	# Range: > 0
+	weightAxisJudgment = 3
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	blackHoleRareChance = 0.01
+	# Default: 30.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverHeight = 30.0
+	# Default: 42.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverTargetHighBreakHeight = 42.0
+	# Default: 25.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverLowLimit = 25.0
+	# Default: 35.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverHighLimit = 35.0
+	# Default: 18.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverHighTargetBonus = 18.0
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverAboveTargetWhenHigh = 8.0
+	# Default: 42.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverTooHighDescentStart = 42.0
+	# Default: 22.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverTooLowRiseStart = 22.0
+	# Default: 1.45
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverMaxDownStep = 1.45
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverMaxUpStep = 0.9
+	# Default: 1.45
+	# Range: 0.0 ~ 1.7976931348623157E308
+	hoverHighTargetMaxUpStep = 1.45
+	# Default: 2.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	movementFarSpeed = 2.2
+	# Default: 1.85
+	# Range: 0.0 ~ 1.7976931348623157E308
+	movementMidSpeed = 1.85
+	# Default: 1.35
+	# Range: 0.0 ~ 1.7976931348623157E308
+	movementNearSpeed = 1.35
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	trueDeathHpPercent = 0.03
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	trueDeathGateBuffer = 1.0
+	# Default: 0.03
+	# Range: 0.0 ~ 1.0
+	maxDamagePerSecondPercent = 0.03
+	# Default: 0.0075
+	# Range: 0.0 ~ 1.0
+	maxDamagePerHitPercent = 0.0075
+	# Default: 0.0075
+	# Range: 0.0 ~ 1.0
+	emergencyDamagePercent = 0.0075
+	# Default: 0.16
+	# Range: 0.0 ~ 1.0
+	safeguardRecoverPercent = 0.16
+	# Default: 2500000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	minimumAura = 2500000.0
+	# Default: 2500000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	minimumMagicule = 2500000.0
+	# Default: 2.5E9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	minimumSpiritualHealth = 2.5E9
+	# Default: 100000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	minimumSpiritualHealthMaxHealthMultiplier = 100000.0
+	# Default: 128
+	# Range: > 0
+	imperialEndTick = 128
+	# Default: 3
+	# Range: > 0
+	imperialCooldownTicks = 3
+	# Default: 1
+	# Range: > 0
+	imperialFirstFireTick = 1
+	# Default: 9
+	# Range: > 0
+	imperialFireInterval = 9
+	# Default: 5
+	# Range: > 0
+	imperialMissileStagger = 5
+	# Default: 74
+	# Range: > 0
+	imperialMissileLife = 74
+	# Default: 132
+	# Range: > 0
+	imperialClientDuration = 132
+	# Default: 180.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialWatchRange = 180.0
+	# Default: 0.31
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialHitRadius = 0.31
+	# Default: 0.82
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialGrazeRadius = 0.82
+	# Default: 5
+	# Range: > 0
+	imperialMinRings = 5
+	# Default: 5
+	# Range: > 0
+	imperialExtraRings = 5
+	# Default: 0.66
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialMissileBaseSpeed = 0.66
+	# Default: 0.026
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialMissileSpeedGain = 0.026
+	# Default: 1.72
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialMissileMaxSpeed = 1.72
+	# Default: 82.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialBaseDamage = 82.0
+	# Default: 13.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialDamagePerRing = 13.0
+	# Default: 32.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialBaseSpiritualDamage = 32.0
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	imperialSpiritualDamagePerRing = 5.0
+	# Default: 180.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	combatSendRange = 180.0
+	# Default: 145.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lightningRange = 145.0
+	# Default: 4.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lightningRadius = 4.25
+	# Default: 8200.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lightningDamage = 8200.0
+	# Default: 10800.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lightningCoreDamage = 10800.0
+	# Default: 1.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lightningResistanceDegradation = 1.25
+	# Default: 1.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lightningElementDegradation = 1.25
+	# Default: 10
+	# Range: > 0
+	mirageCloneCount = 10
+	# Default: 4
+	# Range: > 0
+	mirageSpawnInterval = 4
+	# Default: 78
+	# Range: > 0
+	mirageAttackTime = 78
+	# Default: 104
+	# Range: > 0
+	mirageFinishTime = 104
+	# Default: 34.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mirageRadius = 34.0
+	# Default: 4.45
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mirageLineRadius = 4.45
+	# Default: 7100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mirageSlashDamage = 7100.0
+	# Default: 13500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mirageExecutionDamage = 13500.0
+	# Default: 3600.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mirageSpiritualDamage = 3600.0
+	# Default: 1.15
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mirageResistanceDegradation = 1.15
+	# Default: 18
+	# Range: > 0
+	asmodaySpawnTick = 18
+	# Default: 24
+	# Range: > 0
+	asmodayEndTick = 24
+	# Default: 130.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	asmodayBlackHoleRadius = 130.0
+	# Default: 1000
+	# Range: > 0
+	asmodayBlackHoleLifeTicks = 1000
+	# Default: 120
+	# Range: > 0
+	asmodayCooldownAfterCast = 120
+	# Default: 40
+	# Range: > 0
+	asmodayCooldownIfActive = 40
+	# Default: 20
+	# Range: > 0
+	asmodayCooldownNoTarget = 20
+	# Default: 72.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	asmodayForwardOffset = 72.0
+	# Default: 52.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	asmodaySideOffset = 52.0
+	# Default: 28.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	asmodayYOffset = 28.0
+	# Default: 156
+	# Range: > 0
+	axisDuration = 156
+	# Default: 230.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisSendRange = 230.0
+	# Default: 28.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisLockRadius = 28.0
+	# Default: 3.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisWallThickness = 3.6
+	# Default: -0.35
+	# Range: -4096.0 ~ 1.7976931348623157E308
+	axisFloorOffset = -0.35
+	# Default: 36.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisCeilingHeight = 36.0
+	# Default: 4.15
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisSmallRadius = 4.15
+	# Default: 4.85
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisCrossRadius = 4.85
+	# Default: 8.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisFinalRadius = 8.25
+	# Default: 7800.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisSmallDamage = 7800.0
+	# Default: 9600.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisCrossDamage = 9600.0
+	# Default: 18800.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisFinalDamage = 18800.0
+	# Default: 5000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisSpiritualDamage = 5000.0
+	# Default: 1.45
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisResistanceDegradation = 1.45
+	# Default: 1.45
+	# Range: 0.0 ~ 1.7976931348623157E308
+	axisLightDegradation = 1.45
+	# Default: 18
+	# Range: > 0
+	axisCooldownNoTarget = 18
+	# Default: 34
+	# Range: > 0
+	axisCooldownEnd = 34
+	# Default: 132
+	# Range: > 0
+	avatarDuration = 132
+	# Default: 280.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarSendRange = 280.0
+	# Default: 185.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarBeamRange = 185.0
+	# Default: 11.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarBeamRadius = 11.5
+	# Default: 15.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarFinalRadius = 15.5
+	# Default: 4.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarCoreRadius = 4.25
+	# Default: 16500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarBeamDamage = 16500.0
+	# Default: 26500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarFinalDamage = 26500.0
+	# Default: 36000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarCoreDamage = 36000.0
+	# Default: 9200.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarSpiritualDamage = 9200.0
+	# Default: 1.95
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarResistanceDegradation = 1.95
+	# Default: 1.95
+	# Range: 0.0 ~ 1.7976931348623157E308
+	avatarLightDegradation = 1.95
+	# Default: 24
+	# Range: > 0
+	avatarCooldownNoTarget = 24
+	# Default: 58
+	# Range: > 0
+	avatarCooldownEnd = 58
+	# Default: 520
+	# Range: > 0
+	chronoDuration = 520
+	# Default: 20
+	# Range: > 0
+	chronoOutStart = 20
+	# Default: 240
+	# Range: > 0
+	chronoOutDuration = 240
+	# Default: 240
+	# Range: > 0
+	chronoRewindDuration = 240
+	# Default: 18
+	# Range: > 0
+	chronoBurstsPerTick = 18
+	# Default: 320.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoSendRange = 320.0
+	# Default: 7.75
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoOrbHitRadius = 7.75
+	# Default: 190.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoOutRange = 190.0
+	# Default: 76.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoExplosionRadius = 76.0
+	# Default: 15200.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoOrbDamage = 15200.0
+	# Default: 24800.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoReverseOrbDamage = 24800.0
+	# Default: 64000.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoMidnightDamage = 64000.0
+	# Default: 23500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoSpiritualDamage = 23500.0
+	# Default: 2.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoResistanceDegradation = 2.25
+	# Default: 2.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoLightDegradation = 2.25
+	# Default: 1.95
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chronoSpaceDegradation = 1.95
+	# Default: 24
+	# Range: > 0
+	chronoCooldownNoTarget = 24
+	# Default: 76
+	# Range: > 0
+	chronoCooldownEnd = 76
+	# Default: 118
+	# Range: > 0
+	seraphicDuration = 118
+	# Default: 260.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicSendRange = 260.0
+	# Default: 54.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicPlaneHalfLength = 54.0
+	# Default: 42.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicPlaneHalfHeight = 42.0
+	# Default: 5.25
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicPlaneRadius = 5.25
+	# Default: 8.75
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicFinalRadius = 8.75
+	# Default: 5800.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicMarkDamage = 5800.0
+	# Default: 14500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicSlashDamage = 14500.0
+	# Default: 28500.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicFinalDamage = 28500.0
+	# Default: 8900.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicSpiritualDamage = 8900.0
+	# Default: 1.85
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicResistanceDegradation = 1.85
+	# Default: 1.85
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicLightDegradation = 1.85
+	# Default: 1.55
+	# Range: 0.0 ~ 1.7976931348623157E308
+	seraphicSpaceDegradation = 1.55
+	# Default: 22
+	# Range: > 0
+	seraphicCooldownNoTarget = 22
+	# Default: 48
+	# Range: > 0
+	seraphicCooldownEnd = 48
+
+	[beretta.general]
+		persistent = true
+		# Default: 22000
+		# Range: > 0
+		xpReward = 22000
+		# Default: 40.0
+		# Range: 8.0 ~ 128.0
+		arenaRadius = 40.0
+		# Default: 2
+		# Range: 1 ~ 20
+		arenaCheckInterval = 2
+		# Default: 220.0
+		# Range: 32.0 ~ 1024.0
+		vfxSendRange = 220.0
+		# Default: 128.0
+		# Range: 16.0 ~ 2048.0
+		targetLeashDistance = 128.0
+
+	[beretta.attributes]
+		# Default: 48000.0
+		# Range: 20.0 ~ 1.7976931348623157E308
+		maxHealth = 48000.0
+		# Default: 52.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		armor = 52.0
+		# Default: 34.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		armorToughness = 34.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 1.0
+		# Default: 0.31
+		# Range: 0.0 ~ 4.0
+		movementSpeed = 0.31
+		# Default: 480.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attackDamage = 480.0
+		# Default: 88.0
+		# Range: 1.0 ~ 2048.0
+		followRange = 88.0
+		# Default: 360000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 360000.0
+		# Default: 520000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 520000.0
+		# Default: 260000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 260000.0
+		# Default: 5.0
+		# Range: 0.0 ~ 1024.0
+		presenceSense = 5.0
+		# Default: 104.0
+		# Range: 0.0 ~ 2048.0
+		presenceSenseRadius = 104.0
+		# Default: 6.0
+		# Range: 0.0 ~ 1024.0
+		darknessBoost = 6.0
+		# Default: 0.78
+		# Range: -1024.0 ~ 1024.0
+		darknessResistance = 0.78
+		# Default: 3.5
+		# Range: 0.0 ~ 1024.0
+		earthBoost = 3.5
+		# Default: 0.72
+		# Range: -1024.0 ~ 1024.0
+		earthResistance = 0.72
+		# Default: 0.58
+		# Range: -1024.0 ~ 1024.0
+		magicResistance = 0.58
+		# Default: 6.0
+		# Range: 0.0 ~ 1024.0
+		multilayerBarrier = 6.0
+
+	[beretta.anti_one_shot]
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		trueDeathHpPercent = 0.01
+		# Default: 1.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		trueDeathGateBuffer = 1.0
+		# Default: 0.14
+		# Range: 0.0 ~ 1.0
+		maxDamagePerSecondPercent = 0.14
+		# Default: 0.04
+		# Range: 0.0 ~ 1.0
+		maxDamagePerHitPercent = 0.04
+		# Default: 0.26
+		# Range: 0.0 ~ 1.0
+		recoveryDamagePerSecondPercent = 0.26
+		# Default: 0.08
+		# Range: 0.0 ~ 1.0
+		recoveryDamagePerHitPercent = 0.08
+		# Default: 0.55
+		# Range: 0.0 ~ 1.0
+		coreDamagePerSecondPercent = 0.55
+		# Default: 0.18
+		# Range: 0.0 ~ 1.0
+		coreDamagePerHitPercent = 0.18
+		# Default: 1.75
+		# Range: 1.0 ~ 20.0
+		coreIncomingDamageMultiplier = 1.75
+		# Default: 0.18
+		# Range: 0.0 ~ 1.0
+		emergencyDamagePercent = 0.18
+		# Default: 0.12
+		# Range: 0.0 ~ 1.0
+		safeguardRecoverPercent = 0.12
+		# Default: 20
+		# Range: 1 ~ 72000
+		capWindowTicks = 20
+		# Default: 60
+		# Range: 0 ~ 72000
+		initialAntiOneShotTicks = 60
+		# Default: 60
+		# Range: 0 ~ 72000
+		setHealthAntiOneShotTicks = 60
+		# Default: 100
+		# Range: 0 ~ 72000
+		safeguardAntiOneShotTicks = 100
+		# Default: 0.45
+		# Range: 0.0 ~ 1.0
+		antiOneShotDamageMultiplier = 0.45
+
+	[beretta.combat]
+		# Default: 56.0
+		# Range: 4.0 ~ 256.0
+		attackRange = 56.0
+		# Default: 16
+		# Range: 0 ~ 1200
+		minimumAttackCooldown = 16
+		# Default: 26
+		# Range: 0 ~ 1200
+		maximumAttackCooldown = 26
+		# Default: 3
+		# Range: 1 ~ 20
+		coreAttacksBeforeExpose = 3
+		# Default: 8
+		# Range: 0 ~ 200
+		coreExposeDelay = 8
+		# Default: 92
+		# Range: 20 ~ 1200
+		coreExposeDuration = 92
+
+	[beretta.movement]
+		# Default: 30.0
+		# Range: 8.0 ~ 128.0
+		approachStartDistance = 30.0
+		# Default: 9.0
+		# Range: 1.0 ~ 64.0
+		retreatDistance = 9.0
+		# Default: 15.0
+		# Range: 4.0 ~ 96.0
+		orbitMinRadius = 15.0
+		# Default: 22.0
+		# Range: 5.0 ~ 128.0
+		orbitMaxRadius = 22.0
+		# Default: 1.18
+		# Range: 0.1 ~ 8.0
+		approachSpeed = 1.18
+		# Default: 1.08
+		# Range: 0.1 ~ 8.0
+		orbitSpeed = 1.08
+		# Default: 1.24
+		# Range: 0.1 ~ 8.0
+		retreatSpeed = 1.24
+		# Default: 1.34
+		# Range: 0.1 ~ 8.0
+		evasiveSpeed = 1.34
+		# Default: 10.0
+		# Range: 0.0 ~ 64.0
+		projectileDodgeScanRadius = 10.0
+		# Default: 7
+		# Range: 0 ~ 60
+		preCastMovementLockTicks = 7
+		# Default: 18
+		# Range: 0 ~ 200
+		hitEvasiveTicksMin = 18
+		# Default: 30
+		# Range: 0 ~ 200
+		hitEvasiveTicksMax = 30
+		# Default: 6
+		# Range: 1 ~ 60
+		tacticalRepathMinTicks = 6
+		# Default: 11
+		# Range: 1 ~ 100
+		tacticalRepathMaxTicks = 11
+
+	[beretta.attack_weights]
+		# Default: 7
+		# Range: 0 ~ 100
+		lowLaserWeight = 7
+		# Default: 7
+		# Range: 0 ~ 100
+		orbCascadeWeight = 7
+		# Default: 6
+		# Range: 0 ~ 100
+		darknessCannonWeight = 6
+		# Default: 5
+		# Range: 0 ~ 100
+		mineralEruptionWeight = 5
+		# Default: 6
+		# Range: 0 ~ 100
+		reversedCrossWeight = 6
+		# Default: 6
+		# Range: 0 ~ 100
+		chaosRingsWeight = 6
+		# Default: 6
+		# Range: 0 ~ 100
+		machinaGridWeight = 6
+		# Default: 5
+		# Range: 0 ~ 100
+		invertedFusionWeight = 5
+		# Default: 5
+		# Range: 0 ~ 100
+		abyssalGearSweepWeight = 5
+
+	[beretta.damage]
+		# Default: 20.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		lowLaserDamage = 20.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		orbDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		darknessCannonDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		mineralEruptionDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		mineralVolleyDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		mineralVolleySecondaryDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		reversedCrossDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		chaosRingDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		machinaGridDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		invertedFusionDamage = 50.0
+		# Default: 50.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		abyssalGearSweepDamage = 50.0
+		# Default: 0.24
+		# Range: 0.0 ~ 10.0
+		spiritualDamageMultiplier = 0.24
+		# Default: 88.15
+		# Range: 0.0 ~ 100.0
+		barrierBypass = 88.15
+		# Default: 88.1
+		# Range: 0.0 ~ 100.0
+		resistanceBypass = 88.1

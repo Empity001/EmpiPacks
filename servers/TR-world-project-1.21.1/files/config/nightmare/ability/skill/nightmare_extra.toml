@@ -1,0 +1,203 @@
+[Concentrator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Percentage of Magicules regenerated every 5 seconds.
+	magiculeRegenPercent = 0.5
+	#Number of Existence Points the player must have to meet the natural requirements.
+	epRequirement = 1000000.0
+
+[Smelter]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Number of magicules for the player to be capable of learning it.
+	epRequirement = 100000.0
+	#Chance for it to double gained items out of 100.
+	doubleChance = 80.0
+
+[MysticAura]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 1000.0
+	#Percentage of Magicules regenerated every 5 seconds.
+	mpCost = 500.0
+	#Number of Mastered Spells required to obtain.
+	requiredMagics = 20
+	#Number of Mastered Battlewills required to obtain.
+	requiredBattlewills = 10
+	#Duration in Seconds the effect will last when unmastered.
+	durationUnmastered = 30
+
+[SpacetimeDomination]
+	#Ultimate (or skill) resource ids that enable learning Spacetime Domination when possessed. Empty = unobtainable. Designer fill-in, e.g. trnightmare:example_spacetime_ultimate
+	compatibleUltimateSkillIds = ["nightmareutils:sentient", "trnightmare:azathoth", "trnightmare:azazel", "trnightmare:nodens", "trnightmare:samael", "trnightmare:yog-sotohort"]
+	#Time Stop radius in blocks (centered on caster).
+	timeStopRadiusBlocks = 32.0
+	#Time Stop duration in ticks when unmastered (9s = 180).
+	timeStopDurationTicks = 180
+	#Time Stop duration in ticks when mastered (11s = 220).
+	timeStopDurationTicksMastered = 840
+	#Magicule cost per Time Stop use.
+	timeStopMagiculeCost = 250000.0
+	#Learn points required for Time Stop mode.
+	timeStopLearnPoints = 100.0
+	#Time Stop cooldown in seconds.
+	timeStopCooldownSeconds = 120
+	#Snowflake particles per tick while Time Stop is active.
+	timeStopSnowflakesPerTick = 16
+
+[LawDomination]
+	#Effects this skill grants immunity to while toggled. Use <namespace:path> IDs.
+	immuneEffectIds = ["tensura:infinite_inprisonment", "tensura:spatial_blockade"]
+
+[PseudoDragonBody]
+	#Magicule acquirement cost.
+	mpAcquirement = 50000.0
+	#Magicule drained each skill tick (~1 per second) while toggled on.
+	mpDrainPerTick = 500.0
+
+[SpacetimeManipulation]
+	#Space damage multiplier while Spacetime Infliction is toggled (Spatial Domination uses 3.0).
+	spacetimeInflictionBoost = 4.0
+	#Magicule per severance point for Space-Time Cleanse.
+	magiculeCostCleansePerSeverance = 100.0
+	#Cooldown in seconds for Space-Time Cleanse.
+	cleanseCooldown = 3
+	#Maximum blocks for short Spatial Transfer blink.
+	shortTeleportRange = 60.0
+	#Magicule per block for coordinate warp (Spatial Transfer shift).
+	warpMpPerBlock = 5.0
+	#Ultimate skill ids that satisfy the learn gate (§3 may mirror into SpacetimeManipulationCompat).
+	requiredUltimateSkillIds = ["trnightmare:azathoth", "trnightmare:yog-sotohort"]
+
+[Prayer]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Magicule Cost per second.
+	mpCost = 1000.0
+	#Number of Spiritrons generated per subordinate.
+	spPerSub = 1
+	#Maximum number of Spiritrons that can be generated per 5 seconds.
+	spMax = 8
+
+[ForbiddenKnowledge]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Number of Existence Points the player must have to meet the natural requirements.
+	epRequirement = 1000000.0
+	#Number of Learning Points gained from Forbidden Knowledge.
+	learningPoint = 8.0
+	#Number of Mastery Points gained from Forbidden Knowledge.
+	masteryPoint = 8.0
+
+[Mimicry]
+	#Maximum EP difference allowed between you and the target to analyze/mimic (fraction).
+	mimicryEpMaxDifference = 0.3
+	#Allow Mimicry to copy Unique and Ultimate skills when enabled.
+	mimicryAllowUniqueAndUltimate = false
+	#Number of learn points required to fully analyze a target (matches other imitator/artist configs).
+	learnRequired = 100
+	#Skill ids that are allowed to mimic.
+	allowedSkillIds = ["tensura:predator", "tensura:gluttony", "tensura:beelzebuth"]
+
+[UniversalShapeshift]
+	#Learn-progress required per discover pulse.
+	learnRequired = 5
+	#Whether unique/ultimate skills can be copied.
+	allowUniqueAndUltimate = false
+	#Chimera Transformation duration in ticks (non-mastered).
+	chimeraDuration = 6000
+	#Chimera Transformation duration in ticks (mastered).
+	chimeraDurationMastered = 7200
+	#Chimera Transformation cooldown in ticks.
+	chimeraCooldown = 24000
+
+[FoodChain]
+	#Skill ids that can use Food Chain.
+	allowedSkillIds = ["tensura:starved", "tensura:gourmet", "tensura:gluttony", "trnightmare:beelzebub", "trnightmare:beelzebuth"]
+	#Skill ids that can transfer resistance skills through Food Chain.
+	resistanceAllowedIds = ["tensura:starved", "tensura:gourmet", "tensura:gluttony", "trnightmare:beelzebub", "trnightmare:beelzebuth"]
+	#Skill ids that can transfer extra skills through Food Chain.
+	extraAllowedIds = ["tensura:gourmet", "tensura:gluttony", "trnightmare:beelzebub", "trnightmare:beelzebuth"]
+	#Skill ids that can transfer common skills through Food Chain.
+	commonAllowdIds = ["tensura:starved", "tensura:gourmet", "tensura:gluttony", "trnightmare:beelzebub", "trnightmare:beelzebuth"]
+	#Skill ids that can transfer intrinsic skills through Food Chain.
+	intrinsicAllowedIds = ["tensura:starved", "tensura:gourmet", "tensura:gluttony", "trnightmare:beelzebub", "trnightmare:beelzebuth"]
+	#Skill ids that can transfer unique skills through Food Chain.
+	uniqueAllowedIds = []
+	#Skill ids that can transfer ultimate skills through Food Chain.
+	ultimateAllowedIds = []
+	#Skill ids that are banned from being transferred through Food Chain.
+	blacklistedIds = ["tensura:starved", "tensura:gourmet", "tensura:gluttony", "trnightmare:beelzebub", "trnightmare:beelzebuth", "trnightmare:witches_envy", "trnightmare:time_traveler", "trnightmare:yog_sothoth", "trnightmare:yog-sotohort", "trnightmare:conceptual_existence", "trnightmare:manas_host", "trnightmare:rebirth", "trnightmare:mimicry", "trnightmare:food_chain", "trnightmare:ultimate_arroganz", "trnightmare:skill_storage", "nightmareutils:sentient", "trnightmare:alteration", "nightmareutils:sentientdisintegrate", "nightmareutils:charm_test", "nightmareutils:possession_test", "nightmareutils:possession_copy_test", "nightmareutils:block_place_test", "nightmareutils:block_break_test", "nightmareutils:particle_shape_test", "nightmareutils:mimicry_test", "nightmareutils:programmable_menu_test", "nightmareutils:spectator_test"]
+
+[SkillStorage]
+	#Skill ids that Skill Storage will NOT store when obtained (blacklist).
+	excludedSkillIds = ["trnightmare:shub-niggurath", "trnightmare:nodens", "trnightmare:ultimate_arroganz"]
+	#Skill ids that are allowed to be stored (empty = allow all not in exclusion list).
+	allowedSkillIds = []
+
+[UltimateArroganz]
+	#Skill ids or options related to Ultimate Arroganz. Empty = default behavior.
+	allowedSkillIds = []
+
+[Alteration]
+	#Skill ids that can use Raphael-style alteration by default.
+	allowedUserIds = ["trnightmare:raphael_knowledge", "trnightmare:raphael_wisdom", "trnightmare:azathoth"]
+	#Skill ids that can be affected by Raphael-style alteration by default.
+	allowedSkillIds = ["trnightmare:beelzebub", "trnightmare:beelzebuth", "trnightmare:raphael_wisdom", "trnightmare:susanoo", "trnightmare:uriel_lord_of_oath", "trnightmare:tsukiyomi", "trnightmare:samael", "trnightmare:belial", "trnightmare:azazel", "trnightmare:amaterasu", "trnightmare:law_domination", "trnightmare:mood_maker", "trnightmare:cthugha", "trnightmare:nodens"]
+
+[FaithBlessing]
+	#Number of Holy Magics that must be mastered to learn this skill.
+	magicNumber = 5
+
+[HandOfCreation]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Percentage of max Magicules restored per second by Energy Engine (unmastered).
+	furnaceRestorePercent = 0.05
+	#Percentage of max Magicules restored per second by Energy Engine (mastered).
+	furnaceRestorePercentMastered = 0.07
+	#Maximum Magicules Energy Engine can generate, as a multiplier of max Magicules.
+	furnaceMaxMpPercent = 2.5
+	#Spiritrons generated per second by Energy Engine (unmastered).
+	spiritronRegen = 50
+	#Spiritrons generated per second by Energy Engine (mastered).
+	spiritronRegenMastered = 100
+
+[HandOfDestruction]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Divine Darkness damage per hit (unmastered).
+	divineDarknessDamage = 100.0
+	#Divine Darkness damage per hit (mastered).
+	divineDarknessDamageMastered = 250.0
+	#Fraction of max MP drained per Divine Darkness use.
+	divineDarknessMpCostPercent = 0.035
+
+[Leader]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#Number of subordinates required to learn this skill.
+	subordinateRequirement = 10
+	#Range in blocks to detect nearby subordinates.
+	subordinateDetectRange = 24.0
+	#Maximum number of subordinates to show in menus.
+	maxSubordinatesInMenu = 12
+	#Maximum number of subordinate groups.
+	maxGroups = 10
+
+[MultidimensionalBarrier]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 2500.0
+	#Magicule cost per activation.
+	mpCost = 250.0
+	#Barrier points multiplier based on the user's max health.
+	pointMultiplier = 1.5
+	#Barrier points multiplier for ally targets based on their max health.
+	allyPointMultiplier = 0.75
+	#Cooldown in seconds before the barrier can be reactivated.
+	cooldown = 10
+	#Legacy barrier strength threshold used for the multilayer barrier base value.
+	barrierEPThreshold = 0.5
+	#Legacy barrier strength multiplier while the skill is not mastered.
+	barrierNormal = 1.0
+	#Legacy barrier strength multiplier while the skill is mastered.
+	barrierMastered = 1.5

@@ -1,0 +1,1774 @@
+#Race balance config for Tensura More Skills. Contains Bloodfiend race stats, blood system values, Blood Arts costs, and evolution requirements.
+[bloodfiend]
+
+	[bloodfiend.evolution]
+		#EP required to evolve into this race. The base Bloodfiend value is unused for normal starting race selection.
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 0.0
+		#Boss kills required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 0
+		# Range: > 0
+		bossRequirement = 0
+		#Total blood drained required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 0
+		# Range: > 0
+		bloodRequirement = 0
+		#Total mobs or players turned into kindred required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 0
+		# Range: > 0
+		mobTurnRequirement = 0
+
+	[bloodfiend.base_energy]
+		#Minimum base aura for this race.
+		# Default: 7500.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 7500.0
+		#Maximum base aura for this race.
+		# Default: 12000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 12000.0
+		#Minimum base magicule for this race.
+		# Default: 9000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 9000.0
+		#Maximum base magicule for this race.
+		# Default: 16000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 16000.0
+
+	[bloodfiend.attributes]
+		#Scale modifier for this race. 0 means normal size.
+		# Default: 0.0
+		# Range: -0.9 ~ 16.0
+		size = 0.0
+		#Max health bonus/value used by the race config.
+		# Default: 20.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 20.0
+		#Max spiritual health bonus/value used by the race config.
+		# Default: 120.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 120.0
+		#Attack damage bonus/value used by the race config.
+		# Default: 1.5
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 1.5
+		#Attack speed modifier used by the race config.
+		# Default: 0.1
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.1
+		#Knockback resistance modifier used by the race config.
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.05
+		#Movement speed modifier used by the race config.
+		# Default: 0.025
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.025
+		#Swim speed modifier. Negative values make Bloodfiends worse in water.
+		# Default: -0.35
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = -0.35
+
+	[bloodfiend.blood]
+		#Maximum stored blood for this race before generation penalties.
+		# Default: 100
+		# Range: > 1
+		maxBlood = 100
+		#Blood amount required before passive blood regeneration can activate.
+		# Default: 45
+		# Range: > 0
+		bloodRegenThreshold = 45
+
+	[elder_bloodfiend.evolution]
+		#EP required to evolve into this race. The base Bloodfiend value is unused for normal starting race selection.
+		# Default: 120000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 120000.0
+		#Boss kills required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 0
+		# Range: > 0
+		bossRequirement = 0
+		#Total blood drained required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 400
+		# Range: > 0
+		bloodRequirement = 400
+		#Total mobs or players turned into kindred required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 5
+		# Range: > 0
+		mobTurnRequirement = 5
+
+	[elder_bloodfiend.base_energy]
+		#Minimum base aura for this race.
+		# Default: 40000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 40000.0
+		#Maximum base aura for this race.
+		# Default: 65000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 65000.0
+		#Minimum base magicule for this race.
+		# Default: 50000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 50000.0
+		#Maximum base magicule for this race.
+		# Default: 85000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 85000.0
+
+	[elder_bloodfiend.attributes]
+		#Scale modifier for this race. 0 means normal size.
+		# Default: 0.0
+		# Range: -0.9 ~ 16.0
+		size = 0.0
+		#Max health bonus/value used by the race config.
+		# Default: 80.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 80.0
+		#Max spiritual health bonus/value used by the race config.
+		# Default: 900.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 900.0
+		#Attack damage bonus/value used by the race config.
+		# Default: 2.5
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 2.5
+		#Attack speed modifier used by the race config.
+		# Default: 0.18
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.18
+		#Knockback resistance modifier used by the race config.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.1
+		#Movement speed modifier used by the race config.
+		# Default: 0.035
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.035
+		#Swim speed modifier. Negative values make Bloodfiends worse in water.
+		# Default: -0.28
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = -0.28
+
+	[elder_bloodfiend.blood]
+		#Maximum stored blood for this race before generation penalties.
+		# Default: 140
+		# Range: > 1
+		maxBlood = 140
+		#Blood amount required before passive blood regeneration can activate.
+		# Default: 55
+		# Range: > 0
+		bloodRegenThreshold = 55
+
+	[blood_noble.evolution]
+		#EP required to evolve into this race. The base Bloodfiend value is unused for normal starting race selection.
+		# Default: 450000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 450000.0
+		#Boss kills required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 0
+		# Range: > 0
+		bossRequirement = 0
+		#Total blood drained required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 1500
+		# Range: > 0
+		bloodRequirement = 1500
+		#Total mobs or players turned into kindred required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 18
+		# Range: > 0
+		mobTurnRequirement = 18
+
+	[blood_noble.base_energy]
+		#Minimum base aura for this race.
+		# Default: 160000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 160000.0
+		#Maximum base aura for this race.
+		# Default: 240000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 240000.0
+		#Minimum base magicule for this race.
+		# Default: 180000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 180000.0
+		#Maximum base magicule for this race.
+		# Default: 300000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 300000.0
+
+	[blood_noble.attributes]
+		#Scale modifier for this race. 0 means normal size.
+		# Default: 0.0
+		# Range: -0.9 ~ 16.0
+		size = 0.0
+		#Max health bonus/value used by the race config.
+		# Default: 300.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 300.0
+		#Max spiritual health bonus/value used by the race config.
+		# Default: 2500.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 2500.0
+		#Attack damage bonus/value used by the race config.
+		# Default: 4.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 4.0
+		#Attack speed modifier used by the race config.
+		# Default: 0.28
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.28
+		#Knockback resistance modifier used by the race config.
+		# Default: 0.18
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.18
+		#Movement speed modifier used by the race config.
+		# Default: 0.045
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.045
+		#Swim speed modifier. Negative values make Bloodfiends worse in water.
+		# Default: -0.22
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = -0.22
+
+	[blood_noble.blood]
+		#Maximum stored blood for this race before generation penalties.
+		# Default: 185
+		# Range: > 1
+		maxBlood = 185
+		#Blood amount required before passive blood regeneration can activate.
+		# Default: 65
+		# Range: > 0
+		bloodRegenThreshold = 65
+
+	[blood_monarch.black_communion]
+		#If true, Crimson Progenitors can use Black Communion.
+		enabled = true
+		#Maximum mastery for Black Communion.
+		# Default: 1000
+		# Range: > 1
+		maxMastery = 1000
+
+		[blood_monarch.black_communion.activation]
+			#Blood cost paid by the Crimson Progenitor when the communion starts.
+			# Default: 140
+			# Range: > 0
+			activationBloodCost = 140
+			#Maximum active duration in ticks. 2400 ticks = 2 minutes.
+			# Default: 2400
+			# Range: > 20
+			duration = 2400
+			#How often the network pulses. 40 ticks = 2 seconds.
+			# Default: 40
+			# Range: > 1
+			pulseInterval = 40
+			#Cooldown in seconds after manually collapsing Black Communion.
+			# Default: 90
+			# Range: > 0
+			collapseCooldown = 90
+
+		[blood_monarch.black_communion.radius]
+			#Starting ritual radius.
+			# Default: 24.0
+			# Range: 1.0 ~ 512.0
+			baseRadius = 24.0
+			#Maximum ritual radius after power scaling.
+			# Default: 96.0
+			# Range: 1.0 ~ 512.0
+			maxRadius = 96.0
+			#Radius gained per stored communion power.
+			# Default: 0.08
+			# Range: 0.0 ~ 16.0
+			radiusPerPower = 0.08
+
+		[blood_monarch.black_communion.power]
+			#Maximum stored communion power.
+			# Default: 800.0
+			# Range: 1.0 ~ 1.7976931348623157E308
+			maxPower = 800.0
+			#Power weight for Bloodfiend participants.
+			# Default: 1.0
+			# Range: 0.0 ~ 1024.0
+			bloodfiendWeight = 1.0
+			#Power weight for Elder Bloodfiend participants.
+			# Default: 2.0
+			# Range: 0.0 ~ 1024.0
+			elderBloodfiendWeight = 2.0
+			#Power weight for Blood Noble participants.
+			# Default: 4.0
+			# Range: 0.0 ~ 1024.0
+			bloodNobleWeight = 4.0
+			#Power weight for Blood Monarch participants.
+			# Default: 7.0
+			# Range: 0.0 ~ 1024.0
+			bloodMonarchWeight = 7.0
+			#Power weight for Crimson Progenitor participants.
+			# Default: 12.0
+			# Range: 0.0 ~ 1024.0
+			crimsonProgenitorWeight = 12.0
+			#Power contribution penalty per generation after generation 1.
+			# Default: 0.04
+			# Range: 0.0 ~ 1.0
+			generationContributionPenalty = 0.04
+			#Minimum generation contribution multiplier.
+			# Default: 0.45
+			# Range: 0.0 ~ 1.0
+			minGenerationContribution = 0.45
+			#Minimum contribution even if a linked Bloodfiend is low on blood.
+			# Default: 0.25
+			# Range: 0.0 ~ 1024.0
+			emptyBloodContribution = 0.25
+			#Contribution added based on stored blood ratio.
+			# Default: 1.0
+			# Range: 0.0 ~ 1024.0
+			fullBloodContribution = 1.0
+			#Extra power per total blood drained by the participant.
+			# Default: 8.0E-4
+			# Range: 0.0 ~ 1024.0
+			bloodDrainedPowerMultiplier = 8.0E-4
+			#Extra power per total thrall turned by the participant.
+			# Default: 0.08
+			# Range: 0.0 ~ 1024.0
+			thrallPowerMultiplier = 0.08
+			#Maximum extra power from progress stats per participant per pulse.
+			# Default: 10.0
+			# Range: 0.0 ~ 1024.0
+			maxProgressContribution = 10.0
+			#Final multiplier for communion power gained per pulse.
+			# Default: 0.08
+			# Range: 0.0 ~ 1024.0
+			powerGainMultiplier = 0.08
+			#Blood paid per participant weight each pulse.
+			# Default: 0.35
+			# Range: 0.0 ~ 1024.0
+			nodeOfferingBloodCost = 0.35
+
+		[blood_monarch.black_communion.shared_bloodline]
+			#Blood moved from high-blood nodes to low-blood nodes per pulse.
+			# Default: 6
+			# Range: > 0
+			sharedBloodTransferPerPulse = 6
+			#A linked Bloodfiend below this blood ratio can receive shared blood.
+			# Default: 0.35
+			# Range: 0.0 ~ 1.0
+			sharedBloodLowRatio = 0.35
+			#A linked Bloodfiend must stay above this blood ratio to donate shared blood.
+			# Default: 0.45
+			# Range: 0.0 ~ 1.0
+			sharedBloodDonorMinRatio = 0.45
+			#Blood gained by the Progenitor every pulse.
+			# Default: 4
+			# Range: > 0
+			progenitorBloodGainPerPulse = 4
+			#Blood gained by every linked Bloodfiend every pulse.
+			# Default: 2
+			# Range: > 0
+			linkedBloodGainPerPulse = 2
+			#Health restored to every linked Bloodfiend every pulse.
+			# Default: 2000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			linkedHealPerPulse = 2000.0
+			#Spiritual health restored to every linked Bloodfiend every pulse.
+			# Default: 6000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			linkedSpiritualRestorePerPulse = 6000.0
+			#Magicules restored to every linked Bloodfiend every pulse.
+			# Default: 120000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			linkedMagiculeRestorePerPulse = 120000.0
+
+		[blood_monarch.black_communion.combat]
+			#Base damage reduction for linked Bloodfiends.
+			# Default: 0.1
+			# Range: 0.0 ~ 1.0
+			baseDamageReduction = 0.1
+			#Extra damage reduction per communion power.
+			# Default: 8.0E-4
+			# Range: 0.0 ~ 1.0
+			damageReductionPerPower = 8.0E-4
+			#Maximum damage reduction for linked Bloodfiends.
+			# Default: 0.75
+			# Range: 0.0 ~ 1.0
+			maxDamageReduction = 0.75
+			#Damage boost per communion power for linked Bloodfiends.
+			# Default: 9.0E-4
+			# Range: 0.0 ~ 1024.0
+			damageBoostPerPower = 9.0E-4
+			#Maximum damage boost from communion power.
+			# Default: 1.5
+			# Range: 0.0 ~ 1024.0
+			maxDamageBoost = 1.5
+
+		[blood_monarch.black_communion.infection]
+			#Black infection stacks applied to enemies per pulse.
+			# Default: 1
+			# Range: > 0
+			infectionStacksPerPulse = 1
+			#Maximum black infection stacks.
+			# Default: 12
+			# Range: > 1
+			maxInfectionStacks = 12
+			#Black infection duration in ticks.
+			# Default: 500
+			# Range: > 1
+			infectionDuration = 500
+			#Blood Brand duration applied by black infection.
+			# Default: 160
+			# Range: > 1
+			infectionBrandDuration = 160
+			#How often infection deals damage.
+			# Default: 60
+			# Range: > 1
+			infectionDamageInterval = 60
+			#Damage per infection stack per infection pulse.
+			# Default: 0.75
+			# Range: 0.0 ~ 1.7976931348623157E308
+			infectionPulseDamage = 0.75
+			#Maximum infection pulse damage.
+			# Default: 45.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			infectionMaxPulseDamage = 45.0
+			#Blood gained by linked Bloodfiends per infection stack per pulse.
+			# Default: 1
+			# Range: > 0
+			infectionBloodLeak = 1
+			#Healing gained by linked Bloodfiends per infection stack per pulse.
+			# Default: 0.25
+			# Range: 0.0 ~ 1.7976931348623157E308
+			infectionHealLeak = 0.25
+			#Extra damage linked Bloodfiends deal per infection stack on the target.
+			# Default: 0.035
+			# Range: 0.0 ~ 1024.0
+			infectionDamageBoostPerStack = 0.035
+			#Maximum damage boost from infection stacks.
+			# Default: 1.2
+			# Range: 0.0 ~ 1024.0
+			maxInfectionDamageBoost = 1.2
+			#If true, black infection ignores bloodless entities.
+			skipBloodlessInfection = true
+			#Radius where infection spreads when an infected target dies.
+			# Default: 10.0
+			# Range: 0.0 ~ 128.0
+			deathSpreadRadius = 10.0
+			#Blood gained by linked Bloodfiends when infected enemies die.
+			# Default: 8
+			# Range: > 0
+			killBloodGain = 8
+			#Healing gained by linked Bloodfiends when infected enemies die.
+			# Default: 4.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			killHeal = 4.0
+			#Communion power gained when infected enemies die.
+			# Default: 8.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			killPowerGain = 8.0
+
+		[blood_monarch.black_communion.death_prevention]
+			#Total shared network blood cost to prevent a linked Bloodfiend death.
+			# Default: 80
+			# Range: > 1
+			preventDeathBloodCost = 80
+			#Health ratio restored when death is prevented.
+			# Default: 0.18
+			# Range: 0.01 ~ 1.0
+			preventDeathHealthRatio = 0.18
+			#Invulnerability ticks after death prevention.
+			# Default: 80
+			# Range: > 0
+			preventDeathInvulnerabilityTicks = 80
+			#Cooldown ticks before the network can prevent another death.
+			# Default: 120
+			# Range: > 0
+			preventDeathCooldownTicks = 120
+			#Spiritual health restored on death prevention.
+			# Default: 250.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			preventDeathSpiritualRestore = 250.0
+			#Magicules restored on death prevention.
+			# Default: 500000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			preventDeathMagiculeRestore = 500000.0
+			#Black infection burst radius when death is prevented.
+			# Default: 12.0
+			# Range: 0.0 ~ 128.0
+			preventDeathInfectionRadius = 12.0
+			#Infection stacks applied by death prevention burst.
+			# Default: 3
+			# Range: > 0
+			preventDeathInfectionStacks = 3
+
+		[blood_monarch.black_communion.collapse]
+			#Base damage dealt by Black Eucharist collapse.
+			# Default: 1000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			collapseBaseDamage = 1000.0
+			#Extra collapse damage per communion power.
+			# Default: 0.32
+			# Range: 0.0 ~ 1.7976931348623157E308
+			collapseDamagePerPower = 0.32
+			#Maximum collapse damage.
+			# Default: 35000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			collapseMaxDamage = 35000.0
+			#Health restored to linked Bloodfiends on collapse.
+			# Default: 60000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			collapseHeal = 60000.0
+			#Spiritual health restored to linked Bloodfiends on collapse.
+			# Default: 1200000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			collapseSpiritualHeal = 1200000.0
+			#Magicules restored to linked Bloodfiends on collapse.
+			# Default: 2500000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			collapseMagiculeRestore = 2500000.0
+			#Blood restored to linked Bloodfiends on collapse.
+			# Default: 120
+			# Range: > 0
+			collapseBloodRestore = 120
+			#Blood Brand duration applied during collapse.
+			# Default: 700
+			# Range: > 1
+			collapseBrandDuration = 700
+			#Infected mobs below this health ratio can be turned by collapse.
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			collapseMobTurnHealthThreshold = 0.25
+
+		[blood_monarch.black_communion.black_blood_domain]
+			#If true, Black Communion can infect blocks and create Black Blood Domains.
+			blockInfectionEnabled = false
+			#Random block infection attempts per active communion pulse.
+			# Default: 96
+			# Range: > 0
+			blockInfectionAttempts = 96
+			#Fast spread blocks per communion pulse before power scaling.
+			# Default: 14
+			# Range: > 0
+			blockInfectionBlocksPerPulse = 14
+			#Maximum blocks infected by the progenitor per communion pulse.
+			# Default: 42
+			# Range: > 0
+			blockInfectionMaxBlocksPerPulse = 42
+			#Extra fast spread blocks per stored communion power.
+			# Default: 0.035
+			# Range: 0.0 ~ 1024.0
+			blockInfectionBlocksPerPower = 0.035
+			#Maximum radius used by active communion block infection.
+			# Default: 72.0
+			# Range: 1.0 ~ 512.0
+			blockInfectionMaxRadius = 72.0
+			#Vertical random spread range for block infection.
+			# Default: 5
+			# Range: 1 ~ 64
+			blockInfectionVerticalRange = 5
+			#Extra block spread from each linked Bloodfiend during active communion.
+			# Default: 2
+			# Range: > 0
+			linkedBloodfiendsSpreadBlocks = 2
+			#Random spread attempts around each linked Bloodfiend.
+			# Default: 16
+			# Range: > 0
+			linkedBloodfiendSpreadAttempts = 16
+			#Spread radius around linked Bloodfiends.
+			# Default: 18.0
+			# Range: 1.0 ~ 512.0
+			linkedBloodfiendSpreadRadius = 18.0
+			#Virtual domain value added to a chunk per infected block. Buffs use this instead of scanning blocks.
+			# Default: 1
+			# Range: > 0
+			domainChunkValuePerBlock = 1
+			#Extra virtual domain value added to the altar chunk per blood sacrifice.
+			# Default: 18
+			# Range: > 0
+			domainChunkValueSacrificeBonus = 18
+			#Maximum virtual black blood domain value per chunk.
+			# Default: 1000
+			# Range: > 1
+			domainChunkMaxValue = 1000
+			#Chunk value required for the area to count as a Black Blood Domain biome for buffs.
+			# Default: 36
+			# Range: > 1
+			domainBiomeChunkValueRequired = 36
+
+		[blood_monarch.black_communion.black_blood_domain_buffs]
+			#If true, Bloodfiends receive buffs in infected domain chunks.
+			domainBiomeBuffsEnabled = true
+			#How often domain biome buffs pulse. 80 ticks = 4 seconds.
+			# Default: 80
+			# Range: > 1
+			domainBiomeBuffInterval = 80
+			#Health restored to Bloodfiends standing in infected domain chunks.
+			# Default: 250.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			domainBiomeBloodfiendHeal = 250.0
+			#Spiritual health restored to Bloodfiends in infected domain chunks.
+			# Default: 450.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			domainBiomeBloodfiendSpiritualRestore = 450.0
+			#Magicules restored to Bloodfiends in infected domain chunks.
+			# Default: 900000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			domainBiomeBloodfiendMagiculeRestore = 900000.0
+			#Blood gained by Bloodfiends in infected domain chunks.
+			# Default: 3
+			# Range: > 0
+			domainBiomeBloodfiendBloodGain = 3
+			#Extra blood gained per nearby altar level.
+			# Default: 2
+			# Range: > 0
+			domainBiomeBloodfiendBloodGainPerAltarLevel = 2
+			#Multiplier bonus per nearby altar level for domain healing/restoration.
+			# Default: 0.2
+			# Range: 0.0 ~ 1024.0
+			domainBiomeBuffPerAltarLevel = 0.2
+			#Radius used to find nearby altar level for stronger domain buffs.
+			# Default: 96
+			# Range: 1 ~ 512
+			domainBiomeAltarLevelSearchRadius = 96
+			#If true, non-Bloodfiends take light damage in infected domain chunks.
+			domainBiomeDamagesEnemies = true
+			#Light damage dealt to non-Bloodfiends in infected domain chunks per buff interval.
+			# Default: 80.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			domainBiomeEnemyDamage = 80.0
+			#Fuel blood generated into the nearest Blood Altar when black blood domain biome damage kills a non-Bloodfiend. This also counts as lifetime altar blood.
+			# Default: 2
+			# Range: > 0
+			domainBiomeKillBloodGain = 2
+
+		[blood_monarch.black_communion.blood_altar]
+			#If true, Black Communion can create Blood Altars.
+			bloodAltarEnabled = true
+			#If false, only one Blood Altar can exist globally in this world for all Bloodfiends. If true, unlimited altars can exist.
+			allowMultipleBloodAltars = false
+			#Communion power required before an altar can spawn.
+			# Default: 25.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			altarRequiredPower = 25.0
+			#Virtual domain chunk value required before an altar can spawn near the progenitor.
+			# Default: 28
+			# Range: > 0
+			altarRequiredChunkValue = 28
+			#Search radius for altar spawn positions around the progenitor.
+			# Default: 8
+			# Range: 1 ~ 128
+			altarSpawnSearchRadius = 8
+			#Prevents a new altar from spawning this close to another altar.
+			# Default: 160
+			# Range: > 0
+			altarNoSpawnNearRadius = 160
+			#If true, Bloodfiends can sacrifice blood into Blood Altars.
+			altarSacrificeEnabled = true
+			#Fuel blood consumed per infected block created by altar and vein-node spread. 30 means 30 stored blood = 1 infected block.
+			# Default: 30
+			# Range: > 1
+			altarFuelPerBlock = 30
+			#Maximum fuel blood inside a Blood Altar.
+			# Default: 10000
+			# Range: > 1
+			altarMaxStoredBlood = 10000
+			#Maximum Blood Altar level.
+			# Default: 5
+			# Range: 0 ~ 5
+			altarMaxLevel = 5
+			#Stored blood required for altar level 1.
+			# Default: 1000
+			# Range: > 0
+			altarLevel1Blood = 1000
+			#Stored blood required for altar level 2.
+			# Default: 2500
+			# Range: > 0
+			altarLevel2Blood = 2500
+			#Stored blood required for altar level 3.
+			# Default: 5000
+			# Range: > 0
+			altarLevel3Blood = 5000
+			#Stored blood required for altar level 4.
+			# Default: 7500
+			# Range: > 0
+			altarLevel4Blood = 7500
+			#Stored blood required for altar level 5.
+			# Default: 10000
+			# Range: > 0
+			altarLevel5Blood = 10000
+			#If true, Blood Altars passively spread infection after communion ends.
+			altarPassiveSpreadEnabled = true
+			#Altar spread interval when the altar has at least level 1.
+			# Default: 100
+			# Range: > 1
+			altarSpreadInterval = 100
+			#Random spread attempts per altar passive spread pulse.
+			# Default: 48
+			# Range: > 0
+			altarSpreadAttempts = 48
+			#Blocks spread by a powered altar per passive pulse.
+			# Default: 3
+			# Range: > 0
+			altarSpreadBlocksPerPulse = 3
+			#Extra altar passive spread blocks per altar level.
+			# Default: 2
+			# Range: > 0
+			altarSpreadBlocksPerLevel = 2
+			#Base altar spread and buff radius.
+			# Default: 24.0
+			# Range: 1.0 ~ 512.0
+			altarBaseRadius = 24.0
+			#Extra altar radius per altar level. Level 1 makes the radius +4 by default.
+			# Default: 4.0
+			# Range: 0.0 ~ 512.0
+			altarRadiusPerLevel = 4.0
+			#Random spread attempts immediately after a blood sacrifice.
+			# Default: 128
+			# Range: > 0
+			altarSacrificeBurstAttempts = 128
+			#Blocks infected immediately after a blood sacrifice.
+			# Default: 18
+			# Range: > 0
+			altarSacrificeBurstBlocks = 18
+			#Extra sacrifice burst blocks per altar level.
+			# Default: 10
+			# Range: > 0
+			altarSacrificeBurstBlocksPerLevel = 10
+			#Very slow spread interval for a level 0 altar. 1200 ticks = 60 seconds.
+			# Default: 1200
+			# Range: > 1
+			dormantSpreadInterval = 1200
+			#Very slow dormant spread blocks for an unpowered altar.
+			# Default: 1
+			# Range: > 0
+			dormantSpreadBlocksPerPulse = 1
+
+		[blood_monarch.black_communion.black_blood_conquest]
+			#If true, Blood Altars can run the long-term world conquest system: player/base memory, World Roots, Blood Flower Blooms, and World Heart.
+			conquestEnabled = true
+			#Minimum real Blood Altar level required before conquest ticks at all. This also disables player/base tracking unless a valid altar exists.
+			# Default: 5
+			# Range: 0 ~ 5
+			conquestRequiredAltarLevel = 5
+			#Minimum world conquest stage required before new World Roots can start. Stage 1 is reached from a powerful altar, so roots do not begin immediately at fresh worlds.
+			# Default: 1
+			# Range: > 0
+			conquestRequiredWorldStageForRoots = 1
+			#How often player/base memory samples run. 200 ticks = 10 seconds.
+			# Default: 200
+			# Range: > 20
+			conquestPlayerMemoryInterval = 200
+			#Sparse radius around sampled players used to score artificial/base blocks.
+			# Default: 10
+			# Range: 1 ~ 64
+			conquestBaseScanRadius = 10
+			#Old non-infected player/base chunk memory is removed after this many ticks. 864000 ticks = 12 hours.
+			# Default: 864000
+			# Range: > 1200
+			conquestMemoryPruneTicks = 864000
+			#Minimum long-term player presence score for a chunk to be targetable by roots.
+			# Default: 80
+			# Range: > 1
+			conquestMinPlayerHeatTarget = 80
+			#Minimum artificial/base block score for a chunk to count as a base-like root target.
+			# Default: 140
+			# Range: > 1
+			conquestMinBaseHeatTarget = 140
+			#Maximum active underground World Roots before World Heart multiplier.
+			# Default: 10
+			# Range: 0 ~ 256
+			conquestMaxActiveRoots = 10
+			#Minimum single Domain Level required before conquest ticks at all.
+			# Default: 5
+			# Range: 0 ~ 100
+			conquestRequiredDomainLevel = 5
+			#Minimum single Domain Level required before World Root tunnels start.
+			# Default: 5
+			# Range: 0 ~ 100
+			conquestRequiredDomainLevelForRoots = 5
+			#Single Domain Level required to form the World Heart.
+			# Default: 10
+			# Range: 1 ~ 100
+			conquestWorldHeartRequiredDomainLevel = 10
+			#Maximum distance a World Root tunnel may target. 8192 allows thousands of blocks without force-loading chunks.
+			# Default: 8192
+			# Range: 16 ~ 30000000
+			conquestRootMaxTargetDistanceBlocks = 8192
+			#How many tunnel blocks each active World Root may grow per root tick. Higher means thousand-block targets are reached faster.
+			# Default: 100
+			# Range: 1 ~ 256
+			conquestRootBlocksPerTick = 100
+			#Hard budget for active roots processed per root tick.
+			# Default: 8
+			# Range: 1 ~ 256
+			conquestMaxRootsProcessedPerTick = 8
+			#How often roots move. 40 ticks = 2 seconds.
+			# Default: 10
+			# Range: > 1
+			conquestRootTickInterval = 10
+			#Blood Altar fuel cost to start one World Root.
+			# Default: 180
+			# Range: > 0
+			conquestRootStartCost = 180
+			#Blood Altar fuel cost per World Root step.
+			# Default: 35
+			# Range: > 0
+			conquestRootStepCost = 35
+			#Maximum root age in root ticks before it dies.
+			# Default: 72000
+			# Range: > 20
+			conquestRootMaxAge = 72000
+			#Root completes when it reaches this chunk distance from its target.
+			# Default: 1
+			# Range: 0 ~ 64
+			conquestRootReachDistanceChunks = 1
+			#How often Blood Flower Blooms tick. 100 ticks = 5 seconds.
+			# Default: 100
+			# Range: > 1
+			conquestBloomTickInterval = 100
+			#Stored conquest blood given to normal blooms when they spawn.
+			# Default: 2500
+			# Range: > 0
+			conquestBloomStartBlood = 2500
+			#Multiplier for starting blood when a bloom erupts from a player-base target.
+			# Default: 3
+			# Range: > 1
+			conquestBaseBloomBloodMultiplier = 3
+			#Maximum stored conquest blood inside one Blood Flower Bloom.
+			# Default: 250000
+			# Range: > 1
+			conquestBloomMaxStoredBlood = 250000
+			#Bloom age interval used to feed stored blood to the main altar.
+			# Default: 200
+			# Range: > 1
+			conquestBloomFeedInterval = 200
+			#Blood sent from a bloom to the main altar per feed interval, multiplied by bloom tier.
+			# Default: 750
+			# Range: > 0
+			conquestBloomFeedAmount = 750
+			#Block spread budget for normal bloom spread pulses.
+			# Default: 45
+			# Range: > 0
+			conquestBloomSpreadBlocks = 45
+			#Initial infection burst blocks for normal Bloom creation.
+			# Default: 140
+			# Range: > 0
+			conquestBloomBurstSpreadBlocks = 140
+			#Initial infection burst blocks for base-breach Bloom creation.
+			# Default: 260
+			# Range: > 0
+			conquestBaseBloomBurstSpreadBlocks = 260
+			#Max stored bloom blood a Bloodfiend can drain per interaction.
+			# Default: 2500
+			# Range: > 1
+			conquestBloomDrainMaxBlood = 2500
+			#Bloom blood divided by this becomes permanent Black Blood Growth.
+			# Default: 250
+			# Range: > 1
+			conquestBloomGrowthDivisor = 250
+			#Bloom blood divided by this becomes normal stored Bloodfiend blood.
+			# Default: 100
+			# Range: > 1
+			conquestBloomBloodDivisor = 100
+			#Health restored per drained bloom blood.
+			# Default: 0.05
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestBloomHealMultiplier = 0.05
+			#Spiritual health restored per drained bloom blood.
+			# Default: 0.25
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestBloomSpiritualMultiplier = 0.25
+			#Magicules restored per drained bloom blood.
+			# Default: 150.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestBloomMagiculeMultiplier = 150.0
+			#How often the World Heart ticks. 200 ticks = 10 seconds.
+			# Default: 200
+			# Range: > 1
+			conquestHeartTickInterval = 200
+			#World conquest stage number used for the final World Heart state.
+			# Default: 6
+			# Range: > 1
+			conquestWorldHeartStage = 6
+			#Block spread budget for each World Heart pulse.
+			# Default: 180
+			# Range: > 0
+			conquestWorldHeartSpreadBlocks = 180
+			#Minimum permanent growth gained from drinking the active World Heart.
+			# Default: 100
+			# Range: > 0
+			conquestWorldHeartMinGrowth = 100
+			#Health restored per World Heart growth point.
+			# Default: 12.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestWorldHeartHealMultiplier = 12.0
+			#Spiritual health restored per World Heart growth point.
+			# Default: 85.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestWorldHeartSpiritualMultiplier = 85.0
+			#Magicules restored per World Heart growth point.
+			# Default: 75000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestWorldHeartMagiculeMultiplier = 75000.0
+			#Infection pressure required for a chunk to count as conquered.
+			# Default: 1800
+			# Range: > 1
+			conquestConqueredThreshold = 1800
+			#Infection pressure added when a conquest/infected block is broken while conquest is active.
+			# Default: 25
+			# Range: > 0
+			conquestBlockBreakPressure = 25
+			#Stage 1 requirement: minimum active altar level.
+			# Default: 3
+			# Range: 0 ~ 5
+			conquestStage1RequiredAltarLevel = 3
+			#Stage 1 requirement: lifetime blood in the best active altar.
+			# Default: 20000
+			# Range: > 0
+			conquestStage1RequiredTotalBlood = 20000
+			#Stage 2 requirement: created blooms.
+			# Default: 3
+			# Range: > 0
+			conquestStage2RequiredBlooms = 3
+			#Stage 2 requirement: completed roots.
+			# Default: 2
+			# Range: > 0
+			conquestStage2RequiredCompletedRoots = 2
+			#Stage 3 requirement: created blooms.
+			# Default: 8
+			# Range: > 0
+			conquestStage3RequiredBlooms = 8
+			#Stage 3 requirement: base breaches.
+			# Default: 1
+			# Range: > 0
+			conquestStage3RequiredBaseBreaches = 1
+			#Stage 3 requirement: conquered chunks.
+			# Default: 12
+			# Range: > 0
+			conquestStage3RequiredConqueredChunks = 12
+			#Stage 4 requirement: created blooms.
+			# Default: 14
+			# Range: > 0
+			conquestStage4RequiredBlooms = 14
+			#Stage 4 requirement: base breaches.
+			# Default: 3
+			# Range: > 0
+			conquestStage4RequiredBaseBreaches = 3
+			#Stage 4 requirement: conquered chunks.
+			# Default: 35
+			# Range: > 0
+			conquestStage4RequiredConqueredChunks = 35
+			#Stage 5 requirement: created blooms.
+			# Default: 20
+			# Range: > 0
+			conquestStage5RequiredBlooms = 20
+			#Stage 5 requirement: base breaches.
+			# Default: 4
+			# Range: > 0
+			conquestStage5RequiredBaseBreaches = 4
+			#Stage 5 requirement: completed roots.
+			# Default: 14
+			# Range: > 0
+			conquestStage5RequiredCompletedRoots = 14
+			#Stage 5 requirement: conquered chunks.
+			# Default: 60
+			# Range: > 0
+			conquestStage5RequiredConqueredChunks = 60
+			#World Heart requirement: created blooms.
+			# Default: 24
+			# Range: > 0
+			conquestWorldHeartRequiredBlooms = 24
+			#World Heart requirement: base breaches.
+			# Default: 5
+			# Range: > 0
+			conquestWorldHeartRequiredBaseBreaches = 5
+			#World Heart requirement: conquered chunks.
+			# Default: 80
+			# Range: > 0
+			conquestWorldHeartRequiredConqueredChunks = 80
+			#World Heart requirement: completed roots.
+			# Default: 18
+			# Range: > 0
+			conquestWorldHeartRequiredCompletedRoots = 18
+			#Max health attribute gained per permanent Black Blood Growth point.
+			# Default: 2.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestGrowthHealthPerPoint = 2.0
+			#Attack damage attribute gained per permanent Black Blood Growth point.
+			# Default: 0.35
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestGrowthAttackPerPoint = 0.35
+			#Movement speed attribute gained per permanent Black Blood Growth point.
+			# Default: 3.0E-5
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestGrowthSpeedPerPoint = 3.0E-5
+			#Maximum max-health attribute gained from Black Blood Growth.
+			# Default: 1000000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestGrowthMaxHealthCap = 1000000.0
+			#Maximum attack attribute gained from Black Blood Growth.
+			# Default: 250000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestGrowthMaxAttackCap = 250000.0
+			#Maximum movement-speed attribute gained from Black Blood Growth.
+			# Default: 1.5
+			# Range: 0.0 ~ 1.7976931348623157E308
+			conquestGrowthMaxSpeedCap = 1.5
+
+			[blood_monarch.black_communion.black_blood_conquest.black_blood_domain_level]
+				#Single visible Black Blood Domain level cap. Altar blood and conquest stats both feed this one system.
+				# Default: 10
+				# Range: 1 ~ 100
+				domainMaxLevel = 10
+				#Domain XP required for level 6.
+				# Default: 25000
+				# Range: > 0
+				domainLevel6Xp = 25000
+				#Domain XP required for level 7.
+				# Default: 60000
+				# Range: > 0
+				domainLevel7Xp = 60000
+				#Domain XP required for level 8.
+				# Default: 150000
+				# Range: > 0
+				domainLevel8Xp = 150000
+				#Domain XP required for level 9.
+				# Default: 350000
+				# Range: > 0
+				domainLevel9Xp = 350000
+				#Domain XP required for level 10, the World Heart tier.
+				# Default: 900000
+				# Range: > 0
+				domainLevel10Xp = 900000
+				#Domain XP gained per created Blood Flower Bloom.
+				# Default: 10000
+				# Range: > 0
+				domainXpPerBloom = 10000
+				#Domain XP gained per completed World Root tunnel.
+				# Default: 6000
+				# Range: > 0
+				domainXpPerCompletedRoot = 6000
+				#Domain XP gained per player/base breach.
+				# Default: 30000
+				# Range: > 0
+				domainXpPerBaseBreach = 30000
+				#Domain XP gained per conquered chunk.
+				# Default: 450
+				# Range: > 0
+				domainXpPerConqueredChunk = 450
+
+			[blood_monarch.black_communion.black_blood_conquest.black_blood_ecology]
+				#Enables the additive slow ecology, structures, converted mobs, fusion, and unloaded virtual frontier.
+				ecologyEnabled = true
+				#The stage needed for ecology to start.
+				# Default: 2
+				# Range: > 1
+				ecologyMinimumWorldStage = 2
+				#Ticks between unloaded virtual conquest pulses. 1200 ticks is 1 minute.
+				# Default: 1200
+				# Range: > 200
+				ecologyVirtualStepInterval = 1200
+				#Paid virtual steps required to claim one unloaded chunk.
+				# Default: 4
+				# Range: 2 ~ 127
+				ecologyVirtualClaimSteps = 4
+				#Altar fuel cost for one virtual conquest step.
+				# Default: 50
+				# Range: > 1
+				ecologyVirtualStepBloodCost = 50
+				#Ticks between checking naturally loaded player chunks for virtual infection materialization.
+				# Default: 200
+				# Range: > 100
+				ecologyMaterializeInterval = 200
+				#Ticks between attempts to queue one autonomous infection structure. 6000 ticks is 5 minutes.
+				# Default: 2000
+				# Range: > 1200
+				ecologyBuildInterval = 2000
+				#Base ecology structure processing interval.
+				# Default: 200
+				# Range: > 40
+				ecologyTickInterval = 200
+				#Maximum autonomous infection structures per dimension.
+				# Default: 150
+				# Range: 1 ~ 512
+				ecologyMaxStructures = 150
+				#Fuel blood reserved by a pending autonomous structure before it forms.
+				# Default: 300
+				# Range: > 1
+				ecologyBuildBloodCost = 300
+				#Minimum block spacing between autonomous structures.
+				# Default: 48
+				# Range: 16 ~ 512
+				ecologyStructureMinSpacing = 48
+				#Ticks between a Vein Spire adding a tiny normal loaded-chunk spread pulse.
+				# Default: 3600
+				# Range: > 1200
+				ecologySpireSpreadInterval = 3600
+				#Normal infection blocks requested by each Vein Spire pulse.
+				# Default: 1
+				# Range: 1 ~ 2
+				ecologySpireSpreadBlocks = 1
+				#Ticks between Conversion Nest corruption pulses.
+				# Default: 2400
+				# Range: > 1200
+				ecologyNestPulseInterval = 2400
+				#Loaded radius used by Conversion Nests.
+				# Default: 14
+				# Range: 6 ~ 64
+				ecologyNestRadius = 14
+				#Very small damage dealt by a Conversion Nest while slowly corrupting a mob.
+				# Default: 1.0
+				# Range: 0.0 ~ 1000.0
+				ecologyNestPulseDamage = 1.0
+				#Corruption disappears after no converted-minion or nest contact for this long.
+				# Default: 2400
+				# Range: > 400
+				ecologyCorruptionDecayTicks = 2400
+				#Corruption marks required before a weakened mob can be converted.
+				# Default: 4
+				# Range: 1 ~ 100
+				ecologyConversionMarks = 4
+				#Mob health ratio required for conversion.
+				# Default: 0.35
+				# Range: 0.01 ~ 1.0
+				ecologyConversionHealthRatio = 0.35
+				#Nearby converted mob cap supported by one nest.
+				# Default: 8
+				# Range: 1 ~ 64
+				ecologyMinionCapPerNest = 8
+				#Structure or altar blood paid for each successful mob conversion.
+				# Default: 45
+				# Range: > 1
+				ecologyConversionBloodCost = 45
+				#Ticks between converted mob targeting and movement decisions.
+				# Default: 40
+				# Range: 20 ~ 400
+				ecologyMinionThinkInterval = 40
+				#Loaded targeting radius for converted mobs.
+				# Default: 16
+				# Range: 6 ~ 64
+				ecologyMinionTargetRadius = 16
+				#Navigation speed used by converted mobs.
+				# Default: 0.95
+				# Range: 0.1 ~ 3.0
+				ecologyMinionMoveSpeed = 0.95
+				#Ticks between handler-driven attacks from converted mobs.
+				# Default: 30
+				# Range: 20 ~ 400
+				ecologyMinionAttackInterval = 30
+				#Base handler-driven magic damage from a tier 1 converted mob.
+				# Default: 10.5
+				# Range: 0.1 ~ 1000.0
+				ecologyMinionDamage = 10.5
+				#Ticks between Fusion Pit attempts. 4800 ticks is 4 minutes.
+				# Default: 4800
+				# Range: > 2400
+				ecologyFusionInterval = 4800
+				#Loaded radius used by a Fusion Pit.
+				# Default: 10
+				# Range: 6 ~ 32
+				ecologyFusionRadius = 10
+				#Structure or altar blood spent when three equal-tier minions fuse.
+				# Default: 120
+				# Range: > 1
+				ecologyFusionBloodCost = 120
+				#Maximum fusion tier. Tier 2 needs three tier 1 mobs and tier 3 needs three tier 2 mobs.
+				# Default: 8
+				# Range: 2 ~ 8
+				ecologyMaxFusionTier = 8
+				#Ticks between Blood Reservoir feed attempts. 6000 ticks is 5 minutes.
+				# Default: 6000
+				# Range: > 1200
+				ecologyReservoirFeedInterval = 6000
+				#Maximum blood a reservoir can forward per feed attempt.
+				# Default: 400
+				# Range: > 1
+				ecologyReservoirFeedAmount = 400
+				#Radius used to route blood earned by converted mob kills into structures.
+				# Default: 96
+				# Range: 32 ~ 512
+				ecologyBloodCollectionRadius = 96
+				#Maximum kill-earned blood stored by one autonomous structure.
+				# Default: 10000
+				# Range: > 100
+				ecologyStructureBloodCapacity = 10000
+				#Killed target max health divided by this becomes collected blood before the cap.
+				# Default: 20.0
+				# Range: 1.0 ~ 1.7976931348623157E308
+				ecologyBloodHealthDivisor = 20.0
+				#Maximum structure blood earned from one converted mob kill.
+				# Default: 50
+				# Range: > 1
+				ecologyMaxBloodPerKill = 50
+				#Base number of frontier entries processed per virtual pulse. Additional structures increase this up to a hard handler cap.
+				# Default: 2
+				# Range: 1 ~ 16
+				ecologyVirtualStepsPerPulse = 2
+				#Maximum persisted pending structures and remote altars waiting for fuel or a loaded valid site.
+				# Default: 24
+				# Range: 1 ~ 128
+				ecologyMaxPendingBuilds = 24
+				#Ticks between attempts to complete pending builds.
+				# Default: 200
+				# Range: > 40
+				ecologyPendingProcessInterval = 200
+				#Allows the ecology to establish distant colony altars even when normal multiple altars are disabled.
+				ecologyRemoteAltarsEnabled = true
+				#Minimum distance in blocks from every existing altar before a remote ecology altar may be queued.
+				# Default: 400
+				# Range: 128 ~ 30000000
+				ecologyRemoteAltarMinDistance = 400
+				#Required infected chunk value for a distant ecology altar site.
+				# Default: 120
+				# Range: > 1
+				ecologyRemoteAltarRequiredChunkValue = 120
+				#Fuel blood required by a pending distant ecology altar.
+				# Default: 400
+				# Range: > 1
+				ecologyRemoteAltarBloodCost = 400
+				#Part of the remote altar cost transferred into the new altar as starting fuel.
+				# Default: 800
+				# Range: > 0
+				ecologyRemoteAltarSeedFuel = 800
+				#Every Nth five-minute build attempt prefers a distant ecology altar when a valid far infection site exists.
+				# Default: 4
+				# Range: 1 ~ 64
+				ecologyRemoteAltarAttemptEvery = 4
+				#Number of ecology World Roots maintained from infection nodes toward the current target.
+				# Default: 40
+				# Range: 1 ~ 12
+				ecologyWorldHeartRootCount = 12
+				#Ticks between ecology attempts to queue or launch World Roots from the nearest infection source.
+				# Default: 6000
+				# Range: > 1200
+				ecologyWorldHeartRootInterval = 6000
+				#Ticks between Summoner Bloom attempts.
+				# Default: 1200
+				# Range: > 1200
+				ecologySummonerInterval = 1200
+				#Structure or altar blood spent for one summoned blood minion.
+				# Default: 20
+				# Range: > 1
+				ecologySummonerBloodCost = 20
+				#Nearby converted minion cap supported by one Summoner Bloom.
+				# Default: 30
+				# Range: 1 ~ 64
+				ecologySummonerCap = 30
+				#Ticks between Root Relay virtual expansion pulses.
+				# Default: 2400
+				# Range: > 600
+				ecologyRelayInterval = 2400
+				#Blood spent by a Root Relay for one local virtual expansion pulse.
+				# Default: 60
+				# Range: > 1
+				ecologyRelayBloodCost = 60
+				#Local frontier steps attempted by a Root Relay per paid pulse.
+				# Default: 2
+				# Range: 1 ~ 8
+				ecologyRelaySteps = 2
+				#Ticks between Blood Sanctuary healing pulses.
+				# Default: 400
+				# Range: > 100
+				ecologySanctuaryInterval = 400
+				#Loaded healing radius of a Blood Sanctuary.
+				# Default: 20
+				# Range: 6 ~ 64
+				ecologySanctuaryRadius = 20
+				#Health restored to Bloodfiends and converted blood minions per Sanctuary pulse.
+				# Default: 25.0
+				# Range: 0.0 ~ 1.7976931348623157E308
+				ecologySanctuaryHeal = 25.0
+				#Ticks between Hunting Beacon target assignments.
+				# Default: 600
+				# Range: > 100
+				ecologyHuntingBeaconInterval = 600
+				#Loaded radius used by Hunting Beacons to coordinate minions.
+				# Default: 32
+				# Range: 8 ~ 96
+				ecologyHuntingBeaconRadius = 32
+				#Internal infection power granted per conquered chunk before fusion scaling.
+				# Default: 3
+				# Range: 0 ~ 1000
+				ecologyFusionPowerPerConqueredChunk = 3
+				#Tier-scaled max-health multiplier gained per infection power.
+				# Default: 0.08
+				# Range: 0.0 ~ 1000.0
+				ecologyFusionHealthPerPower = 0.08
+				#Tier-scaled attack multiplier gained per infection power.
+				# Default: 0.012
+				# Range: 0.0 ~ 1000.0
+				ecologyFusionAttackPerPower = 0.012
+				#Maximum infection-based fused-minion max-health multiplier. 250 allows ordinary mobs to reach several thousand health late-game.
+				# Default: 250.0
+				# Range: 0.0 ~ 100000.0
+				ecologyFusionMaxHealthMultiplier = 250.0
+				#Maximum infection-based fused-minion attack multiplier.
+				# Default: 2400.0
+				# Range: 0.0 ~ 100000.0
+				ecologyFusionMaxAttackMultiplier = 2400.0
+				#Maximum flat armor added to fused minions from infection strength.
+				# Default: 800.0
+				# Range: 0.0 ~ 100000.0
+				ecologyFusionMaxArmor = 800.0
+
+	[blood_monarch.evolution]
+		#EP required to evolve into this race. The base Bloodfiend value is unused for normal starting race selection.
+		# Default: 1500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 1500000.0
+		#Boss kills required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 0
+		# Range: > 0
+		bossRequirement = 0
+		#Total blood drained required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 5500
+		# Range: > 0
+		bloodRequirement = 5500
+		#Total mobs or players turned into kindred required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 50
+		# Range: > 0
+		mobTurnRequirement = 50
+
+	[blood_monarch.base_energy]
+		#Minimum base aura for this race.
+		# Default: 700000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 700000.0
+		#Maximum base aura for this race.
+		# Default: 950000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 950000.0
+		#Minimum base magicule for this race.
+		# Default: 850000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 850000.0
+		#Maximum base magicule for this race.
+		# Default: 1200000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 1200000.0
+
+	[blood_monarch.attributes]
+		#Scale modifier for this race. 0 means normal size.
+		# Default: 0.05
+		# Range: -0.9 ~ 16.0
+		size = 0.05
+		#Max health bonus/value used by the race config.
+		# Default: 700.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 700.0
+		#Max spiritual health bonus/value used by the race config.
+		# Default: 5000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 5000.0
+		#Attack damage bonus/value used by the race config.
+		# Default: 6.5
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 6.5
+		#Attack speed modifier used by the race config.
+		# Default: 0.42
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.42
+		#Knockback resistance modifier used by the race config.
+		# Default: 0.28
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.28
+		#Movement speed modifier used by the race config.
+		# Default: 0.055
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.055
+		#Swim speed modifier. Negative values make Bloodfiends worse in water.
+		# Default: -0.15
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = -0.15
+
+	[blood_monarch.blood]
+		#Maximum stored blood for this race before generation penalties.
+		# Default: 240
+		# Range: > 1
+		maxBlood = 240
+		#Blood amount required before passive blood regeneration can activate.
+		# Default: 80
+		# Range: > 0
+		bloodRegenThreshold = 80
+
+	[crimson_progenitor.evolution]
+		#EP required to evolve into this race. The base Bloodfiend value is unused for normal starting race selection.
+		# Default: 3500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 3500000.0
+		#Boss kills required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 2
+		# Range: > 0
+		bossRequirement = 2
+		#Total blood drained required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 15000
+		# Range: > 0
+		bloodRequirement = 15000
+		#Total mobs or players turned into kindred required to evolve into this race. Set to 0 to disable this requirement.
+		# Default: 120
+		# Range: > 0
+		mobTurnRequirement = 120
+
+	[crimson_progenitor.base_energy]
+		#Minimum base aura for this race.
+		# Default: 1800000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 1800000.0
+		#Maximum base aura for this race.
+		# Default: 2400000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 2400000.0
+		#Minimum base magicule for this race.
+		# Default: 2200000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 2200000.0
+		#Maximum base magicule for this race.
+		# Default: 3000000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 3000000.0
+
+	[crimson_progenitor.attributes]
+		#Scale modifier for this race. 0 means normal size.
+		# Default: 0.08
+		# Range: -0.9 ~ 16.0
+		size = 0.08
+		#Max health bonus/value used by the race config.
+		# Default: 1100.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 1100.0
+		#Max spiritual health bonus/value used by the race config.
+		# Default: 10000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 10000.0
+		#Attack damage bonus/value used by the race config.
+		# Default: 9.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 9.0
+		#Attack speed modifier used by the race config.
+		# Default: 0.65
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.65
+		#Knockback resistance modifier used by the race config.
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.4
+		#Movement speed modifier used by the race config.
+		# Default: 0.07
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.07
+		#Swim speed modifier. Negative values make Bloodfiends worse in water.
+		# Default: -0.05
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = -0.05
+
+	[crimson_progenitor.blood]
+		#Maximum stored blood for this race before generation penalties.
+		# Default: 320
+		# Range: > 1
+		maxBlood = 320
+		#Blood amount required before passive blood regeneration can activate.
+		# Default: 110
+		# Range: > 0
+		bloodRegenThreshold = 110
+
+	[blood.kindred]
+		#Generation assigned to naturally selected Bloodfiend players. Natural Bloodfiends should usually be generation 1.
+		# Default: 1
+		# Range: > 1
+		defaultNaturalGeneration = 1
+		#Maximum allowed kindred generation.
+		# Default: 12
+		# Range: > 1
+		maxGeneration = 12
+		#Blood capacity penalty per generation after generation 1.
+		# Default: 0.025
+		# Range: 0.0 ~ 1.0
+		bloodCapacityPenaltyPerGeneration = 0.025
+		#Blood Arts power penalty per generation after generation 1.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		bloodArtPenaltyPerGeneration = 0.02
+		#Water weakness increase per generation after generation 1.
+		# Default: 0.04
+		# Range: 0.0 ~ 16.0
+		waterWeaknessPerGeneration = 0.04
+		#Minimum multiplier after generation penalties.
+		# Default: 0.55
+		# Range: 0.0 ~ 1.0
+		minimumPowerMultiplier = 0.55
+
+	[blood.passive_regeneration]
+		#How often passive blood regeneration checks. 240 ticks = 12 seconds. Blood is only consumed if health, spiritual health, or magicules are missing.
+		# Default: 240
+		# Range: > 1
+		passiveInterval = 240
+		#Blood consumed per passive regeneration pulse.
+		# Default: 1
+		# Range: > 0
+		passiveBloodCost = 1
+		#Health healed per passive regeneration pulse.
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		passiveHeal = 2.0
+		#Spiritual health restored per passive regeneration pulse.
+		# Default: 35.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		passiveSpiritualHeal = 35.0
+		#Magicules restored per passive regeneration pulse.
+		# Default: 75.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		passiveMagiculeRestore = 75.0
+
+	[blood.water_weakness]
+		#How often water and rain weakness checks. 160 ticks = 8 seconds.
+		# Default: 160
+		# Range: > 1
+		waterCheckInterval = 160
+		#Blood drained when touching water.
+		# Default: 1
+		# Range: > 0
+		waterBloodDrain = 1
+		#Blood drained when standing in rain.
+		# Default: 0
+		# Range: > 0
+		rainBloodDrain = 0
+		#Damage dealt when touching water.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.7976931348623157E308
+		waterDamage = 0.75
+		#Damage dealt when standing in rain.
+		# Default: 0.1
+		# Range: 0.0 ~ 1.7976931348623157E308
+		rainDamage = 0.1
+		#Magicules drained when touching water.
+		# Default: 15.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		waterMagiculeDrain = 15.0
+
+	[blood.blood_hunger]
+		#How often Bloodfiends convert stored blood into hunger. 300 ticks = 15 seconds.
+		# Default: 300
+		# Range: > 1
+		hungerInterval = 300
+		#Blood consumed whenever hunger is restored.
+		# Default: 1
+		# Range: > 0
+		hungerBloodCost = 1
+		#Food points restored from blood. 2 food points = 1 hunger shank.
+		# Default: 4
+		# Range: 0 ~ 20
+		hungerFoodRestore = 4
+		#Saturation restored from blood feeding.
+		# Default: 2.0
+		# Range: 0.0 ~ 20.0
+		hungerSaturationRestore = 2.0
+		#If the player has blood, their hunger is kept at least this high.
+		# Default: 18
+		# Range: 0 ~ 20
+		minimumFoodLevelFromBlood = 18
+
+	[blood.master_bond]
+		#How often kindred with a living Bloodfiend master receive a bond pulse.
+		# Default: 200
+		# Range: > 1
+		masterBondInterval = 200
+		#Blood gained by kindred near their living master.
+		# Default: 1
+		# Range: > 0
+		masterBondBloodGain = 1
+		#Range required for master bond blood pulse.
+		# Default: 32.0
+		# Range: 0.0 ~ 512.0
+		masterBondRange = 32.0
+		#Blood Arts power multiplier for kindred with a living Bloodfiend master.
+		# Default: 1.12
+		# Range: 1.0 ~ 16.0
+		masterBondBloodArtMultiplier = 1.12
+		#Max blood multiplier for kindred with a living Bloodfiend master.
+		# Default: 1.15
+		# Range: 1.0 ~ 16.0
+		masterBondBloodCapacityMultiplier = 1.15
+		#Blood cost multiplier for kindred with a living Bloodfiend master.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		masterBondBloodCostMultiplier = 0.75
+		#Water weakness multiplier for kindred with a living Bloodfiend master.
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		masterBondWaterWeaknessMultiplier = 0.75
+
+[blood_arts]
+	#Maximum mastery for Blood Arts.
+	# Default: 1000
+	# Range: > 1
+	maxMastery = 1000
+
+	[blood_arts.drain_blood]
+		#Target range for held Drain Blood.
+		# Default: 10.0
+		# Range: 0.0 ~ 128.0
+		drainRange = 10.0
+		#How often held Drain Blood pulses. 14 ticks is a little slower than twice per second.
+		# Default: 14
+		# Range: 1 ~ 200
+		drainTickInterval = 14
+		#Tiny cooldown after each drain pulse. Usually keep this at 0 because the held interval already controls pacing.
+		# Default: 0
+		# Range: > 0
+		drainPulseCooldown = 0
+		#Blood gained per Drain Blood pulse before generation modifiers.
+		# Default: 8
+		# Range: > 0
+		drainBloodGain = 8
+		#Damage dealt per Drain Blood pulse. Kept low so Kindred Rite can be used before targets die.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		drainDamage = 1.0
+		#Unused legacy cooldown for older press-drain behavior.
+		# Default: 0
+		# Range: > 0
+		drainCooldown = 0
+		#Drain Blood gain multiplier against Blood Branded targets.
+		# Default: 3
+		# Range: > 1
+		bloodBrandDrainMultiplier = 3
+		#Targets at or below this health ratio give bonus blood.
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		lowHealthDrainBonusThreshold = 0.35
+		#Blood gain multiplier against low-health targets.
+		# Default: 1.75
+		# Range: 1.0 ~ 64.0
+		lowHealthDrainBonusMultiplier = 1.75
+
+	[blood_arts.blood_surge]
+		#Blood consumed by Blood Surge per cost interval while Blood Arts is toggled and damage is boosted.
+		# Default: 1
+		# Range: > 0
+		bloodSurgeCost = 1
+		#Minimum ticks between Blood Surge blood payments. 40 ticks = 2 seconds.
+		# Default: 40
+		# Range: > 1
+		bloodSurgeCostInterval = 40
+		#Damage multiplier added by Blood Surge. 0.45 means +45% before generation and master scaling.
+		# Default: 0.45
+		# Range: 0.0 ~ 1024.0
+		bloodSurgeDamageMultiplier = 0.45
+
+	[blood_arts.crimson_guard]
+		#Blood cost to activate Crimson Guard.
+		# Default: 12
+		# Range: > 0
+		crimsonGuardCost = 12
+		#Duration of Crimson Guard in ticks.
+		# Default: 200
+		# Range: > 1
+		crimsonGuardDuration = 200
+		#Cooldown for Crimson Guard in seconds.
+		# Default: 10
+		# Range: > 0
+		crimsonGuardCooldown = 10
+		#Extra blood consumed when Crimson Guard reduces incoming damage.
+		# Default: 1
+		# Range: > 0
+		crimsonGuardHitBloodCost = 1
+		#Minimum ticks between Crimson Guard hit blood costs. 40 ticks = 2 seconds.
+		# Default: 40
+		# Range: > 1
+		crimsonGuardHitCostInterval = 40
+		#Incoming damage multiplier while Crimson Guard is active. 0.45 means 55% reduction.
+		# Default: 0.45
+		# Range: 0.0 ~ 1.0
+		crimsonGuardDamageTakenMultiplier = 0.45
+
+	[blood_arts.blood_brand]
+		#Blood cost to brand a target.
+		# Default: 8
+		# Range: > 0
+		bloodBrandCost = 8
+		#Duration of Blood Brand in ticks.
+		# Default: 600
+		# Range: > 1
+		bloodBrandDuration = 600
+		#Cooldown for Blood Brand in seconds.
+		# Default: 5
+		# Range: > 0
+		bloodBrandCooldown = 5
+
+	[blood_arts.kindred_rite]
+		#Blood cost to use Kindred Rite.
+		# Default: 90
+		# Range: > 0
+		kindredRiteCost = 90
+		#Cooldown for Kindred Rite in seconds.
+		# Default: 45
+		# Range: > 0
+		kindredRiteCooldown = 45
+		#Target range for Kindred Rite.
+		# Default: 8.0
+		# Range: 0.0 ~ 128.0
+		kindredRiteRange = 8.0
+		#Target mob must be at or below this health ratio to be turned unless EP ratio allows instant turning.
+		# Default: 0.35
+		# Range: 0.0 ~ 1.0
+		mobTurnHealthThreshold = 0.35
+		#Target player must be at or below this health ratio unless EP ratio allows instant turning. Consent is still required.
+		# Default: 0.3
+		# Range: 0.0 ~ 1.0
+		playerTurnHealthThreshold = 0.3
+		#If target EP is below this ratio of owner EP, Kindred Rite ignores the health threshold. 0.01 means below 1 percent.
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		instantTurnEpRatio = 0.01
+		#Player turning consent window in ticks. The target must be prompted first, then sneak during a second Kindred Rite attempt. 1200 ticks = 60 seconds.
+		# Default: 1200
+		# Range: > 20
+		playerTurnConsentTicks = 1200
+		#Blood gained by the owner after a successful Kindred Rite.
+		# Default: 35
+		# Range: > 0
+		kindredRiteSuccessBloodGain = 35
+		#Maximum active blood thralls.
+		# Default: 6
+		# Range: > 0
+		maxActiveBloodThralls = 6
+		#If true, Kindred Rite can turn weakened mobs.
+		allowMobTurning = true
+		#If true, Kindred Rite can turn consenting weakened players into Bloodfiends.
+		allowPlayerTurning = true
+
+	[parasite.base_energy]
+		# Default: 100.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 100.0
+		# Default: 200.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 200.0
+		# Default: 100.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 100.0
+		# Default: 200.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 200.0
+
+	[parasite.attributes]
+		# Default: -0.9
+		# Range: -0.9 ~ 16.0
+		size = -0.9
+		# Default: 5.0
+		# Range: -1024.0 ~ 1.7976931348623157E308
+		maxHealth = 5.0
+		# Default: 5.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 5.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 0.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		knockbackResistance = 0.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.0

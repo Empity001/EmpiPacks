@@ -1,0 +1,83 @@
+[Discord]
+	#Master switch. When false, no Discord traffic is sent or received at all.
+	enabled = false
+	#Default webhook URL used by every enabled category that has no override below. Blank = no default.
+	defaultWebhookUrl = ""
+	#Override webhook URL for world events (calamity, dungeon, awakenings). Blank = use default.
+	worldUrl = ""
+	#Override webhook URL for nation / diplomacy events. Blank = use default.
+	nationUrl = ""
+	#Override webhook URL for player milestones (records, achievements). Blank = use default.
+	milestoneUrl = ""
+	#Override webhook URL for in-game chat relay (MC -> Discord). Blank = use default.
+	chatUrl = ""
+	#Override webhook URL for player death messages. Blank = use default.
+	deathUrl = ""
+	#Send world-event posts to Discord.
+	worldEnabled = true
+	#Send nation/diplomacy posts to Discord.
+	nationEnabled = true
+	#Send milestone posts to Discord.
+	milestoneEnabled = true
+	#Relay in-game chat to Discord.
+	chatEnabled = true
+	#Send player death messages to Discord.
+	deathEnabled = true
+	#Post the server online/offline announcements (started / stopping). Master 'enabled' still applies on top.
+	serverStatusEnabled = true
+	#Post player join/leave messages to the world channel (with the player's head avatar). Master 'enabled' + worldEnabled still apply.
+	joinLeaveEnabled = true
+	#Minimum title rarity posted to the milestone channel: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY, MYTHIC, UNIQUE, HARDCORE, CURSED. Blank disables title posts entirely. Without a floor every common title would post and drown the channel.
+	milestoneTitleRarityFloor = "LEGENDARY"
+	#Comma-separated crate ids whose opened reward is posted to the milestone channel. Blank = none.
+	milestoneCrateIds = "elite"
+	#Post race evolutions (e.g. Ogre -> Kijin) to the milestone channel.
+	tensuraRaceEvolutionEnabled = true
+	#Post Unique / Ultimate skill masteries to the milestone channel.
+	tensuraSkillMasteryEnabled = true
+	#Post spirit contract upgrades to the milestone channel.
+	tensuraSpiritLevelEnabled = true
+	#Minimum spirit level posted: LESSER, MEDIUM, GREATER, LORD. Blank posts every upgrade.
+	tensuraSpiritLevelFloor = "GREATER"
+	#Post Harvest Festival entry (the Demon Lord awakening feast) to the world channel.
+	tensuraHarvestFestivalEnabled = true
+	#Post Possession skill takeovers to the world channel.
+	tensuraPossessionEnabled = true
+	#Use rich embeds. When false, posts plain text content instead.
+	useEmbeds = true
+	#Embed accent color for world events (decimal RGB, e.g. 0xE84D4D = 15224141).
+	worldColor = 15224141
+	#Embed accent color for nation events (decimal RGB).
+	nationColor = 3447003
+	#Embed accent color for milestones (decimal RGB).
+	milestoneColor = 15844367
+	#Embed accent color for chat relay (decimal RGB).
+	chatColor = 9807270
+	#Embed accent color for deaths (decimal RGB).
+	deathColor = 2829617
+	#Optional display name for outbound webhook posts. Blank = Discord uses the webhook's configured name.
+	webhookUsername = ""
+	#Optional avatar image URL for outbound webhook posts. Blank = webhook default.
+	webhookAvatarUrl = ""
+	#Enable the two-way bot (Discord -> MC chat relay). Requires botToken and relayChannelId.
+	botEnabled = false
+	#Discord bot token. KEEP SECRET. The MESSAGE_CONTENT privileged intent must be enabled in the Developer Portal.
+	botToken = ""
+	#Numeric Discord channel ID whose messages relay into in-game chat.
+	relayChannelId = ""
+	#Prefix shown before relayed Discord messages in MC chat. Include any trailing space you want.
+	relayPrefix = "[Discord] "
+	#Name shown for relayed Discord users. true = server display name (guild nickname, falls back to global name then username); false = global display name (falls back to username).
+	relayUseServerDisplayName = true
+	#Answer read-only commands (e.g. !list, !tps, !uptime, !help) typed in the relay channel. Requires the bot.
+	commandsEnabled = true
+	#Prefix that marks a relay-channel message as a bot command.
+	commandPrefix = "!"
+	#Update the bot's Discord presence with the live player count. Requires the bot.
+	presenceEnabled = true
+	#How often (seconds) to refresh the bot presence. Floored at 15s.
+	presenceUpdateSeconds = 60
+	#Presence text. {online} and {max} are substituted; shown in Discord as 'Watching <text>'.
+	presenceTemplate = "{online}/{max} online"
+	#Log every payload and gateway opcode to the server console.
+	debug = false

@@ -1,0 +1,707 @@
+[MeditationSkill]
+	#True/False Disable this skill?
+	enabled = true
+	#EP Requirement for Learning Meditation.
+	epAcquirement = 500.0
+	#Magicule Cost to activate .
+	magiculeCost = 20.0
+	#Aura Regen rate.
+	auraRegenRate = 0.5
+	#Mana Regen rate
+	manaRegenRate = 0.5
+	#SHP Regen rate
+	shpRegenRate = 0.5
+
+[RaphealSkill]
+	#Is this Skill Enabled?
+	IsEnabled = true
+	#The chant speed multiplier when toggled.
+	chantSpeed = 4.0
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 16.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 16.0
+	#The Analysis Level when activated.
+	analysisLevel = 18
+	#The Analysis Level when activated with Mastery.
+	analysisLevelMastered = 32
+	#The Analysis Radius when activated.
+	analysisRadius = 25
+	#The Analysis Radius when activated with Mastery.
+	analysisRadiusMastered = 64
+	#The range in block of Analyze / Reverse-Engineer targeting on mobs.
+	copyRange = 20.0
+	#The range in block of Reverse-Engineer on magic projectiles.
+	copyRangeMagic = 32.0
+	#The cooldown in second when the user successfully copied a skill from targets.
+	copyCooldownSuccess = 10
+	#The cooldown in second when the user failed to copy a skill from targets.
+	copyCooldownFail = 5
+	#How long (seconds) a target stays analyzed after Analyze marks it.
+	analysisDurationSeconds = 300
+	#Maximum number of simultaneously analyzed targets.
+	maxAnalyzedTargets = 16
+	#Magicule cost of Analyze (mode 0).
+	analyzeMagiculeCost = 500.0
+	#Observation channel length (seconds) for Reverse-Engineer.
+	reverseEngineerChannelSeconds = 5
+	#Magicule cost to start a Reverse-Engineer channel (mode 1).
+	reverseEngineerMagiculeCost = 5000.0
+	#Seconds between Prediction hit-negations against analyzed attackers.
+	predictionNegateCooldownSeconds = 30
+	#Magicule cost per Prediction hit-negation.
+	predictionNegateMagiculeCost = 2000.0
+	#Damage multiplier of Prediction's computed strike against analyzed targets.
+	predictionCritMultiplier = 1.5
+	#Seconds between Prediction computed strikes.
+	predictionCritCooldownSeconds = 10
+	#Multilayer Barrier damage reduction (0-1) against unanalyzed attackers.
+	barrierDamageReduction = 0.25
+	#Multilayer Barrier damage reduction (0-1) against analyzed attackers.
+	barrierDamageReductionAnalyzed = 0.5
+	#Magicule upkeep per second while Multilayer Barrier is active.
+	barrierUpkeepMagiculePerSecond = 100.0
+	#Enable Independent Counsel proposals.
+	counselEnabled = true
+	#Seconds a Counsel proposal stays pending before it expires.
+	counselProposalExpirySeconds = 10
+	#Per-trigger cooldown (seconds) between Counsel proposals.
+	counselTriggerCooldownSeconds = 60
+	#Health fraction (0-1) below which Counsel proposes the barrier.
+	counselLowHealthPercent = 0.35
+	#Enable autonomous Emergency Defense against lethal hits.
+	emergencyDefenseEnabled = true
+	#Cooldown (seconds) between Emergency Defense activations.
+	emergencyDefenseCooldownSeconds = 300
+	#Magicule cost of an Emergency Defense activation.
+	emergencyDefenseMagiculeCost = 20000.0
+	#If true, Ars Magna benefits (instant cast, chant annulment, half MP) require a computed situation (live analysis / Prediction / Barrier). If false, plain toggle is enough.
+	arsMagnaRequiresAnalysis = true
+	#How many levels that Rapheal can go above the maximum level of an enchantment.
+	maxBonusLevel = 4
+	#Lists of enchantments that Godly Craftsman cannot learn or add.
+	enchantmentBlacklist = ["tensura:dead_end_rainbow", "tensura:tsukumogami"]
+	#Lists of enchantments that Godly Craftsman cannot learn or add above the enchantment's maximum level.
+	maxBonusBlacklist = ["tensura:dead_end_rainbow", "tensura:holy_coat", "tensura:magic_interference", "tensura:tsukumogami", "tensura:barrier_piercing", "tensura:breathing_support", "tensura:crushing", "tensura:energy_steal", "tensura:elemental_boost", "tensura:elemental_resistance", "tensura:energy_protection", "tensura:holy_weapon", "tensura:intangibility", "tensura:magic_weapon", "tensura:magicule_absorption", "tensura:magic_capacity", "tensura:magic_protection", "tensura:severance", "tensura:slotting", "tensura:soul_eater", "tensura:spiritual_protection", "tensura:severance_protection", "tensura:sturdy", "tensura:swift", "tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:vitality", "tensura:vigor", "tensura:transcendence", "tensura:growth", "tensura:restoration"]
+	#The percentage chance to obtain a Curse Engraving per Engraving on the item.
+	curseChance = 0.03
+
+[OuroborosSkill]
+	#Is this Skill Enabled?
+	IsEnabled = true
+	#Fraction of dealt damage returned as healing while toggled.
+	renewalHealFraction = 0.15
+	#Fraction of dealt damage returned as spiritual health while toggled (0 disables).
+	renewalShpHealFraction = 0.15
+	#Fraction of dealt damage returned as magicule while toggled.
+	renewalMagiculeFraction = 0.1
+	#Outgoing damage penalty while toggled. Keeps returned value below sacrificed value (the loop leaks).
+	renewalDamagePenalty = 0.2
+	#Magicule cost to prime the fangs.
+	fangsCost = 3000.0
+	#Ticks the prime lasts waiting for a hit.
+	fangsPrimeTicks = 100
+	#Bonus per successive echo (echo 1 = 1x+bonus, echo 2 = 1x+2xbonus).
+	fangsEchoBonusPerStep = 0.25
+	#Ticks between the strikes (hit, +delay, +2xdelay).
+	fangsEchoDelayTicks = 20
+	#Cooldown in seconds of Timeless Fangs.
+	fangsCooldown = 8
+	#Magicule cost per harmful effect shed.
+	moltCostPerDebuff = 2000.0
+	#Base absorption granted on any successful molt (2.0 = 1 heart).
+	moltBaseAbsorption = 4.0
+	#Absorption granted per debuff shed.
+	moltAbsorptionPerDebuff = 2.0
+	#Cooldown in seconds of Molt.
+	moltCooldown = 30
+	#Cooldown in seconds of Molt when mastered.
+	moltCooldownMastered = 15
+	#Magicule cost of the rewind.
+	coilBackCost = 20000.0
+	#How far back the rewind reaches, in ticks.
+	coilBackRewindTicks = 100
+	#Fraction of HP lost over the window that the rewind restores.
+	coilBackHealFraction = 0.5
+	#Cooldown in seconds of Coil Back.
+	coilBackCooldown = 60
+	#Radius in blocks of the arrival shockwave (set base and fraction to 0 to disable).
+	coilBackShockwaveRadius = 4.0
+	#Flat base damage of the arrival shockwave.
+	coilBackShockwaveBase = 50.0
+	#Extra shockwave damage per point of HP restored by the rewind.
+	coilBackShockwaveFraction = 5.0
+	#Fraction of MAX magicule paid to arm the cycle.
+	cycleArmCostFraction = 0.5
+	#Duration in ticks of the armed state (the visible effect icon).
+	cycleArmedDurationTicks = 6000
+	#Fraction of max HP restored on rebirth.
+	rebirthHealthFraction = 0.3
+	#Duration in ticks of one Cycle Debt application.
+	cycleDebtDurationTicks = 12000
+	#Cooldown in seconds of arming Cycle's End.
+	cycleCooldown = 600
+	#Magicule cost of the bite.
+	mawCost = 10000.0
+	#Cone reach in blocks.
+	mawRange = 6.0
+	#Full cone angle in degrees.
+	mawAngle = 90.0
+	#Flat damage per target.
+	mawBaseDamage = 100.0
+	#Fraction of target max HP added as damage.
+	mawMaxHpFraction = 0.1
+	#Fraction of total damage dealt returned as healing.
+	mawHealFraction = 0.25
+	#Cooldown in seconds of Serpent's Maw.
+	mawCooldown = 12
+
+[BeelzebuthSkill]
+	#Is this Skill Enabled?
+	IsEnabled = true
+	#The max range in blocks of the Predation mist.
+	predationRange = 12.0
+	#The max range in blocks of the Predation mist when mastered.
+	predationRangeMastered = 18.0
+	#The attack damage of the Predation mist.
+	predationDamage = 300.0
+	#The multiplier of the target's EP turned into the user's EP when killed by the Predation mist.
+	predationEPSteal = 0.8
+	#The amount of magicule the mist drains from targets per hit.
+	predationEPDrain = 5000.0
+	#The chance (percent) to steal skills from targets without killing them.
+	predationSkillChance = 80.0
+	#The number of skills stolen from a target at a time without killing it.
+	predationSkillNumber = 3
+	#The max number of Unique skills the kill-devour (devour all skills) can steal from a single target. Non-unique skills are not capped.
+	predationUniqueDevourLimit = 4
+	#The chance (0.0-1.0) for the kill-devour (devour all skills) to copy a target's Magic. 0 disables Magic copying.
+	predationMagicCopyChance = 1.0
+	#The duration in ticks of the Corrosion effect applied by the Predation mist.
+	predationCorrosionDuration = 200
+	#The level of the Corrosion effect applied by the Predation mist.
+	predationCorrosionLevel = 4
+	#Number of slots in the Stomach spatial storage.
+	stomachSlots = 108
+	#Max stack size per slot in the Stomach spatial storage.
+	stomachStackSize = 999
+	#Magicule Cost to absorb each of your own harmful status effects into the Isolate pool.
+	isolateCleanseCostPerEffect = 2000.0
+	#Magicule credited to the Isolate pool per absorbed harmful effect.
+	isolateEffectCredit = 250.0
+	#Multiplier applied to an item's dissolving registry value when converting quarantined items.
+	isolateConversionMultiplier = 3.0
+	#Flat magicule value per quarantined item with no dissolving registry entry.
+	isolateFallbackMagicule = 50.0
+	#Max number of quarantined item stacks the Isolate can hold.
+	isolateMaxStacks = 54
+	#Cooldown in ticks of the Isolate batch conversion.
+	isolateConvertCooldown = 160
+	#Cooldown in ticks of the Isolate batch conversion when mastered.
+	isolateConvertCooldownMastered = 40
+	#Magicule Cost per hostile projectile swallowed while toggled.
+	absorbProjectileCost = 500.0
+	#Magicule credited to the Isolate pool per swallowed projectile.
+	isolateProjectileCredit = 500.0
+	#Internal cooldown in ticks between projectile absorbs.
+	isolateProjectileCooldown = 60
+	#The range in blocks for targeting a subordinate in Provide/Receive Mode.
+	provideRange = 5
+	#Cost of Provide % 0.9 = 90% magicules.
+	provideCostPercentage = 0.9
+	#Cooldown in ticks of Provide Mode.
+	provideCooldown = 2400
+	#Cooldown in ticks of Provide Mode when mastered.
+	provideCooldownMastered = 1200
+	#Cost of Receive % 0.9 = 90% magicules.
+	receiveCostPercentage = 0.9
+	#Cooldown in ticks of Receive Mode (applied when the copy succeeds).
+	receiveCooldown = 2400
+	#Cooldown in ticks of Receive Mode when mastered.
+	receiveCooldownMastered = 1200
+	#Magicule Cost of Soul Consume, charged once per second while the aura is held.
+	soulConsumeMagiculeCost = 60000.0
+	#The duration in tick of the Soul Drain effect applied on targets hit while Soul Consume is slotted.
+	drainDuration = 200
+	#The level of the Soul Drain effect applied on targets hit while Soul Consume is slotted.
+	drainLevel = 3
+	#The radius in blocks of the held Soul Steal aura.
+	stealRadius = 32
+	#Max targets the Soul Steal aura reaps per second.
+	stealMaxTargets = 10
+	#HP fraction a target must be below to be instakilled by the Soul Steal aura.
+	stealHP = 0.4
+	#Fraction of the user's max EP a target must be below to be instakilled by the Soul Steal aura.
+	stealEP = 0.6
+	#Fear level a target must have to be instakilled by the Soul Steal aura.
+	stealFear = 2.0
+	#Multiplier of the target's max health dealt as Soul Steal instakill damage.
+	stealDamageMultiplier = 10.0
+
+[VoidSovereign]
+	#Is this Skill Enabled?
+	IsEnabled = true
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	domainAuraDrainPerTick = 5.0
+	domainConcealmentLevel = 3
+	domainConcealmentLevelMastered = 5
+	domainDodgeBonus = 25.0
+	domainDodgeInvulnerabilityBonus = 3.0
+	domainChantSpeedMultiplier = 2.0
+	domainPassiveDamage = 8.0
+	domainPassiveDamageMastered = 16.0
+	nullSlashMagiculeCost = 1500.0
+	nullSlashDamage = 150.0
+	nullSlashDamageMastered = 300.0
+	nullSlashSize = 1.4
+	nullSlashSizeMastered = 2.0
+	nullSlashDuration = 80
+	nullSlashDurationMastered = 120
+	nullSlashCooldown = 5
+	nullSlashCooldownMastered = 2
+	eventHorizonAuraCost = 3000.0
+	eventHorizonRange = 20.0
+	eventHorizonRangeMastered = 35.0
+	eventHorizonDamageBonus = 100.0
+	eventHorizonDamageBonusMastered = 555.0
+	eventHorizonDebuffDuration = 120
+	eventHorizonCooldown = 30
+	eventHorizonCooldownMastered = 20
+	soulCollapseMagiculeCost = 5000.0
+	soulCollapseBaseDamage = 60.0
+	soulCollapseBaseDamageMastered = 100.0
+	soulCollapseChargeMultiplier = 1.5
+	soulCollapseChargeMultiplierMastered = 2.5
+	soulCollapseMaxChargeTicks = 60
+	soulCollapseHitRadius = 3.0
+	soulCollapseHitRadiusMastered = 5.0
+	soulCollapseCooldown = 400
+	soulCollapseCooldownMastered = 260
+
+[VoidEdge]
+	mpAcquirement = 8000.0
+	cloakAuraDrainPerTick = 2.0
+	cloakConcealmentLevel = 1
+	cloakConcealmentLevelMastered = 3
+	cloakDodgeBonus = 10.0
+	cloakChantSpeedMultiplier = 1.4
+	voidEdgeMagiculeCost = 800.0
+	voidEdgeDamage = 25.0
+	voidEdgeDamageMastered = 50.0
+	voidEdgeSize = 1.0
+	voidEdgeSizeMastered = 1.4
+	voidEdgeDuration = 60
+	voidEdgeDurationMastered = 90
+	voidEdgeCooldown = 80
+	voidEdgeCooldownMastered = 55
+
+[Iron_Resolve]
+	mpAcquirement = 10000.0
+	hasteAmplifier = 9
+	aegisMaxReduction = 40.0
+	surgeMagiculeCost = 2000.0
+	surgeStrengthAmplifier = 2
+	surgeDurationTicks = 6000
+	surgeDurationMasteredTicks = 12000
+	surgeCooldown = 7200
+	surgeCooldownMastered = 14400
+	lastStandThresholdPct = 40.0
+	lastStandImmunityTicks = 30
+	lastStandResistanceAmplifier = 4
+	lastStandInternalCooldownTicks = 15
+	enabled = true
+	epAcquirement = 20000.0
+
+[Scavenger]
+	#Magicule cost to learn Scavenger.
+	mpAcquirement = 500.0
+	#Luck amplifier for unmastered holders (0=Luck I, 1=Luck II, 2=Luck III). Default: 1 = Luck II.
+	baseLuckAmplifier = 1
+	#Luck amplifier for mastered holders with toggle active (0=Luck I, 1=Luck II, 2=Luck III). Default: 2 = Luck III.
+	masteredLuckAmplifier = 2
+	enabled = true
+	epAcquirement = 15000.0
+
+[AncientSoul]
+	#True/False — is the Ancient Soul skill enabled (acquirable)?
+	enabled = true
+	#EP requirement for learning Ancient Soul.
+	epAcquirement = 5000.0
+	#Magicule acquiring cost to learn the skill.
+	mpAcquirement = 0.0
+	#Magicule drained per tick while the skill is held (passive upkeep).
+	magiculeDrainPerTick = 2.0
+	#Radius (blocks) of the Aura of the Ancient ally buff.
+	buffRadius = 25.0
+	#Radius (blocks) within which Soul Sight outlines entities.
+	soulSightRadius = 30.0
+	#Strength effect amplifier (0-indexed; 2 = Strength III).
+	strengthAmplifier = 2
+	#Regeneration effect amplifier (0-indexed; 2 = Regeneration III).
+	regenAmplifier = 2
+	#Resistance effect amplifier (0-indexed; 0 = Resistance I).
+	resistanceAmplifier = 0
+	#Duration (ticks) applied to the aura effects on each refresh.
+	effectDurationTicks = 120
+	#How often (ticks) the aura effects are refreshed.
+	refreshIntervalTicks = 120
+
+[VoidEdgeWeapon]
+	#Master toggle for all three Void Edge weapon abilities.
+	enabled = true
+	#Whether Void Edge abilities announce via Voice of the World.
+	useVoiceOfTheWorld = false
+	#Spatial Cut: damage = ATTACK_DAMAGE * this factor + flat.
+	spatialDamageFactor = 1.5
+	spatialDamageFlat = 30.0
+	#Spatial Cut: line length in blocks (passes through walls).
+	spatialRange = 24.0
+	#Spatial Cut: hit radius around each point of the line.
+	spatialRadius = 1.5
+	#Spatial Cut: cooldown in ticks.
+	spatialCooldown = 40
+	#Spatial Cut: aura cost.
+	spatialAuraCost = 200.0
+	#Spatial Cut: magicule cost.
+	spatialMagiculeCost = 200.0
+	#Teleport Slash: max target range in blocks.
+	teleportRange = 20.0
+	#Teleport Slash: damage = ATTACK_DAMAGE * factor + flat.
+	teleportDamageFactor = 1.5
+	teleportDamageFlat = 40.0
+	#Teleport Slash: damage multiplier when the target carries a Dimensional Mark.
+	teleportMarkBonus = 1.5
+	#Teleport Slash: invulnerability frames (ticks) granted on arrival.
+	teleportInvulnTicks = 15
+	#Teleport Slash: delay (ticks) before the follow-up slash lands.
+	teleportSlashDelay = 5
+	#Teleport Slash: cooldown in ticks.
+	teleportCooldown = 80
+	#Teleport Slash: aura cost.
+	teleportAuraCost = 300.0
+	#Teleport Slash: magicule cost.
+	teleportMagiculeCost = 100.0
+	#Reality Fracture: damage = ATTACK_DAMAGE * factor + flat.
+	fractureDamageFactor = 2.0
+	fractureDamageFlat = 80.0
+	#Reality Fracture: AOE radius in blocks.
+	fractureRadius = 6.0
+	#Reality Fracture: max cast range when targeting a look point.
+	fractureCastRange = 20.0
+	#Reality Fracture: cooldown in ticks.
+	fractureCooldown = 600
+	#Reality Fracture: magicule cost.
+	fractureMagiculeCost = 3000.0
+	#Reality Fracture: aura cost.
+	fractureAuraCost = 3000.0
+	#Fractured Reality debuff duration (ticks) applied to caught targets.
+	fractureDebuffDuration = 200
+	#Fractured Reality debuff amplifier (0 = level I).
+	fractureDebuffAmplifier = 1
+	#Fractured Reality: Void damage dealt per second, scaled by (amplifier+1).
+	fractureTickDamage = 8.0
+	#Fractured Reality: incoming-damage multiplier on afflicted targets.
+	fractureDamageTakenMultiplier = 1.25
+	#Fractured Reality: movement-speed modifier (negative = slow), ADD_MULTIPLIED_TOTAL.
+	fractureSlow = -0.3
+	#Dimensional Mark duration (ticks) applied by Spatial Cut.
+	markDuration = 120
+	#Combo window (ticks) linking Spatial -> Teleport -> Fracture.
+	comboWindow = 100
+	#Reality Fracture radius multiplier when chained from a recent Teleport Slash.
+	comboRadiusBonus = 1.5
+	#Reality Fracture damage multiplier when the full resonance combo lands.
+	resonanceDamageBonus = 1.5
+
+[AstralEdgeWeapon]
+	#Master toggle for all three Astral Edge weapon abilities.
+	enabled = true
+	#Whether Astral Edge abilities announce via Voice of the World.
+	useVoiceOfTheWorld = false
+	#Starlight Lance: damage = ATTACK_DAMAGE * this factor + flat.
+	lanceDamageFactor = 1.5
+	lanceDamageFlat = 30.0
+	#Starlight Lance: line length in blocks (passes through walls).
+	lanceRange = 24.0
+	#Starlight Lance: hit radius around each point of the line.
+	lanceRadius = 1.5
+	#Starlight Lance: cooldown in ticks.
+	lanceCooldown = 40
+	#Starlight Lance: aura cost.
+	lanceAuraCost = 200.0
+	#Starlight Lance: magicule cost.
+	lanceMagiculeCost = 200.0
+	#Starlight Lance: damage multiplier when purging void effects (Dimensional Mark / Fractured Reality) off a target.
+	purgeBonus = 1.5
+	#Astral Step: max target range in blocks.
+	stepRange = 20.0
+	#Astral Step: damage = ATTACK_DAMAGE * factor + flat.
+	stepDamageFactor = 1.5
+	stepDamageFlat = 40.0
+	#Astral Step: damage multiplier when the target carries a Celestial Mark.
+	stepMarkBonus = 1.5
+	#Astral Step: invulnerability frames (ticks) granted on arrival.
+	stepInvulnTicks = 15
+	#Astral Step: delay (ticks) before the follow-up slash lands.
+	stepSlashDelay = 5
+	#Astral Step: Absorption duration (ticks) granted to the wielder on arrival.
+	stepAbsorptionDuration = 100
+	#Astral Step: Absorption amplifier (0 = level I).
+	stepAbsorptionAmplifier = 1
+	#Astral Step: cooldown in ticks.
+	stepCooldown = 80
+	#Astral Step: aura cost.
+	stepAuraCost = 300.0
+	#Astral Step: magicule cost.
+	stepMagiculeCost = 100.0
+	#Creation's Dawn: damage = ATTACK_DAMAGE * factor + flat.
+	dawnDamageFactor = 2.0
+	dawnDamageFlat = 80.0
+	#Creation's Dawn: AOE radius in blocks.
+	dawnRadius = 6.0
+	#Creation's Dawn: max cast range when targeting a look point.
+	dawnCastRange = 20.0
+	#Creation's Dawn: flat healing granted to the wielder and allies in the radius.
+	dawnHealAmount = 40.0
+	#Creation's Dawn: Regeneration duration (ticks) granted to the wielder and allies.
+	dawnRegenDuration = 200
+	#Creation's Dawn: Regeneration amplifier (0 = level I).
+	dawnRegenAmplifier = 1
+	#Creation's Dawn: cooldown in ticks.
+	dawnCooldown = 600
+	#Creation's Dawn: magicule cost.
+	dawnMagiculeCost = 3000.0
+	#Creation's Dawn: aura cost.
+	dawnAuraCost = 3000.0
+	#Starlight Judgment debuff duration (ticks) applied to caught targets.
+	dawnDebuffDuration = 200
+	#Starlight Judgment debuff amplifier (0 = level I).
+	dawnDebuffAmplifier = 1
+	#Starlight Judgment: Celestial damage dealt per second, scaled by (amplifier+1).
+	judgmentTickDamage = 8.0
+	#Starlight Judgment: incoming-damage multiplier on afflicted targets.
+	judgmentDamageTakenMultiplier = 1.25
+	#Starlight Judgment: attack-damage modifier (negative = weaker), ADD_MULTIPLIED_TOTAL.
+	judgmentAttackDown = -0.3
+	#Celestial Mark duration (ticks) applied by Starlight Lance.
+	markDuration = 120
+	#Combo window (ticks) linking Lance -> Step -> Dawn.
+	comboWindow = 100
+	#Creation's Dawn radius multiplier when chained from a recent Astral Step.
+	comboRadiusBonus = 1.5
+	#Creation's Dawn damage multiplier when the full resonance combo lands.
+	resonanceDamageBonus = 1.5
+
+[Hecate]
+	#In-slot passive: multiplier applied to every spell's magicule cost (0.0 = floored to free/minimum). Blacklisted spells (see costFloorBlacklist) keep their normal cost.
+	inSlotCostMultiplier = 0.1
+	#Spell registry IDs excluded from the in-slot cost floor (kept at full cost).
+	costFloorBlacklist = ["tensura:reincarnation"]
+	#Magicule drained per tick while the toggle is active.
+	magiculeCostPerTick = 50.0
+	#Bonus learning gain (ADD_VALUE) while toggled.
+	learningPoint = 1.0
+	#Bonus mastery gain (ADD_VALUE) while toggled.
+	masteryPoint = 1.0
+	#In-slot passive: flat bonus to learning-point gain for Magic (spells) only, always active while Hecate is slotted (stacks with the toggle's learningPoint bonus).
+	passiveLearningBonus = 1.0
+	#In-slot passive: flat bonus to mastery-point gain for Magic (spells) only, always active while Hecate is slotted (stacks with the toggle's masteryPoint bonus).
+	passiveMasteryBonus = 1.0
+	#Flat bonus damage added to all spell (magic) damage while toggled.
+	spellDamageBonus = 30.0
+	#Flat bonus spell damage while toggled, when Hecate is mastered.
+	spellDamageBonusMastered = 75.0
+
+[Brain]
+	#Log Brain's per-evaluation AI decisions to the server console/log (skills toggled, skills pressed, magic buckets, cast attempts and why a cast did/didn't fire). Off by default — turn on to diagnose why a mob isn't using its abilities.
+	debug = false
+	#Number of skill-tick passes between Brain evaluations. ManasCore ticks passive skills every 100 game ticks (~5 seconds), so 1 = evaluate every ~5s (default), 2 = ~10s, etc. This is NOT in game ticks — the native passive-tick cadence is the floor.
+	evalInterval = 1
+	#Health fraction (0-1) below which the mob is treated as hurt: prioritises recovery magic and enables pressing active skills defensively.
+	lowHealthFraction = 0.5
+
+[Kaioken]
+	#Transformation duration in ticks (unmastered).
+	transformationDuration = 3600
+	#Transformation duration in ticks (mastered).
+	transformationDurationMastered = 7200
+	#Cooldown in SECONDS after activating Kaioken (ManasCore decrements 1 per 20 ticks).
+	cooldown = 60
+	#Energy-pool multiplier bonus for tier 0 / Kaioken x2 (ADD_MULTIPLIED_TOTAL: 1.0 = double the max magicule & aura).
+	mode0EnergyMultiplier = 1.0
+	#Energy-pool multiplier bonus for tier 1 / Kaioken x3 (2.0 = triple).
+	mode1EnergyMultiplier = 2.0
+	#Energy-pool multiplier bonus for tier 2 / Kaioken x10 (9.0 = ten times).
+	mode2EnergyMultiplier = 9.0
+	#Energy-pool multiplier bonus for tier 3 / Kaioken x20 (19.0 = twenty times).
+	mode3EnergyMultiplier = 19.0
+	#Live EP required to unlock Kaioken x3 (tier 1).
+	mode1EP = 100000.0
+	#Live EP required to unlock Kaioken x10 (tier 2).
+	mode2EP = 1000000.0
+	#Live EP required to unlock Kaioken x20 (tier 3). Also requires the skill be mastered.
+	mode3EP = 1.0E7
+	#Flat attack-damage bonus per tier (multiplied by tier+1: x2 = +this, x20 = +4x this).
+	attackBonusPerTier = 8.0
+	#Flat armor bonus per tier (multiplied by tier+1).
+	armorBonusPerTier = 5.0
+	#Flat movement-speed bonus per tier (multiplied by tier+1).
+	speedBonusPerTier = 0.02
+	#Health drained each drain-interval per tier (the body-strain of Kaioken). Floored by minHealthFraction so drain alone won't kill.
+	healthDrainPerTick = 1.0
+	#Magicule and aura drained each drain-interval per tier.
+	energyDrainPerTick = 50.0
+	#Interval in ticks between strain drains and red-aura particle emission.
+	drainIntervalTicks = 20
+	#Minimum health fraction (0-1) that Kaioken strain will not drain below.
+	minHealthFraction = 0.1
+	#Duration in ticks of the exhaustion debuff (Weakness + Fragility + Paralysis) applied when Kaioken ends. Kaioken cannot be re-ignited until it clears. Default 12000 = 10 minutes (Tensura's transformation default).
+	exhaustionDurationTicks = 12000
+	#Magicule threshold per tier required to enter a Kaioken tier (multiplied by tier+1). 0 = no entry cost; the drain is the real cost.
+	activationMagiculeCostPerTier = 0.0
+
+[HephaestusSkill]
+	#Is this Skill Enabled?
+	IsEnabled = true
+	#Magicule cost to reforge, flat portion.
+	reforgeCost = 8000.0
+	#Extra magicule per point of durability missing.
+	reforgeCostPerDamage = 4.0
+	#Reforge cooldown in SECONDS.
+	reforgeCooldown = 120
+	#Lowest score a reforge can roll (0-100). Reforge does NOT inherit the item's old score.
+	reforgeScoreMin = 35.0
+	#Highest score a reforge can roll (0-100).
+	reforgeScoreMax = 95.0
+	#Magicule cost per level of the chosen engraving.
+	engraveCostPerLevel = 6000.0
+	#Engrave cooldown in SECONDS.
+	engraveCooldown = 90
+	#Forge recipe id used as the conjured weapon template.
+	conjureRecipeId = "forged_high_magisteel_sword"
+	#Magicule cost to conjure.
+	conjureCost = 25000.0
+	#Conjure cooldown in SECONDS.
+	conjureCooldown = 600
+	#How long a conjured weapon lasts, in ticks (20 ticks = 1 second).
+	conjureDurationTicks = 6000
+	#Forge mastery levels required per quality rank above POOR for the conjured weapon.
+	conjureMasteryPerRank = 8
+	#Base damage of the hammer strike.
+	hammerBaseDamage = 12.0
+	#Bonus damage per forge mastery level (mastery caps at 50).
+	hammerDamagePerMastery = 0.8
+	#Bonus damage per quality rank of the best item ever crafted (0-6).
+	hammerDamagePerQualityRank = 6.0
+	#Hammer reach in blocks.
+	hammerRange = 5.0
+	#Hammer cone half-angle in degrees.
+	hammerAngle = 60.0
+	#Magicule cost per hammer swing.
+	hammerCost = 4000.0
+	#Hammer cooldown in SECONDS.
+	hammerCooldown = 4
+	#Chains range in blocks.
+	chainsRange = 12.0
+	#Bound effect duration in ticks.
+	chainsDurationTicks = 120
+	#Bound effect amplifier (0 = level I).
+	chainsAmplifier = 1
+	#Magicule cost to cast Chains.
+	chainsCost = 10000.0
+	#Chains cooldown in SECONDS.
+	chainsCooldown = 30
+	#Ore Sense scan radius in blocks.
+	oreSenseRadius = 24
+	#Ticks between Ore Sense rescans. Lower = more responsive, more CPU.
+	oreSenseScanIntervalTicks = 40
+	#Magicule drained per skill tick callback while Ore Sense is toggled on.
+	oreSenseDrainPerTick = 150.0
+	#Enable the once-per-day free minigame stage.
+	divineHandEnabled = true
+	#Flat forge quality points granted to every member of the holder's nation.
+	nationBoonQualityFlat = 3.0
+
+[GaiaSkill]
+	#Is this Skill Enabled?
+	IsEnabled = true
+	#Power multiplier inside your own nation's claimed chunks.
+	homeMultiplier = 1.6
+	#Power multiplier on unclaimed land, or when the nation system is off.
+	wildMultiplier = 0.6
+	#Power multiplier inside another nation's claimed chunks.
+	hostileMultiplier = 0.3
+	#Power multiplier in an enemy claim while at war with that nation.
+	hostileAtWarMultiplier = 1.0
+	#If false, a declared war does NOT lift the hostile-claim penalty.
+	warLiftsPenalty = true
+	#Whether Tectonic Spikes and Stone Grasp can hit members of the caster's own nation.
+	#False (default) skips them: Bulwark already shields nation allies, so spiking the
+	#same teammate the toggle is protecting reads as a bug. Set true for the older
+	#behaviour where the cone hits everything except the caster.
+	friendlyFire = false
+	#Magicule cost of Tectonic Spikes.
+	spikesCost = 3000.0
+	#Cooldown of Tectonic Spikes, in SECONDS.
+	spikesCooldown = 8
+	#Base damage per spike hit, before the zone multiplier.
+	spikesDamage = 45.0
+	#Base cone length in blocks, before the zone multiplier.
+	spikesRange = 12.0
+	#Magicule cost of Stone Grasp.
+	graspCost = 12000.0
+	#Cooldown of Stone Grasp, in SECONDS.
+	graspCooldown = 35
+	#Base root duration in SECONDS, before the zone multiplier.
+	graspRootSeconds = 5.0
+	#Damage dealt per second while rooted, before the zone multiplier.
+	graspDamagePerSecond = 12.0
+	#Maximum targeting distance in blocks.
+	graspReach = 32.0
+	#Magicule cost of one Sculpt use.
+	sculptCost = 800.0
+	#Cooldown of Sculpt, in SECONDS.
+	sculptCooldown = 2
+	#Magicule cost paid by the caster for one Vein Bloom.
+	veinBloomCost = 5000.0
+	#Cooldown of Vein Bloom, in SECONDS.
+	veinBloomCooldown = 60
+	#Random block positions sampled in the chunk per use.
+	veinBloomSamples = 24
+	#Chance each sampled stone block converts to ore.
+	veinBloomChance = 0.35
+	#Chunk magicule consumed per converted block.
+	veinBloomChunkCostPerOre = 400.0
+	#Maximum ore blocks Vein Bloom may create in one chunk per in-game day.
+	veinBloomDailyCapPerChunk = 12
+	#Ore weight table, one entry per line as 'blockid|weight'.
+	veinBloomOreWeights = ["minecraft:iron_ore|40", "minecraft:copper_ore|30", "minecraft:coal_ore|20", "minecraft:gold_ore|7", "minecraft:redstone_ore|2", "minecraft:diamond_ore|1"]
+	#Cooldown of Geomancy, in SECONDS.
+	geomancyCooldown = 10
+	#Magicule moved per Geomancy use, clamped by whichever side has less.
+	geomancyTransferAmount = 2000.0
+	#How much one Geomancy use shifts the chunk's magicule CEILING: seeding raises it,
+	#draining (sneak) lowers it by the same figure. Hard-capped by the Magicule World
+	#entityMagiculeInfluenceChunkCap, and it decays naturally once the chunk stops being
+	#seeded. Moves capacity only — never income.
+	geomancyMaxRaisePerUse = 250.0
+	#Fraction of the caster's MAXIMUM magicule burned to strip capacity out of a chunk
+	#(sneak-Geomancy). Charged per successful strip, on top of nothing being refunded.
+	#Deliberately steep: stripping is not claim-gated, so raiding a rival's cultivated
+	#ground should cost far more than seeding your own. 0 = free.
+	geomancyStripCostPercent = 0.2
+	#Magicule drained per tick while Bulwark is lit, even when suppressed.
+	bulwarkDrainPerTick = 1000.0
+	#Radius in blocks within which nation allies share the Bulwark buff.
+	bulwarkRadius = 12.0
+	#Damage-resistance amplifier granted by Bulwark (0 = Resistance I).
+	bulwarkResistanceAmplifier = 1
+	#Hard cap on blocks a single skill use may change. Safety valve.
+	reshapeBlockBudget = 96
+	#How long raised combat pillars stand, in SECONDS.
+	reshapeRevertSeconds = 10
+	#Nation level required to learn Gaia. Ignored when the nation system is off.
+	requiredNationLevel = 10
+	#Claimed chunks required to learn Gaia, as an alternative to nation level.
+	requiredClaimedChunks = 32

@@ -1,0 +1,333 @@
+[LesserGiant]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 240.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+
+[GiantDancer]
+	#Existence points required to evolve into Giant Dancer.
+	epRequirement = 40000.0
+	#Minimal aura.
+	minAura = 25000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 15000.0
+	#Maximum magicule.
+	maxMagicule = 30000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 300.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 840.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07
+
+[GiantWarrior]
+	#Existence points required to evolve into Giant Warrior.
+	epRequirement = 40000.0
+	#Minimal aura.
+	minAura = 25000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 15000.0
+	#Maximum magicule.
+	maxMagicule = 30000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 330.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 940.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+
+[MutantGiant]
+	#Existence points required to evolve into Mutant Giant.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 30000.0
+	#Maximum aura.
+	maxAura = 60000.0
+	#Minimal magicule.
+	minMagicule = 50000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 1.5
+	#Bonus Max Health.
+	maxHealth = 400.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 940.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05
+
+[OneEyedGod]
+	#Existence points required to evolve into One Eyed God.
+	epRequirement = 450000.0
+	#Minimal aura.
+	minAura = 135000.0
+	#Maximum aura.
+	maxAura = 270000.0
+	#Minimal magicule.
+	minMagicule = 225000.0
+	#Maximum magicule.
+	maxMagicule = 450000.0
+	#Bonus Size.
+	size = 2.0
+	#Bonus Max Health.
+	maxHealth = 730.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4440.0
+	#Bonus Attack Damage.
+	attack = 7.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.06
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.06
+
+[GodOfEarth]
+	#Existence points required to evolve into God Of Earth.
+	epRequirement = 1250000.0
+	#Minimal aura.
+	minAura = 375000.0
+	#Maximum aura.
+	maxAura = 750000.0
+	#Minimal magicule.
+	minMagicule = 625000.0
+	#Maximum magicule.
+	maxMagicule = 1250000.0
+	#Bonus Size.
+	size = 2.5
+	#Bonus Max Health.
+	maxHealth = 1230.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5740.0
+	#Bonus Attack Damage.
+	attack = 11.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07
+
+[BigCutie]
+	#Existence points required to evolve into Big Cutie.
+	epRequirement = 120000.0
+	#Minimal aura.
+	minAura = 60000.0
+	#Maximum aura.
+	maxAura = 120000.0
+	#Minimal magicule.
+	minMagicule = 40000.0
+	#Maximum magicule.
+	maxMagicule = 80000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 360.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 840.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.09
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.09
+
+[EarthshakerDancer]
+	#Existence points required to evolve into Earthshaker Dancer.
+	epRequirement = 420000.0
+	#Minimal aura.
+	minAura = 210000.0
+	#Maximum aura.
+	maxAura = 420000.0
+	#Minimal magicule.
+	minMagicule = 126000.0
+	#Maximum magicule.
+	maxMagicule = 252000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 420.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1600.0
+	#Bonus Attack Damage.
+	attack = 2.3
+	#Bonus Attack Speed.
+	attackSpeed = 1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.2
+	#Bonus Movement Speed.
+	movementSpeed = 0.11
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.11
+
+[GiantQueen]
+	#Existence points required to evolve into Gian tQueen.
+	epRequirement = 2500000.0
+	#Minimal aura.
+	minAura = 1250000.0
+	#Maximum aura.
+	maxAura = 2500000.0
+	#Minimal magicule.
+	minMagicule = 750000.0
+	#Maximum magicule.
+	maxMagicule = 1500000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 930.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5640.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 2.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.13
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.13
+
+[GiantElder]
+	#Existence points required to evolve into Giant Elder.
+	epRequirement = 80000.0
+	#Minimal aura.
+	minAura = 24000.0
+	#Maximum aura.
+	maxAura = 48000.0
+	#Minimal magicule.
+	minMagicule = 40000.0
+	#Maximum magicule.
+	maxMagicule = 80000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 330.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1140.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.7
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05
+
+[GiantKing]
+	#Existence points required to evolve into Giant King.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 50000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 30000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = 3.0
+	#Bonus Max Health.
+	maxHealth = 800.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5440.0
+	#Bonus Attack Damage.
+	attack = 6.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.08
+
+[FangOfEarth]
+	#Existence points required to evolve into Fang of Earth.
+	epRequirement = 500000.0
+	#Minimal aura.
+	minAura = 250000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 390000.0
+	#Bonus Size.
+	size = 2.0
+	#Bonus Max Health.
+	maxHealth = 400.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1620.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.8
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07

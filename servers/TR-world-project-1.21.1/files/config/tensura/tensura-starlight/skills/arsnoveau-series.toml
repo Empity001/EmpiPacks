@@ -1,0 +1,214 @@
+[amethystGolemGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	kbResistMastered = 0.25
+	kbResistUnmastered = 0.125
+	knockbackStrength = 0.8
+
+[drygmyGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	lootingBonusMastered = 2
+	lootingBonusUnmastered = 1
+	earthPowerBonusMastered = 4.0
+	earthPowerBonusUnmastered = 1.0
+	luckBonusMastered = 2.0
+	luckBonusUnmastered = 1.0
+
+[flarecannonGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	fireSpellBonusMastered = 4.0
+	fireSpellBonusUnmastered = 2.0
+	manaDiscountBonusMastered = 5.0
+	manaDiscountBonusUnmastered = 2.5
+
+[flashjackGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	airSpellBonusMastered = 4.0
+	airSpellBonusUnmastered = 2.0
+	manaDiscountBonusMastered = 5.0
+	manaDiscountBonusUnmastered = 2.5
+
+[sirenGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	waterSpellBonusMastered = 4.0
+	waterSpellBonusUnmastered = 2.0
+	manaDiscountBonusMastered = 5.0
+	manaDiscountBonusUnmastered = 2.5
+
+[starbuncleGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	speedBonusMastered = 0.1
+	speedBonusUnmastered = 0.05
+
+[whirlisprigGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	satietyBonusMastered = 2
+	satietyBonusUnmastered = 1
+
+[wixieGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	potionDurationBonusMastered = 2
+	potionDurationBonusUnmastered = 1
+
+[wildenGuardianGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	healthBonusMastered = 5.0
+	healthBonusUnmastered = 1.0
+	reflectDamageResistMastered = 0.025
+	reflectDamageResistUnmastered = 0.025
+	reflectPercentMastered = 0.025
+	reflectPercentUnmastered = 0.025
+
+[wildenHunterGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	arrowVelocityBonusMastered = 0.5
+	arrowVelocityBonusUnmastered = 0.25
+	drawSpeedBonusMastered = 0.5
+	drawSpeedBonusUnmastered = 0.25
+
+[wildenStalkerGenetics]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	sneakSpeedBonusMastered = 0.4
+	sneakSpeedBonusUnmastered = 0.2
+	gravityBonusMastered = -0.04
+	gravityBonusUnmastered = -0.02
+
+[abnormallyLucky]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	luckBonusMastered = 0.1
+	luckBonusUnmastered = 0.05
+	lootingBonusMastered = 2
+	lootingBonusUnmastered = 1
+	critChanceBonusMastered = 0.1
+	critChanceBonusUnmastered = 0.05
+
+[hyperMetabolistic]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	satietyBonusMastered = 2
+	satietyBonusUnmastered = 1
+	potionDurationBonusMastered = 2
+	potionDurationBonusUnmastered = 1
+	healingRecievedBonusMastered = 0.1
+	healingRecievedBonusUnmastered = 0.1
+
+[plasmaticSource]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	manaRegenBonusMastered = 0.1
+	manaRegenBonusUnmastered = 0.1
+	manaMaxBonusMastered = 0.05
+	manaMaxBonusUnmastered = 0.05
+
+[sourcePowered]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	elementalPowerBonusMastered = 4.0
+	elementalPowerBonusUnmastered = 2.0
+	earthResistBonusMastered = 100.0
+	earthResistBonusUnmastered = 50.0
+	fireResistBonusMastered = 100.0
+	fireResistBonusUnmastered = 50.0
+	waterResistBonusMastered = 100.0
+	waterResistBonusUnmastered = 50.0
+	airResistBonusMastered = 100.0
+	airResistBonusUnmastered = 50.0
+	manaDiscountBonusMastered = 20.0
+	manaDiscountBonusUnmastered = 10.0
+
+[wildenStalk]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	arrowDamageBonusMastered = 0.5
+	arrowDamageBonusUnmastered = 0.25

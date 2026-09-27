@@ -1,0 +1,574 @@
+[LesserDragon]
+	minAura = 5000.0
+	maxAura = 14000.0
+	minMagicule = 12000.0
+	maxMagicule = 32000.0
+	size = 0.2
+	maxHealth = 45.0
+	maxSpiritualHealth = 130.0
+	attack = 1.8
+	attackSpeed = 0.1
+	knockbackResistance = 0.15
+	movementSpeed = 0.01
+	swimSpeed = 0.05
+
+[MediumDragon]
+	epRequirement = 160000.0
+	minAura = 40000.0
+	maxAura = 80000.0
+	minMagicule = 120000.0
+	maxMagicule = 160000.0
+	size = 0.35
+	maxHealth = 170.0
+	maxSpiritualHealth = 360.0
+	attack = 1.2
+	attackSpeed = 0.0
+	knockbackResistance = 0.25
+	movementSpeed = 0.015
+	swimSpeed = 0.08
+
+[ArchDragon]
+	epRequirement = 400000.0
+	minAura = 80000.0
+	maxAura = 150000.0
+	minMagicule = 250000.0
+	maxMagicule = 300000.0
+	size = 0.5
+	maxHealth = 444.0
+	maxSpiritualHealth = 888.0
+	attack = 1.8
+	attackSpeed = 0.1
+	knockbackResistance = 0.35
+	movementSpeed = 0.02
+	swimSpeed = 0.12
+
+[ElementDragon]
+	epRequirement = 800000.0
+	#Elemental Essence required to evolve into Element Dragon.
+	essenceRequirement = 25
+	minAura = 180000.0
+	maxAura = 300000.0
+	minMagicule = 350000.0
+	maxMagicule = 600000.0
+	size = 0.65
+	maxHealth = 777.0
+	maxSpiritualHealth = 1000.0
+	attack = 2.3
+	attackSpeed = 0.2
+	knockbackResistance = 0.45
+	movementSpeed = 0.025
+	swimSpeed = 0.15
+
+[DragonLord]
+	epRequirement = 800000.0
+	minAura = 350000.0
+	maxAura = 600000.0
+	minMagicule = 700000.0
+	maxMagicule = 1200000.0
+	size = 0.8
+	maxHealth = 800.0
+	maxSpiritualHealth = 1150.0
+	attack = 2.8
+	attackSpeed = 0.25
+	knockbackResistance = 0.6
+	movementSpeed = 0.03
+	swimSpeed = 0.2
+
+[DivineDragonLord]
+	epRequirement = 2000000.0
+	minAura = 800000.0
+	maxAura = 1500000.0
+	minMagicule = 1500000.0
+	maxMagicule = 3000000.0
+	size = 1.0
+	maxHealth = 990.0
+	maxSpiritualHealth = 8100.0
+	attack = 3.5
+	attackSpeed = 0.35
+	knockbackResistance = 0.8
+	movementSpeed = 0.035
+	swimSpeed = 0.25
+
+[LesserDaemonicDragon]
+	epRequirement = 160000.0
+	minAura = 18000.0
+	maxAura = 40000.0
+	minMagicule = 22000.0
+	maxMagicule = 50000.0
+	size = 0.25
+	maxHealth = 90.0
+	maxSpiritualHealth = 180.0
+	attack = 1.4
+	attackSpeed = 0.05
+	knockbackResistance = 0.2
+	movementSpeed = 0.01
+	swimSpeed = 0.05
+	#Daemon Essence required to evolve into this tier.
+	essenceRequirement = 2
+
+[MediumDaemonicDragon]
+	epRequirement = 400000.0
+	minAura = 60000.0
+	maxAura = 110000.0
+	minMagicule = 90000.0
+	maxMagicule = 180000.0
+	size = 0.4
+	maxHealth = 220.0
+	maxSpiritualHealth = 480.0
+	attack = 1.8
+	attackSpeed = 0.08
+	knockbackResistance = 0.3
+	movementSpeed = 0.015
+	swimSpeed = 0.08
+	#Daemon Essence required to evolve into this tier.
+	essenceRequirement = 4
+
+[ArchDaemonicDragon]
+	epRequirement = 800000.0
+	minAura = 150000.0
+	maxAura = 260000.0
+	minMagicule = 250000.0
+	maxMagicule = 400000.0
+	size = 0.6
+	maxHealth = 500.0
+	maxSpiritualHealth = 900.0
+	attack = 2.4
+	attackSpeed = 0.12
+	knockbackResistance = 0.4
+	movementSpeed = 0.02
+	swimSpeed = 0.12
+	#Daemon Essence required to evolve into this tier.
+	essenceRequirement = 8
+
+[DaemonicDragonLord]
+	epRequirement = 1500000.0
+	minAura = 320000.0
+	maxAura = 600000.0
+	minMagicule = 500000.0
+	maxMagicule = 900000.0
+	size = 0.82
+	maxHealth = 720.0
+	maxSpiritualHealth = 1200.0
+	attack = 3.0
+	attackSpeed = 0.18
+	knockbackResistance = 0.55
+	movementSpeed = 0.025
+	swimSpeed = 0.16
+	#Daemon Essence required to evolve into this tier.
+	essenceRequirement = 12
+
+[DevilDragonLord]
+	epRequirement = 3000000.0
+	minAura = 900000.0
+	maxAura = 1700000.0
+	minMagicule = 1400000.0
+	maxMagicule = 2800000.0
+	size = 1.05
+	maxHealth = 980.0
+	maxSpiritualHealth = 7800.0
+	attack = 4.0
+	attackSpeed = 0.2
+	knockbackResistance = 0.85
+	movementSpeed = 0.03
+	swimSpeed = 0.2
+	#Daemon Essence required to evolve into this tier.
+	essenceRequirement = 16
+
+[LesserHolyDragon]
+	epRequirement = 160000.0
+	minAura = 18000.0
+	maxAura = 40000.0
+	minMagicule = 25000.0
+	maxMagicule = 55000.0
+	size = 0.24
+	maxHealth = 95.0
+	maxSpiritualHealth = 190.0
+	attack = 1.45
+	attackSpeed = 0.06
+	knockbackResistance = 0.2
+	movementSpeed = 0.01
+	swimSpeed = 0.05
+	#Holy Essence required to evolve into this tier.
+	essenceRequirement = 2
+
+[MediumHolyDragon]
+	epRequirement = 400000.0
+	minAura = 65000.0
+	maxAura = 120000.0
+	minMagicule = 100000.0
+	maxMagicule = 190000.0
+	size = 0.42
+	maxHealth = 240.0
+	maxSpiritualHealth = 500.0
+	attack = 1.9
+	attackSpeed = 0.09
+	knockbackResistance = 0.3
+	movementSpeed = 0.015
+	swimSpeed = 0.08
+	#Holy Essence required to evolve into this tier.
+	essenceRequirement = 4
+
+[SaintDragon]
+	epRequirement = 800000.0
+	minAura = 160000.0
+	maxAura = 280000.0
+	minMagicule = 260000.0
+	maxMagicule = 420000.0
+	size = 0.62
+	maxHealth = 520.0
+	maxSpiritualHealth = 930.0
+	attack = 2.5
+	attackSpeed = 0.13
+	knockbackResistance = 0.42
+	movementSpeed = 0.02
+	swimSpeed = 0.12
+	#Holy Essence required to evolve into this tier.
+	essenceRequirement = 8
+
+[HeavenlyDragon]
+	epRequirement = 1500000.0
+	minAura = 340000.0
+	maxAura = 620000.0
+	minMagicule = 520000.0
+	maxMagicule = 950000.0
+	size = 0.85
+	maxHealth = 760.0
+	maxSpiritualHealth = 1300.0
+	attack = 3.1
+	attackSpeed = 0.18
+	knockbackResistance = 0.58
+	movementSpeed = 0.025
+	swimSpeed = 0.16
+	#Holy Essence required to evolve into this tier.
+	essenceRequirement = 12
+
+[DivineHeavenlyDragon]
+	epRequirement = 3000000.0
+	minAura = 900000.0
+	maxAura = 1700000.0
+	minMagicule = 1500000.0
+	maxMagicule = 3000000.0
+	size = 1.08
+	maxHealth = 1000.0
+	maxSpiritualHealth = 8500.0
+	attack = 4.1
+	attackSpeed = 0.22
+	knockbackResistance = 0.88
+	movementSpeed = 0.03
+	swimSpeed = 0.2
+	#Holy Essence required to evolve into this tier.
+	essenceRequirement = 16
+
+[LesserNetherDragon]
+	epRequirement = 160000.0
+	minAura = 18000.0
+	maxAura = 40000.0
+	minMagicule = 20000.0
+	maxMagicule = 48000.0
+	size = 0.23
+	maxHealth = 88.0
+	maxSpiritualHealth = 175.0
+	attack = 1.35
+	attackSpeed = 0.05
+	knockbackResistance = 0.2
+	movementSpeed = 0.01
+	swimSpeed = 0.05
+	#Ancient Debris required to evolve into this tier.
+	ancientDebrisRequirement = 2
+
+[MediumNetherDragon]
+	epRequirement = 400000.0
+	minAura = 62000.0
+	maxAura = 115000.0
+	minMagicule = 98000.0
+	maxMagicule = 185000.0
+	size = 0.4
+	maxHealth = 230.0
+	maxSpiritualHealth = 470.0
+	attack = 1.8
+	attackSpeed = 0.08
+	knockbackResistance = 0.3
+	movementSpeed = 0.015
+	swimSpeed = 0.08
+	#Ancient Debris required to evolve into this tier.
+	ancientDebrisRequirement = 4
+
+[ScrapDragon]
+	epRequirement = 800000.0
+	minAura = 150000.0
+	maxAura = 260000.0
+	minMagicule = 250000.0
+	maxMagicule = 410000.0
+	size = 0.6
+	maxHealth = 500.0
+	maxSpiritualHealth = 900.0
+	attack = 2.4
+	attackSpeed = 0.12
+	knockbackResistance = 0.4
+	movementSpeed = 0.02
+	swimSpeed = 0.12
+	#Ancient Debris required to evolve into this tier.
+	ancientDebrisRequirement = 8
+
+[NetheriteDragon]
+	epRequirement = 1500000.0
+	minAura = 340000.0
+	maxAura = 620000.0
+	minMagicule = 520000.0
+	maxMagicule = 950000.0
+	size = 0.84
+	maxHealth = 740.0
+	maxSpiritualHealth = 1300.0
+	attack = 3.1
+	attackSpeed = 0.18
+	knockbackResistance = 0.6
+	movementSpeed = 0.025
+	swimSpeed = 0.16
+	#Ancient Debris required to evolve into this tier.
+	ancientDebrisRequirement = 10
+
+[DivineNetheriteDragon]
+	epRequirement = 3000000.0
+	minAura = 900000.0
+	maxAura = 1700000.0
+	minMagicule = 1500000.0
+	maxMagicule = 3000000.0
+	size = 1.08
+	maxHealth = 1000.0
+	maxSpiritualHealth = 8500.0
+	attack = 4.1
+	attackSpeed = 0.22
+	knockbackResistance = 0.88
+	movementSpeed = 0.03
+	swimSpeed = 0.2
+	#Ancient Debris required to evolve into this tier.
+	ancientDebrisRequirement = 16
+
+[LesserEnderDragon]
+	epRequirement = 160000.0
+	minAura = 18000.0
+	maxAura = 40000.0
+	minMagicule = 22000.0
+	maxMagicule = 50000.0
+	size = 0.24
+	maxHealth = 90.0
+	maxSpiritualHealth = 180.0
+	attack = 1.4
+	attackSpeed = 0.05
+	knockbackResistance = 0.2
+	movementSpeed = 0.01
+	swimSpeed = 0.05
+
+[MediumEnderDragon]
+	epRequirement = 400000.0
+	minAura = 60000.0
+	maxAura = 110000.0
+	minMagicule = 90000.0
+	maxMagicule = 180000.0
+	size = 0.4
+	maxHealth = 220.0
+	maxSpiritualHealth = 480.0
+	attack = 1.8
+	attackSpeed = 0.08
+	knockbackResistance = 0.3
+	movementSpeed = 0.015
+	swimSpeed = 0.08
+
+[EnderDragonPrince]
+	epRequirement = 800000.0
+	minAura = 150000.0
+	maxAura = 260000.0
+	minMagicule = 250000.0
+	maxMagicule = 400000.0
+	size = 0.6
+	maxHealth = 500.0
+	maxSpiritualHealth = 900.0
+	attack = 2.4
+	attackSpeed = 0.12
+	knockbackResistance = 0.4
+	movementSpeed = 0.02
+	swimSpeed = 0.12
+
+[VoidDragon]
+	epRequirement = 1500000.0
+	minAura = 320000.0
+	maxAura = 600000.0
+	minMagicule = 500000.0
+	maxMagicule = 900000.0
+	size = 0.82
+	maxHealth = 720.0
+	maxSpiritualHealth = 1200.0
+	attack = 3.0
+	attackSpeed = 0.18
+	knockbackResistance = 0.55
+	movementSpeed = 0.025
+	swimSpeed = 0.16
+
+[DivineVoidDragon]
+	epRequirement = 3000000.0
+	minAura = 900000.0
+	maxAura = 1700000.0
+	minMagicule = 1400000.0
+	maxMagicule = 2800000.0
+	size = 1.05
+	maxHealth = 980.0
+	maxSpiritualHealth = 7800.0
+	attack = 4.0
+	attackSpeed = 0.2
+	knockbackResistance = 0.85
+	movementSpeed = 0.03
+	swimSpeed = 0.2
+
+[LesserZombieDragon]
+	minAura = 6000.0
+	maxAura = 12000.0
+	minMagicule = 8000.0
+	maxMagicule = 16000.0
+	size = 0.2
+	maxHealth = 45.0
+	maxSpiritualHealth = 80.0
+	attack = 1.0
+	attackSpeed = -0.25
+	knockbackResistance = 0.2
+	movementSpeed = -0.005
+	swimSpeed = -0.05
+
+[MediumZombieDragon]
+	epRequirement = 100000.0
+	minAura = 24000.0
+	maxAura = 45000.0
+	minMagicule = 35000.0
+	maxMagicule = 70000.0
+	size = 0.35
+	maxHealth = 90.0
+	maxSpiritualHealth = 340.0
+	attack = 1.6
+	attackSpeed = -0.1
+	knockbackResistance = 0.35
+	movementSpeed = 0.0
+	swimSpeed = -0.02
+
+[DeathDragon]
+	epRequirement = 400000.0
+	minAura = 90000.0
+	maxAura = 180000.0
+	minMagicule = 160000.0
+	maxMagicule = 320000.0
+	size = 0.55
+	maxHealth = 370.0
+	maxSpiritualHealth = 560.0
+	attack = 2.2
+	attackSpeed = 0.0
+	knockbackResistance = 0.5
+	movementSpeed = 0.01
+	swimSpeed = 0.0
+
+[GehennaDragon]
+	epRequirement = 800000.0
+	minAura = 380000.0
+	maxAura = 680000.0
+	minMagicule = 700000.0
+	maxMagicule = 1300000.0
+	size = 0.85
+	maxHealth = 740.0
+	maxSpiritualHealth = 2520.0
+	attack = 3.0
+	attackSpeed = 0.1
+	knockbackResistance = 0.7
+	movementSpeed = 0.02
+	swimSpeed = 0.05
+
+[DivineGehennaDragon]
+	epRequirement = 2100000.0
+	minAura = 900000.0
+	maxAura = 1700000.0
+	minMagicule = 1700000.0
+	maxMagicule = 3200000.0
+	size = 1.05
+	maxHealth = 900.0
+	maxSpiritualHealth = 7850.0
+	attack = 3.8
+	attackSpeed = 0.2
+	knockbackResistance = 0.9
+	movementSpeed = 0.03
+	swimSpeed = 0.1
+
+[LesserThrallDragon]
+	epRequirement = 120000.0
+	minAura = 18000.0
+	maxAura = 42000.0
+	minMagicule = 24000.0
+	maxMagicule = 50000.0
+	size = 0.25
+	maxHealth = 70.0
+	maxSpiritualHealth = 170.0
+	attack = 1.4
+	attackSpeed = 0.05
+	knockbackResistance = 0.2
+	movementSpeed = 0.01
+	swimSpeed = 0.05
+	zaneBloodRequirement = 2
+
+[GreaterThrallDragon]
+	epRequirement = 300000.0
+	minAura = 55000.0
+	maxAura = 110000.0
+	minMagicule = 90000.0
+	maxMagicule = 180000.0
+	size = 0.4
+	maxHealth = 170.0
+	maxSpiritualHealth = 420.0
+	attack = 1.9
+	attackSpeed = 0.08
+	knockbackResistance = 0.3
+	movementSpeed = 0.015
+	swimSpeed = 0.08
+	zaneBloodRequirement = 4
+
+[VampiricDragon]
+	epRequirement = 650000.0
+	minAura = 140000.0
+	maxAura = 280000.0
+	minMagicule = 250000.0
+	maxMagicule = 420000.0
+	size = 0.6
+	maxHealth = 470.0
+	maxSpiritualHealth = 900.0
+	attack = 2.4
+	attackSpeed = 0.12
+	knockbackResistance = 0.4
+	movementSpeed = 0.02
+	swimSpeed = 0.12
+	zaneBloodRequirement = 8
+
+[VampiricDragonLord]
+	epRequirement = 1400000.0
+	minAura = 320000.0
+	maxAura = 620000.0
+	minMagicule = 500000.0
+	maxMagicule = 950000.0
+	size = 0.85
+	maxHealth = 760.0
+	maxSpiritualHealth = 1300.0
+	attack = 3.0
+	attackSpeed = 0.18
+	knockbackResistance = 0.58
+	movementSpeed = 0.025
+	swimSpeed = 0.16
+	zaneBloodRequirement = 12
+
+[DivineVampiricDragonLord]
+	epRequirement = 3000000.0
+	minAura = 900000.0
+	maxAura = 1700000.0
+	minMagicule = 1500000.0
+	maxMagicule = 3000000.0
+	size = 1.05
+	maxHealth = 1000.0
+	maxSpiritualHealth = 8500.0
+	attack = 4.1
+	attackSpeed = 0.22
+	knockbackResistance = 0.88
+	movementSpeed = 0.03
+	swimSpeed = 0.2
+	zaneBloodRequirement = 16

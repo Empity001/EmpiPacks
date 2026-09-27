@@ -1,0 +1,215 @@
+[Axolotl]
+	#EP requirement to evolve.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 1500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = -15.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = -10.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:self_regeneration", "tensura:absorb_and_dissolve", "tensura:water_breathing", "tensura:wind_attack_resistance"]
+
+[AxolotlKnight]
+	#EP requirement to evolve.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 5.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 15.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:dragon_skin", "tensura:body_armor", "tensura:physical_attack_resistance"]
+
+[SteelSpirit]
+	#EP requirement to evolve.
+	epRequirement = 400000.0
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 480.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3180.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = -1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:steel_ki_release"]
+
+[SteelDragon]
+	#EP requirement to evolve.
+	epRequirement = 2000000.0
+	#Bosses required to evolve.
+	bossRequirement = 5
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 1200.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5580.0
+	#Bonus Attack Damage.
+	attack = 6.0
+	#Bonus Attack Speed.
+	attackSpeed = -2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:steel_ki_release", "trnightmare:steel_dragon_armor", "tensura:magic_nullification", "trnightmare:axolotl_haki"]
+
+[AxolotlWizard]
+	#EP requirement to evolve.
+	epRequirement = 50000.0
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 1500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 0.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 40.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["tensura:self_regeneration", "tensura:absorb_and_dissolve", "tensura:water_breathing", "tensura:wind_attack_resistance"]
+
+[WaterSpirit]
+	#EP requirement to evolve.
+	epRequirement = 200000.0
+	#Raw cod requirement to evolve
+	codRequirement = 60
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3600.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:water_ki_release"]
+
+[WaterDragon]
+	#EP requirement to evolve.
+	epRequirement = 1600000.0
+	#Bosses required to evolve.
+	bossRequirement = 4
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.100000023841858
+	#Bonus Max Health.
+	maxHealth = 1000.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6600.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 5.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.019999999552965164
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.5
+	#List of skills obtained by this race.
+	intrinsicSkills = ["trnightmare:water_ki_release", "trnightmare:water_dragon_armor", "tensura:water_attack_nullification", "trnightmare:axolotl_haki"]

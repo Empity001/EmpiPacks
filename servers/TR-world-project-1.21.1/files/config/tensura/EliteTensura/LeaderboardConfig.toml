@@ -1,0 +1,3 @@
+[Leaderboard]
+	#Hours a player must be online during the current or previous week to appear on leaderboards (scoreboard feed and /etleaderboard). Players below the requirement are hidden until they accrue enough playtime. Set to 0 to disable the requirement and playtime tracking entirely.
+	requiredHoursPerWeek = 5.0

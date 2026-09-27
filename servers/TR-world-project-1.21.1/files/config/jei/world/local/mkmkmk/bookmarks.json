@@ -1,0 +1,8 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"tensura:low_quality_magic_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"ars_nouveau:novice_spell_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"malum:raw_soulstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tensura:medium_quality_magic_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

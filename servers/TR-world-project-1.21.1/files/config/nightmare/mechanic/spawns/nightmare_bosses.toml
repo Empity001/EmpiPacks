@@ -1,0 +1,57 @@
+[boss_spawn_rates]
+	#1 in X chance for Veldora to replace Leech Lizard. (This is the alternative spawn condition to Veldora spawning at Villages.)
+	# Default: 80000
+	# Range: > 1
+	veldoraRarity = 80000
+	#1 in X chance for Velzard to replace Leech Lizard (This is the alternative spawn condition to Velzard spawning at Villages.)
+	# Default: 100000
+	# Range: > 1
+	velzardRarity = 100000
+	#1 in X chance for Velgrynd to replace Leech Lizard (This is the alternative spawn condition to Velgrynd spawning at Villages.)
+	# Default: 100000
+	# Range: > 1
+	velgryndRarity = 100000
+	#1 in X chance for Crimson to replace Daemon
+	# Default: 25000
+	# Range: > 1
+	crimsonRarity = 25000
+	#1 in X chance for Agera to replace Daemon
+	# Default: 1250
+	# Range: > 1
+	ageraRarity = 1250
+	#1 in X chance for Ancient Daemon to replace a Lesser Daemon.
+	# Default: 12500
+	# Range: > 1
+	ancientDaemonRarity = 12500
+	#1 in X chance for a Primordial Daemon aspect boss to replace a daemon in hell.
+	# Default: 20000
+	# Range: > 1
+	primordialDaemonAspectRarity = 20000
+	#1 in X chance for Milim Wrath to replace Otherworlders.
+	# Default: 100
+	# Range: > 1
+	milimWrathRarity = 100
+	#1 in X chance for Yuuki Desire to replace Otherworlders.
+	# Default: 50
+	# Range: > 1
+	yuukiRarity = 50
+	#1 in X chance for Mariabell Rosso to replace Otherworlders.
+	# Default: 20
+	# Range: > 1
+	mariabellRarity = 20
+	#1 in X chance for Glenda/Arios to replace Otherworlders.
+	# Default: 20
+	# Range: > 1
+	glendaAriosRarity = 20
+	#1 in X chance for Lucius/Raymond to replace Otherworlders.
+	# Default: 20
+	# Range: > 1
+	luciusRaymondRarity = 20
+	#1 in X chance for Kokuyou to spawn additionally
+	# Default: 1000000
+	# Range: > 1
+	kokuyouExtraChance = 1000000
+	#1 in X chance for Frey to replace a Phantom
+	# Default: 500
+	# Range: > 1
+	freyPhantomRarity = 500

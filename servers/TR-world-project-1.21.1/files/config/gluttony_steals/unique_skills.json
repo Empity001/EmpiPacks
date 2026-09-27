@@ -1,0 +1,42 @@
+{
+  "notes": [
+    "Skill names use Tensura UniqueSkills field names, for example TRAVELER or CHOSEN_ONE.",
+    "Entity ids use registry ids, for example minecraft:villager or mca:male_villager.",
+    "Set useBuiltInEligibleMobs to false if you want eligibleEntityTypes to be the full mob list."
+  ],
+  "useBuiltInEligibleMobs": true,
+  "uniqueSkillSpawnChance": 0.1,
+  "eligibleEntityTypes": [
+    "minecraft:villager",
+    "minecraft:pillager",
+    "minecraft:wandering_trader",
+    "mca:male_villager",
+    "mca:female_villager"
+  ],
+  "skillBlacklist": [
+    "SPEARHEAD",
+    "BEWILDER",
+    "MATHEMATICIAN",
+    "OBSERVER",
+    "PREDATOR",
+    "DEGENERATE",
+    "HEALER",
+    "THROWER",
+    "GODLY_CRAFTSMAN",
+    "GLUTTONY",
+    "TRAVELER",
+    "BERSERKER",
+    "STARVED",
+    "USURPER",
+    "SEVERER",
+    "SURVIVOR"
+  ],
+  "entitySkillPools": {
+    "minecraft:wandering_trader": [
+      "TRAVELER"
+    ]
+  },
+  "alwaysAssignEntityTypes": [
+    "minecraft:wandering_trader"
+  ]
+}

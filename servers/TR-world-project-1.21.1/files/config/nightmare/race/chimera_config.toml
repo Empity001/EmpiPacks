@@ -1,0 +1,153 @@
+[LesserChimera]
+	#Minimal aura.
+	minAura = 1500.0
+	#Maximum aura.
+	maxAura = 2500.0
+	#Minimal magicule.
+	minMagicule = 3000.0
+	#Maximum magicule.
+	maxMagicule = 4500.0
+	#Bonus Size.
+	size = 0.4
+	#Bonus Max Health.
+	maxHealth = 18.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 80.0
+	#Bonus Attack Damage.
+	attack = 0.3
+	#Bonus Attack Speed.
+	attackSpeed = -0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+	#List of intrinsic skills Lesser Chimera can randomly receive.
+	intrinsicPool = ["tensura:absorb_and_dissolve", "tensura:beast_transformation", "tensura:dragon_ear", "tensura:dragon_eye", "tensura:dragon_mode", "tensura:dragon_skin", "tensura:giantification", "tensura:water_breathing"]
+	#How many intrinsic skills a Lesser Chimera receives from the pool.
+	intrinsicCount = 2
+
+[GreaterChimera]
+	#EP requirement to evolve into Greater Chimera.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 8000.0
+	#Maximum aura.
+	maxAura = 15000.0
+	#Minimal magicule.
+	minMagicule = 12000.0
+	#Maximum magicule.
+	maxMagicule = 25000.0
+	#Bonus Size.
+	size = 0.2
+	#Bonus Max Health.
+	maxHealth = 50.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 180.0
+	#Bonus Attack Damage.
+	attack = 0.8
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.15
+	#Bonus Movement Speed.
+	movementSpeed = 0.01
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05
+	#List of intrinsic skills Greater Chimera can randomly receive.
+	intrinsicPool = ["tensura:absorb_and_dissolve", "tensura:beast_transformation", "tensura:dragon_ear", "tensura:dragon_eye", "tensura:dragon_mode", "tensura:dragon_skin", "tensura:giantification", "tensura:water_breathing", "tensura:corrosion", "tensura:self_regeneration", "tensura:voice_cannon", "tensura:snake_eye", "tensura:ultra_instinct"]
+	#How many intrinsic skills a Greater Chimera receives.
+	intrinsicCount = 3
+
+[GoldenChimera]
+	#EP requirement to evolve into Arch Chimera.
+	epRequirement = 120000.0
+	#Minimal aura.
+	minAura = 30000.0
+	#Maximum aura.
+	maxAura = 60000.0
+	#Minimal magicule.
+	minMagicule = 60000.0
+	#Maximum magicule.
+	maxMagicule = 120000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 120.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 500.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+	#List of intrinsic skills Golden Chimera can randomly receive.
+	intrinsicPool = ["tensura:absorb_and_dissolve", "tensura:beast_transformation", "tensura:dragon_ear", "tensura:dragon_eye", "tensura:dragon_mode", "tensura:dragon_skin", "tensura:giantification", "tensura:water_breathing", "tensura:corrosion", "tensura:self_regeneration", "tensura:voice_cannon", "tensura:snake_eye", "tensura:ultra_instinct", "tensura:shadow_motion", "tensura:sticky_steel_thread", "tensura:abnormal_condition_resistance", "tensura:magic_resistance", "tensura:pain_resistance", "tensura:poison_resistance"]
+	#How many intrinsic skills a Golden Chimera receives.
+	intrinsicCount = 4
+
+[ChimeraLord]
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 300000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 300.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2000.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.4
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.2
+	#List of intrinsic skills Chimera Lord can randomly receive.
+	intrinsicPool = ["tensura:absorb_and_dissolve", "tensura:beast_transformation", "tensura:dragon_ear", "tensura:dragon_eye", "tensura:dragon_mode", "tensura:dragon_skin", "tensura:giantification", "tensura:water_breathing", "tensura:corrosion", "tensura:self_regeneration", "tensura:voice_cannon", "tensura:snake_eye", "tensura:ultra_instinct", "tensura:shadow_motion", "tensura:sticky_steel_thread", "tensura:abnormal_condition_resistance", "tensura:magic_resistance", "tensura:pain_resistance", "tensura:poison_resistance", "tensura:black_lightning", "tensura:thermal_fluctuation_resistance", "tensura:ultraspeed_regeneration"]
+	#How many intrinsic skills a Chimera Lord receives.
+	intrinsicCount = 5
+
+[DivineChimera]
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 300000.0
+	#Minimal magicule.
+	minMagicule = 200000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 950.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8000.0
+	#Bonus Attack Damage.
+	attack = 4.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.4
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.2
+	#List of intrinsic skills Divine Chimera can randomly receive.
+	intrinsicPool = ["tensura:absorb_and_dissolve", "tensura:beast_transformation", "tensura:dragon_ear", "tensura:dragon_eye", "tensura:dragon_mode", "tensura:dragon_skin", "tensura:giantification", "tensura:water_breathing", "tensura:corrosion", "tensura:self_regeneration", "tensura:voice_cannon", "tensura:snake_eye", "tensura:ultra_instinct", "tensura:shadow_motion", "tensura:sticky_steel_thread", "tensura:abnormal_condition_resistance", "tensura:magic_resistance", "tensura:pain_resistance", "tensura:poison_resistance", "tensura:black_lightning", "tensura:thermal_fluctuation_resistance", "tensura:ultraspeed_regeneration", "tensura:divine_berserker", "tensura:starved", "tensura:titanification", "tensura:infinite_regeneration"]
+	#How many intrinsic skills a Divine Chimera receives.
+	intrinsicCount = 6

@@ -1,0 +1,10 @@
+#Disabling will stop the mod's regen scaling.
+enabled = true
+#The magicule regen percentage per second.
+# Default: 10.0
+# Range: 0.0 ~ 100.0
+magiculeRegenPercentage = 10.0
+#The aura regen percentage per second.
+# Default: 10.0
+# Range: 0.0 ~ 100.0
+auraRegenPercentage = 10.0

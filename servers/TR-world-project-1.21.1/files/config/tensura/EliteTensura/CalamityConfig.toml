@@ -1,0 +1,160 @@
+[CalamityCore]
+	#Comma-separated entity IDs eligible to spawn as a calamity boss
+	bossEntityIds = "tensura:orc_lord,tensura:arch_daemon,elitetensura:lich_boss,elitetensura:gravebound_colossus"
+	#Boss max health multiplier
+	hpMultiplier = 3.0
+	#Boss attack damage multiplier
+	damageMultiplier = 2.0
+	#Minimum hours between automatic calamity events
+	minIntervalHours = 2.0
+	#Maximum hours between automatic calamity events
+	maxIntervalHours = 6.0
+	#Minutes before an undefeated calamity recedes
+	maxDurationMinutes = 30
+	#Percent of boss max HP a player must deal to qualify for rewards
+	rewardContributionPercent = 10.0
+	#Grant crate keys to qualifying contributors on calamity defeat
+	crateRewardsEnabled = true
+	#Crate id whose keys qualifying contributors receive
+	contributorCrateId = "rare"
+	#Rare crate keys given to each qualifying contributor
+	contributorRareKeys = 1
+	#Crate id whose keys the top damage dealer receives
+	topContributorCrateId = "elite"
+	#Elite crate keys given to the top damage dealer
+	topContributorEliteKeys = 1
+	#Potential Catalysts given to every player who damaged the calamity
+	damagerPotentialCatalysts = 1
+	#Title awarded to qualifying contributors on calamity defeat
+	eventTitleId = "calamity_slayer"
+	#Radius in blocks within which players see the calamity boss bar
+	bossBarRadius = 96
+	#Max damage a calamity boss can take from a single player hit (0 = no cap)
+	maxDamagePerHit = 50.0
+	#Percent of boss max HP one player may deal in total (0 = no cap)
+	playerShareCapPercent = 25.0
+	#Minimum online players for the share cap to apply
+	shareCapMinPlayers = 4
+	#Minimum online players meeting qualifyingPlayerEP for an automatic calamity to start (0 = no gate). Admin /etadmin calamity start bypasses this.
+	minQualifiedPlayers = 2
+	#Max EP a player must have to count toward minQualifiedPlayers
+	qualifyingPlayerEP = 100000.0
+	#Blocks from 0,0 on both axes where a calamity may not spawn — 125 excludes a 250x250 box centred on origin (0 = no exclusion). Applies in every dimension.
+	spawnExclusionHalfExtent = 125
+	#Spawn mode: TERRITORY (Walpurgis claims, then random player), FIXED (spawnDimension at spawnX/spawnZ), PLAYER (near a random online player), TEAM_BASE (random FTB team claim with a player standing in it)
+	spawnMode = "TERRITORY"
+	#FIXED mode: dimension id, e.g. minecraft:overworld
+	spawnDimension = "minecraft:overworld"
+	#FIXED mode: X block coordinate
+	spawnX = 0
+	#FIXED mode: Z block coordinate
+	spawnZ = 0
+	#Resonance shield master switch (requires 2+ computed breakers to activate)
+	shieldEnabled = true
+	#Required shield breakers = ceil(onlinePlayers / this), clamped to shieldMaxPlayers
+	shieldPlayerDivisor = 2
+	#Upper clamp on required shield breakers
+	shieldMaxPlayers = 5
+	#Seconds within which distinct players must all land a hit to shatter the shield
+	shieldBreakWindowSeconds = 15
+	#Seconds the boss stays vulnerable after a shield shatter
+	vulnerabilitySeconds = 20
+	#Minutes of unbroken shield before the required breaker count drops by 1
+	shieldDecayMinutes = 5
+	#Multiplier on all calamity boss healing (1.0 = unchanged, 0 = no healing)
+	bossHealMultiplier = 0.25
+	#Minutes before instanced victory drops despawn
+	lootDespawnMinutes = 10
+
+[LichBoss]
+	#Max health.
+	maxHealth = 5000.0
+	#Attack damage.
+	attackDamage = 80.0
+	#Armor.
+	armor = 280.0
+	#Base magicule/aura pools (kill EP payout derives from these).
+	maxMagicule = 250000.0
+	maxAura = 250000.0
+	#Damage multiplier while >=1 tethered minion is alive (0.1 = 90% reduction).
+	minionWallDamageMultiplier = 0.1
+	#Fraction of damage dealt returned as healing (phase 1-2).
+	siphonPercent = 0.8
+	#Siphon fraction in phase 3 and during Last Rites.
+	siphonPercentP3 = 0.8
+	#Single-hit damage cap as a fraction of max HP.
+	hitCapPercent = 0.04
+	#Bonus damage multiplier taken from HOLY-element and fire sources.
+	holyFireVulnerability = 1.25
+	#Max HP/s regen from chunk magicule at full saturation (ETMagiculeWorldSystem on).
+	anchorMaxRegenPerSecond = 15.0
+	#Chunk magicule consumed per HP regenerated.
+	anchorMagiculePerHp = 10.0
+	#Flat HP/s regen when the Magicule World system is off.
+	anchorFallbackRegen = 5.0
+	#Minions per wave (min/max).
+	waveSizeMin = 4
+	waveSizeMax = 6
+	#Seconds between minion waves once the previous wave is dead (phase 2+).
+	waveCooldownSeconds = 60
+	#Enable the one-time Last Rites death defiance.
+	lastRitesEnabled = true
+	#Only initiates attacks on targets with at least this max EP.
+	targetEpGate = 10000.0
+
+[GraveboundColossus]
+	#Max health.
+	maxHealth = 8000.0
+	#Attack damage.
+	attackDamage = 60.0
+	#Armor.
+	armor = 200.0
+	#Base magicule/aura pools (kill EP payout derives from these).
+	maxMagicule = 250000.0
+	maxAura = 250000.0
+	#Only initiates attacks on targets with at least this max EP.
+	targetEpGate = 10000.0
+	#Blocks within which the Colossus engages. It never moves, so this is its whole reach.
+	engageRange = 48.0
+	#Health of each of the three Sigils.
+	sigilHealth = 400.0
+	#Fraction of incoming damage the boss takes while any Sigil stands (rest hits the Sigil).
+	sigilBossDamageFraction = 0.2
+	#Seconds the Exposed burn window lasts once all three Sigils break.
+	exposedSeconds = 12
+	#Damage multiplier taken while Exposed.
+	exposedDamageMultiplier = 2.0
+	#Slam Shockwave: seconds between casts.
+	slamCooldownSeconds = 6
+	#Slam Shockwave: max ring radius in blocks.
+	slamRadius = 12.0
+	#Grave Spire: seconds between casts (the answer to ranged attackers).
+	spireCooldownSeconds = 8
+	#Grave Spire: column radius in blocks.
+	spireRadius = 1.5
+	#Grave Spire: damage as a multiple of attack damage.
+	spireDamageMultiplier = 1.5
+	#Gravity Well: seconds between casts (phase 2+).
+	wellCooldownSeconds = 14
+	#Gravity Well: seconds the pull lasts.
+	wellDurationSeconds = 3
+	#Gravity Well: pull radius in blocks.
+	wellRadius = 24.0
+	#Gravity Well: per-tick pull strength.
+	wellPullStrength = 0.08
+	#Sunder Zones: seconds between casts (phase 2+).
+	zoneCooldownSeconds = 10
+	#Sunder Zones: seconds each zone persists.
+	zoneDurationSeconds = 12
+	#Sunder Zones: radius in blocks.
+	zoneRadius = 3.0
+	#Sunder Zones: damage per second as a multiple of attack damage.
+	zoneDamageMultiplier = 0.5
+	#Resistance bypass level stamped on every attack. 1.0 demotes a Nullification to a plain Resistance, 2.0 ignores resistances entirely, 0 disables.
+	resistanceBypassLevel = 1.0
+	#Barrier bypass level stamped on every attack. 0 disables.
+	barrierBypassLevel = 1.0
+	#Seconds with no engaged target before the Colossus starts regenerating.
+	enrageAfterSeconds = 30
+	#Percent of max HP regenerated per second once unengaged.
+	enrageRegenPercent = 2.0

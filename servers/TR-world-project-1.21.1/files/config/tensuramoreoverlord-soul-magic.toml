@@ -1,0 +1,217 @@
+	[soul_magic.grasp_heart]
+		# Default: 20
+		# Range: > 1
+		castTicks = 20
+		# Default: 8
+		# Range: > 1
+		masteredCastTicks = 8
+		# Default: 8
+		# Range: > 0
+		soulCost = 8
+		# Default: 520.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 520.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		secondaryDamage = 0.0
+		# Default: 40.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		range = 40.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		radius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pullStrength = 0.0
+		# Default: 0
+		# Range: > 0
+		cooldownTicks = 0
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		lowHealthExecuteRatio = 0.25
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		griefChance = 0.0
+		# Default: 1.5
+		# Range: 0.0 ~ 1.7976931348623157E308
+		resistanceDegradation = 1.5
+
+	[soul_magic.cry_of_the_banshee]
+		# Default: 65
+		# Range: > 1
+		castTicks = 65
+		# Default: 24
+		# Range: > 1
+		masteredCastTicks = 24
+		# Default: 70
+		# Range: > 0
+		soulCost = 70
+		# Default: 360.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 360.0
+		# Default: 140.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		secondaryDamage = 140.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		range = 0.0
+		# Default: 18.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		radius = 18.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pullStrength = 0.0
+		# Default: 30
+		# Range: > 0
+		cooldownTicks = 30
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		lowHealthExecuteRatio = 0.2
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		griefChance = 0.0
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		resistanceDegradation = 2.0
+
+	[soul_magic.black_hole]
+		# Default: 55
+		# Range: > 1
+		castTicks = 55
+		# Default: 18
+		# Range: > 1
+		masteredCastTicks = 18
+		# Default: 45
+		# Range: > 0
+		soulCost = 45
+		# Default: 260.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 260.0
+		# Default: 90.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		secondaryDamage = 90.0
+		# Default: 46.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		range = 46.0
+		# Default: 13.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		radius = 13.0
+		# Default: 3.4
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pullStrength = 3.4
+		# Default: 28
+		# Range: > 0
+		cooldownTicks = 28
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		lowHealthExecuteRatio = 0.15
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		griefChance = 0.0
+		# Default: 2.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		resistanceDegradation = 2.0
+
+	[soul_magic.fallen_down]
+		# Default: 320
+		# Range: > 1
+		castTicks = 320
+		# Default: 260
+		# Range: > 1
+		masteredCastTicks = 260
+		# Default: 340
+		# Range: > 0
+		soulCost = 340
+		# Default: 2400.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 2400.0
+		# Default: 900.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		secondaryDamage = 900.0
+		# Default: 96.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		range = 96.0
+		# Default: 32.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		radius = 32.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pullStrength = 0.0
+		# Default: 180
+		# Range: > 0
+		cooldownTicks = 180
+		# Default: 0.1
+		# Range: 0.0 ~ 1.0
+		lowHealthExecuteRatio = 0.1
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		griefChance = 0.0
+		# Default: 4.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		resistanceDegradation = 4.0
+
+	[soul_magic.reality_slash]
+		# Default: 34
+		# Range: > 1
+		castTicks = 34
+		# Default: 12
+		# Range: > 1
+		masteredCastTicks = 12
+		# Default: 36
+		# Range: > 0
+		soulCost = 36
+		# Default: 340.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		damage = 340.0
+		# Default: 80.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		secondaryDamage = 80.0
+		# Default: 34.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		range = 34.0
+		# Default: 7.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		radius = 7.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		pullStrength = 0.0
+		# Default: 85
+		# Range: > 0
+		cooldownTicks = 85
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		lowHealthExecuteRatio = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 64.0
+		griefRadius = 0.0
+		# Default: 0.0
+		# Range: 0.0 ~ 1.0
+		griefChance = 0.0
+		# Default: 2.6
+		# Range: 0.0 ~ 1.7976931348623157E308
+		resistanceDegradation = 2.6
+
+	[soul_magic.unlock]
+		learnFromFinalOverlordUndeadEvolutions = true
+		learnFromDarkLordSpirit = true
+		# Default: 5
+		# Range: 1 ~ 100
+		darkSpiritTierRequired = 5
+		# Default: 20
+		# Range: > 1
+		loginRecheckDelayTicks = 20
+		# Default: 500
+		# Range: > 20
+		tickRecheckInterval = 500

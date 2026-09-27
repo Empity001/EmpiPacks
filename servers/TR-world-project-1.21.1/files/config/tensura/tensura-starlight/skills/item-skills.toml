@@ -1,0 +1,10 @@
+[deadEndRainbowSkill]
+	acquirementCost = 0.0
+	acquirementMastery = 1
+	#0.1 = 10%
+	currentSHPBonusDamagePercentMastered = 0.075
+	currentSHPBonusDamagePercentUnmastered = 0.05
+	currentSHPBonusDamageCapUnmastered = 2500.0
+	cookDamagePercentMastered = 0.25
+	cookDamagePercentUnmastered = 0.125
+	cookDamageCapUnmastered = 2500.0

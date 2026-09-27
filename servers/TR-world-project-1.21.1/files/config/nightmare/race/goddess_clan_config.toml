@@ -1,0 +1,353 @@
+[LowerClassGoddess]
+	#Minimal aura.
+	minAura = 2000.0
+	#Maximum aura.
+	maxAura = 4000.0
+	#Minimal magicule.
+	minMagicule = 500.0
+	#Maximum magicule.
+	maxMagicule = 1000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 25.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 0.7
+	#Bonus Attack Speed.
+	attackSpeed = -0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.02
+
+[MediumClassGoddess]
+	#Existence points required to evolve into Medium Class Goddess.
+	epRequirement = 80000.0
+	#Holy essence required to evolve into Medium Class Goddess.
+	essenceRequirementHoly = 10
+	#Minimal aura.
+	minAura = 40000.0
+	#Maximum aura.
+	maxAura = 80000.0
+	#Minimal magicule.
+	minMagicule = 24000.0
+	#Maximum magicule.
+	maxMagicule = 48000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 200.0
+	#Bonus Attack Damage.
+	attack = 1.4
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+
+[HigherClassGoddess]
+	#Existence points required to evolve into Higher Class Goddess.
+	epRequirement = 150000.0
+	#Holy essence required to evolve into Higher Class Goddess.
+	essenceRequirementHoly = 10
+	#Minimal aura.
+	minAura = 75000.0
+	#Maximum aura.
+	maxAura = 150000.0
+	#Minimal magicule.
+	minMagicule = 45000.0
+	#Maximum magicule.
+	maxMagicule = 90000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 230.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 690.0
+	#Bonus Attack Damage.
+	attack = 2.4
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.06
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.06
+
+[WinglessGoddess]
+	#Existence points required to evolve into Wingless Goddess.
+	epRequirement = 350000.0
+	#Holy essence required to evolve into Wingless Goddess.
+	essenceRequirementHoly = 35
+	#Daemon essence required to evolve into Wingless Goddess.
+	essenceRequirementDaemon = 55
+	#Minimal aura.
+	minAura = 105000.0
+	#Maximum aura.
+	maxAura = 210000.0
+	#Minimal magicule.
+	minMagicule = 175000.0
+	#Maximum magicule.
+	maxMagicule = 350000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 280.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 940.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07
+
+[NamelessGoddess]
+	#Existence points required to evolve into Nameless Goddess.
+	epRequirement = 700000.0
+	#Minimal aura.
+	minAura = 210000.0
+	#Maximum aura.
+	maxAura = 420000.0
+	#Minimal magicule.
+	minMagicule = 350000.0
+	#Maximum magicule.
+	maxMagicule = 700000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1940.0
+	#Bonus Attack Damage.
+	attack = 12.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.7
+	#Bonus Movement Speed.
+	movementSpeed = 0.09
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.09
+
+[BrotherOfChaosGoddess]
+	#Existence points required to evolve into Brother Of Chaos Goddess.
+	epRequirement = 2000000.0
+	#Holy essence required to evolve into Brother Of Chaos Goddess.
+	essenceRequirementHoly = 35
+	#Daemon essence required to evolve into Brother Of Chaos Goddess.
+	essenceRequirementDaemon = 35
+	#Minimal aura.
+	minAura = 600000.0
+	#Maximum aura.
+	maxAura = 1200000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 2000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 980.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6000.0
+	#Bonus Attack Damage.
+	attack = 14.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.11
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.11
+
+[DaughterOfLight]
+	#Existence points required to evolve into Daughter Of Light.
+	epRequirement = 950000.0
+	#Holy essence required to evolve into Daughter Of Light.
+	essenceRequirementHoly = 15
+	#Minimal aura.
+	minAura = 475000.0
+	#Maximum aura.
+	maxAura = 950000.0
+	#Minimal magicule.
+	minMagicule = 285000.0
+	#Maximum magicule.
+	maxMagicule = 570000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 530.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1590.0
+	#Bonus Attack Damage.
+	attack = 0.7
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+
+[AccursedGoddess]
+	#Existence points required to evolve into Accursed Goddess.
+	epRequirement = 1500000.0
+	#Holy essence required to evolve into Daughter Of Light.
+	essenceRequirementHoly = 35
+	#Minimal aura.
+	minAura = 750000.0
+	#Maximum aura.
+	maxAura = 1500000.0
+	#Minimal magicule.
+	minMagicule = 450000.0
+	#Maximum magicule.
+	maxMagicule = 900000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6646.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.7
+	#Bonus Movement Speed.
+	movementSpeed = 0.06
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.06
+
+[PrincessOfGoddess]
+	#Existence points required to evolve into Princess of Goddess.
+	epRequirement = 500000.0
+	#Minimal aura.
+	minAura = 250000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 300000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1290.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+
+[LanceCorporal]
+	#Existence points required to evolve into Lance Corporal.
+	epRequirement = 750000.0
+	#Minimal aura.
+	minAura = 375000.0
+	#Maximum aura.
+	maxAura = 750000.0
+	#Minimal magicule.
+	minMagicule = 225000.0
+	#Maximum magicule.
+	maxMagicule = 450000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 757.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3240.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.03
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.03
+
+[DivineSoldier]
+	#Existence points required to evolve into Divine Soldier.
+	epRequirement = 350000.0
+	#Holy essence required to evolve into Divine Soldier.
+	essenceRequirementHoly = 15
+	#Minimal aura.
+	minAura = 175000.0
+	#Maximum aura.
+	maxAura = 350000.0
+	#Minimal magicule.
+	minMagicule = 105000.0
+	#Maximum magicule.
+	maxMagicule = 210000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 330.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1140.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.9
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.02
+
+[Archangel]
+	#Existence points required to evolve into Archangel.
+	epRequirement = 1000000.0
+	#Holy essence required to evolve into Archangel.
+	essenceRequirementHoly = 10
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 300000.0
+	#Maximum magicule.
+	maxMagicule = 600000.0
+	#Bonus Size.
+	size = 1.0
+	#Bonus Max Health.
+	maxHealth = 979.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5717.0
+	#Bonus Attack Damage.
+	attack = 8.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.05
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.05

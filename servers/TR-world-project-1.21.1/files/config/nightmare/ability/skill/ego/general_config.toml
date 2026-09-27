@@ -1,0 +1,15 @@
+[General]
+	#Whether it uses a blacklist or whitelist, true means whitelist, false means blacklist
+	enableWhitelist = true
+	#Maximum number of egos a person may have
+	maxEgos = 3
+	#Multiplier for mp cost to named (twice the skill's obtainment cost by default)
+	nameCostMultiplier = 2
+	#Percentage of mastery to have a chance at Ego (Default: 30%)
+	masteryPercentage = 0.3
+	#Chance of obtaining ego after meeting requirements (Default: 10%)
+	egoChance = 0.02
+	#Skills blacklisted from developing egos if in blacklist mode
+	egoBlacklist = []
+	#Skills allowed to develop ego if in whitelist mode
+	egoWhitelist = ["tensura:pride", "tensura:gluttony", "tensura:sloth", "tensura:envy", "tensura:greed", "tensura:lust", "tensura:wrath", "tensura:great_sage", "tensura:infinity_prison", "tensura:unyielding", "trnightmare:cadence", "trnightmare:saint", "trnightmare:endorse", "trnightmare:dominator"]

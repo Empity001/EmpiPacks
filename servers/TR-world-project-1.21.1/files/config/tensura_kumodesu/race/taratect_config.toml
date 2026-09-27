@@ -1,0 +1,655 @@
+[SmallLesserTaratect]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 1000.0
+	#Minimal magicule.
+	minMagicule = 100.0
+	#Maximum magicule.
+	maxMagicule = 250.0
+	#Bonus Size.
+	size = -0.37
+	#Bonus Max Health.
+	maxHealth = -12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = -48.0
+	#Bonus Attack Damage.
+	attack = -0.7
+	#Bonus Attack Speed.
+	attackSpeed = -0.9
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.15
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.07
+	#Shadow Size.
+	shadowSize = 0.7
+	#Eye Height.
+	eyeHeight = 0.67
+	#Hitbox width multiplier.
+	width = 1.5
+	#Hitbox height multiplier.
+	height = 0.48
+	#Model Y offset
+	yOffset = 0.0
+
+[Orthocadinaht]
+	#EP requirement to evolve into a Orthocadinaht.
+	epRequirement = 3800000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 2800000.0
+	#Maximum magicule.
+	maxMagicule = 2800000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 820.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6140.0
+	#Bonus Attack Damage.
+	attack = 4.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.17
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.1
+	#Shadow Size.
+	shadowSize = 1.3
+	#Eye Height.
+	eyeHeight = 0.74
+	#Hitbox width multiplier.
+	width = 3.0
+	#Hitbox height multiplier.
+	height = 1.0
+	#Model Y offset
+	yOffset = 0.0
+
+[SmallPoisonTaratect]
+	#EP requirement to evolve into a Small Poison Taratect.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 33000.0
+	#Maximum aura.
+	maxAura = 33000.0
+	#Minimal magicule.
+	minMagicule = 67000.0
+	#Maximum magicule.
+	maxMagicule = 67000.0
+	#Bonus Size.
+	size = -0.37
+	#Bonus Max Health.
+	maxHealth = 79.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 155.0
+	#Bonus Attack Damage.
+	attack = -0.05
+	#Bonus Attack Speed.
+	attackSpeed = -0.25
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.074
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.064
+	#Shadow Size.
+	shadowSize = 0.7
+	#Eye Height.
+	eyeHeight = 0.75
+	#Hitbox width multiplier.
+	width = 1.5
+	#Hitbox height multiplier.
+	height = 0.48
+	#Model Y offset
+	yOffset = 0.0
+
+[ZoaEle]
+	#EP requirement to evolve into a Zoa Ele.
+	epRequirement = 400000.0
+	#Minimal aura.
+	minAura = 150000.0
+	#Maximum aura.
+	maxAura = 150000.0
+	#Minimal magicule.
+	minMagicule = 250000.0
+	#Maximum magicule.
+	maxMagicule = 250000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 99.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 600.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.05
+	#Bonus Movement Speed.
+	movementSpeed = 0.078
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.059
+	#Shadow Size.
+	shadowSize = 1.3
+	#Eye Height.
+	eyeHeight = 0.74
+	#Hitbox width multiplier.
+	width = 3.0
+	#Hitbox height multiplier.
+	height = 1.0
+	#Model Y offset
+	yOffset = 0.0
+
+[EdeSaine]
+	#EP requirement to evolve into an Ede Saine.
+	epRequirement = 600000.0
+	#Minimal aura.
+	minAura = 250000.0
+	#Maximum aura.
+	maxAura = 250000.0
+	#Minimal magicule.
+	minMagicule = 350000.0
+	#Maximum magicule.
+	maxMagicule = 350000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 780.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.29
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.08
+	#Bonus Movement Speed.
+	movementSpeed = 0.078
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.055
+	#Shadow Size.
+	shadowSize = 1.3
+	#Eye Height.
+	eyeHeight = 0.74
+	#Hitbox width multiplier.
+	width = 3.0
+	#Hitbox height multiplier.
+	height = 1.0
+	#Model Y offset
+	yOffset = 0.0
+
+[ZanaHorowa]
+	#EP requirement to evolve into a Zana Horowa.
+	epRequirement = 1000000.0
+	#Minimal aura.
+	minAura = 300000.0
+	#Maximum aura.
+	maxAura = 300000.0
+	#Minimal magicule.
+	minMagicule = 700000.0
+	#Maximum magicule.
+	maxMagicule = 700000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5300.0
+	#Bonus Attack Damage.
+	attack = 3.5
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.1
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+	#Shadow Size.
+	shadowSize = 1.3
+	#Eye Height.
+	eyeHeight = 0.74
+	#Hitbox width multiplier.
+	width = 3.0
+	#Hitbox height multiplier.
+	height = 1.0
+	#Model Y offset
+	yOffset = 0.0
+
+[Arachne]
+	#EP requirement to evolve into an Arachne.
+	epRequirement = 3500000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 3000000.0
+	#Maximum magicule.
+	maxMagicule = 3000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 1030.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 10300.0
+	#Bonus Attack Damage.
+	attack = 6.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.9
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.45
+	#Bonus Movement Speed.
+	movementSpeed = 0.15
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+	#Shadow Size.
+	shadowSize = 1.5
+	#Eye Height.
+	eyeHeight = 1.0
+	#Hitbox width multiplier.
+	width = 3.0
+	#Hitbox height multiplier.
+	height = 1.4
+	#Model Y offset
+	yOffset = 0.0
+
+[SmallTaratect]
+	#EP requirement to evolve into a Small Taratect.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 13400.0
+	#Maximum aura.
+	maxAura = 13400.0
+	#Minimal magicule.
+	minMagicule = 6600.0
+	#Maximum magicule.
+	maxMagicule = 6600.0
+	#Bonus Size.
+	size = -0.37
+	#Bonus Max Health.
+	maxHealth = -4.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = -42.0
+	#Bonus Attack Damage.
+	attack = -0.6
+	#Bonus Attack Speed.
+	attackSpeed = -0.8
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.15
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.07
+	#Shadow Size.
+	shadowSize = 0.7
+	#Eye Height.
+	eyeHeight = 0.67
+	#Hitbox width multiplier.
+	width = 1.5
+	#Hitbox height multiplier.
+	height = 0.48
+	#Model Y offset
+	yOffset = 0.0
+
+[Taratect]
+	#EP requirement to evolve into a Taratect.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 67000.0
+	#Maximum aura.
+	maxAura = 67000.0
+	#Minimal magicule.
+	minMagicule = 33000.0
+	#Maximum magicule.
+	maxMagicule = 33000.0
+	#Bonus Size.
+	size = -0.2
+	#Bonus Max Health.
+	maxHealth = 99.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 140.0
+	#Bonus Attack Damage.
+	attack = -0.1
+	#Bonus Attack Speed.
+	attackSpeed = -0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.073
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.065
+	#Shadow Size.
+	shadowSize = 1.0
+	#Eye Height.
+	eyeHeight = 0.72
+	#Hitbox width multiplier.
+	width = 2.0
+	#Hitbox height multiplier.
+	height = 0.9
+	#Model Y offset
+	yOffset = 0.0
+
+[GreatTaratect]
+	#EP requirement to evolve into a Great Taratect.
+	epRequirement = 400000.0
+	#Minimal aura.
+	minAura = 250000.0
+	#Maximum aura.
+	maxAura = 250000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 480.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 640.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = -0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.1
+	#Bonus Movement Speed.
+	movementSpeed = 0.093
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.058
+	#Shadow Size.
+	shadowSize = 1.45
+	#Eye Height.
+	eyeHeight = 0.69
+	#Hitbox width multiplier.
+	width = 2.5
+	#Hitbox height multiplier.
+	height = 1.2
+	#Model Y offset
+	yOffset = 0.0
+
+[GreaterTaratect]
+	#EP requirement to evolve into a Greater Taratect.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 450000.0
+	#Maximum aura.
+	maxAura = 450000.0
+	#Minimal magicule.
+	minMagicule = 350000.0
+	#Maximum magicule.
+	maxMagicule = 350000.0
+	#Bonus Size.
+	size = 0.2
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 840.0
+	#Bonus Attack Damage.
+	attack = 1.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.4
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.12
+	#Bonus Movement Speed.
+	movementSpeed = 0.12
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.03
+	#Shadow Size.
+	shadowSize = 2.25
+	#Eye Height.
+	eyeHeight = 0.67
+	#Hitbox width multiplier.
+	width = 4.0
+	#Hitbox height multiplier.
+	height = 1.6
+	#Model Y offset
+	yOffset = 0.0
+
+[ArchTaratect]
+	#EP requirement to evolve into an Arch Taratect.
+	epRequirement = 2500000.0
+	#Minimal aura.
+	minAura = 1500000.0
+	#Maximum aura.
+	maxAura = 1500000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.3
+	#Bonus Max Health.
+	maxHealth = 1180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4640.0
+	#Bonus Attack Damage.
+	attack = 2.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.55
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4
+	#Bonus Movement Speed.
+	movementSpeed = 0.14
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+	#Shadow Size.
+	shadowSize = 3.1
+	#Eye Height.
+	eyeHeight = 0.83
+	#Hitbox width multiplier.
+	width = 5.0
+	#Hitbox height multiplier.
+	height = 2.0
+	#Model Y offset
+	yOffset = 0.0
+	#Arch Entity Interaction Range
+	entityRange = 6.0
+	#Arch Block Interaction Range
+	blockRange = 6.0
+	#Arch Step Height
+	stepHeight = 2.0
+
+[QueenTaratect]
+	#EP requirement to evolve into a Queen Taratect.
+	epRequirement = 3500000.0
+	#Minimal aura.
+	minAura = 2500000.0
+	#Maximum aura.
+	maxAura = 2500000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.47
+	#Bonus Max Health.
+	maxHealth = 1380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 8640.0
+	#Bonus Attack Damage.
+	attack = 11.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.8
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.55
+	#Bonus Movement Speed.
+	movementSpeed = 0.15
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+	#Shadow Size.
+	shadowSize = 3.1
+	#Eye Height.
+	eyeHeight = 0.86
+	#Hitbox width multiplier.
+	width = 6.0
+	#Hitbox height multiplier.
+	height = 3.0
+	#Model Y offset
+	yOffset = 0.0
+	#Queen Entity Interaction Range
+	entityRange = 10.0
+	#Queen Block Interaction Range
+	blockRange = 10.0
+	#Queen Step Height
+	stepHeight = 4.0
+
+[LesserTaratect]
+	#EP requirement to evolve into a Lesser Taratect.
+	epRequirement = 20000.0
+	#Minimal aura.
+	minAura = 13400.0
+	#Maximum aura.
+	maxAura = 13400.0
+	#Minimal magicule.
+	minMagicule = 6600.0
+	#Maximum magicule.
+	maxMagicule = 6600.0
+	#Bonus Size.
+	size = -0.3
+	#Bonus Max Health.
+	maxHealth = -2.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = -40.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = -0.7
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.13
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.067
+	#Shadow Size.
+	shadowSize = 0.85
+	#Eye Height.
+	eyeHeight = 0.87
+	#Hitbox width multiplier.
+	width = 1.4
+	#Hitbox height multiplier.
+	height = 0.77
+	#Model Y offset
+	yOffset = 0.0
+
+[LesserPoisonTaratect]
+	#EP requirement to evolve into a Lesser Poison Taratect.
+	epRequirement = 150000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 50000.0
+	#Maximum magicule.
+	maxMagicule = 50000.0
+	#Bonus Size.
+	size = -0.3
+	#Bonus Max Health.
+	maxHealth = 100.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2710.0
+	#Bonus Attack Damage.
+	attack = -0.3
+	#Bonus Attack Speed.
+	attackSpeed = -0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = -0.115
+	#Bonus Movement Speed.
+	movementSpeed = 0.078
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.05
+	#Shadow Size.
+	shadowSize = 0.85
+	#Eye Height.
+	eyeHeight = 0.87
+	#Hitbox width multiplier.
+	width = 1.4
+	#Hitbox height multiplier.
+	height = 0.77
+	#Model Y offset
+	yOffset = 0.0
+
+[PoisonTaratect]
+	#EP requirement to evolve into a Poison Taratect.
+	epRequirement = 750000.0
+	#Minimal aura.
+	minAura = 600000.0
+	#Maximum aura.
+	maxAura = 600000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 150000.0
+	#Bonus Size.
+	size = -0.2
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.58
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.078
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = -0.03
+	#Shadow Size.
+	shadowSize = 1.0
+	#Eye Height.
+	eyeHeight = 0.72
+	#Hitbox width multiplier.
+	width = 2.0
+	#Hitbox height multiplier.
+	height = 0.9
+	#Model Y offset
+	yOffset = 0.0
+
+[GreatPoisonTaratect]
+	#EP requirement to evolve into a Great Poison Taratect.
+	epRequirement = 3800000.0
+	#Minimal aura.
+	minAura = 2800000.0
+	#Maximum aura.
+	maxAura = 2800000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 980.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5940.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.8
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.15
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.1
+	#Shadow Size.
+	shadowSize = 1.45
+	#Eye Height.
+	eyeHeight = 0.69
+	#Hitbox width multiplier.
+	width = 2.5
+	#Hitbox height multiplier.
+	height = 1.2
+	#Model Y offset
+	yOffset = 0.0

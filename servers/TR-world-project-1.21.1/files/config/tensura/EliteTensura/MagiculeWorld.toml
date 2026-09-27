@@ -1,0 +1,59 @@
+[ORE_CONVERSION]
+	#Chunk magicule at/below which conversion uses the minimum chance. DEFAULT: 50
+	minMagiculeForConversion = 50.0
+	#Chunk magicule at/above which conversion uses the maximum chance. DEFAULT: 500
+	maxConversionMagicule = 500.0
+	#Conversion chance per sampled ore block at minimum magicule. DEFAULT: 0.001
+	minConversionChance = 0.001
+	#Conversion chance per sampled ore block at maximum magicule. DEFAULT: 0.05
+	maxConversionChance = 0.05
+	#Chunk magicule subtracted per successful conversion. DEFAULT: 600
+	conversionMagiculeCost = 600.0
+	#Server ticks between conversion scan cycles. DEFAULT: 100
+	chunkScanInterval = 100
+	#Random block positions sampled per scanned chunk (never an exhaustive scan). DEFAULT: 16
+	samplesPerChunk = 16
+	#Loaded chunks processed per scan cycle, per level (round-robin). DEFAULT: 32
+	chunksPerCycle = 32
+
+[CRYSTAL_GROWTH]
+	#Per-random-tick chance a Mother Rock attempts to sprout a new bud. DEFAULT: 0.05
+	motherRockGrowthChance = 0.05
+	#Chunk magicule required (and consumed) to sprout a Small Bud. DEFAULT: 300
+	growthCostSmallBud = 300.0
+	#Chunk magicule required (and consumed) to advance Small -> Medium Bud. DEFAULT: 575
+	growthCostMediumBud = 575.0
+	#Chunk magicule required (and consumed) to advance Medium -> Large Bud. DEFAULT: 850
+	growthCostLargeBud = 850.0
+	#Chunk magicule required (and consumed) to advance Large Bud -> Cluster. DEFAULT: 1000
+	growthCostCluster = 1000.0
+
+[ENTITY_INFLUENCE]
+	#Server ticks between entity-influence cycles. DEFAULT: 40
+	entityMagiculeInfluenceInterval = 40
+	#Minimum entity magicule to contribute to its chunk. DEFAULT: 50000
+	entityMagiculeInfluenceMinMagicule = 50000.0
+	#Entity magicule is multiplied by this to get its contribution. DEFAULT: 2.0
+	entityMagiculeInfluenceFactor = 2.0
+	#Maximum contribution from a single entity. DEFAULT: 1000
+	entityMagiculeInfluenceEntityCap = 1000.0
+	#Maximum target bonus / max-magicule a chunk can reach from influence. DEFAULT: 5000
+	entityMagiculeInfluenceChunkCap = 5000.0
+	#Fraction of the gap to the contribution closed each cycle. DEFAULT: 0.2
+	entityMagiculeInfluenceApproachRate = 0.2
+	#Share of contribution added to the chunk's regen rate. DEFAULT: 0.02
+	entityMagiculeInfluenceRegenRatio = 0.02
+	#Fraction of a chunk's current bonus diffused to each adjacent loaded chunk per cycle. DEFAULT: 0.04
+	entityMagiculeInfluenceDiffusionRate = 0.04
+	#Chunk radius around each player scanned for contributing entities. DEFAULT: 2
+	entityMagiculeInfluenceScanRadiusChunks = 2
+	#Freeze area magicule inside the LocationManager SpawnProtection region (overworld only): entities there raise no chunk magicule, no bonus diffuses in, and any existing influence bonus is reset to the Tensura base. DEFAULT: true
+	entityMagiculeInfluenceDisableInSpawn = true
+
+[MOB_REPLACEMENT]
+	#Enable high-magicule natural-spawn replacement. DEFAULT: true
+	mobReplacementEnabled = true
+	#Minimum chunk magicule for replacement to be considered. DEFAULT: 1000
+	mobReplacementMinMagicule = 1000.0
+	#Chance a qualifying natural spawn is replaced by its whitelisted upgrade. DEFAULT: 0.15
+	mobReplacementChance = 0.15

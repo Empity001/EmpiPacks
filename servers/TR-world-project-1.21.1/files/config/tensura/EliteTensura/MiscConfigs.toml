@@ -1,0 +1,57 @@
+[ULTIMATE_SKILLS]
+	#Enable ultimate skill unlock requirements (mastered prerequisites, EP, Awakened). DEFAULT: true
+	requirementsEnabled = true
+
+[CHATEVENTS]
+	#Are chat events enabled? DEFAULT: true
+	chatEvents = true
+	#Players needed on the server to enable this event? Default: 6
+	PlayersNeeded = 6
+	#COMMON Tier Wins Required DEFAULT: 2
+	PlayersWinCommon = 2
+	#UNCOMMON Tier Wins Required DEFAULT: 8
+	PlayersWinUnCommon = 8
+	#RARE Tier Wins Required DEFAULT: 16
+	PlayersWinRARE = 16
+	#EPIC Tier Wins Required DEFAULT: 25
+	PlayersWinEPIC = 25
+	#LEGENDARY Tier Wins Required DEFAULT: 30
+	PlayersWinLEGENDARY = 30
+	#How many Mins before the checks are done?
+	INTERVAL_MINS = 15
+	#Answer timeout in seconds
+	ANSWER_TIMEOUT = 30
+	#QnA questions, one per entry, format 'question|answer' (answer lowercase). DEFAULT: built-in trivia list
+	questions = ["How did Goku defeat Master Carrot?|moon", "What is Goku's biological Mother's name?|gine", "What is the name of Goku's wife?|chi chi", "Which character is Uub a reincarnation of?|buu", "Who is the 7th God of Destruction?|beerus", "Who is God of Destruction in Universe 6?|champa", "What is Vegeta's brother name?|tarble", "What Universe is Jiren in?|11", "Who is Trunk's mother?|bulma", "What is the business Bulma helps develop for?|capsule corp", "What is the name of Goku's father?|bardock", "What planet are Saiyans originally from?|sadala", "What is Gohan's daughter's name?|pan", "Who trained Goku as a child?|roshi", "What is the name of Vegeta's home planet?|vegeta", "Who is the Supreme Kai of Universe 7?|shin", "What transformation comes after Super Saiyan 2?|super saiyan 3", "What is the name of Beerus's angel?|whis", "Who killed Krillin causing Goku to go Super Saiyan?|frieza", "What form does Goku use Ultra Instinct in?|mastered ultra instinct", "What is Rimuru's human name before reincarnation?|satoru mikami", "What is the name of the Great Sage skill Rimuru has?|great sage", "What is the name of Rimuru's unique skill that copies abilities?|predator", "What type of creature does Satoru reincarnate as?|slime", "Who is the Storm Dragon that names Rimuru?|veldora", "What is the name of the nation Rimuru founds?|tempest", "What is the forest called where Rimuru first wakes up?|jura forest", "What is the name of Rimuru's secretary?|shion", "Who is the first goblin Rimuru names?|rigurd", "What race is Benimaru?|ogre", "What title does Rimuru earn after defeating Charybdis?|great demon lord", "What is the name of the demon lord who first recognizes Rimuru?|milim", "What is Milim's unique monster class?|dragonoid", "Which Demon Lord orchestrated a plot to eliminate Rimuru?|clayman", "What skill does Rimuru awaken after becoming a Demon Lord?|raphael", "What is the name of the nation of dwarves?|dwargon", "Who is the king of dwargon?|gazel dwargo", "What is the name of Rimuru's evolved form?|demon lord", "What is the name of the organization of Demon Lords?|octagram", "Who is Veldora's sister?|velzard"]
+
+[TITLESSystem]
+	#Maximum number of title synergies that can be active simultaneously. DEFAULT: 3
+	maxActiveSynergies = 3
+	#Maximum number of titles that can be active simultaneously. DEFAULT: 10
+	maxTitleSlots = 10
+	#Number of resets to gain more slots. DEFAULT: 2
+	resets_per_slot = 2
+	#Number of base slots you have before the Resets Per Slots. DEFAULT: 3
+	base_slots = 3
+
+[BANKING]
+	#Show the Ultimate Banking System popup alert when a mob drops cash. DEFAULT: true
+	mobCashDropAlerts = false
+	#Max transactions kept per UBS bank account; oldest are deleted on save. UBS has no cap of its own, so history grows forever and bank saves become lag spikes. 0 disables trimming. DEFAULT: 50
+	transactionHistoryCap = 50
+
+[ENGRAVING]
+	#Enable replacing natural Rare/Epic engraving rolls with Elite Tensura custom engravings. DEFAULT: true
+	enabled = true
+	#Percent chance a natural Rare/Epic engraving roll is replaced by a custom engraving. DEFAULT: 25.0
+	replaceChance = 25.0
+
+[PVP]
+	#Block EP transfer on player-vs-player kills: killer gains no EP, victim loses no EP/soul points. PvE deaths are unaffected. DEFAULT: true
+	blockEpTransfer = true
+
+[DEATHRECAP]
+	#Show a damage recap panel on the death screen: the last few hits taken, with what the damage event chain did to each. DEFAULT: true
+	enabled = true
+	#How many recent damage instances to keep per player. DEFAULT: 8
+	historySize = 8

@@ -1,0 +1,5 @@
+[DeadlyPoison]
+	#The duration in tick of the Poison effect.
+	poisonDuration = 160
+	#The level of the Poison effect.
+	poisonLevel = 1

@@ -1,0 +1,889 @@
+		[races.undead.evolution]
+			# Default: 0.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 0.0
+
+		[races.undead.base_energy]
+			# Default: 8000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 8000.0
+			# Default: 14000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 14000.0
+			# Default: 8000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 8000.0
+			# Default: 14000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 14000.0
+
+		[races.undead.attributes]
+			# Default: 0.0
+			# Range: -0.9 ~ 16.0
+			size = 0.0
+			# Default: 36.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 36.0
+			# Default: 160.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 160.0
+			# Default: 3.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 3.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.08
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.08
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.zombie.evolution]
+			# Default: 50000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 50000.0
+
+		[races.zombie.base_energy]
+			# Default: 18000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 18000.0
+			# Default: 30000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 30000.0
+			# Default: 12000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 12000.0
+			# Default: 22000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 22000.0
+
+		[races.zombie.attributes]
+			# Default: 0.03
+			# Range: -0.9 ~ 16.0
+			size = 0.03
+			# Default: 90.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 90.0
+			# Default: 420.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 420.0
+			# Default: 6.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 6.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.18
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.18
+			# Default: -0.03
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = -0.03
+			# Default: -0.05
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = -0.05
+
+		[races.death_warrior.evolution]
+			# Default: 180000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 180000.0
+
+		[races.death_warrior.base_energy]
+			# Default: 60000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 60000.0
+			# Default: 90000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 90000.0
+			# Default: 40000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 40000.0
+			# Default: 70000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 70000.0
+
+		[races.death_warrior.attributes]
+			# Default: 0.08
+			# Range: -0.9 ~ 16.0
+			size = 0.08
+			# Default: 300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 300.0
+			# Default: 1500.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 1500.0
+			# Default: 13.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 13.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.4
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.4
+			# Default: 0.06
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.06
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.doom_warrior.evolution]
+			# Default: 750000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 750000.0
+
+		[races.doom_warrior.base_energy]
+			# Default: 250000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 250000.0
+			# Default: 380000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 380000.0
+			# Default: 190000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 190000.0
+			# Default: 300000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 300000.0
+
+		[races.doom_warrior.attributes]
+			# Default: 0.16
+			# Range: -0.9 ~ 16.0
+			size = 0.16
+			# Default: 860.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 860.0
+			# Default: 5200.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 5200.0
+			# Default: 32.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 32.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.7
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.7
+			# Default: 0.14
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.14
+			# Default: 0.02
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.02
+
+		[races.death_knight.evolution]
+			# Default: 250000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 250000.0
+
+		[races.death_knight.base_energy]
+			# Default: 85000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 85000.0
+			# Default: 140000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 140000.0
+			# Default: 70000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 70000.0
+			# Default: 115000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 115000.0
+
+		[races.death_knight.attributes]
+			# Default: 0.13
+			# Range: -0.9 ~ 16.0
+			size = 0.13
+			# Default: 430.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 430.0
+			# Default: 2400.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 2400.0
+			# Default: 15.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 15.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.65
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.65
+			# Default: 0.02
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.02
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.doom_knight.evolution]
+			# Default: 1200000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 1200000.0
+
+		[races.doom_knight.base_energy]
+			# Default: 430000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 430000.0
+			# Default: 650000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 650000.0
+			# Default: 340000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 340000.0
+			# Default: 540000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 540000.0
+
+		[races.doom_knight.attributes]
+			# Default: 0.24
+			# Range: -0.9 ~ 16.0
+			size = 0.24
+			# Default: 1100.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 1100.0
+			# Default: 8500.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 8500.0
+			# Default: 30.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 30.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.9
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.9
+			# Default: 0.02
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.02
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.skeleton.evolution]
+			# Default: 50000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 50000.0
+
+		[races.skeleton.base_energy]
+			# Default: 16000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 16000.0
+			# Default: 26000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 26000.0
+			# Default: 18000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 18000.0
+			# Default: 32000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 32000.0
+
+		[races.skeleton.attributes]
+			# Default: 0.08
+			# Range: -0.9 ~ 16.0
+			size = 0.08
+			# Default: 80.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 80.0
+			# Default: 360.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 360.0
+			# Default: 5.5
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 5.5
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.12
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.12
+			# Default: 0.1
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.1
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.skeleton_warrior.evolution]
+			# Default: 130000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 130000.0
+
+		[races.skeleton_warrior.base_energy]
+			# Default: 43000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 43000.0
+			# Default: 72000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 72000.0
+			# Default: 43000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 43000.0
+			# Default: 76000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 76000.0
+
+		[races.skeleton_warrior.attributes]
+			# Default: 0.12
+			# Range: -0.9 ~ 16.0
+			size = 0.12
+			# Default: 190.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 190.0
+			# Default: 1000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 1000.0
+			# Default: 10.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 10.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.28
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.28
+			# Default: 0.15
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.15
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.heavy_skeleton_warrior.evolution]
+			# Default: 360000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 360000.0
+
+		[races.heavy_skeleton_warrior.base_energy]
+			# Default: 120000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 120000.0
+			# Default: 190000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 190000.0
+			# Default: 100000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 100000.0
+			# Default: 170000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 170000.0
+
+		[races.heavy_skeleton_warrior.attributes]
+			# Default: 0.22
+			# Range: -0.9 ~ 16.0
+			size = 0.22
+			# Default: 560.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 560.0
+			# Default: 3300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 3300.0
+			# Default: 18.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 18.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.68
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.68
+			# Default: 0.01
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.01
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.death_cavalier.evolution]
+			# Default: 950000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 950000.0
+
+		[races.death_cavalier.base_energy]
+			# Default: 340000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 340000.0
+			# Default: 520000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 520000.0
+			# Default: 270000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 270000.0
+			# Default: 430000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 430000.0
+
+		[races.death_cavalier.attributes]
+			# Default: 0.2
+			# Range: -0.9 ~ 16.0
+			size = 0.2
+			# Default: 880.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 880.0
+			# Default: 6200.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 6200.0
+			# Default: 28.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 28.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.7
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.7
+			# Default: 0.3
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.3
+			# Default: 0.08
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.08
+
+		[races.skeleton_mage.evolution]
+			# Default: 130000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 130000.0
+
+		[races.skeleton_mage.base_energy]
+			# Default: 40000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 40000.0
+			# Default: 72000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 72000.0
+			# Default: 90000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 90000.0
+			# Default: 150000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 150000.0
+
+		[races.skeleton_mage.attributes]
+			# Default: 0.08
+			# Range: -0.9 ~ 16.0
+			size = 0.08
+			# Default: 130.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 130.0
+			# Default: 1150.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 1150.0
+			# Default: 5.5
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 5.5
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.14
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.14
+			# Default: 0.07
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.07
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.elder_lich.evolution]
+			# Default: 450000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 450000.0
+
+		[races.elder_lich.base_energy]
+			# Default: 150000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 150000.0
+			# Default: 240000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 240000.0
+			# Default: 320000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 320000.0
+			# Default: 520000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 520000.0
+
+		[races.elder_lich.attributes]
+			# Default: 0.14
+			# Range: -0.9 ~ 16.0
+			size = 0.14
+			# Default: 620.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 620.0
+			# Default: 4300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 4300.0
+			# Default: 10.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 10.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.35
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.35
+			# Default: 0.08
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.08
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.overlord.evolution]
+			# Default: 2500000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 2500000.0
+
+		[races.overlord.base_energy]
+			# Default: 1200000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 1200000.0
+			# Default: 1800000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 1800000.0
+			# Default: 2200000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 2200000.0
+			# Default: 3200000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 3200000.0
+
+		[races.overlord.attributes]
+			# Default: 0.28
+			# Range: -0.9 ~ 16.0
+			size = 0.28
+			# Default: 940.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 940.0
+			# Default: 12500.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 12500.0
+			# Default: 22.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 22.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.72
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.72
+			# Default: 0.16
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.16
+			# Default: 0.08
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.08
+
+		[races.ghoul.evolution]
+			# Default: 50000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 50000.0
+
+		[races.ghoul.base_energy]
+			# Default: 15000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 15000.0
+			# Default: 24000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 24000.0
+			# Default: 10000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 10000.0
+			# Default: 18000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 18000.0
+
+		[races.ghoul.attributes]
+			# Default: -0.02
+			# Range: -0.9 ~ 16.0
+			size = -0.02
+			# Default: 85.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 85.0
+			# Default: 300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 300.0
+			# Default: 7.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 7.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.08
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.08
+			# Default: 0.22
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.22
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.corpse_eater.evolution]
+			# Default: 220000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 220000.0
+
+		[races.corpse_eater.base_energy]
+			# Default: 70000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 70000.0
+			# Default: 120000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 120000.0
+			# Default: 50000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 50000.0
+			# Default: 85000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 85000.0
+
+		[races.corpse_eater.attributes]
+			# Default: 0.04
+			# Range: -0.9 ~ 16.0
+			size = 0.04
+			# Default: 300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 300.0
+			# Default: 1300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 1300.0
+			# Default: 14.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 14.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.25
+			# Default: 0.32
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.32
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.0
+
+		[races.ghoul_king.evolution]
+			# Default: 850000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 850000.0
+
+		[races.ghoul_king.base_energy]
+			# Default: 300000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 300000.0
+			# Default: 470000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 470000.0
+			# Default: 210000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 210000.0
+			# Default: 340000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 340000.0
+
+		[races.ghoul_king.attributes]
+			# Default: 0.1
+			# Range: -0.9 ~ 16.0
+			size = 0.1
+			# Default: 800.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 800.0
+			# Default: 4700.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 4700.0
+			# Default: 25.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 25.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.52
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.52
+			# Default: 0.42
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.42
+			# Default: 0.08
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.08
+
+		[races.wight.evolution]
+			# Default: 50000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 50000.0
+
+		[races.wight.base_energy]
+			# Default: 20000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 20000.0
+			# Default: 34000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 34000.0
+			# Default: 34000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 34000.0
+			# Default: 62000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 62000.0
+
+		[races.wight.attributes]
+			# Default: -0.3
+			# Range: -0.9 ~ 16.0
+			size = -0.3
+			# Default: 70.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 70.0
+			# Default: 520.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 520.0
+			# Default: 4.5
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 4.5
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.05
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.05
+			# Default: 0.18
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.18
+			# Default: 0.1
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.1
+
+		[races.high_wight.evolution]
+			# Default: 260000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 260000.0
+
+		[races.high_wight.base_energy]
+			# Default: 95000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 95000.0
+			# Default: 160000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 160000.0
+			# Default: 160000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 160000.0
+			# Default: 280000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 280000.0
+
+		[races.high_wight.attributes]
+			# Default: -0.22
+			# Range: -0.9 ~ 16.0
+			size = -0.22
+			# Default: 360.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 360.0
+			# Default: 2300.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 2300.0
+			# Default: 9.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 9.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.28
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.28
+			# Default: 0.25
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.25
+			# Default: 0.14
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.14
+
+		[races.wight_lord.evolution]
+			# Default: 1000000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			epRequirement = 1000000.0
+
+		[races.wight_lord.base_energy]
+			# Default: 420000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minAura = 420000.0
+			# Default: 680000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxAura = 680000.0
+			# Default: 780000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			minMagicule = 780000.0
+			# Default: 1250000.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxMagicule = 1250000.0
+
+		[races.wight_lord.attributes]
+			# Default: -0.12
+			# Range: -0.9 ~ 16.0
+			size = -0.12
+			# Default: 850.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxHealth = 850.0
+			# Default: 6500.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			maxSpiritualHealth = 6500.0
+			# Default: 16.0
+			# Range: 0.0 ~ 1.7976931348623157E308
+			attack = 16.0
+			# Default: 0.0
+			# Range: -1.0 ~ 1.7976931348623157E308
+			attackSpeed = 0.0
+			# Default: 0.48
+			# Range: 0.0 ~ 1.0
+			knockbackResistance = 0.48
+			# Default: 0.34
+			# Range: -1.0 ~ 1.7976931348623157E308
+			movementSpeed = 0.34
+			# Default: 0.18
+			# Range: -1.0 ~ 1.7976931348623157E308
+			swimSpeed = 0.18
+
+[system]
+	# Default: 500000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	highEpDropThreshold = 500000.0
+	# Default: 500.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	bossHealthThreshold = 500.0
+	# Default: 80
+	# Range: > 20
+	sunlightInterval = 80
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	sunlightBaseDamage = 2.0
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	darkDamageMultiplier = 0.55
+	# Default: 1.45
+	# Range: 1.0 ~ 100.0
+	holyDamageMultiplier = 1.45
+	# Default: 1.35
+	# Range: 1.0 ~ 100.0
+	lightDamageMultiplier = 1.35
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	ancientBoneRelicDropChance = 0.1
+	# Default: 100
+	# Range: > 20
+	ritualHoldTicks = 100
+	# Default: 1200
+	# Range: > 20
+	voidTicksForCavalier = 1200
+	# Default: 2400
+	# Range: > 20
+	voidTicksForOverlord = 2400

@@ -1,0 +1,35 @@
+[InnerWorld]
+	#EP requirement for natural learning.
+	epAcquirement = 100000.0
+	#Minimum base max magicule required to learn.
+	mpAcquirement = 1000.0
+	#Magicule cost to activate.
+	magiculeCost = 0.0
+	#Cooldown in seconds after activation.
+	cooldown = 10
+
+[Domicile]
+	#EP requirement for natural learning.
+	epAcquirement = 250000.0
+	#Minimum base max magicule required to learn.
+	mpAcquirement = 25000.0
+	#Magicule cost to activate.
+	magiculeCost = 0.0
+	#Cooldown in seconds after activation.
+	cooldown = 10
+
+[TheWarden]
+	#EP requirement for natural learning.
+	epAcquirement = 500000.0
+	#Minimum base max magicule required to learn.
+	mpAcquirement = 50000.0
+	#Magicule cost to activate.
+	magiculeCost = 0.0
+	#Cooldown in seconds after activation.
+	cooldown = 30
+	#Mastery gained per tick when other players are in your shopkeeper dimension.
+	masteryPerVisitorTick = 0.1
+	#Mastery gained per door conversion.
+	masteryPerDoorConversion = 0.5
+	#Ticks between mastery gains from visitors.
+	visitorMasteryInterval = 100

@@ -1,0 +1,18 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"elitetensura:astral_edge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"elitetensura:void_edge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tensura:medium_quality_magic_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:worn_notebook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:novice_spell_book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"ars_nouveau:novice_spell_book","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"ingredient":{"id":"tensura:smithing_bench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:spirit_altar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:refined_soulstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:block_of_soulstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:encyclopedia_arcana"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:raw_soulstone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:iron_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tensura:low_quality_magic_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

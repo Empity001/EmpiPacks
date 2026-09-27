@@ -1,0 +1,13 @@
+[faith_and_grace]
+	#Maximum number of Gods/Faith leaders allowed in the world. Set to 0 to disable the limit.
+	# Default: 3
+	# Range: > 0
+	maxGods = 3
+	#Maximum number of non-God followers a single faith may have. Priests count toward this limit. Set to 0 to disable the limit.
+	# Default: 20
+	# Range: > 0
+	maxFollowersPerFaith = 20
+	#Maximum number of Priests a single faith may have. Set to 0 to disable the limit.
+	# Default: 4
+	# Range: > 0
+	maxPriestsPerFaith = 4

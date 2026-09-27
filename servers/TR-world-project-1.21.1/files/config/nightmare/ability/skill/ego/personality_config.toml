@@ -1,0 +1,535 @@
+[Default]
+	#Can skills develop the Default Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 10%)
+	egoChance = 0.1
+
+[Neutral]
+	#Can skills develop the Neutral Ego
+	enablePersonality = false
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 0%)
+	egoChance = 0.0
+
+[Sloth]
+	#Can this Personality be developed
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 2%)
+	egoChance = 0.02
+
+[Endearing]
+	#Can this Personality be developed
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = true
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = true
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 400
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 1000
+	#The chance that this ego will generate animosity when near allies as a percentage.
+	jealousyChance = 10
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 2
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 3
+	#Chance of obtaining ego after meeting requirements (Default: 6%)
+	egoChance = 0.06
+
+[Wrath]
+	#Can skills develop the Wrath Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 600
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 3
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Percentage of HP user must be dealt to avoid animosity (Default: 50%)
+	takenPercentage = 0.5
+	#Percentage of HP user must deal to a target to avoid animosity (Default: 33%)
+	dealtPercentage = 0.33
+	#Damage resistance to Insanity and rampage (Default: 40%)
+	rampageResistance = 0.6
+	#Chance of obtaining ego after meeting requirements (Default: 2%)
+	egoChance = 0.02
+
+[Greed]
+	#Can skills develop the Greed Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 600
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 3
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Percentage of EP the target must have for a temporary tame to be permanent (Default: 5%)
+	permPercentage = 0.05
+	#Ratio of social points gained from taming a target permanently (Default: EP/2000)
+	socialRatio = 2000.0
+	#How many seconds this personality can go without changing Desire (Default: 300)
+	waitTime = 60
+	#Ratio of wait time to animosity (Default: 2 times base animosity gain per 5 minutes)
+	desireLoss = 30
+	#Chance of obtaining ego after meeting requirements (Default: 2%)
+	egoChance = 0.02
+
+[Pride]
+	#Can skills develop the Pride Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 600
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 15
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Damage multiplier applied through relation (Default: 2)
+	damageMultiplier = 2.0
+	#Chance to apply physical damage multiplier per threshold level (Default: 0.3)
+	multiChance = 0.3
+	#The maximum points gained in one go (Default: 15)
+	maxPointGain = 5
+	#Chance of obtaining ego after meeting requirements (Default: 2%)
+	egoChance = 0.02
+
+[Gluttony]
+	#Can skills develop the Gluttony Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 600
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 3
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Ratio of food nutrition to admiration gain (Default: 11%)
+	nutritionAdmiration = 0.11
+	#Ratio of food saturation to Social Point Gain (Default: 11%)
+	saturationSocial = 0.11
+	#Hits required to apply Soul Consume while target has corrosion effect (Default: 5)
+	soulConsume = 5
+	#Chance of obtaining ego after meeting requirements (Default: 1%)
+	egoChance = 0.01
+
+[Justice]
+	#Can this Personality be developed
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = true
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = true
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 4
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Percentage of HP user must be below for absolute guard to kick in automatically (Default: 20%)
+	guardPercentage = 0.2
+	#Chance of obtaining ego after meeting requirements (Default: 1%)
+	egoChance = 0.01
+
+[Wise]
+	#Can skills develop the Wise Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 4
+	#Chance of obtaining ego after meeting requirements (Default: 1%)
+	egoChance = 0.01
+
+[Lust]
+	#Can skills develop the Lust Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = true
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = true
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 3
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 2
+	#Can this Ego or Manas allow revival in a hardcore world
+	canReviveHardcore = true
+	#The threshold at which lust is developed enough to save souls for revival (Default: 2)
+	revivalThreshold = 2
+	#Chance of obtaining ego after meeting requirements (Default: 4%)
+	egoChance = 0.04
+
+[Envy]
+	#Can skills develop the Envy Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#The threshold envy's ego must be below to rely on draining to gain social points (Default: 1)
+	minorDevelopment = 1
+	#How much of the physical attack bar must be full before applying drain (Default: 100%)
+	hitCooldown = 1.0
+	#The percentage of EP that is drained on hit (Default: 0.1%)
+	drainPercentage = 0.1
+	#The interval to apply an extra 0.1% drain (Default: 100,000)
+	epDivision = 100000.0
+	#Chance of obtaining ego after meeting requirements (Default: 3%)
+	egoChance = 0.03
+
+[Amnesiac]
+	#Can skills develop the Amnesiac Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = true
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 1000
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 1000
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 2
+	#Chance of obtaining ego after meeting requirements (Default: 1%)
+	egoChance = 0.01
+
+[Nun]
+	#Can skills develop the Nun Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 3%)
+	egoChance = 0.03
+
+[Patient]
+	#Can skills develop the Patient Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 3%)
+	egoChance = 0.03
+
+[Paladin]
+	#Can skills develop the Paladin Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 3%)
+	egoChance = 0.03
+
+[Joyful]
+	#Can skills develop the Joyful Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 3%)
+	egoChance = 0.03
+
+[Hopeful]
+	#Can skills develop the Hopeful Ego
+	enablePersonality = true
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = false
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 500
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 500
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 1
+	#Chance of obtaining ego after meeting requirements (Default: 3%)
+	egoChance = 0.03
+
+[Sadistic]
+	#Can skills develop the Sadistic Ego
+	enablePersonality = false
+	#Can this Ego or Manas possess the user
+	enablePossession = false
+	#Can this Ego or Manas act on its own or obtain sentience
+	enableIndependence = true
+	#Final Threshold of Social points for this Personality
+	finalThreshold = 500
+	#The Third Threshold of Social points for this Personality
+	thirdThreshold = 225
+	#The Second Threshold of Social points for this Personality
+	secondThreshold = 125
+	#The First Threshold of Social points for this Personality
+	firstThreshold = 50
+	#The Maximum animosity that can be derived from the Personality
+	maxAnimosity = 1000
+	#The Maximum admiration that can be derived from the Personality
+	maxAdmiration = 1000
+	#The rate animosity is gained compared to normal (Default: 1)
+	animosityGain = 1
+	#The rate admiration is gained compared to normal (Default: 1)
+	admirationGain = 2
+	#Chance of obtaining ego after meeting requirements (Default: 5%)
+	egoChance = 0.05

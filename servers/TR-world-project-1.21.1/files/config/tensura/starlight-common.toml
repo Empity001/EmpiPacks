@@ -1,0 +1,9 @@
+[SkillClassification]
+	#List of skills that are considered Eldritch-Series for the purposes of Tensura: Starlight
+	eldritchSkills = []
+
+[DangerZone]
+	redoStarlightConfigs = false
+	addAspectSkillsReincarnation = false
+	addReincSpellRaces = false
+	addReincSpellMasteredRaces = false

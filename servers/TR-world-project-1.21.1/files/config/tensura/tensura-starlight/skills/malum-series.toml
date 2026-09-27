@@ -1,0 +1,57 @@
+[wardedSoul]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	soulWardBonusMastered = 4.0
+	soulWardBonusUnmastered = 2.0
+	soulWardChargeBonusMastered = -2.0
+	soulWardChargeBonusUnmastered = -1.0
+	soulWardBonusMastered2 = -2.0
+	soulWardBonusUnmastered2 = -1.0
+	soulWardChargeBonusMastered2 = 4.0
+	soulWardChargeBonusUnmastered2 = 2.0
+
+[soulPlunderer]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	spiritSpoilsBonusMastered = 2.0
+	spiritSpoilsBonusUnmastered = 1.0
+
+[malignantBody]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	magicResistanceBonusMastered = 0.2
+	magicResistanceBonusUnmastered = 0.1
+	malignantConversionBonusMastered = 0.25
+	malignantConversionBonusUnmastered = 0.1125
+	magicResistanceDamageModMastered = 0.75
+	magicResistanceDamageModUnmastered = 0.9
+
+[spiritSorcerer]
+	#How much MP should this skill cost to acquire/plunder/copy under normal circumstances?
+	acquirementCost = 10000.0
+	#How much mastery should this skill have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 0
+	soulWardMultiMastered = 0.5
+	soulWardMultiUnmastered = 0.25
+	soulWardIntegrityBonusMastered = 2.0
+	soulWardIntegrityBonusUnmastered = 1.0
+	soulAegisManaCost = 2500.0
+	soulAegisCooldown = 5

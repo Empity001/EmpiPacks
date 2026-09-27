@@ -1,0 +1,139 @@
+[Disintegration]
+	#Cast time in seconds.
+	castTime = 8
+	#Magicule Cost to cast.
+	magiculeCost = 350000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 110
+	#The holy damage of the spell per damage tick.
+	holyDamage = 350.0
+
+[HolyCannon]
+	#Cast time in seconds.
+	castTime = 3
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 10
+	#The holy damage of the beam.
+	holyDamage = 40.0
+	#The block range of the beam.
+	range = 8.0
+
+[MeltStrike]
+	#Cast time in seconds.
+	castTime = 6
+	#Magicule Cost to cast.
+	magiculeCost = 100000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 60
+	#The holy damage of the beam.
+	holyDamage = 200.0
+	#The block range of the beam.
+	range = 8.0
+
+[JudgementWall]
+	#Cast time in tick.
+	castTime = 60
+	#Magicule Cost to cast.
+	magiculeCost = 5000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 5
+	#The range in block of the magic.
+	range = 10.0
+	#The width radius of Judgement Wall.
+	width = 4
+	#The height of Judgement Wall.
+	height = 8
+	#The damage of Judgement Wall.
+	damage = 40.0
+	#The damaging interval in ticks of Judgement Wall.
+	damageInterval = 10
+	#The damaging interval in ticks of Judgement Wall when mastered.
+	damageIntervalMastered = 5
+	#The knockback multiplier.
+	knockback = 0.5
+	#The knockback resistance negation.
+	knockResistNegate = 0.6
+	#The duration in seconds.
+	wallDuration = 10
+	#The duration in seconds when mastered.
+	wallDurationMastered = 15
+
+[WeddingBell]
+	#Cast time in seconds.
+	castTime = 6
+	#Magicule Cost to cast.
+	magiculeCost = 10000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 15
+	#The holy damage of the bell unmastered.
+	holyDamage = 20.0
+	#The holy damage of the bell mastered.
+	holyDamageMastered = 40.0
+	#The holy damage boost amount with ally.
+	holyDamageBoost = 15.0
+	#The block range of the bell unmastered.
+	range = 5.0
+	#The block range of the bell mastered.
+	rangeMastered = 7.0
+	#The block range amount with ally.
+	rangeBoost = 3.0
+	#The block range for ally boost.
+	allyRange = 7.0
+
+[Overdrive]
+	#Cast time in seconds.
+	castTime = 3
+	#Magicule Cost to cast.
+	magiculeCost = 25000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 15
+	#The block range of the spell unmastered.
+	range = 12.0
+	#The block range of the spell mastered.
+	rangeMastered = 30.0
+
+[Rejuvenate]
+	#Cast time in seconds.
+	castTime = 10
+	#Magicule Cost  per heal per target.
+	magiculeCost = 5000.0
+	#Spiritron Cost per heal per target.
+	spiritronCost = 2
+	#Amount HP healed per second.
+	healAmount = 50.0
+	#The block range of the spell unmastered.
+	range = 6.0
+	#The block range of the spell mastered.
+	rangeMastered = 10.0
+
+[Isolate]
+	#Cast time in seconds.
+	castTime = 6
+	#Magicule Cost to cast.
+	magiculeCost = 15000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 10
+	#Percentage of magicule cost added per level of Isolate Effect.
+	debuffPercentage = 10.0
+	#Level of Isolate applied.
+	isolateLevel = 2
+	#Isolate level applied on Mastery.
+	isolateLevelMastered = 3
+	#The block range of the spell unmastered.
+	range = 5.0
+	#The block range of the spell mastered.
+	rangeMastered = 7.0
+	#Effect duration of Isolate in seconds.
+	isolateDuration = 60
+
+[HolyLightning]
+	#Cast time in seconds.
+	castTime = 3
+	#Magicule Cost to cast.
+	magiculeCost = 15000.0
+	#Spiritron Cost to cast.
+	spiritronCost = 5
+	#Damage dealt by lance.
+	damage = 40.0

@@ -1,0 +1,33 @@
+[Resolve]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 100000.0
+	#The multiplier of HP that the user needs to be below to trigger Resolve.
+	hpMultiplier = 0.25
+	#The bonus attack damage when Resolve is triggered with mastery (doubled with Mastery).
+	bonusAttack = 10.0
+	#The bonus attack speed when Resolve is triggered with mastery (doubled with Mastery).
+	bonusAttackSpeed = 0.8
+
+[Determination]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 50000.0
+	#The multiplier of HP that the user needs to below to trigger Determination.
+	hpMultiplier = 0.5
+	#The bonus attack damage when Determination is triggered with mastery (doubled with Mastery).
+	bonusAttack = 20.0
+	#The bonus attack speed when Determination is triggered with mastery (doubled with Mastery).
+	bonusAttackSpeed = 1.6
+	#The bonus armor when Determination is triggered with mastery (doubled with Mastery).
+	bonusArmor = 20.0
+
+[Perseverance]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 25000.0
+	#The multiplier of HP that the user needs to below to trigger Perseverance.
+	hpMultiplier = 0.75
+	#The bonus attack damage when Perseverance is triggered with mastery (doubled with Mastery).
+	bonusAttack = 40.0
+	#The bonus attack speed when Perseverance is triggered with mastery (doubled with Mastery).
+	bonusAttackSpeed = 3.2
+	#The bonus armor when Perseverance is triggered with mastery (doubled with Mastery).
+	bonusArmor = 40.0

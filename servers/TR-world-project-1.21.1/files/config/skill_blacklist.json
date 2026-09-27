@@ -1,0 +1,5 @@
+{
+  "version": "1.0",
+  "description": "Global Tensura skill blacklist. Use namespace:path ids, for example tensura:gluttony.",
+  "disabledSkills": []
+}

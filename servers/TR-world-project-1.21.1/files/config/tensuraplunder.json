@@ -1,0 +1,32 @@
+{
+  "greatSageCanCopyUnique": true,
+  "greatSageCanCopyResistance": true,
+  "usurperCanCopyUnique": true,
+  "usurperCanCopyResistance": true,
+  "usurperCanRobUnique": true,
+  "usurperCanRobResistance": true,
+  "predatorCanDevourUnique": true,
+  "gluttonyCanDevourUnique": true,
+  "gourmetCanDevourUnique": true,
+  "uniqueSkillSpawnChance": 0.15,
+  "abilityBlacklist": [],
+  "spawnSkillBlacklist": [
+    "tensura:spearhead",
+    "tensura:usurper",
+    "tensura:mathematician",
+    "tensura:bewilder",
+    "tensura:severer",
+    "tensura:traveler",
+    "tensura:thrower",
+    "tensura:observer",
+    "tensura:healer",
+    "tensura:degenerate",
+    "tensura:berserker",
+    "tensura:survivor"
+  ],
+  "allowedMobsForUniques": [
+    "minecraft:villager",
+    "tensura:lizardman",
+    "tensura:dwarf"
+  ]
+}

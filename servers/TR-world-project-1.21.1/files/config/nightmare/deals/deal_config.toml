@@ -1,0 +1,30 @@
+#Maximum number of active deals a player can have.
+maxActiveDeals = 50
+#Maximum distance in blocks for deal creation.
+maxDealDistance = 100
+#Maximum number of contract templates to load from the deals directory.
+maxContractTemplates = 100
+#Default deal duration in seconds (0 = no expiry).
+defaultDealDurationSeconds = 0
+#Maximum number of stored (completed/expired) deals retained per player in world data.
+maxStoredDealsPerPlayer = 100
+#Maximum number of active deals tracked per player in world data.
+maxActiveDealsPerPlayer = 50
+#Whether to automatically purge expired deals from world data after they expire.
+autoPurgeExpiredDeals = true
+#Interval in seconds between expired deal purge checks (0 = disabled).
+purgeCheckIntervalSeconds = 3600
+#Enable file-based persistence (config/nightmare/deals/<uuid>/deal.json). Disabled by default; SavedData is the primary persistence mechanism.
+filePersistenceEnabled = false
+#Enable Discord webhook notifications for deal events (create, break, complete).
+webhookEnabled = false
+#Discord webhook URL for deal event notifications.
+webhookUrl = ""
+#Webhook notification level: ALL, MAJOR_ONLY (create/break), OFF.
+webhookLevel = "MAJOR_ONLY"
+#Whether soul forfeit is enabled when a deal is broken.
+soulForfeitEnabled = true
+#Grace period in seconds before soul forfeit takes effect after deal break.
+soulForfeitGracePeriodSeconds = 300
+#Enable verbose debug logging for deal operations.
+debugLogging = false

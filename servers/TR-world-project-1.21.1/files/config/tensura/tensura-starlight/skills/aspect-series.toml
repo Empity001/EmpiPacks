@@ -1,0 +1,479 @@
+[LightRemains]
+	#What level should the Light/Darkness spirits be to acquire Light Remains for free?
+	#Level 2 = Medium Spirit
+	#Level 3 = Greater Spirit
+	#Level 4 = Spirit Lord
+	#
+	skillFreeSpiritLevel = 4
+	#What level should the Light/Darkness spirits be to acquire Light Remains at cost?
+	skillAcquireSpiritLevel = 3
+	#How much MP should Light Remains cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 75000.0
+	#How much mastery should Light Remains have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#How much aura gain percent should Light Remains grant to its user? 1 = 1%, 100 = 100%
+	auraGainPercent = 0.75
+	#How much mana gain percent should Light Remains grant to its user? 1 = 1%, 100 = 100%
+	manaGainPercent = 2.25
+	#How much mana should Blinding Light cost to activate?
+	blindingLightManaCost = 500.0
+	#How much mana should Overbearing Light cost to activate?
+	overbearingLightManaCost = 1200.0
+	#How much should the damage modifier to Light Damage be?
+	damageModMastered = 3.0
+	#How much should the damage modifier to Light Damage be?
+	damageModUnmastered = 1.5
+	#How much extra MP should the user get when killing a target with Overbearing Light?
+	#1.0 = 100%, 0.01 = 1%
+	overbearingLightManaGain = 0.05
+	#What should the cone angle of Blinding Light be?
+	blindingLightConeAngle = 60.0
+	#What should the cone length of Blinding Light be?
+	blindingLightConeLength = 11.0
+	#What should the Mastered Damage of Blinding Light be?
+	blindingLightDamageMastered = 20.0
+	#What should the Unmastered Damage of Blinding Light be?
+	blindingLightDamageUnmastered = 10.0
+	#How long should the darkness effect applied by Blinding Light last?
+	#Duration in ticks (20t = 1s)
+	blindingLightDarknessDuration = 100
+	#What should the darkness effect amplifier be?
+	#Amplifier 0 = Level 1
+	blindingLightDarknessAmplifier = 0
+	#How long should Blinding Light go on cooldown for when used?
+	#Time in seconds
+	blindingLightCooldown = 2
+	#What should the Mastered Damage of Overbearing Light be?
+	overbearingLightDamageMastered = 80.0
+	#What should the Unmastered Damage of Overbearing Light be?
+	overbearingLightDamageUnmastered = 40.0
+	#What should the range of Overbearing Light be?
+	overbearingLightRange = 10.0
+	#How long should Overbearing Light go on cooldown for when used?
+	#Time in seconds
+	overbearingLightCooldown = 6
+
+[EchoEndures]
+	#How much MP should Echo Endures cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 100000.0
+	#How much mastery should Echo Endures have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#What should the silence effect amplifier be?
+	#Amplifier 0 = Level 1
+	silenceAmplifier = 0
+	#How long should the silence effect last mastered?
+	#Duration in ticks (20t = 1s)
+	silenceDurationMastered = 120
+	#How long should the silence effect last unmastered?
+	#Duration in ticks (20t = 1s)
+	silenceDurationUnmastered = 60
+	#How much mana should Sound Burst cost to activate?
+	soundBurstManaCost = 750.0
+	#What should be the cone angle of Sound Burst be?
+	soundBurstConeAngle = 160.0
+	#What should be the cone length of Sound Burst be?
+	soundBurstConeLength = 8.0
+	#How much damage should Sound Burst do mastered?
+	soundBurstMasteredDamage = 10.0
+	#How much damage should Sound Burst do unmastered?
+	soundBurstUnmasteredDamage = 5.0
+	#How long should Sound Burst go on cooldown when activated?
+	#Time in seconds.
+	soundBurstCooldown = 2
+
+[LifeReturns]
+	#How much MP should Life Returns cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 100000.0
+	#How many times more MP should Life Returns need to acquire without Death Count or Magicule Poisoning
+	overCostAcquirementMod = 2.0
+	#How much mastery should Life Returns have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#How many deaths should be required to unlock this instead of by OverCostAcquirement, or Magicule Poisoning?
+	deathCount = 10
+	#How much MP should be necessary to regenerate health when Life Returns is mastered?
+	regenMPCostMastered = 50
+	#How much MP should be necessary to regenerate health when Life Returns is unmastered?
+	regenMPCostUnmastered = 100
+	#How much health should be regenerated when Life Returns is mastered?
+	regenHPAmountMastered = 10
+	#How much health should be regenerated when Life Returns is unmastered?
+	regenHPAmountUnmastered = 5
+	#How much spiritual health should be regenerated when Life Returns is mastered?
+	regenSHPAmountMastered = 2
+	#How much spiritual health should be regenerated when Life Returns is unmastered?
+	regenSHPAmountUnmastered = 1
+	#How much health should the player revive with when bypassing death with Life Returns?
+	#1.0 = 100% of Health
+	deathBypassHealthReturn = 0.01
+	#How long should Life Returns go on cooldown after bypassing death?
+	#Time in seconds.
+	deathBypassCooldown = 1200
+
+[EmberRemains]
+	#How much MP should Ember Remains cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 100000.0
+	#How much mastery should Ember Remains have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#How many totems should be necessary to be used to unlock Ember Remains?
+	defyFateCount = 3
+	#How much health should the player revive with when bypassing death with Ember Remains?
+	#1.0 = 100% of Health
+	deathBypassHealthReturn = 0.1
+	#How long should Ember Remains go on cooldown after bypassing death?
+	#Time in seconds.
+	deathBypassCooldown = 600
+	#What should the Strengthen effect amplifier be?
+	#Amplifier 0 = Level 1
+	deathBypassStrengthenAmplifier = 1
+	#What should the Resistance effect amplifier be?
+	#Amplifier 0 = Level 1
+	deathBypassResistanceAmplifier = 1
+	#How long should the Strengthen effect last?
+	#Duration in ticks (20t = 1s)
+	deathBypassStrengthenDuration = 1200
+	#How long should the Resistance effect last?
+	#Duration in ticks (20t = 1s)
+	deathBypassResistanceDuration = 1200
+	#How long should you get Combat Flow on the first hit?
+	#Duration in ticks (20t = 1s)
+	combatFlowDurationFirstHit = 100
+	#How long should you get Combat Flow on consecutive hits?
+	#Duration in ticks (20t = 1s)
+	combatFlowDurationConsecutiveHit = 50
+	#How long of a duration is needed for each consecutive level of Combat Flow?
+	#Duration in ticks (20t = 1s)
+	combatFlowAmpliDurationScaling = 200
+	#What should the max level of Combat Flow be when obtained from Ember Remains?
+	#Amplifier 0 = Level 1
+	combatFlowMaxAmplifier = 9
+	#How much MP should Kindle Flames cost per effect's duration extended.
+	kindleFlamesManaCost = 2000
+	#How long should Kindle Flames go on cooldown after activation?
+	#Time in seconds.
+	kindleFlamesCooldown = 30
+	#How long of a duration should Kindle Flames increase effects by?
+	#Duration in ticks (20t = 1s)
+	kindleFlamesDurationIncrease = 1200
+
+[ShapeForgotten]
+	#How much MP should Shape Forgotten cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 100000.0
+	#How much mastery should Shape Forgotten have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#How much damage is needed to trigger Shifting Armor?
+	shiftingArmorDamageTrigger = 10
+	#How long should you get Shifting Armor on the first hit?
+	#Duration in ticks (20t = 1s)
+	shiftingArmorDurationFirstHit = 100
+	#How long should you get Shifting Armor on consecutive hits?
+	#Duration in ticks (20t = 1s)
+	shiftingArmorDurationConsecutiveHit = 50
+	#How long of a duration is needed for each consecutive level of Shifting Armor?
+	#Duration in ticks (20t = 1s)
+	shiftingArmorAmpliDurationScaling = 300
+	#What should the max level of Shifting Armor be when obtained from Shape Forgotten?
+	#Amplifier 0 = Level 1
+	armorBuffMaxAmplifier = 9
+	#How much damage should be negated per level of Shifting Armor while mastered.
+	damageNegationMastered = 4.0
+	#How much damage should be negated per level of Shifting Armor while unmastered.
+	damageNegationUnmastered = 2.0
+	#How much damage while at low HP should be negated per level of Shifting Armor while mastered.
+	damageNegationLowHPMastered = 5.0
+	#How much damage while at low HP should be negated per level of Shifting Armor while unmastered.
+	damageNegationLowHPUnmastered = 3.0
+	#How at what point should your health be considered low HP?
+	#0.1 = 10% of Health.
+	damageNegationLowHPThresh = 0.4
+	#How much MP should each level removed by Shifting Form cost?
+	shiftingFormMPCost = 750.0
+	#How long should Shifting Form go on cooldown after activation?
+	#Time in seconds.
+	shiftingFormCooldown = 30
+
+[CurrentUnbroken]
+	#How much MP should Current Unbroken cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 100000.0
+	#How much mastery should Current Unbroken have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#How many nether stars need to be picked up to Acquire Current Unbroken?
+	netherStars = 1
+	#How much more damage should Tensura Magic do with Current Unbroken?
+	#1.25 = 25% Boost
+	tensuraMagicDamageModifier = 1.25
+	#How much magic damage should Current Unbroken resist?
+	#0.8 = 20% reduction
+	magicDamageResistance = 0.8
+	#How much magic damage should be resisted at max mastered?
+	magicDamageResistCapMastered = 500
+	#How much magic damage should be resisted at max unmastered?
+	magicDamageResistCapUnmastered = 100
+	#How much MP should be regenerated while standing still mastered?
+	masteredMPRegen = 50.0
+	#How much MP should be regenerated while standing still unmastered?
+	unmasteredMPRegen = 25.0
+
+[VestigesOfEidolons]
+	#How much MP should Vestiges of Eidolons cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 150000.0
+	#How much mastery should Vestiges of Eidolons have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	#How much crit rate should Strike the Vestige grant?
+	#0.1 = 10%
+	strikeCritRate = 0.1
+	#How much crit damage should Strike the Vestige grant?
+	#0.1 = 10%
+	strikeCritDamage = 0.15
+	#How much MP should Solar Echo cost to activate?
+	solarEchoMPCost = 8000.0
+	#How much MP should Judgement of Past cost to activate?
+	judgementMPCost = 12000.0
+	#How much HP should Immutable Being regenerate mastered?
+	immutableBeingHPRegenMastered = 50.0
+	#How much HP should Immutable Being regenerate unmastered?
+	immutableBeingHPRegenUnmastered = 25.0
+	#How much SHP should Immutable Being regenerate mastered?
+	immutableBeingSHPRegenMastered = 10.0
+	#How much SHP should Immutable Being regenerate unmastered?
+	immutableBeingSHPRegenUnmastered = 5.0
+	#How much MP% should Immutable Being regenerate?
+	#0.1 = 10%
+	immutableBeingMPRegenPercent = 0.0025
+	#How much AP% should Immutable Being regenerate?
+	#0.1 = 10%
+	immutableBeingAPRegenPercent = 0.0025
+	#How much Presence Sense should Magicule Observation grant?
+	presenceSenseLevel = 3
+	#How much Heat Sense Radius should Magicule Observation grant?
+	heatSenseRadius = 10.0
+	#How much Soundwave Sense Radius should Magicule Observation grant?
+	soundSenseRadius = 10.0
+	#How often should Vestiges of Eidolons allow bypassing death?
+	#Time in seconds.
+	deathBypassCooldownMastered = 800
+	#How often should Vestiges of Eidolons allow bypassing death?
+	#Time in seconds.
+	deathBypassCooldownUnmastered = 1200
+	#How much health should you return to after Bypassing Death?
+	#0.1 = 10%
+	deathBypassHealthReturn = 0.1
+	#What should be the damage modifier with Light and Dark elements mastered?
+	lightDarkElementModMastered = 3.0
+	#What should be the damage modifier with Light and Dark elements unmastered?
+	lightDarkElementModUnmastered = 1.5
+	#What should be the damage modifier against concealed targets mastered?
+	concealedTargetDamageModMastered = 1.5
+	#What should be the damage modifier against concealed targets unmastered?
+	concealedTargetDamageModUnmastered = 1.25
+	#What should the cone angle of Solar Echo be?
+	solarEchoConeAngle = 160.0
+	#What should the cone length of Solar Echo be?
+	solarEchoConeLength = 13.0
+	#What should the damage of Solar Echo be mastered?
+	solarEchoDamageMastered = 100.0
+	#What should the damage of Solar Echo be unmastered?
+	solarEchoDamageUnmastered = 50.0
+	#I will add good comments later, fuck off.
+	solarEchoDarknessDuration = 100
+	solarEchoDarknessAmplifier = 1
+	solarEchoFragilityDuration = 100
+	solarEchoFragilityAmplifier = 1
+	solarEchoSilenceDuration = 100
+	solarEchoSilenceAmplifier = 0
+	solarEchoCooldown = 2
+	judgementConeAngle = 90.0
+	judgementConeLength = 16.0
+	judgementFirstDamageMastered = 40.0
+	judgementFirstDamageUnmastered = 20.0
+	judgementSecondDamageMastered = 200.0
+	judgementSecondDamageUnmastered = 80.0
+	judgementCooldown = 20
+
+[RemnantsOfAscension]
+	#How much MP should Remnants of Ascension cost to acquire/plunder/copy under normal circumstances?
+	magiculeAcquirementCost = 150000.0
+	#How much mastery should Remnants of Ascension have by default?
+	#Any value above 1 = X Mastery at acquirement
+	#0 = Must be learned
+	#Any value below 0 = Requires X Learn Points
+	acquirementMastery = 1
+	existenceMPRegenMastered = 40.0
+	existenceMPRegenUnmastered = 20.0
+	existenceAPRegenMastered = 40.0
+	existenceAPRegenUnmastered = 20.0
+	coreFractureAttackMod = 0.25
+	coreFractureCritDamageMod = 0.5
+	coreFractureArmorShredMod = 0.05
+	coreFractureProtPierceMod = 8.0
+	damageNegationMastered = 10.0
+	damageNegationUnmastered = 5.0
+	shiftingFormDamageTrigger = 10
+	shiftingFormDurationFirstHit = 100
+	shiftingFormDurationConsecutiveHit = 50
+	shiftingFormAmpliDurationScaling = 300
+	shiftingFormBuffMaxAmplifier = 9
+	elementalDamageResistanceMod = 0.8
+	elementalDamageNegationCapMastered = 1000
+	elementalDamageNegationCapUnmastered = 500
+	deathBypassHealthReturn = 0.1
+	deathBypassSpiritualHealthReturnThresh = 0.1
+	deathBypassSpiritualHealthReturn = 0.1
+	deathBypassCooldown = 600
+	deathBypassResistanceDuration = 1200
+	deathBypassResistanceAmplifier = 2
+	flaringFormCooldownMastered = 15
+	flaringFormCooldownUnmastered = 30
+	flaringFormBuffDurationBonus = 1200
+	flaringFormBuffMPCostPerDurationBonus = 2500
+	flaringFormDebuffMPCostPerLevel = 1000
+
+[Lethe]
+	acquirementMastery = 1
+	acquirementCost = 2000000.0
+
+[MemoryRecreation]
+	acquirementMastery = 1
+	acquirementCost = 2.147483647E9
+	cooldown = 5
+	#Range in blocks.
+	blockMemoryRange = 15.0
+	#1.0 = 100%
+	blockMemorySuccessRate = 1.0
+	#1.0 = 100%
+	blockMemoryDestroyRate = 0.0
+	#Number of Copies
+	blockMemoryCopies = 1
+	#Flat AP Consumption
+	blockMemoryAPCostFlat = 0.0
+	#Flat MP Consumption
+	blockMemoryMPCostFlat = 50000.0
+	#Percentage AP Consumption
+	blockMemoryAPCostPercent = 0.0
+	#Percentage MP Consumption
+	blockMemoryMPCostPercent = 0.1
+
+[MagiculeEngravement]
+	acquirementMastery = 1
+	acquirementCost = 2.147483647E9
+	cooldown = 5
+	#1.0 = 100%
+	engraveSuccessRate = 0.8
+	#1.0 = 100%
+	engraveDestroyRate = 0.0
+	#Number of Copies
+	engraveCount = 2
+	#Flat AP Consumption
+	engraveAPCostFlat = 0.0
+	#Flat MP Consumption
+	engraveMPCostFlat = 50000.0
+	#Percentage AP Consumption
+	engraveAPCostPercent = 0.25
+	#Percentage MP Consumption
+	engraveMPCostPercent = 0.1
+	#Engrave Level
+	engraveLevelMastered = 3
+	engraveLevelUnmastered = 1
+	#Engrave Blacklist
+	engraveBlacklist = ["tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:sealing"]
+
+[PhantasmalCreation]
+	acquirementMastery = 1
+	acquirementCost = 2.147483647E9
+	blockMemoryCooldownMastered = 0
+	blockMemoryCooldownUnmastered = 5
+	blockMemoryAPCostPercentMastered = 0.0
+	blockMemoryAPCostPercentUnmastered = 0.0
+	blockMemoryAPCostFlatMastered = 0.0
+	blockMemoryAPCostFlatUnmastered = 0.0
+	blockMemoryMPCostPercentMastered = 0.1
+	blockMemoryMPCostPercentUnmastered = 0.1
+	blockMemoryMPCostFlatMastered = 50000.0
+	blockMemoryMPCostFlatUnmastered = 50000.0
+	blockMemoryAPPermanentCostPercentMastered = 0.0
+	blockMemoryAPPermanentCostPercentUnmastered = 0.0
+	blockMemoryAPPermanentCostFlatMastered = 0.0
+	blockMemoryAPPermanentCostFlatUnmastered = 0.0
+	blockMemoryMPPermanentCostPercentMastered = 0.0
+	blockMemoryMPPermanentCostPercentUnmastered = 0.0
+	blockMemoryMPPermanentCostFlatMastered = 0.0
+	blockMemoryMPPermanentCostFlatUnmastered = 0.0
+	blockMemoryRangeMastered = 20.0
+	blockMemoryRangeUnmastered = 10.0
+	blockMemorySuccessRateMastered = 1.0
+	blockMemorySuccessRateUnmastered = 0.75
+	blockMemoryDestroyRateMastered = 0.0
+	blockMemoryDestroyRateUnmastered = 0.2
+	blockMemoryCopiesMastered = 2
+	blockMemoryCopiesUnmastered = 1
+	engraveImbuementCooldownMastered = 0
+	engraveImbuementCooldownUnmastered = 5
+	engraveImbuementAPCostPercentMastered = 0.0
+	engraveImbuementAPCostPercentUnmastered = 0.0
+	engraveImbuementAPCostFlatMastered = 0.0
+	engraveImbuementAPCostFlatUnmastered = 0.0
+	engraveImbuementMPCostPercentMastered = 0.1
+	engraveImbuementMPCostPercentUnmastered = 0.1
+	engraveImbuementMPCostFlatMastered = 50000.0
+	engraveImbuementMPCostFlatUnmastered = 50000.0
+	engraveImbuementAPPermanentCostPercentMastered = 0.0
+	engraveImbuementAPPermanentCostPercentUnmastered = 0.0
+	engraveImbuementAPPermanentCostFlatMastered = 0.0
+	engraveImbuementAPPermanentCostFlatUnmastered = 0.0
+	engraveImbuementMPPermanentCostPercentMastered = 0.0
+	engraveImbuementMPPermanentCostPercentUnmastered = 0.0
+	engraveImbuementMPPermanentCostFlatMastered = 0.0
+	engraveImbuementMPPermanentCostFlatUnmastered = 0.0
+	engraveImbuementSuccessRateMastered = 1.0
+	engraveImbuementSuccessRateUnmastered = 0.75
+	engraveImbuementDestroyRateMastered = 0.0
+	engraveImbuementDestroyRateUnmastered = 0.2
+	engraveImbuementLevelMastered = 5
+	engraveImbuementLevelUnmastered = 3
+	engraveImbuementCopiesMastered = 3
+	engraveImbuementCopiesUnmastered = 1
+	engraveImbuementBlacklist = ["tensura:enervation", "tensura:lethargy", "tensura:sealing", "tensura:stagnation", "tensura:ruination", "tensura:sealing", "tensura:vigor", "tensura:dead_end_rainbow", "tensura:slotting"]
+	itemMemoryCooldownMastered = 1
+	itemMemoryCooldownUnmastered = 5
+	itemMemoryAPCostPercentMastered = 0.01
+	itemMemoryAPCostPercentUnmastered = 0.1
+	itemMemoryAPCostFlatMastered = 0.0
+	itemMemoryAPCostFlatUnmastered = 0.0
+	itemMemoryMPCostPercentMastered = 0.01
+	itemMemoryMPCostPercentUnmastered = 0.1
+	itemMemoryMPCostFlatMastered = 50000.0
+	itemMemoryMPCostFlatUnmastered = 50000.0
+	itemMemoryAPPermanentCostPercentMastered = 0.01
+	itemMemoryAPPermanentCostPercentUnmastered = 0.05
+	itemMemoryAPPermanentCostFlatMastered = 0.0
+	itemMemoryAPPermanentCostFlatUnmastered = 10000.0
+	itemMemoryMPPermanentCostPercentMastered = 0.01
+	itemMemoryMPPermanentCostPercentUnmastered = 0.05
+	itemMemoryMPPermanentCostFlatMastered = 0.0
+	itemMemoryMPPermanentCostFlatUnmastered = 10000.0
+	itemMemorySuccessRateMastered = 0.8
+	itemMemorySuccessRateUnmastered = 0.5
+	itemMemoryDestroyRateMastered = 0.1
+	itemMemoryDestroyRateUnmastered = 0.2
+	itemMemoryCopiesMastered = 2
+	itemMemoryCopiesUnmastered = 1

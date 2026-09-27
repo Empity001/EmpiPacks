@@ -1,0 +1,31 @@
+[WalpurgisCore]
+	#How many players does it take to call Walpurgis
+	MIN_CONVENERS = 3
+	#Pending invitation stays open before expiring in Minutes
+	CONVENE_WINDOW_MINS = 10
+	#The agenda-submission phase in Minutes
+	AGENDA_PHASE_MINS = 5
+	#Deliberation/voting phase in Minutes
+	VOTE_PHASE_MINS = 5
+	#Extra Minutes granted per extension while votes are still missing
+	VOTE_EXTENSION_MINS = 2
+	#Hard cap in Minutes a single motion may stay in deliberation before it resolves regardless of missing votes
+	VOTE_HARD_CAP_MINS = 15
+	#Cooldown for the Walpurgis in Minutes (150 = 2.5 hours)
+	COOLDOWN_MINS = 150
+	#The council waits for a Combat Clause challenge after a tied vote
+	DUEL_INVITE_SECONDS = 60
+	#The timer for the defender to accept or deny the challenge
+	ACCEPT_WINDOW_SECONDS = 30
+	#duel may run before timing out at said Minutes
+	MAX_DUEL_MINS = 5
+
+[Seal]
+	#Enable the Walpurgis Seal passive regen buffs while carried
+	enableBuffs = true
+	#Magicule regeneration multiplier bonus added while carrying the Seal
+	magiculeRegenBonus = 0.1
+	#Aura regeneration multiplier bonus added while carrying the Seal
+	auraRegenBonus = 0.1
+	#How many votes a Seal-holder's ballot counts as in deliberation
+	voteWeight = 2

@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"tensura:monster_leather_c"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tensura:medium_quality_magic_crystal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:natural_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"malum:blazing_quartz"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

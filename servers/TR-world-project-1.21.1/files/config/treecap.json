@@ -1,0 +1,6 @@
+{
+  "allowInCreative": false,
+  "requireAxe": true,
+  "hardnessMultiplier": 5.0,
+  "maxLogs": 256
+}

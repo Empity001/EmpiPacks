@@ -1,0 +1,748 @@
+[Hellblaze]
+	#EP / magicule obtainment cost to learn Hellblaze.
+	epAcquirement = 1000.0
+	#Magicule cost per black-burn proc while toggled (on hit).
+	toggleOnHitMagiculeCost = 5.0
+	#Black burn duration on hit (ticks).
+	blackBurnDurationTicks = 200
+	#Black burn amplifier when not mastered.
+	blackBurnLevel = 0
+	#Black burn amplifier when mastered.
+	blackBurnLevelMastered = 1
+	#Learn point threshold for Hell Flare mode.
+	hellFlareLearnThreshold = 100
+	#Mastery point threshold for Hell Flare.
+	hellFlareMasteryThreshold = 200
+	#Cooldown (ticks) while gaining learn points on Hell Flare.
+	hellFlareLearnCooldownTicks = 10
+	#Cooldown (ticks) between Hell Flare casts while building mastery.
+	hellFlareSpamCooldownTicks = 1
+	#Cooldown (ticks) for Limited Hell Flare.
+	limitedHellFlareCooldownTicks = 2
+
+	[Hellblaze.breath]
+		#Current MP (magicule) cost to use this mode or segment.
+		magiculeCost = 50.0
+		#Duration in ticks (effects, zones, projectiles) when applicable.
+		durationTicks = 0
+		#Effect amplifier level (0 = I) when applicable.
+		level = 0
+		#Cooldown in ticks after this mode activates.
+		cooldownTicks = 0
+		#Primary damage when this mode deals damage.
+		damage = 10.0
+		#Damage when mastered; if 0, 'damage' is used for both.
+		damageMastered = 20.0
+		#Extra scalar: explosion radius, AoE radius, etc. when applicable.
+		scalar = 0.0
+		#Second scalar (e.g. secondary radius) when applicable.
+		scalar2 = 0.0
+
+	[Hellblaze.ball]
+		#Current MP (magicule) cost to use this mode or segment.
+		magiculeCost = 100.0
+		#Duration in ticks (effects, zones, projectiles) when applicable.
+		durationTicks = 0
+		#Effect amplifier level (0 = I) when applicable.
+		level = 0
+		#Cooldown in ticks after this mode activates.
+		cooldownTicks = 0
+		#Primary damage when this mode deals damage.
+		damage = 50.0
+		#Damage when mastered; if 0, 'damage' is used for both.
+		damageMastered = 0.0
+		#Extra scalar: explosion radius, AoE radius, etc. when applicable.
+		scalar = 1.0
+		#Second scalar (e.g. secondary radius) when applicable.
+		scalar2 = 0.0
+
+	[Hellblaze.hellFlareArea]
+		#Current MP (magicule) cost to use this mode or segment.
+		magiculeCost = 0.0
+		#Duration in ticks (effects, zones, projectiles) when applicable.
+		durationTicks = 60
+		#Effect amplifier level (0 = I) when applicable.
+		level = 0
+		#Cooldown in ticks after this mode activates.
+		cooldownTicks = 0
+		#Primary damage when this mode deals damage.
+		damage = 750.0
+		#Damage when mastered; if 0, 'damage' is used for both.
+		damageMastered = 0.0
+		#Extra scalar: explosion radius, AoE radius, etc. when applicable.
+		scalar = 15.0
+		#Second scalar (e.g. secondary radius) when applicable.
+		scalar2 = 0.0
+
+	[Hellblaze.limitedHellFlare]
+		#Current MP (magicule) cost to use this mode or segment.
+		magiculeCost = 0.0
+		#Duration in ticks (effects, zones, projectiles) when applicable.
+		durationTicks = 60
+		#Effect amplifier level (0 = I) when applicable.
+		level = 0
+		#Cooldown in ticks after this mode activates.
+		cooldownTicks = 0
+		#Primary damage when this mode deals damage.
+		damage = 2500.0
+		#Damage when mastered; if 0, 'damage' is used for both.
+		damageMastered = 0.0
+		#Extra scalar: explosion radius, AoE radius, etc. when applicable.
+		scalar = 2.5
+		#Second scalar (e.g. secondary radius) when applicable.
+		scalar2 = 0.0
+
+	[Hellblaze.hellFlarePlasma]
+		#Current MP (magicule) cost to use this mode or segment.
+		magiculeCost = 0.0
+		#Duration in ticks (effects, zones, projectiles) when applicable.
+		durationTicks = 0
+		#Effect amplifier level (0 = I) when applicable.
+		level = 0
+		#Cooldown in ticks after this mode activates.
+		cooldownTicks = 0
+		#Primary damage when this mode deals damage.
+		damage = 50.0
+		#Damage when mastered; if 0, 'damage' is used for both.
+		damageMastered = 125.0
+		#Extra scalar: explosion radius, AoE radius, etc. when applicable.
+		scalar = 0.0
+		#Second scalar (e.g. secondary radius) when applicable.
+		scalar2 = 0.0
+
+[GiantDance]
+	#Magicule cost to transform.
+	magiculeCost = 5000.0
+	#Giant Dance effect duration (ticks) when not mastered.
+	effectDurationTicks = 3600
+	#Giant Dance effect duration (ticks) when mastered.
+	effectDurationMasteredTicks = 7200
+	#Cooldown (ticks) after removing the transformation early.
+	removeEarlyCooldownTicks = 600
+	#Cooldown (ticks) after applying transformation.
+	applyCooldownTicks = 780
+	#Cooldown (ticks) after applying transformation when mastered.
+	applyCooldownMasteredTicks = 960
+	#Mob effect amplifier for Giant Dance (usually 0).
+	effectLevel = 0
+
+[HeavyMetal]
+	#Magicule cost to transform.
+	magiculeCost = 5000.0
+	#Heavy Metal effect duration (ticks) when not mastered.
+	effectDurationTicks = 3600
+	#Heavy Metal effect duration (ticks) when mastered.
+	effectDurationMasteredTicks = 7200
+	#Cooldown (ticks) after removing the transformation early.
+	removeEarlyCooldownTicks = 600
+	#Cooldown (ticks) after applying transformation.
+	applyCooldownTicks = 780
+	#Cooldown (ticks) after applying transformation when mastered.
+	applyCooldownMasteredTicks = 960
+	#Heavy Metal mob effect amplifier.
+	effectLevel = 0
+	#Resistance amplifier when not mastered (0 = I).
+	resistanceLevelNormal = 0
+	#Resistance amplifier when mastered.
+	resistanceLevelMastered = 2
+
+[AssaultMode]
+	#EP obtainment cost.
+	epAcquirement = 20000.0
+	#Cooldown (ticks) after activating burst.
+	applyCooldownTicks = 1200
+	#Effect duration (ticks) when not mastered.
+	effectDurationTicks = 3600
+	#Effect duration (ticks) when mastered.
+	effectDurationMasteredTicks = 7200
+	#Mob effect amplifier for burst state.
+	effectAmplifier = 1
+	#Grant mastery every N ticks while active.
+	masteryPointEveryTicks = 6
+
+[Apotheosis]
+	#EP obtainment cost.
+	epAcquirement = 20000.0
+	#Cooldown (ticks) after activating burst.
+	applyCooldownTicks = 1200
+	#Effect duration (ticks) when not mastered.
+	effectDurationTicks = 3600
+	#Effect duration (ticks) when mastered.
+	effectDurationMasteredTicks = 7200
+	#Mob effect amplifier for burst state.
+	effectAmplifier = 1
+	#Grant mastery every N ticks while active.
+	masteryPointEveryTicks = 6
+
+[DarkMagicRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[HolyMagicRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[SteelKiRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[WaterKiRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[PoisonKiRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[FireKiRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[SaintChiRelease]
+	#Multiplier on matching elemental damage while released.
+	elementDamageMultiplier = 2.0
+	#Flat bonus when battlewill + released (not mastered).
+	battlewillFlatBonus = 200.0
+	#Flat bonus when battlewill + released (mastered).
+	battlewillFlatBonusMastered = 400.0
+	#Durability break uses max(1, damage / this).
+	durabilityFromDamageDivisor = 6.0
+	#Multiplier after divisor for durability loss.
+	durabilityBreakBaseMultiplier = 4
+	#Extra durability multiplier when mastered (multiplicative).
+	durabilityMasterMultiplier = 2
+	#Skip durability break if stack custom EP is at least this.
+	itemEpBypassThreshold = 1000000.0
+
+[DemonicPower]
+	#Learning / obtainment cost.
+	epAcquirement = 30.0
+	#Minimum EP to meet requirement.
+	meetEpThreshold = 20000.0
+	#Magicule cost per tick / toggle use.
+	magiculeCost = 30.0
+	#Strengthen duration (ticks) while toggled drain path.
+	strengthenTickDuration = 240
+	#Strengthen amplifier while toggled.
+	strengthenTickAmplifier = 2
+	#Strengthen duration (ticks) on press when not mastered.
+	pressDurationNormal = 1200
+	#Strengthen duration (ticks) on press when mastered.
+	pressDurationMastered = 2400
+	#Strengthen amplifier on press when not mastered.
+	pressAmplifierNormal = 2
+	#Strengthen amplifier on press when mastered.
+	pressAmplifierMastered = 4
+	#Strip strengthen on toggle off if amplifier at most this.
+	toggleOffStripMaxAmplifier = 2
+
+[MagicRegeneration]
+	#Learning cost.
+	epAcquirement = 30.0
+	#Minimum EP for requirement.
+	meetEpThreshold = 20000.0
+	#Magicule restored when not mastered.
+	regenAmount = 1.0E7
+	#Magicule restored when mastered.
+	regenAmountMastered = 5.0E8
+	#Cooldown (ticks) after use.
+	cooldownTicks = 1800
+
+[MagicalEye]
+	#EP obtainment cost.
+	epAcquirement = 20000.0
+	#Learning cost.
+	learningCost = 1000.0
+	#Dodge chance when not mastered (0–1).
+	dodgeChanceNormal = 0.5
+	#Dodge chance when mastered.
+	dodgeChanceMastered = 0.7
+	#Incoming damage multiplier when not mastered (retain this fraction).
+	takenDamageMultiplierNormal = 0.7
+	#Incoming damage multiplier when mastered.
+	takenDamageMultiplierMastered = 0.5
+	#Critical chance attribute bonus when not mastered.
+	criticalChanceBonusNormal = 33
+	#Critical chance attribute bonus when mastered.
+	criticalChanceBonusMastered = 50
+	#Future Vision duration (ticks) when not mastered.
+	futureVisionDurationNormal = 200
+	#Future Vision duration (ticks) when mastered.
+	futureVisionDurationMastered = 400
+	#Analysis level when not mastered.
+	analysisLevelNormal = 1
+	#Analysis level when mastered.
+	analysisLevelMastered = 2
+	#Analysis distance when not mastered.
+	analysisDistanceNormal = 5
+	#Analysis distance when mastered.
+	analysisDistanceMastered = 10
+	#Mastery tick interval while analyzing.
+	masteryTickInterval = 6
+	#Minimum analysis distance for canTick check.
+	canTickMinAnalysisDistance = 5.0
+
+[BlackFlameThunder]
+	#EP obtainment cost.
+	epAcquirement = 500.0
+	#Learning cost.
+	learningCost = 500.0
+	#Max mastery.
+	maxMastery = 5000
+	#Physical hit damage multiplier while toggled (non-fire).
+	physicalHitMultiplier = 1.5
+	#Fire ticks applied on physical proc.
+	igniteTicks = 60
+	#Multiplier for fire/lightning/light while flame+thunder.
+	elementalBoostMultiplier = 10.0
+	#Magicule cost per on-touch proc.
+	touchOnHitMagiculeCost = 5.0
+	#Black burn duration (ticks).
+	blackBurnDurationTicks = 200
+	#Black burn amplifier when not mastered.
+	blackBurnLevelNormal = 1
+	#Black burn amplifier when mastered.
+	blackBurnLevelMastered = 2
+
+[SteelDragonArmor]
+	#Armor bonus when not mastered.
+	armorNormal = 50
+	#Armor bonus when mastered.
+	armorMastered = 100
+	#Toughness when not mastered.
+	toughnessNormal = 8.0
+	#Toughness when mastered.
+	toughnessMastered = 16.0
+	#Mastery tick interval while toggled.
+	masteryTickInterval = 10
+
+[WaterDragonArmor]
+	#Armor bonus when not mastered.
+	armorNormal = 50
+	#Armor bonus when mastered.
+	armorMastered = 100
+	#Toughness when not mastered.
+	toughnessNormal = 8.0
+	#Toughness when mastered.
+	toughnessMastered = 16.0
+	#Mastery tick interval while toggled.
+	masteryTickInterval = 10
+
+[FireDragonArmor]
+	#Armor bonus when not mastered.
+	armorNormal = 50
+	#Armor bonus when mastered.
+	armorMastered = 100
+	#Toughness when not mastered.
+	toughnessNormal = 8.0
+	#Toughness when mastered.
+	toughnessMastered = 16.0
+	#Mastery tick interval while toggled.
+	masteryTickInterval = 10
+
+[PoisonDragonArmor]
+	#Armor bonus when not mastered.
+	armorNormal = 50
+	#Armor bonus when mastered.
+	armorMastered = 100
+	#Toughness when not mastered.
+	toughnessNormal = 8.0
+	#Toughness when mastered.
+	toughnessMastered = 16.0
+	#Mastery tick interval while toggled.
+	masteryTickInterval = 10
+
+[HellblazeDragonArmor]
+	#Learning cost.
+	epAcquirement = 25000.0
+	#Armor when not mastered.
+	armorNormal = 40
+	#Armor when mastered.
+	armorMastered = 80
+	#Toughness when not mastered.
+	toughnessNormal = 50.0
+	#Toughness when mastered.
+	toughnessMastered = 500.0
+	#Attack damage bonus when not mastered.
+	attackBonusNormal = 30.0
+	#Attack damage bonus when mastered.
+	attackBonusMastered = 300.0
+	#Mastery tick interval while toggled.
+	masteryTickInterval = 10
+
+[LockSkill]
+	#Learning cost.
+	epAcquirement = 30.0
+	#Minimum EP with plunder gamerule.
+	meetEpThreshold = 10000.0
+	#Magicule cost.
+	magiculeCost = 30.0
+
+[HiddenVoid]
+	#Held tick interval for magicule check.
+	heldMagiculeCheckInterval = 20
+	#Presence concealment duration (ticks) per refresh.
+	concealmentDurationTicks = 5
+	#Concealment amplifier.
+	concealmentAmplifier = 1
+
+[ChaosStrikes]
+	#EP obtainment cost.
+	epAcquirement = 5000.0
+	#Max extra damage from EP scaling.
+	maxScaledDamage = 500.0
+	#Target EP reference for scaling.
+	scalingReferenceEp = 5000000.0
+	#Hits per toggle cycle.
+	hitsPerCycle = 3
+	#Minimum magicule spent per proc.
+	procMagiculeMin = 5000.0
+	#Magicule cost divisor from base magicule.
+	procMagiculeFromBaseDivisor = 100.0
+	#Maximum magicule spent per proc.
+	procMagiculeMax = 1000000.0
+
+[AnchorWave]
+	#Magicule cost to cast.
+	castMagiculeCost = 50000.0
+	#Effect radius (blocks).
+	radius = 20.0
+	#Spatial blockade duration (ticks) on entities.
+	blockadeDurationTicks = 1200
+	#Cooldown (ticks) after cast.
+	cooldownTicks = 60
+
+[DarkChiRelease]
+	#Armor from aura multiplier when not mastered.
+	armorFromAuraMultiplierNormal = 0.01
+	#Armor from aura multiplier when mastered.
+	armorFromAuraMultiplierMastered = 0.015
+	#Aura drain per tick when mastered.
+	auraDrainMastered = 0.5
+	#Aura drain per tick when not mastered.
+	auraDrainNormal = 1.0
+	#Targeting range for soul strike.
+	soulStrikeRange = 8.0
+	#Execute when target EP below this fraction of max.
+	executeEpFraction = 0.3
+	#Non-execute damage as fraction of target max health.
+	pierceDamageHealthFraction = 1.2
+	#Cooldown (ticks) when not mastered.
+	cooldownTicksNormal = 300
+	#Cooldown (ticks) when mastered.
+	cooldownTicksMastered = 200
+
+	[DarkChiRelease.equipmentBreak]
+		#Multiplier on matching elemental damage while released.
+		elementDamageMultiplier = 2.0
+		#Flat bonus when battlewill + released (not mastered).
+		battlewillFlatBonus = 200.0
+		#Flat bonus when battlewill + released (mastered).
+		battlewillFlatBonusMastered = 400.0
+		#Durability break uses max(1, damage / this).
+		durabilityFromDamageDivisor = 6.0
+		#Multiplier after divisor for durability loss.
+		durabilityBreakBaseMultiplier = 4
+		#Extra durability multiplier when mastered (multiplicative).
+		durabilityMasterMultiplier = 2
+		#Skip durability break if stack custom EP is at least this.
+		itemEpBypassThreshold = 1000000.0
+
+[CalamityChiRelease]
+	#Attack bonus from aura fraction when not mastered.
+	attackFromAuraFractionNormal = 0.01
+	#Attack bonus from aura fraction when mastered.
+	attackFromAuraFractionMastered = 0.02
+	#Aura drain per tick when not mastered.
+	auraDrainNormal = 2.0
+	#Aura drain per tick when mastered.
+	auraDrainMastered = 1.0
+	#Heal on damage dealt: aura * this when not mastered.
+	onDamageHealAuraFractionNormal = 0.02
+	#Heal on damage dealt when mastered.
+	onDamageHealAuraFractionMastered = 0.04
+	#Mastery tick interval.
+	masteryTickInterval = 6
+
+[SaintChiExtras]
+	#Flat aura added per tick (scaled by mastered 2x on regen line).
+	auraTickBase = 5.0
+	#Multiplier on aura for passive regen component.
+	auraPassiveRegenFraction = 0.01
+	#Master doubles passive regen.
+	masterDoublesPassiveRegen = true
+	#SHP heal from aura fraction press when not mastered.
+	pressShpFromAuraNormal = 0.02
+	#SHP heal from aura fraction when mastered.
+	pressShpFromAuraMastered = 0.03
+	#HP heal from aura fraction when not mastered.
+	pressHpFromAuraNormal = 0.01
+	#HP heal from aura fraction when mastered.
+	pressHpFromAuraMastered = 0.02
+	#Ally radius for press heal.
+	pressAllyRadius = 10.0
+	#Cooldown ticks when not mastered.
+	pressCooldownNormal = 80
+	#Cooldown ticks when mastered.
+	pressCooldownMastered = 40
+	#Mastery tick interval while toggled.
+	masteryTickInterval = 6
+
+[DreamManipulation]
+	#Magicule cost while channeling.
+	magiculeCost = 5000.0
+	#Particle burst every N held ticks (server).
+	particleIntervalTicks = 10
+	#Particles per burst.
+	particleCount = 8
+	#Mastery point every N held ticks (after first tick).
+	masteryIntervalTicks = 100
+	#Heal / MP-AP regen / drowsiness stack tick interval.
+	channelTickInterval = 20
+	#Flat HP heal each channel tick.
+	hpHealFlat = 10.0
+	#Extra HP heal as fraction of max health when mastered (each channel tick).
+	hpHealMaxHealthFractionMastered = 0.01
+	#Flat SHP heal each channel tick.
+	shpHealFlat = 10.0
+	#Extra SHP heal as fraction of max SHP when mastered (each channel tick).
+	shpHealMaxFractionMastered = 0.01
+	#Regen rate passed to mpRegen / apRegen helpers.
+	mpApRegenRate = 20.0
+	#Drowsiness application radius when not mastered.
+	debuffRadiusNormal = 5.0
+	#Drowsiness application radius when mastered.
+	debuffRadiusMastered = 10.0
+	#Initial drowsiness duration (ticks) when not mastered.
+	drowsinessDurationTicksNormal = 200
+	#Initial drowsiness duration (ticks) when mastered.
+	drowsinessDurationTicksMastered = 400
+	#Ticks added to existing drowsiness each channel tick.
+	drowsinessExtendTicks = 20
+
+[CNPCLock]
+	#Learning cost.
+	learningCost = 30.0
+	#Magicule cost.
+	magiculeCost = 30.0
+	#Minimum EP when plunder gamerule is on.
+	meetEpThreshold = 1.0E15
+
+[Avalon]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Dodge chance for Non-Magical attacks out of 100.
+	dodgeChance = 50.0
+	#Dodge chance for Projectile attacks out of 100.
+	projectileChance = 50.0
+
+[Ideal]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 10000.0
+	#Critical Attack Chance.
+	critChance = 60.0
+	#Level of Luck granted passively by ideal.
+	luckMultiplier = 1
+
+[MaterialCreation]
+	#EP obtainment cost (intrinsic skill parity).
+	epAcquirement = 10000.0
+	#Total research points needed on one item/block identity before it is learned (Understanding mode).
+	researchHitsToLearn = 100
+	#Chance to destroy the researched stack or block each pulse.
+	destroyChance = 0.15
+	#Cooldown in Minecraft ticks after each Understanding pulse (skill UI uses seconds → stored value / 20).
+	understandingCooldownTicks = 600
+	#Ray trace reach when main hand is empty.
+	reachDistance = 6.0
+	#Refund fraction when inserting daemon-bound stacks into the bench refund slot.
+	refundFraction = 0.5
+	#EMC at or below this value spends current magicules only and is not daemon-bound.
+	softMagiculeThreshold = 4096
+
+[DivineWisdomCore]
+	#Percent of max magicule drained every 5s while unbound (informational body).
+	informationalDrainPercent = 0.01
+	#Passive mastery speed bonus while Divine Wisdom Core is active.
+	passiveMasteryBonus = 14.0
+	#Passive learning speed bonus while Divine Wisdom Core is active.
+	passiveLearningBonus = 14.0
+	#Mastery speed granted to the host while attached.
+	hostMasteryBonus = 14.0
+	#Learning speed granted to the host while attached.
+	hostLearningBonus = 14.0
+	#Cast speed multiplier bonus for the host (chant speed attribute).
+	hostCastSpeedBonus = 0.4
+	hijackResistanceMultiplier = 0.5
+	hijackHpMultiplier = 0.35
+	hijackShpMultiplier = 0.35
+	hijackEpMultiplier = 0.5
+	hijackMaxAttack = 5000.0
+	hijackMaxHealth = 5000.0
+	hijackRange = 12.0
+	hijackMinMinutes = 5
+	hijackMaxHours = 5
+	bodyDespawnTicks = 6000
+	hostRange = 32.0
+	#Cooldown (seconds) after locking an ego boost before you can pick again.
+	egoBoostCooldownSeconds = 300
+
+[DragonFactorHaki]
+	#EP required for Factor Bonus effects.
+	factorBonusEpThreshold = 1200000.0
+	#Max EP counted for Earth HP scaling.
+	earthFactorBonusMaxEp = 2000000.0
+	#Elemental Boon flat damage for non-corrosion elements.
+	boonFlatDamage = 50.0
+	#Flat bonus applied to Blood Ray and Blood Drain damage for Vampiric Factor.
+	bloodFactorFlatBonus = 75.0
+	#Elemental Boon multiplier for Corrosion.
+	boonCorrosionMultiplier = 3.0
+	#Infinite Regeneration lock cooldown ticks applied by Corrosion Factor Bonus.
+	corrosionRegenLockTicks = 200
+	#Fire Factor Bonus durability damage multiplier.
+	fireDurabilityDamageMultiplier = 4
+	#Water Factor Bonus: MAGIC_COST_MULTIPLIER additive multiplier.
+	waterMagicCostMultiplier = -0.5
+	#Earth Factor Bonus HP per 100k EP over threshold.
+	earthHpPer100k = 50.0
+	#Wind Factor Bonus auto-melee dodge chance bonus.
+	windMeleeDodgeBonus = 35.0
+	#Wind Factor Bonus auto-projectile dodge chance bonus.
+	windProjectileDodgeBonus = 35.0
+	#Wind Factor Bonus dodge negate bonus.
+	windDodgeNegateBonus = 35.0
+	#Light Factor Bonus magicule regeneration bonus.
+	lightMagiculeRegenBonus = 4.0
+	#Darkness Factor Bonus spiritual resistance/nullification degradation value.
+	darknessSpiritualResistDegradation = 1.0
+	#Corrosion mastery Factor Bonus corrosion resistance/nullification degradation value.
+	corrosionResistDegradation = 1.0
+	#Random roll weight for Ender.
+	enderWeight = 10
+	#Random roll weight for Nether.
+	netherWeight = 10
+	#Random roll weight for Holy.
+	holyWeight = 10
+	#Random roll weight for Daemonic.
+	daemonicWeight = 10
+	#Elemental Guard damage multiplier for matching element.
+	guardDamageMultiplier = 0.5
+	#Dragon Haki Release pulse interval ticks.
+	releasePulseIntervalTicks = 20
+	#Dragon Haki Release target search radius.
+	releaseRadius = 5.0
+	#EP difference step fraction for Dragon Haki Release (0.2 = per 20%).
+	releaseEpDifferenceStepFraction = 0.2
+	#Element damage added by Dragon Haki Release per EP step.
+	releaseDamagePerStep = 25.0
+	#Confusion duration from Dragon Haki Release.
+	releaseConfusionDurationTicks = 60
+	#Max confusion amplifier from Dragon Haki Release.
+	releaseConfusionMaxAmplifier = 3
+	#Space Factor Bonus aura interval ticks.
+	spaceAuraIntervalTicks = 20
+	#Space Factor Bonus aura range.
+	spaceAuraRadius = 6.0
+	#Space Factor Bonus applies blockade when target EP is below this owner fraction.
+	spaceAuraTargetEpFraction = 0.5
+	#Space Factor Bonus spatial blockade duration ticks.
+	spaceAuraDurationTicks = 60
+	#Random roll weight for Fire.
+	fireWeight = 30
+	#Random roll weight for Water.
+	waterWeight = 30
+	#Random roll weight for Earth.
+	earthWeight = 30
+	#Random roll weight for Wind.
+	windWeight = 30
+	#Random roll weight for Space.
+	spaceWeight = 15
+	#Random roll weight for Light.
+	lightWeight = 10
+	#Random roll weight for Darkness.
+	darknessWeight = 10
+
+[DragonPossession]
+	#EP cost to acquire Dragon Possession.
+	epAcquirement = 1000.0
+
+[AquaticRegeneration]
+	#Base Magicule Cost to activate.
+	magiculeCost = 100.0
+	#The level of the self-regeneration effect.
+	regenLevel = 3
+	#The level of the self-regeneration effect when mastered.
+	regenLevelMastered = 4

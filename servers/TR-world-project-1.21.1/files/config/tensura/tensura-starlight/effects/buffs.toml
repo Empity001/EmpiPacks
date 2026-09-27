@@ -1,0 +1,22 @@
+[CombatFlow]
+	#How much attack should a entity gain with this effect?
+	attackMod = 4
+
+[ShiftingArmor]
+	#How much armor should a entity gain with this effect?
+	armorMod = 5
+
+[FlaringForm]
+	#How much armor and armor toughness should a entity gain with this effect?
+	armorMod = 10
+	armorToughMod = 2
+
+[soulAegis]
+	#How much soul ward is removed per level of Soul Aegis
+	soulWardBonus = -5.0
+	#How much malignant aegis is added per level of Soul Aegis
+	malignantAegisBonus = 5.0
+	#How much arcane resonance is multiplied by per level of Soul Aegis
+	arcaneResonanceMod = 0.15
+	#What is the base duration of Soul Aegis
+	soulAegisBaseDuration = 200

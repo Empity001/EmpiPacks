@@ -1,0 +1,195 @@
+[GENERAL]
+	#Ticks before an idle craft session is aborted and inputs refunded. DEFAULT: 1200 (60s)
+	sessionTimeoutTicks = 1200
+	#Refund consumed inputs when the player aborts a craft. DEFAULT: true
+	refundOnAbort = true
+	#What to do when a minigame result fails plausibility checks: 'poor' = give POOR-quality result, 'abort' = cancel and refund, 'consume' = cancel and BURN inputs (no refund), 'damage' = keep going as POOR but hurt the player, 'consume_damage' = burn inputs AND hurt the player. DEFAULT: consume_damage
+	punishImplausibleResult = "consume_damage"
+	#Damage dealt to the player for 'damage'/'consume_damage' punishments (magic damage, bypasses armor). DEFAULT: 6.0
+	implausibleDamage = 10.0
+	#Maximum distance (blocks) the player may move from the station mid-craft. DEFAULT: 8.0
+	maxStationRange = 8.0
+
+[QUALITY]
+	#Base chance (0-1) per craft of a critical quality upgrade (+1 rank). Only path to LEGENDARY/MYTHICAL. DEFAULT: 0.05
+	critUpgradeBaseChance = 0.05
+	#Maximum number of consecutive critical upgrades per craft. DEFAULT: 2
+	maxCritUpgrades = 2
+	#Base chance (0-1) of a forged item rolling hidden potential. DEFAULT: 0.10
+	hiddenPotentialBaseChance = 0.1
+	#Quality points granted per minigame score point above 50 (shifts roll weights upward). DEFAULT: 0.5
+	qualityPointsPerScore = 0.5
+	#Minigame score below which weights shift DOWN instead of up. DEFAULT: 50.0
+	scoreNeutralPoint = 50.0
+	#Base craft-engraving slots per quality rank (extra slots from skills/titles/spec add on top). DEFAULTS: 0 / 0 / 0 / 1 / 2 / 3 / 4
+	poorEngravingSlots = 0
+	commonEngravingSlots = 0
+	fineEngravingSlots = 0
+	superiorEngravingSlots = 1
+	masterworkEngravingSlots = 2
+	legendaryEngravingSlots = 3
+	mythicalEngravingSlots = 4
+
+[MINIGAMES]
+	#Minimum ticks between two minigame inputs; faster is rejected as implausible. DEFAULT: 4
+	minReactionTicks = 4
+	#Hammer: base number of strikes at difficulty 1. DEFAULT: 4
+	hammerBaseStrikes = 4
+	#Hammer: extra strikes per difficulty level. DEFAULT: 1
+	hammerStrikesPerDifficulty = 1
+	#Hammer: bar sweep period in ticks at difficulty 1 (one full left-right-left cycle). DEFAULT: 40
+	hammerBasePeriodTicks = 40
+	#Hammer: ticks removed from the sweep period per difficulty level. DEFAULT: 5
+	hammerPeriodReductionPerDifficulty = 5
+	#Hammer: sweet spot width (fraction of bar, 0-1) at difficulty 1. DEFAULT: 0.18
+	hammerBaseSweetSpotWidth = 0.18
+	#Hammer: sweet spot width reduction per difficulty level. DEFAULT: 0.02
+	hammerSweetSpotReductionPerDifficulty = 0.02
+	#Hammer: minimum sweet spot width regardless of difficulty. DEFAULT: 0.06
+	hammerMinSweetSpotWidth = 0.06
+	#Hammer: ticks allowed per strike before the stage times out. DEFAULT: 100
+	hammerTicksPerStrike = 100
+	#Flow: stage duration in ticks at difficulty 1. DEFAULT: 200
+	flowBaseDurationTicks = 200
+	#Flow: ticks added to duration per difficulty level. DEFAULT: 40
+	flowDurationPerDifficulty = 40
+	#Flow: ticks between gauge samples. DEFAULT: 5
+	flowSampleInterval = 5
+	#Flow: number of band-center keyframes (drift waypoints) at difficulty 1. DEFAULT: 4
+	flowBaseKeyframes = 4
+	#Flow: extra keyframes per difficulty level (faster drift). DEFAULT: 1
+	flowKeyframesPerDifficulty = 1
+	#Flow: target band half-width (fraction of gauge, 0-1) at difficulty 1. DEFAULT: 0.14
+	flowBaseBandHalfWidth = 0.14
+	#Flow: band half-width reduction per difficulty level. DEFAULT: 0.02
+	flowBandReductionPerDifficulty = 0.02
+	#Flow: minimum band half-width regardless of difficulty. DEFAULT: 0.05
+	flowMinBandHalfWidth = 0.05
+	#Flow: maximum plausible gauge change per sample (anti-cheat). DEFAULT: 0.45
+	flowMaxSlew = 0.45
+	#Flow: magicule drained per duration tick (cost = this x durationTicks x difficulty). DEFAULT: 1.0
+	flowMagiculeDrainPerTick = 1.0
+	#Rune: number of rune tiles at difficulty 1. DEFAULT: 4
+	runeBaseGridSize = 4
+	#Rune: extra tiles per difficulty level. DEFAULT: 1
+	runeTilesPerDifficulty = 1
+	#Rune: move budget = gridSize x this multiplier. DEFAULT: 3
+	runeMoveBudgetMultiplier = 3
+	#Rune: time limit in ticks at difficulty 1. DEFAULT: 300
+	runeBaseTimeLimitTicks = 300
+	#Rune: ticks removed from the time limit per difficulty level. DEFAULT: 30
+	runeTimeLimitReductionPerDifficulty = 30
+	#Rune: base score share for solved fraction (0-1; remainder split between efficiency+time). DEFAULT: 0.7
+	runeSolveScoreShare = 0.7
+	#Temp: temperature lost per tick (0-1 scale). DEFAULT: 0.012
+	tempDecayPerTick = 0.012
+	#Temp: temperature gained per bellows press (0-1 scale). DEFAULT: 0.22
+	tempBellowsRaise = 0.22
+	#Temp: lower bound of the hot band (strikes below score 0). DEFAULT: 0.5
+	tempHotBandLow = 0.5
+	#Temp: upper bound of the hot band. DEFAULT: 0.85
+	tempHotBandHigh = 0.85
+	#Temp: maximum bellows presses allowed (anti-cheat). DEFAULT: 200
+	tempMaxBellows = 200
+
+[PROGRESSION]
+	#XP required for mastery level 1. Level N costs base * N^exponent. DEFAULT: 100.0
+	xpCurveBase = 100.0
+	#Exponent of the mastery XP curve. DEFAULT: 1.6
+	xpCurveExponent = 1.6
+	#Maximum crafting mastery level. DEFAULT: 50
+	maxMasteryLevel = 50
+	#Quality points granted per mastery level. DEFAULT: 0.4
+	qualityPointsPerMasteryLevel = 0.4
+
+[SKILL_BONUSES]
+	#Quality points for owning / having toggled on / having mastered Godly Craftsman. DEFAULTS: 6 / 6 / 6
+	godlyCraftsmanOwned = 6.0
+	godlyCraftsmanToggled = 6.0
+	godlyCraftsmanMastered = 6.0
+	#Godly Craftsman bonus crit upgrade chance (0-1) when owned. DEFAULT: 0.05
+	godlyCraftsmanCritChance = 0.05
+	#Quality points for Researcher: owned / toggled / mastered. DEFAULTS: 3 / 3 / 3
+	researcherOwned = 3.0
+	researcherToggled = 3.0
+	researcherMastered = 3.0
+	#Analyst hidden potential bonus chance (0-1) when owned. DEFAULT: 0.10
+	analystHiddenPotentialChance = 0.1
+	#Quality points for Analyst: owned / mastered. DEFAULTS: 2 / 2
+	analystOwned = 2.0
+	analystMastered = 2.0
+	#Creator: extra craft-engraving rolls when owned / mastered. DEFAULTS: 0 / 1
+	creatorOwnedEngravingRolls = 0
+	creatorMasteredEngravingRolls = 1
+	#Quality points for Creator when owned. DEFAULT: 2
+	creatorOwned = 2.0
+	#Degenerate: POOR weight reduction points when owned. DEFAULT: 10
+	degenerateFailureReduction = 10.0
+	#Merciless: bonus crit upgrade chance (0-1) on WEAPON recipes when owned. DEFAULT: 0.04
+	mercilessWeaponCritChance = 0.04
+	#Chef/Cook: quality points on FOOD recipes when owned. DEFAULT: 8
+	chefFoodQuality = 8.0
+	#Quality points for Great Sage / Raphael (ET) when toggled on. DEFAULT: 4
+	greatSageToggled = 4.0
+	#Runesmith's Insight: successful forges required to auto-learn the skill. 0 disables the grant. DEFAULT: 25
+	runesmithInsightForgesRequired = 25
+	#Runesmith's Insight: hammer sweet-spot width multiplier while owned (HAMMER_TIMING + TEMPERATURE_HAMMER). DEFAULT: 1.25
+	runesmithInsightSweetSpotMult = 1.25
+	#Runesmith's Insight: temperature decay multiplier while owned (TEMPERATURE_HAMMER; lower = slower drift). DEFAULT: 0.75
+	runesmithInsightTempDecayMult = 0.75
+	#Runesmith's Insight: chance (0-1) of +1 craft-engraving slot per craft when mastered. DEFAULT: 0.25
+	runesmithInsightMasteredSlotChance = 0.25
+
+[POTENTIAL_CATALYST]
+	#Enable the Potential Catalyst item (unlocks a forged item's hidden potential). DEFAULT: true
+	enabled = true
+	#Weak tier (potential 0.30-0.50): primary attribute bonus = potential x this. DEFAULT: 4.0
+	weakScale = 4.0
+	#Moderate tier (potential 0.50-0.75): primary attribute bonus = potential x this. DEFAULT: 8.0
+	moderateScale = 8.0
+	#Strong tier (potential 0.75-1.00): primary attribute bonus = potential x this. DEFAULT: 14.0
+	strongScale = 14.0
+	#Moderate/Strong tier: flat MAX_HEALTH bonus added to the item. DEFAULT: 2.0
+	bonusHealth = 2.0
+	#Strong tier: duration (seconds) of Luck I granted to the holder on unlock. DEFAULT: 300
+	strongLuckSeconds = 300
+
+[STATION_UPGRADE]
+	#Allow forge stations to auto-upgrade to the next tier after enough crafts are completed on them. DEFAULT: true
+	enabled = true
+	#Crafts on a BASIC station before it upgrades to MAGISTEEL. 0 disables. DEFAULT: 20
+	basicToMagisteel = 20
+	#Crafts on a MAGISTEEL station before it upgrades to MYTHRIL. 0 disables. DEFAULT: 40
+	magisteelToMythril = 40
+	#Crafts on a MYTHRIL station before it upgrades to DRAGONFORGE. 0 disables. DEFAULT: 80
+	mythrilToDragonforge = 80
+
+[SPECIALIZATION]
+	#Enable forge specializations (player picks a smithing focus for matching-recipe bonuses). DEFAULT: true
+	enabled = true
+	#Crafting mastery level required before a player may choose a specialization. DEFAULT: 10
+	unlockMasteryLevel = 10
+	#Magicule drained to change an already-chosen specialization (the first pick is free). DEFAULT: 1000.0
+	respecMagiculeCost = 1000.0
+	#Weaponsmith: bonus critical-upgrade chance (0-1) on matching recipes. DEFAULT: 0.08
+	weaponsmithCritChance = 0.08
+	#Armorsmith: bonus quality points on matching recipes. DEFAULT: 4.0
+	armorsmithQualityFlat = 4.0
+	#Armorsmith: bonus durability fraction on matching recipes (0.25 = +25% max durability). DEFAULT: 0.25
+	armorsmithDurabilityMult = 0.25
+	#Runesmith: extra craft-engraving slots on matching recipes. DEFAULT: 1
+	runesmithEngravingSlots = 1
+	#Artificer: bonus hidden-potential chance (0-1) on matching recipes. DEFAULT: 0.15
+	artificerHiddenPotentialChance = 0.15
+
+[NATION_BONUSES]
+	#Enable nation-driven forge bonuses (Forge Boon perk, station-upgrade discount). DEFAULT: true
+	enabled = true
+	#Forge Boon perk: bonus quality points while active. DEFAULT: 2.0
+	boonQualityFlat = 2.0
+	#Forge Boon perk: bonus critical-upgrade chance (0-1) while active. DEFAULT: 0.05
+	boonCritChance = 0.05
+	#Forge Boon only applies when the station is inside the nation's own claimed territory. DEFAULT: true
+	requireOwnTerritory = true
+	#Station-upgrade craft threshold reduction per nation level for stations in the crafter's own claim (0.05 = -5%/level, floored at 50% of the base threshold). 0 disables. DEFAULT: 0.05
+	upgradeDiscountPerLevel = 0.05

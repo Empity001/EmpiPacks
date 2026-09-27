@@ -1,0 +1,14 @@
+#Directory where deal contract templates (.json) are stored. Relative to config/.
+dealsDirectory = "nightmare/deals"
+#Maximum number of contract templates to display in the Contract Book.
+maxContractTemplates = 100
+#Whether to show deal expiry timestamps in the Contract Book.
+showExpiryTimestamps = true
+#Whether to show deal party names in the Contract Book.
+showPartyNames = true
+#Color for active deals in the UI (hex, without #).
+activeDealColor = "55FF55"
+#Color for expired/completed deals in the UI (hex, without #).
+expiredDealColor = "AAAAAA"
+#Color for broken deals in the UI (hex, without #).
+brokenDealColor = "FF5555"

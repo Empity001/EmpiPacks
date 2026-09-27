@@ -1,0 +1,139 @@
+[Chronicle]
+	#Daily objectives rolled per player per real day.
+	dailiesPerDay = 2
+	#Crate id whose key a completed daily grants. Empty = none.
+	dailyCrateId = "common"
+	#Keys per completed daily.
+	dailyCrateCount = 1
+	#Magicule restored per completed daily (clamped at max). 0 disables.
+	dailyMagiculeRefill = 0.0
+	#Broadcast tier completions in server chat.
+	announceTiers = true
+
+[SeasonClose]
+	#Players per leaderboard board rewarded at season end.
+	leaderboardTopN = 3
+	#Crate id whose keys season-close leaderboard winners receive.
+	topCrateId = "elite"
+	#Keys per winning board slot.
+	topCrateCount = 1
+	#Fallback title id for leaderboard winners when the track JSON defines none. Empty = no title.
+	seasonTitleId = ""
+
+[Legacy]
+	#Master switch for the Legacy Carry-Over system (cross-season cosmetic points).
+	enabled = true
+	#Legacy Points awarded per chronicle tier completed during the season.
+	pointsPerChronicleTier = 10
+	#Legacy Points awarded per top-N leaderboard slot held at season close.
+	pointsPerLeaderboardSlot = 25
+	#Legacy Points awarded per level of the player's nation at season close. 0 if nationless.
+	pointsPerNationLevel = 2
+	#Broadcast the season's top Legacy Point earners in server chat at season close.
+	announceTopEarners = true
+
+[Mutators]
+	#Master switch for season mutators. Off = no roll at season start, all effects neutral.
+	enabled = true
+	#Surge of Souls: kill-EP gain multiplier for players.
+	epGainMultiplier = 1.5
+	#Generous World: daily objective reward multiplier (crates + magicule refill).
+	dailyRewardMultiplier = 2.0
+	#Restless Ambition: extra daily objective slots.
+	extraDailySlots = 1
+	#Prosperous Trade: nation mission + contract payout multiplier.
+	missionContractMultiplier = 1.5
+	#Magicule Bloom: magicule-world chunk regen multiplier.
+	magiculeBloomMultiplier = 1.5
+	#Enlightened Age: skill/magic mastery gain multiplier.
+	masteryMultiplier = 1.5
+	#Golden Age: UBS tag-driven mob cash drop multiplier.
+	cashDropMultiplier = 2.0
+	#Magicule Drought: magicule-world chunk regen multiplier.
+	magiculeDroughtMultiplier = 0.5
+	#Wrathful Calamities: extra multiplier on calamity boss HP (stacks on ETCalamityConfig.hpMultiplier).
+	calamityHpMultiplier = 1.5
+	#Wrathful Calamities: extra multiplier on calamity boss damage.
+	calamityDamageMultiplier = 1.25
+	#Heavy Crown: nation upkeep multiplier.
+	upkeepMultiplier = 1.25
+	#Cruel World: hostile mob max-health bonus fraction on spawn (0.15 = +15%).
+	cruelWorldHpBonus = 0.15
+	#Cruel World: hostile mob attack-damage bonus fraction on spawn.
+	cruelWorldDamageBonus = 0.1
+	#Demanding Chronicle: daily objective target multiplier.
+	dailyTargetMultiplier = 1.5
+	#Age of Calamity: calamity auto-start interval factor (0.5 = twice as often).
+	calamityIntervalFactor = 0.5
+	#Age of Calamity: reduction of minQualifiedPlayers (floor 1).
+	minQualifiedReduction = 1
+	#Taxing Weave: skill/magic energy cost multiplier.
+	energyCostMultiplier = 1.15
+
+[SeasonTitles]
+	#Master switch for season title grants (Chronicler thresholds + twist titles).
+	enabled = true
+	#Chronicle tier count for Chronicler (Bronze).
+	bronzeTier = 5
+	#Chronicle tier count for Chronicler (Silver).
+	silverTier = 10
+	#Chronicle tier count for Chronicler (Gold).
+	goldTier = 15
+	#Drought-Blessed: daily objectives completed during Magicule Drought.
+	droughtDailies = 10
+	#Iron Steward: clean upkeep payments by the nation during Heavy Crown.
+	upkeepClears = 7
+	#Worldbreaker: kills during Cruel World (delta from twist start).
+	cruelWorldKills = 500
+	#Relentless: full daily-clear days during Demanding Chronicle.
+	fullClearDays = 5
+	#Calamity's Bane: qualified calamity boss kills during Age of Calamity.
+	baneBossKills = 2
+
+[Finale]
+	#Master switch: season end runs the finale siege before closing.
+	enabled = true
+	#Minutes between the siege announcement and wave 1.
+	countdownMinutes = 10
+	#Number of mob waves before the boss.
+	waveCount = 4
+	#Minutes before an unfinished wave force-advances.
+	waveTimerMinutes = 5
+	#Minutes from siege start until the whole siege times out (loss).
+	siegeTimeoutMinutes = 45
+	#Mobs in wave 1.
+	waveSizeBase = 8
+	#Extra mobs per subsequent wave.
+	waveSizePerWave = 4
+	#Comma-separated wave mob entity ids.
+	waveMobIds = "minecraft:zombie,minecraft:skeleton,minecraft:husk,minecraft:stray,minecraft:wither_skeleton"
+	#Extra HP multiplier applied to wave mobs, per wave index (wave 1 = base 1.0).
+	waveHpPerWave = 0.25
+	#Comma-separated boss entity ids — one is picked at random for the final wave.
+	bossIds = "elitetensura:lich_boss,elitetensura:gravebound_colossus"
+	#Siege boss max-health multiplier.
+	bossHpMultiplier = 3.0
+	#Siege boss attack-damage multiplier.
+	bossDamageMultiplier = 2.0
+	#Legacy Points pool split pro-rata by damage on a siege win.
+	siegeBonusPool = 100
+	#Minimum Legacy Points for any player with tracked siege damage on a win.
+	siegeMinBonus = 2
+	#Fraction of a wave that must be dead to advance early (0.9 = 90%).
+	waveAdvanceFraction = 0.9
+
+[NationLadder]
+	#Master switch. Off = no points banked and no ladder shown; the nation system's own gamerule still applies on top.
+	enabled = true
+	#Ladder points banked for the player's nation per chronicle tier they complete.
+	pointsPerTier = 10
+	#Ladder points banked per daily objective completed.
+	pointsPerDaily = 2
+	#Ladder points banked for the winning nation when a war resolves.
+	pointsPerWarWin = 100
+	#Total ladder points split across nations by damage share at the finale siege.
+	siegePointPool = 200
+	#Nations shown in the ladder and paid siege spoils.
+	topN = 5
+	#Treasury pool (in CENTS) split among the top siege nations pro-rata by damage. Requires the nation economy (UBS). 0 disables the payout.
+	siegeSpoilsCents = 5000000

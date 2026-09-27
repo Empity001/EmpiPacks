@@ -1,0 +1,9 @@
+#Tensura Gear Evolution client settings.
+#These only affect local UI preferences.
+[tooltips]
+	#Show the addon's next-evolution progress line in item tooltips
+	enableNextEvolutionTooltip = true
+	#When EP is at max, show a short diagnostic if evolution is still blocked
+	showTooltipBlockReason = false
+	#When a datapack chain lists multiple branches, show a branch-count hint
+	showTooltipBranchHint = false

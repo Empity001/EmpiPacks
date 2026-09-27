@@ -1,0 +1,15 @@
+[Pegasus]
+	#Cast time in tick.
+	castTime = 100
+	#Cast time in tick when mastered.
+	castTimeMastered = 60
+	#Magicule Cost to cast.
+	magiculeCost = 50.0
+	#Magicule Cost each second to keep the Pegasus alive.
+	magiculeCostSecond = 10.0
+	#How long in second the summoned Pegasus will stay.
+	summonDuration = 600
+	#The cooldown in second of the magic.
+	cooldown = 600
+	#The cooldown in second of the magic when mastered.
+	cooldownMastered = 300

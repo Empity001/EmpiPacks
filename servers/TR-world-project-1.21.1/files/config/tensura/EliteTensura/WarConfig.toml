@@ -1,0 +1,53 @@
+[War]
+	#Ticks a war stays in COOLDOWN (blocking re-declaration) after it ends (144000 = 2 hours).
+	warCooldownTicks = 144000
+	#Hard cap on how many wars one nation may be involved in at once (counting both principal and ally roles).
+	maxActiveWarsPerNation = 1
+	#Ticks before two nations may re-ally after breaking an alliance (144000 = 2 hours).
+	allianceBreakCooldownTicks = 144000
+	#Ticks a declared war spends in WARMUP before hostilities begin (1728000 = 24 hours).
+	warmupTicks = 1728000
+	#Ticks a war spends in its ACTIVE phase; whichever side has the higher score at the deadline wins (5184000 = 72 hours).
+	warDurationTicks = 5184000
+	#Ticks after a war loss during which the losing nation cannot be declared on by anyone (1728000 = 24 hours).
+	loserGraceTicks = 1728000
+	#Base war-score points awarded per enemy kill.
+	killPoints = 10
+	#Kill-point multiplier applied when the victim dies inside their own side's claimed territory.
+	enemyTerritoryMultiplier = 2.0
+	#War-score points a member earns by forging a MASTERWORK item during an active war. 0 disables craft points.
+	craftPointsMasterwork = 1
+	#War-score points for forging a LEGENDARY item during an active war.
+	craftPointsLegendary = 2
+	#War-score points for forging a MYTHICAL item during an active war.
+	craftPointsMythical = 3
+	#Grant crate keys to the winning nation when a war resolves (surrender/forced end; peace and cancel grant nothing).
+	crateRewardsEnabled = true
+	#Crate id whose key every online member of the winning nation receives. Empty = none.
+	victorMemberCrateId = "rare"
+	#Crate id whose key the winning side's top war-point scorer receives on top. Empty = none.
+	victorTopCrateId = "elite"
+	#Kill-point multiplier for the same killer's 2nd kill of the same victim within the diminishing-returns window.
+	secondKillMultiplier = 0.5
+	#Kill-point multiplier for the same killer's 3rd and later kills of the same victim within the diminishing-returns window.
+	thirdKillMultiplier = 0.25
+	#Rolling window during which repeat kills of the same victim by the same killer have diminishing returns (72000 = 1 hour).
+	killWindowTicks = 72000
+	#War-score gap between sides that fires the one-time 'brink of defeat' announcement.
+	warningGap = 100
+	#Period between automatic bounty objective rotations (288000 = 4 hours).
+	bountyRotationTicks = 288000
+	#War-score points awarded for the Regicide bounty: killing the enemy nation's Sovereign.
+	leaderBountyPoints = 50
+	#War-score points awarded for the First Blood bounty: the first kill of the current rotation.
+	firstBloodPoints = 15
+	#War-score points awarded for the Rampage bounty: killing 3 distinct enemy victims within one rotation.
+	rampagePoints = 30
+	#Side war-score points awarded for claiming a leader-placed player bounty.
+	playerBountyPoints = 20
+	#Minimum amount, in cents, a nation leader may place as a bounty on a player (100000 = $1000).
+	minPlayerBountyCents = 100000
+	#Extra fraction added to the war declaration cost per nation level the attacker is above the defender (0.25 = +25% per level gap).
+	declareLevelGapPenalty = 0.25
+	#Log war evaluation to the server log.
+	debug = false

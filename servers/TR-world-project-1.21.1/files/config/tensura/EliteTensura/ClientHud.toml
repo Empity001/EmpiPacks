@@ -1,0 +1,23 @@
+[MAGICULE_HUD]
+	#Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT.
+	corner = "TOP_RIGHT"
+	#Horizontal offset in pixels from the anchor (signed shift from center for *_CENTER).
+	offsetX = 4
+	#Vertical offset in pixels from the anchored screen edge.
+	offsetY = 4
+
+[VOID_EDGE_HUD]
+	#Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT.
+	corner = "BOTTOM_CENTER"
+	#Horizontal offset in pixels from the anchor (signed shift from center for *_CENTER).
+	offsetX = 0
+	#Vertical offset in pixels from the anchored screen edge.
+	offsetY = 47
+
+[ASTRAL_EDGE_HUD]
+	#Anchor point: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER or BOTTOM_RIGHT.
+	corner = "BOTTOM_CENTER"
+	#Horizontal offset in pixels from the anchor (signed shift from center for *_CENTER).
+	offsetX = 0
+	#Vertical offset in pixels from the anchored screen edge.
+	offsetY = 47

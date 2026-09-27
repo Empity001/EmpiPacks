@@ -1,0 +1,88 @@
+[LesserMysticFox]
+	minAura = 4000.0
+	maxAura = 9000.0
+	minMagicule = 8000.0
+	maxMagicule = 16000.0
+	size = -0.5
+	maxHealth = 25.0
+	maxSpiritualHealth = 100.0
+	attack = 0.7
+	attackSpeed = 0.15
+	knockbackResistance = 0.1
+	movementSpeed = 0.03
+	swimSpeed = 0.02
+
+[GreaterMysticFox]
+	epRequirement = 45000.0
+	minAura = 18000.0
+	maxAura = 34000.0
+	minMagicule = 36000.0
+	maxMagicule = 72000.0
+	size = -0.5
+	maxHealth = 155.0
+	maxSpiritualHealth = 230.0
+	attack = 1.1
+	attackSpeed = 0.2
+	knockbackResistance = 0.2
+	movementSpeed = 0.04
+	swimSpeed = 0.05
+
+[Ninehead]
+	epRequirement = 160000.0
+	minAura = 70000.0
+	maxAura = 130000.0
+	minMagicule = 140000.0
+	maxMagicule = 260000.0
+	size = 0.0
+	maxHealth = 295.0
+	maxSpiritualHealth = 430.0
+	attack = 1.7
+	attackSpeed = 0.25
+	knockbackResistance = 0.35
+	movementSpeed = 0.045
+	swimSpeed = 0.08
+
+[Ninetail]
+	epRequirement = 420000.0
+	minAura = 170000.0
+	maxAura = 300000.0
+	minMagicule = 320000.0
+	maxMagicule = 580000.0
+	size = 0.0
+	maxHealth = 450.0
+	maxSpiritualHealth = 720.0
+	attack = 2.2
+	attackSpeed = 0.3
+	knockbackResistance = 0.5
+	movementSpeed = 0.05
+	swimSpeed = 0.1
+
+[SoulBeast]
+	epRequirement = 900000.0
+	minAura = 360000.0
+	maxAura = 650000.0
+	minMagicule = 700000.0
+	maxMagicule = 1250000.0
+	size = 0.0
+	maxHealth = 600.0
+	maxSpiritualHealth = 4200.0
+	attack = 2.9
+	attackSpeed = 0.35
+	knockbackResistance = 0.7
+	movementSpeed = 0.055
+	swimSpeed = 0.12
+
+[DivineFox]
+	epRequirement = 2000000.0
+	minAura = 800000.0
+	maxAura = 1400000.0
+	minMagicule = 1600000.0
+	maxMagicule = 2800000.0
+	size = 0.0
+	maxHealth = 999.0
+	maxSpiritualHealth = 6541.0
+	attack = 3.6
+	attackSpeed = 0.45
+	knockbackResistance = 0.85
+	movementSpeed = 0.06
+	swimSpeed = 0.15

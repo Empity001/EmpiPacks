@@ -1,0 +1,109 @@
+[Shardling]
+	#Minimal aura.
+	minAura = 1500.0
+	#Maximum aura.
+	maxAura = 2500.0
+	#Minimal magicule.
+	minMagicule = 300.0
+	#Maximum magicule.
+	maxMagicule = 600.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = -6.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 10.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.1
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.25
+	#Bonus Movement Speed.
+	movementSpeed = 0.0
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.0
+
+[GeodeGolem]
+	#EP requirement to evolve into Geode Golem.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 100000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 100000.0
+	#Maximum magicule.
+	maxMagicule = 100000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 140.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 440.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.3
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.06
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.4
+
+[PrismKnight]
+	#EP requirement to evolve into Prism Knight.
+	epRequirement = 400000.0
+	#Minimal aura.
+	minAura = 400000.0
+	#Maximum aura.
+	maxAura = 400000.0
+	#Minimal magicule.
+	minMagicule = 400000.0
+	#Maximum magicule.
+	maxMagicule = 400000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 380.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2340.0
+	#Bonus Attack Damage.
+	attack = 6.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.6
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.75
+	#Bonus Movement Speed.
+	movementSpeed = 0.1
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.5
+
+[DiamondSovereign]
+	#EP requirement to evolve into Diamond Sovereign.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 1000000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 1000000.0
+	#Maximum magicule.
+	maxMagicule = 1000000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 780.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 4940.0
+	#Bonus Attack Damage.
+	attack = 8.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.9
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.12
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 1.2

@@ -1,0 +1,319 @@
+[LesserFairy]
+	#Minimal aura.
+	minAura = 500.0
+	#Maximum aura.
+	maxAura = 500.0
+	#Minimal magicule.
+	minMagicule = 1500.0
+	#Maximum magicule.
+	maxMagicule = 5500.0
+	#Bonus Size.
+	size = -1.0
+	#Bonus Max Health.
+	maxHealth = -10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 90.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = -0.2
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.02
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.02
+
+[HigherFairy]
+	#Existence points required to evolve into Higher Fairy.
+	epRequirement = 40000.0
+	#Number of life essence required to evolve into Higher Fairy.
+	essenceRequirementLife = 10
+	#Minimal aura.
+	minAura = 25000.0
+	#Maximum aura.
+	maxAura = 50000.0
+	#Minimal magicule.
+	minMagicule = 15000.0
+	#Maximum magicule.
+	maxMagicule = 30000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 10.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 150.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 1.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.04
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.04
+
+[FairyDruid]
+	#Existence points required to evolve into Fairy Druid.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 50000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 30000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 280.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 840.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.3
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07
+
+[FairyPrincess]
+	#Existence points required to evolve into Fairy Princess.
+	epRequirement = 450000.0
+	#Minimal aura.
+	minAura = 225000.0
+	#Maximum aura.
+	maxAura = 450000.0
+	#Minimal magicule.
+	minMagicule = 135000.0
+	#Maximum magicule.
+	maxMagicule = 270000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 580.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 1940.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 3.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.09
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.09
+
+[GuardianOfTheTree]
+	#Existence points required to evolve into Guardian of The Tree.
+	epRequirement = 1250000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 1000000.0
+	#Minimal magicule.
+	minMagicule = 300000.0
+	#Maximum magicule.
+	maxMagicule = 600000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 880.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 5340.0
+	#Bonus Attack Damage.
+	attack = 3.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.11
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.11
+
+[FairyPrince]
+	#Existence points required to evolve into Fairy Prince.
+	epRequirement = 120000.0
+	#Life Essence required to evolve into Fairy Prince.
+	essenceRequirementLife = 20
+	#Minimal aura.
+	minAura = 60000.0
+	#Maximum aura.
+	maxAura = 120000.0
+	#Minimal magicule.
+	minMagicule = 40000.0
+	#Maximum magicule.
+	maxMagicule = 80000.0
+	#Bonus Size.
+	size = -1.0
+	#Bonus Max Health.
+	maxHealth = 330.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 940.0
+	#Bonus Attack Damage.
+	attack = 0.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.07
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.07
+
+[SacredTreeChild]
+	#Existence points required to evolve into Sacred Tree Child.
+	epRequirement = 420000.0
+	#Life Essence required to evolve into Sacred Tree Child.
+	essenceRequirementLife = 20
+	#Minimal aura.
+	minAura = 210000.0
+	#Maximum aura.
+	maxAura = 420000.0
+	#Minimal magicule.
+	minMagicule = 126000.0
+	#Maximum magicule.
+	maxMagicule = 252000.0
+	#Bonus Size.
+	size = -1.0
+	#Bonus Max Health.
+	maxHealth = 680.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 2740.0
+	#Bonus Attack Damage.
+	attack = 1.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.5
+	#Bonus Movement Speed.
+	movementSpeed = 0.08
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.08
+
+[TrueFairyKing]
+	#Existence points required to evolve into True Fairy King.
+	epRequirement = 2500000.0
+	#Life Essence required to evolve into Sacred Tree Child.
+	essenceRequirementLife = 50
+	#Minimal aura.
+	minAura = 1250000.0
+	#Maximum aura.
+	maxAura = 2500000.0
+	#Minimal magicule.
+	minMagicule = 750000.0
+	#Maximum magicule.
+	maxMagicule = 1500000.0
+	#Bonus Size.
+	size = 0.5
+	#Bonus Max Health.
+	maxHealth = 1180.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6340.0
+	#Bonus Attack Damage.
+	attack = 10.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.9
+	#Bonus Movement Speed.
+	movementSpeed = 0.09
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.09
+
+[DarkFairy]
+	#Existence points required to evolve into Dark Fairy.
+	epRequirement = 80000.0
+	#Life Essence required to evolve into Dark Fairy.
+	essenceRequirementLife = 10
+	#Daemon Essence required to evolve into Dark Fairy.
+	essenceRequirementDaemon = 20
+	#Minimal aura.
+	minAura = 24000.0
+	#Maximum aura.
+	maxAura = 48000.0
+	#Minimal magicule.
+	minMagicule = 40000.0
+	#Maximum magicule.
+	maxMagicule = 80000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 230.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 690.0
+	#Bonus Attack Damage.
+	attack = 5.0
+	#Bonus Attack Speed.
+	attackSpeed = 3.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.6
+	#Bonus Movement Speed.
+	movementSpeed = 0.11
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.11
+
+[SlayerFairy]
+	#Existence points required to evolve into Slayer Fairy.
+	epRequirement = 500000.0
+	#Life Essence required to evolve into Slayer Fairy.
+	essenceRequirementLife = 10
+	#Daemon Essence required to evolve into Slayer Fairy.
+	essenceRequirementDaemon = 10
+	#Minimal aura.
+	minAura = 250000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 150000.0
+	#Maximum magicule.
+	maxMagicule = 390000.0
+	#Bonus Size.
+	size = 0.0
+	#Bonus Max Health.
+	maxHealth = 430.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3140.0
+	#Bonus Attack Damage.
+	attack = 7.0
+	#Bonus Attack Speed.
+	attackSpeed = 2.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.9
+	#Bonus Movement Speed.
+	movementSpeed = 0.12
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.12
+
+[LostFairy]
+	#Minimal aura.
+	minAura = 50000.0
+	#Maximum aura.
+	maxAura = 100000.0
+	#Minimal magicule.
+	minMagicule = 30000.0
+	#Maximum magicule.
+	maxMagicule = 60000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 830.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6240.0
+	#Bonus Attack Damage.
+	attack = 9.0
+	#Bonus Attack Speed.
+	attackSpeed = 4.0
+	#Bonus Knockback Resistance.
+	knockbackResistance = 1.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.14
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.14

@@ -1,0 +1,33 @@
+[SpawnProtection]
+	#Lowest Y point for this region.
+	yLevel = -100.0
+	#Highest Y point.
+	yLevelMax = 300.0
+	#Corner1 Pos X1
+	x1 = 250.0
+	#Corner2 Pos X2
+	x2 = -250.0
+	#Corner1 Pos Z1
+	z1 = 250.0
+	#Corner2 Pos Z2
+	z2 = -250.0
+
+[SpawnInner]
+	#Lowest Y point for this region.
+	yLevel = 0.0
+	#Highest Y point.
+	yLevelMax = 300.0
+	#Corner1 Pos X1
+	x1 = 111.0
+	#Corner2 Pos X2
+	x2 = -96.0
+	#Corner1 Pos Z1
+	z1 = 111.0
+	#Corner2 Pos Z2
+	z2 = -96.0
+	#Disable skill and spell use within this region. DEFAULT: true
+	disableSkills = true
+	#Disable player-vs-player damage within this region. DEFAULT: true
+	disablePvp = true
+	#Disable energy drain, force tame, spiritual hurt, and skill plunder within this region. DEFAULT: true
+	disableHostileActions = true

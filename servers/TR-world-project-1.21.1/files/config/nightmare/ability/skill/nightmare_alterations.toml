@@ -1,0 +1,21 @@
+[AlteredCook]
+	#Multiplier for fate's Spiritual health damage compared to original damage dealt
+	hpReducedMultiplier = 1.5
+	#Magicule Cost to activate Chaotic Fate.
+	magiculeCostFate = 1000.0
+	#Cooldown for activating Chaotic Fate.
+	fateCooldown = 1
+
+[AlteredGuardian]
+	#Multiplier for damage reflected back
+	reflectMultiplier = 0.5
+	#Chance to relfect damage back as a percentage.
+	reflectChance = 10
+
+[AlteredGravity]
+	#amount of gravity damage dealt
+	gravityDamage = 18.0
+
+[AlteredHero]
+	#length of time in Seconds that haki coat will last
+	coatDuration = 60

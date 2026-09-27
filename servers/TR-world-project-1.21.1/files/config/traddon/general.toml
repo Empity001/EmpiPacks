@@ -1,0 +1,3 @@
+[General]
+	#Should the TR Addon skills and races be added to the starting lists on the next launch?
+	refresh = false

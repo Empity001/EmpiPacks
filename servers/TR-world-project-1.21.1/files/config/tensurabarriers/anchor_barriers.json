@@ -1,0 +1,277 @@
+{
+  "enabled": true,
+  "minRadius": 4.0,
+  "defaultRadius": 8.0,
+  "maxRadius": 64.0,
+  "coverageMode": "shell",
+  "maxCoveredBlocks": 25000,
+  "activationSecondsPerCoveredBlock": 5.0E-5,
+  "baseIntegrity": 20000.0,
+  "layers": 1,
+  "layerCarryPercent": 0.3,
+  "shapes": [
+    "sphere",
+    "striped",
+    "hexagon"
+  ],
+  "downtimeSecondsAfterCollapse": 600.0,
+  "minAnchorSeparation": 128.0,
+  "adminsBypassAnchorRules": false,
+  "redstoneControl": true,
+  "selfRepair": true,
+  "repairAfterUndamagedSeconds": 180.0,
+  "repairPercentPerSecond": 0.5,
+  "repairFuelMultiplier": 1.25,
+  "baseFuelMilliUnitsPerSecond": 20000,
+  "fuelMilliUnitsPerSecondPerRadius": 1500,
+  "fuelCapacityMilliUnits": 32000000,
+  "consumeDuringActivation": true,
+  "fuels": {
+    "tensura:low_quality_magic_crystal": 640000,
+    "tensura:low_quality_magic_crystal_block": 5760000,
+    "tensura:medium_quality_magic_crystal": 1600000,
+    "tensura:medium_quality_magic_crystal_block": 14400000,
+    "tensura:high_quality_magic_crystal": 4000000,
+    "tensura:high_quality_magic_crystal_block": 36000000,
+    "tensura:magic_ore_shard": 20000000,
+    "tensura:magic_ore_block": 180000000
+  },
+  "cores": {
+    "tensura:magic_stone": {
+      "allowed": true,
+      "integrityMultiplier": 1.15,
+      "freeSpiritForm": false
+    },
+    "tensura:daemon_core": {
+      "allowed": true,
+      "integrityMultiplier": 1.0,
+      "freeSpiritForm": true
+    }
+  },
+  "wallDamageFactor": 1.0,
+  "projectileWallDamage": 4.0,
+  "explosionDamageFactor": 25.0,
+  "wallPushStrength": 0.4,
+  "wallImpactSound": "minecraft:block.amethyst_block.chime",
+  "meleeHittable": true,
+  "integrityRegenPerSecond": 0.0,
+  "integritySizeExponent": 0.35,
+  "filterTargets": [
+    "all_mobs",
+    "players"
+  ],
+  "excludeOwnerSubordinates": true,
+  "projectileShieldDestroyEntities": [
+    "tensura:mud_spike",
+    "tensura:water_jail",
+    "tensura:disintegration",
+    "tensura:explosion_circle",
+    "tensura:magic_explosion",
+    "tensura:shadow_bind_hands"
+  ],
+  "gridColor": "#55DFFF",
+  "glassColors": [
+    "#55DFFF",
+    "#8A7DFF"
+  ],
+  "glassAlpha": 0.28,
+  "lineOpacity": 0.9,
+  "glassColorCycleSeconds": 6.0,
+  "modifiers": {
+    "containment": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 7500
+    },
+    "block_entry": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 7500
+    },
+    "projectile_shield": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 11250
+    },
+    "reflect_projectiles": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 15000
+    },
+    "protect_blocks": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 4500
+    },
+    "sound_isolation": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 1500
+    },
+    "astral_bind": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 5250
+    },
+    "multilayer": {
+      "allowed": true,
+      "maxLevel": 2,
+      "fuelMilliUnitsPerSecondPerLevel": 12000
+    },
+    "alert_owner": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 750
+    },
+    "suppress_spawns": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 6000
+    },
+    "spatial_lock": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 12000
+    },
+    "magicule_regen_down": {
+      "allowed": true,
+      "maxLevel": 3,
+      "fuelMilliUnitsPerSecondPerLevel": 2500
+    },
+    "aura_regen_down": {
+      "allowed": true,
+      "maxLevel": 3,
+      "fuelMilliUnitsPerSecondPerLevel": 2500
+    },
+    "regen_down": {
+      "allowed": false,
+      "maxLevel": 5,
+      "fuelMilliUnitsPerSecondPerLevel": 2500
+    },
+    "disable_nullifications": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 10000
+    },
+    "magicule_drain": {
+      "allowed": false,
+      "maxLevel": 10,
+      "fuelMilliUnitsPerSecondPerLevel": 2500
+    },
+    "aura_drain": {
+      "allowed": false,
+      "maxLevel": 10,
+      "fuelMilliUnitsPerSecondPerLevel": 2500
+    },
+    "magic_jamming": {
+      "allowed": true,
+      "maxLevel": 5,
+      "fuelMilliUnitsPerSecondPerLevel": 4500
+    },
+    "distortion_field": {
+      "allowed": true,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 18000
+    },
+    "clash": {
+      "allowed": false,
+      "maxLevel": 10,
+      "fuelMilliUnitsPerSecondPerLevel": 4000
+    },
+    "oppression": {
+      "allowed": false,
+      "maxLevel": 5,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "anti_magic": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "anti_skill": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "dominion": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "domain": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "arroganz": {
+      "allowed": false,
+      "maxLevel": 10,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "battlefield": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "veil": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "embracing_drain": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "enrage": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "deep_sleep": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "nuclear_bomb": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "last_chance": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "indestructible_wall": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "takeover": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "reflector": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "acceleration": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "family_bond": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    },
+    "full_counter": {
+      "allowed": false,
+      "maxLevel": 1,
+      "fuelMilliUnitsPerSecondPerLevel": 0
+    }
+  }
+}

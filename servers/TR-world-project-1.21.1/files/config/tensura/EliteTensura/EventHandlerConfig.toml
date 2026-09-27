@@ -1,0 +1,21 @@
+[Blacklist]
+	#Blacklist mobs. These entity types are blocked from spawning in the spawn region. Everything else is allowed.
+	Blacklist = ["tensura:slime", "tensura:hound_dog", "tensura:barghest", "tensura:leech_lizard", "tensura:hover_lizard", "tensura:direwolf", "tensura:giant_ant", "tensura:metal_slime"]
+
+[PICKUP_BLACKLIST]
+	#Item ids (namespace:path) that players can never pick up. Existing copies are removed from player inventories and Curios slots. Empty = disabled.
+	items = []
+
+[DEBUG]
+	#T/F Is this debug enabled?
+	debug = false
+
+[Naming]
+	#Fraction of the namer's MAX EP permanently transferred to the named player when one player names another. Requires gamerule ETPlayerNamingEpLoss. Default 0.15 = 15%.
+	namingEpLossPercent = 0.15
+
+[SubordinateEpShare]
+	#Fraction of a subordinate's kill-EP also granted to its owner when the owner is within rangeBlocks. Requires gamerule ETSubordinateEpShare. Default 0.10 = 10%.
+	sharePercent = 0.1
+	#Max distance (blocks) between subordinate and owner for the EP share to apply. Default 20.
+	rangeBlocks = 20.0

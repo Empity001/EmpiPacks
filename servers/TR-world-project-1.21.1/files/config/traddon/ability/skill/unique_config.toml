@@ -1,0 +1,191 @@
+[deviator]
+	#The multiplier of the maximum Health that a target needs to be under to be possessed.
+	hpMultiplier = 0.1
+	#The multiplier of the maximum Spiritual Health that a target needs to be under to be possessed.
+	shpMultiplier = 0.1
+	#The multiplier of the user's maximum EP that a target needs to be under to be possessed.
+	epMultiplier = 0.25
+	#The multiplier of the possession requirement multipliers when the target has Spiritual Attack Resistance.
+	resistanceMultiplier = 0.5
+	#The maximum amount of HP the user can get from possessing an entity.
+	maxHealth = 1000.0
+	#The maximum amount of Attack Damage the user can get from possessing an entity.
+	maxAttack = 100.0
+	#The number of seconds that Possession Bodies will despawn. (0 = instant despawn, -1 = doesn't despawn)
+	bodyDespawnTick = 300
+	#Extra Spiritual damage multiplier.
+	spiritualDamageMultiplier = 1.0
+	#Extra Spiritual damage multiplier when mastered.
+	masterDamageMultiplier = 1.5
+	#chance for deviator to get unique skills when possessing an entity
+	uniqueSkillChance = 0.1
+	#chance for deviator to get unique skills when possessing an entity if mastered
+	masterUniqueSkillChance = 0.2
+	#The MP cost to acquire the Deviator skill.
+	mpAcquirement = 50000.0
+	#Range
+	range = 4.0
+
+[devastator]
+	#Magicule Acquirement Cost.
+	mpAcquirement = 80000.0
+	#The attack damage reduction percentage granted by the Despair effect.
+	attack = -0.25
+	#The attack speed reduction percentage granted by the Despair effect.
+	attackSpeed = -0.25
+	#The movement speed reduction percentage granted by the Despair effect.
+	movementSpeed = -0.25
+	#The chant speed reduction percentage granted by the Despair effect.
+	chantSpeed = -0.25
+	#The extra damage multiplier for Devastator when mastered.
+	masterDamageMultiplier = 1.5
+	#The extra damage multiplier for Devastator when not mastered.
+	spiritualDamageMultiplier = 1.0
+	#The armor durability reduction multiplier for Devastator.
+	armorDurability = 2
+	#The weapon durability reduction multiplier for Devastator.
+	weaponDurability = 2
+	#The EP difference multiplier for Devastator.
+	epDifferenceMultiplier = 0.2
+	#The physical damage multiplier for Devastator.
+	physicalDamageMultiplier = 1.5
+	#The radius for the End of Days effect.
+	endOfDaysRadius = 16.0
+	#The attack damage multiplier for the Post Mortem Surge effect.
+	surgeAttack = 0.1
+	#The attack speed multiplier for the Post Mortem Surge effect.
+	surgeAttackSpeed = 0.1
+	#The magicule cost for the Tyrant's Haki mode.
+	tyrantsHakiCost = 100.0
+	#The magicule cost for the End of Days mode.
+	endOfDaysCost = 2500.0
+
+[CrystalDust]
+	#Magicule Cost to activate the Default Mode.
+	magiculeCost = 200.0
+	#The spawn range in block of the Crystal Dust.
+	dustRange = 4
+	#The damage per second of the Crystal Dust.
+	dustDamage = 2
+	#The radius of the Crystal Dust.
+	dustRadius = 3
+	#The cooldown of the Crystal Dust (halved with mastery).
+	dustCooldown = 12
+
+[RefractiveShell]
+	#The movement speed multiplier when Dispersion is active.
+	refractiveShellSpeed = 0.8
+	#The magicule cost per point of damage canceled by the Refractive Shell.
+	magiculeCostRefractiveShell = 100.0
+
+[PhotonBlade]
+	#The base extra damage dealt by Photon Blade on hit.
+	photonBladeBaseDamage = 6.0
+	#The extra damage dealt by Photon Blade on hit when mastered.
+	photonBladeMasteredExtraDamage = 12.0
+	#Physical resist degradation from effect.
+	physicalResist = true
+
+[ResonantCore]
+	#Magicule cost to acquire the Resonant Core skill.
+	mpAcquirement = 30000.0
+	#Cooldown in ticks for Spectral Refraction active mode.
+	spectralRefractionCooldown = 100
+	#Duration in ticks for Spectral Refraction to be held.
+	spectralRefractionDuration = 200
+	#Cooldown in ticks for Data Overload active mode.
+	dataOverloadCooldown = 100
+	#Stun duration in ticks for Data Overload.
+	dataOverloadStunDuration = 60
+
+[silentium]
+	#Radius in blocks for Acoustic Nullification.
+	acousticNullRadius = 100
+	#Duration in ticks for Acoustic Nullification.
+	acousticNullDuration = 200
+	#Cooldown in ticks for Acoustic Nullification.
+	acousticNullCooldown = 400
+	#Attack boost duration for Vibro-Edge (ticks).
+	vibroEdgeDuration = 200
+	#Attack boost amplifier for Vibro-Edge.
+	vibroEdgeAmplifier = 2
+	#Night vision duration for Echo Location (ticks).
+	echoLocationDuration = 400
+
+[TotalReflection]
+	#Magicule cost to acquire the Total Reflection skill.
+	mpAcquirement = 70000.0
+	#Chance to learn a spell upon being hit by it (Analytical Mirror).
+	spellLearnChance = 0.2
+	#Maximum stored magicules from absorbed spells (Energy Condensation).
+	maxStoredMagicules = 2.0
+	#Maximum stored damage from damage taken (Prismatic Fracture).
+	maxStoredDamage = 2000.0
+	#Cooldown in ticks for Prismatic Fracture active mode.
+	prismaticFractureCooldown = 30
+	#Maximum amount of magicules restored per second from stored magicules as a percent of max (Energy Condensation).
+	maxRestoredPerSecond = 0.1
+	#Movement speed multiplier when Full Vector Reversal is active.
+	moveSpeed = -0.2
+	#Magicule cost per point of damage reflected in Full Vector Reversal.
+	vectorReversalMagiculeCost = 50.0
+	#Magicule cost per second to maintain Full Vector Reversal.
+	vectorReversalMaintainCost = 50.0
+	#Magicule cost for Prismatic Fracture.
+	prismaticFractureCost = 100.0
+
+[origin]
+	#The melee dodge chance bonus granted by the Origin skill.
+	meleeDodge = 0.2
+	#The projectile dodge chance bonus granted by the Origin skill.
+	projectileDodge = 0.2
+	#The dodge negation chance bonus granted by the Origin skill.
+	dodgeNegation = 0.2
+	#The MP cost to acquire the Origin skill.
+	mpAcquirement = 500.0
+	#The learning points bonus granted by the Origin skill.
+	learningPoint = 9.0
+	#The mastery points bonus granted by the Origin skill.
+	masteryPoint = 9.0
+	#Extra Aura gain percentage granted by the Origin skill.
+	auraPercentage = 2.5
+	#Extra Magicule gain percentage granted by the Origin skill.
+	magiculePercentage = 2.5
+	#The level of the Self Regeneration effect granted by the Origin skill.
+	regenLevel = 5
+
+[necromancer]
+	#The MP cost to acquire the Necromancer skill.
+	mpAcquirement = 45000.0
+	#The maximum number of summoned minions allowed at one time.
+	maxMinions = 5
+	#The Cost in Souls to summon a minion.
+	summonCost = 50
+	#The health for summoned minions.
+	minionHealth = 20.0
+	#The attack damage for summoned minions.
+	minionAttackDamage = 6.0
+	#The speed for summoned minions.
+	minionSpeed = 0.25
+	#The armor for summoned minions.
+	minionArmor = 10.0
+	#The Soul Points returned when a summoned minion dies (as a multiplier of the summon cost).
+	summonedDeathSoulReturn = 25.0
+
+[spatialSamurai]
+	#The MP cost to acquire the Spatial Samurai skill.
+	mpAcquirement = 6000.0
+	#The maximum health multiplier used to calculate the Cleave extra damage.
+	cleaveMaxHealthMultiplier = 0.15
+	#The magicule cost per point of extra damage for the Cleave effect.
+	cleaveMagiculePerDamage = 100.0
+	#The damage of the Severance Cutter projectile.
+	projectileDamage = 8.0
+	#The damage of the Severance Cutter projectile when mastered.
+	projectileDamageMastered = 12.0
+	#The size of the Severance Cutter projectile.
+	projectileSize = 0.5
+	#The size of the Severance Cutter projectile when mastered.
+	projectileSizeMastered = 0.75
+	#The cooldown of the Severance Cutter projectile.
+	projectileCooldown = 100

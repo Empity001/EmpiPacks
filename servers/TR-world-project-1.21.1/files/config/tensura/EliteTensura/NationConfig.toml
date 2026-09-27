@@ -1,0 +1,211 @@
+[Nations]
+	#A party team may be founded as a Nation when it has at least this many members AND...
+	foundingMinMembers = 2
+	#...has claimed at least this many FTB chunks. Both conditions are required to found.
+	foundingMinClaimedChunks = 1
+	#Maximum Nation level.
+	maxLevel = 20
+	#Score required to reach level 2 (the first threshold above the founding level 1).
+	levelBaseScore = 100.0
+	#Geometric growth factor between consecutive level thresholds.
+	levelGrowth = 1.25
+	#Score weight: per nation member (population).
+	weightPopulation = 10.0
+	#Score weight: per claimed chunk (territory).
+	weightTerritory = 4.0
+	#Score weight: multiplied by log10(1 + total member EP).
+	weightEp = 20.0
+	#Score weight: per awakened member.
+	weightAwakened = 20.0
+	#Score weight: per True Hero member.
+	weightHero = 40.0
+	#Score weight: per True Demon Lord member.
+	weightDemonLord = 40.0
+	#Score weight: per player record obtained by members.
+	weightRecord = 10.0
+	#Score weight: per world event participated in.
+	weightWorldEvent = 8.0
+	#Score weight: per nation achievement earned.
+	weightAchievement = 15.0
+	#Score weight: per mission the nation has completed (lifetime).
+	weightMissions = 2.0
+	#Extra FTB claim-chunk budget granted to the team per Nation level.
+	claimBudgetPerLevel = 4
+	#Enable Walpurgis council motions to ripple into the Nation system (enemy->war, treaty->alliance, claim->budget). Independent kill switch layered on top of the ETNationSystem gamerule.
+	walpurgisBridgeEnabled = true
+	#Bonus FTB claim chunks granted to a nation each time the Walpurgis council approves one of its territorial claims. Accumulates and is durable across level-ups.
+	councilClaimBudgetBonus = 2
+	#Apply Nation bonuses (attribute/effect modifiers) to members.
+	bonusesEnabled = true
+	#Show member-scoped Voice of the World messages (achievement, level-up).
+	voiceAnnouncementsEnabled = true
+	#Broadcast global Voice announcements (nation founded/destroyed, world-records).
+	globalAnnouncementsEnabled = true
+	#Ticks between periodic aggregate recomputation per nation (20 = 1 second).
+	recomputeIntervalTicks = 600
+	#Log Nation evaluation to the server log.
+	debug = false
+	#Search radius (blocks) used to match a spawned mob back to a player-placed nation spawner.
+	playerSpawnerSearchRadius = 16
+	#Log nation-spawner gate decisions (placement, blocked spawns) to the server log.
+	spawnerDebug = false
+
+[Reputation]
+	#Reputation gained by the winner of a war.
+	warWinRep = 60
+	#Extra reputation when the war winner was the defender (added on top of warWinRep).
+	defenderWinRep = 20
+	#Reputation lost by the loser of a war (surrender or force-end).
+	warLossRep = -40
+	#Reputation lost by an attacker who declares on a far-weaker nation (bullying).
+	bullyRep = -30
+	#Attacker is 'bullying' when the defender's score is below this fraction of the attacker's score.
+	bullyRatio = 0.4
+	#Reputation gained by both nations when an alliance forms.
+	allianceFormRep = 15
+	#Reputation lost by the nation that breaks an alliance (betrayal).
+	allianceBreakRep = -50
+	#Passive reputation gained per active ally, each reputation tick.
+	allyHonorRep = 2
+	#Reputation gained by each nation that helped defeat a World Calamity.
+	calamityDefenseRep = 40
+	#Reputation gained by a nation when one of its members enters a Walpurgis council.
+	walpurgisAttendRep = 10
+	#Reputation lost by the TARGET nation when a Walpurgis council declares it an enemy.
+	councilEnemyRep = -25
+	#Reputation gained by the proposing nation when a Walpurgis council treaty is filed.
+	councilTreatyRep = 5
+	#Reputation gained by a nation when a Walpurgis council approves its territorial claim.
+	councilClaimRep = 10
+	#Reputation gained when a Walpurgis council declares neutrality / rescinds hostilities.
+	councilNeutralRep = 5
+	#Reputation gained when a nation earns a nation achievement.
+	achievementRep = 25
+	#Ticks between reputation ticks (passive ally-honor + decay). 24000 = 20 minutes.
+	repDecayIntervalTicks = 24000
+	#Reputation moves this many points toward 0 each reputation tick.
+	decayStep = 5
+	#At or below this reputation a nation is 'rogue' (no alliances, loses war-cooldown protection, can't declare).
+	rogueThreshold = -250
+	#Minimum reputation required to DECLARE war (rogue nations cannot declare).
+	warDeclareFloor = -250
+	#Max alliances at Reviled tier (rogue).
+	slotCapReviled = 0
+	#Max alliances at Infamous tier (rogue).
+	slotCapInfamous = 0
+	#Max alliances at Distrusted tier.
+	slotCapDistrusted = 1
+	#Max alliances at Neutral tier.
+	slotCapNeutral = 2
+	#Max alliances at Respected tier.
+	slotCapRespected = 3
+	#Max alliances at Honored tier.
+	slotCapHonored = 4
+	#Max alliances at Exalted tier.
+	slotCapExalted = 5
+
+[Economy]
+	#Master switch for the nation treasury economy. Also requires Ultimate Banking System to be installed.
+	enabled = false
+	#Percent of picked-up mob cash value charged from a nation member's primary bank account into the nation treasury (0 = none). Charged together with centralBankTaxPercent as one withdrawal.
+	taxPercent = 5.0
+	#Additional percent of picked-up mob cash value charged from the member and deposited into the UBS central bank's reserve (0 = none). Money sink — leaves player circulation.
+	centralBankTaxPercent = 10.0
+	#Passive treasury income in cents per claimed chunk per recompute interval. NOTE: this accrues per recompute tick (server running time) while upkeep bills on wall-clock hours, so the real break-even is a server-uptime figure, not a flat number.
+	incomePerChunkCents = 12
+	#Territory income is multiplied by (1 + this * nationLevel).
+	incomeLevelMultiplier = 0.05
+	#Treasury cost in cents to buy level 2. Cost for level L = levelBaseCostCents * levelCostGrowth^(L-2).
+	levelBaseCostCents = 500000
+	#Geometric growth of the level-up cost per level.
+	levelCostGrowth = 1.6
+	#Minimum role allowed to spend treasury (levelup/perks/withdraw): 0 = SOVEREIGN only, 1 = SOVEREIGN+OFFICER.
+	spendMinRole = 1
+	#Treasury cost in cents to declare a war (0 = free).
+	warDeclareCostCents = 250000
+	#Percent of the loser's treasury looted by the war winner.
+	warSpoilsPercent = 25.0
+	#On disband, refund the treasury balance to the founder's primary bank account.
+	disbandRefundToFounder = true
+	#Max ledger entries kept per nation.
+	ledgerCap = 50
+	#Block treasury withdrawals while the nation has a war in WARMUP or ACTIVE phase, so a war chest cannot be emptied mid-campaign. Deposits are always allowed.
+	blockWithdrawDuringWar = true
+	#Charge every nation a recurring upkeep bill. Requires 'enabled' and Ultimate Banking System.
+	upkeepEnabled = true
+	#Hours between upkeep bills. All nations bill on the same global boundary. Changing this re-derives the whole schedule from the stored anchor, not just future boundaries: nations re-anchor to the new index on their next pass, so raising it can skip a bill and lowering it can trigger one immediately.
+	upkeepPeriodHours = 24
+	#Upkeep cost in cents per claimed chunk per billing period. Sized against incomePerChunkCents: at both defaults a nation breaks even at roughly 3 hours of server uptime per day.
+	upkeepPerChunkCents = 3000
+	#Upkeep cost in cents per nation level per billing period.
+	upkeepPerLevelCents = 10000
+	#Cap the per-level upkeep term at this multiple of the per-chunk term. Income scales with claimed chunks alone, so without a cap a high-level, chunk-poor nation is structurally insolvent and its debt only deepens. At 1.0 the level bill can never exceed the territory bill. 0 disables the cap.
+	upkeepLevelCapRatio = 1.0
+	#Max billing periods charged at once after server downtime. 1 means a week offline still costs one day.
+	upkeepCatchUpDays = 1
+	#Percent of the normal upkeep charged for a period in which no member was online (0-100).
+	inactiveUpkeepPercent = 25
+	#Stop billing upkeep once the treasury is this many periods' worth of bills in debt. Keeps a returning nation able to dig out, and bounds what disbanding forgives. 0 means bill forever.
+	upkeepMaxDebtPeriods = 7
+	#Pay the nation treasury interest on a positive balance. Requires 'enabled' and Ultimate Banking System — the payout is injected into UBS's own savings-interest tick, so nation treasuries and member savings accrue together.
+	treasuryInterestEnabled = true
+	#Interest rate on the nation treasury, as a percent per 365 payouts. One payout happens per UBS savings-interest tick (its SavingsInterestIntervalTicks, default 24000 = one Minecraft day), so at defaults this is 1.8% per 365 Minecraft days, NOT per real year — lowering SavingsInterestIntervalTicks multiplies the real yield. Only nations with a member online at that tick are paid; a treasury at or below zero earns nothing and debt never compounds. Sub-cent yield is dropped, so a balance below about 10139 cents earns nothing.
+	treasuryInterestApyPercent = 1.8
+
+[Missions]
+	#Master switch for nation missions.
+	enabled = true
+	#Length of one mission cycle in real hours. All nations roll at the same moment.
+	cyclePeriodHours = 168
+	#How many missions are drawn per nation per cycle. Draws fewer if the level-filtered pool is smaller.
+	missionsPerCycle = 3
+	#Nations founded mid-cycle sit out until the next roll instead of getting a partial cycle.
+	graceForNewNations = true
+	#Nation perk id whose bonuses are granted while a nation has cleared all of its missions this cycle. Empty = no clear buff. Changing this while nations hold the buff strands the old modifiers.
+	cycleClearPerkId = ""
+	#Announce mission completions and cycle clears through Voice of the World.
+	announceCompletions = true
+	#Grant crate keys to online nation members for mission completions and cycle clears.
+	crateRewardsEnabled = true
+	#Crate id whose key each online member receives per completed mission. Empty = none.
+	missionCrateId = "common"
+	#Crate id whose key each online member receives when the nation clears its whole cycle. Empty = none.
+	cycleClearCrateId = "rare"
+
+[Contracts]
+	#Master switch for the nation contract board.
+	enabled = true
+	#Maximum simultaneously open contracts per nation.
+	maxOpenPerNation = 5
+	#Hours a contract stays open before it expires and refunds its escrow.
+	durationHours = 72
+	#Minimum cash reward in cents for a cash contract.
+	minCashRewardCents = 1000
+	#Nations currently at war cannot post new contracts. Closes a spoils-denial exploit: escrowed cash has already left the treasury, so a losing nation could dump its balance into contracts and cancel after the war.
+	blockPostingDuringWar = true
+	#Allow members of a nation at war with the poster to fulfil its contracts.
+	allowHostileFulfilment = false
+	#Enable PvP bounty contracts: a nation-funded bounty on a named player, paid to whoever kills them first. Requires 'enabled'.
+	bountiesEnabled = true
+	#Minimum cash reward in cents for a PvP bounty. Separate from minCashRewardCents — a bounty is a bigger ask than a delivery.
+	minBountyCents = 5000
+	#Bounty announcements: BROADCAST (server-wide), SILENT (board only), BROADCAST_AND_DM (server-wide plus a direct warning to the target). Unknown values fall back to BROADCAST. Note: switching the economy off with cash bounties open evaporates their escrow, same as cash contracts.
+	bountyVisibility = "BROADCAST"
+
+[Perks]
+	#spawner_overclock: extra effective nation levels for the spawner unlock gate and mob cap.
+	spawnerLevelBonus = 1
+	#golden_ledger: multiplier on the nation's daily treasury savings interest.
+	interestMultiplier = 1.5
+	#charter_of_industry: extra missions drawn per cycle.
+	missionSlotBonus = 1
+	#bond_of_souls: multiplier on the subordinate EP share percent (only matters while the ETSubordinateEpShare gamerule is on).
+	epShareMultiplier = 2.0
+	#deep_pockets: extra simultaneously open contracts on the nation contract board.
+	contractSlotBonus = 2
+	#defenders_resolve: bonus fraction on war kill points while the member's side is the defender (0.5 = +50%).
+	defenderKillPointBonus = 0.5
+	#magicule_attunement: fraction of max magicule and aura restored per pulse while inside the nation's own claim (0.01 = 1%).
+	attunementRestoreFraction = 0.01
+	#magicule_attunement: ticks between restore pulses (200 = 10s).
+	attunementIntervalTicks = 200

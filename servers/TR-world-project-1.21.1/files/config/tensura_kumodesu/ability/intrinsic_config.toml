@@ -1,0 +1,21 @@
+[DivineMagicRelease]
+	#The chant speed multiplier when toggled.
+	chantSpeed = 1.125
+	#The bonus number of learning point to gain when toggled.
+	learningPoint = 3.0
+	#The bonus number of mastery point to gain when toggled.
+	masteryPoint = 3.0
+	#Magicule regeneration rate multiplier.
+	magiculeregen = 19.0
+
+[DeadlySpiderPoison]
+	#The duration in tick of the Poison effect.
+	poisonDuration = 160
+	#The level of the Poison effect.
+	poisonLevel = 1
+
+[FatalSpiderPoison]
+	#The duration in tick of the Poison effect.
+	poisonDuration = 140
+	#The level of the Poison effect.
+	poisonLevel = 1

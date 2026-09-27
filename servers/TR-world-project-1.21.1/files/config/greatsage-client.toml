@@ -1,0 +1,155 @@
+#Great Sage client settings. Sounds, overlay, menu.
+[general]
+	#Play the voice clips. Turn this off if you only want the visuals.
+	enableVoice = true
+	#Say the sentence (Koku ... no kakutoku ni seiko shimashita) even when none
+	#of the skills in the announce has a recorded name clip. Missing names just
+	#leave a gap, the rest is still spoken.
+	#false: an announce with no name clip at all stays completely silent.
+	voiceWithoutNameClip = true
+	#Show the on screen animation. The voice still plays if you turn this off.
+	enableOverlay = true
+	#Keep the announce visible when the HUD is hidden with F1.
+	#Useful to record a video without the hotbar and the health bar.
+	#false: F1 hides it like the rest of the interface.
+	showWithHiddenHud = false
+	#Play the sound effects: Great Sage showing up at the start of every
+	#announce, and the impact on each skill name.
+	enableSfx = true
+	#Quiet announce for skills. Instead of taking the whole screen, Great Sage
+	#slides in from the bottom right corner and speaks in a small bubble.
+	#Nothing gets darkened and you can keep playing. The voice does not change.
+	#Ceremonies (Demon Lord Seed, awakenings...) and evolutions always keep
+	#the full thing, whatever you put here.
+	compactSkillAnnounce = false
+	#Volume of the voice clips. Multiplied by the game Master volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	volume = 1.0
+	#EP ratio where a target gets flagged as dangerous in assess mode.
+	#Its aura turns red and Great Sage tells you not to fight it.
+	#5 means five times your own EP.
+	# Default: 5.0
+	# Range: 1.0 ~ 1000.0
+	assessWarnRatio = 5.0
+	#How you talk to Great Sage. Off by default, nobody opens your mic
+	#without asking.
+	#off        : nothing listens, ever.
+	#wake       : the mic stays open but only listens for your wake words.
+	#             Say one and Great Sage shows up and waits for the request.
+	#pushToTalk : the mic only opens while you hold the key, and you say the
+	#             whole thing in one go.
+	#You also need the recognition library in .minecraft/greatsage-voice/,
+	#it is not shipped with the mod. Everything runs offline, nothing is sent
+	#anywhere.
+	voiceInput = "off"
+	#What wakes him up in wake mode. Keep them short and distinctive,
+	#a one syllable word will trigger on everything you say.
+	#They have to be real words of your recognition language: anything the model
+	#does not know gets silently dropped. That is why 'dai kenja' is not in here.
+	#In French and Spanish, 'grand sage' and 'gran sabio' are always added.
+	wakeWords = ["great sage", "wise one", "sage"]
+	#How long you get to formulate after the wake word. 120 = 6 seconds.
+	#Too short and you get cut off mid sentence, too long and he stands
+	#there listening to your whole conversation.
+	# Default: 120
+	# Range: 40 ~ 400
+	listenWindowTicks = 120
+	#Play the little sound when he starts listening.
+	#false: he shows up silently.
+	voiceFeedback = true
+	#Fetch the recognition library and the model of your recognition language
+	#on your behalf, into .minecraft/greatsage-voice/. About 25 MB once for the
+	#library, plus 40 MB per language.
+	#It only ever runs when voiceInput is not 'off'. If you never speak to
+	#him, nothing is downloaded, ever.
+	#The two jars are checked against a known fingerprint before anything
+	#loads them, because a native library runs with the same rights as the
+	#game and I am not asking you to trust the network for that.
+	#false: put the files there yourself, the mod will use them.
+	voiceAutoDownload = true
+	#How sure the recognition has to be before Great Sage acts on it.
+	#A badly heard sentence is worse than no sentence: it turns into a
+	#random command. Raise this if he keeps doing things you did not ask
+	#for, lower it if he says he did not understand when you were clear.
+	#0 accepts everything.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	voiceConfidence = 0.55
+	#Skills Great Sage raises when you ask for battle mode.
+	#You do not need to edit this by hand: the Battle Mode page in the
+	#menu (key G) does it for you, and writes here.
+	#Toggle skills are held on for as long as battle mode lasts. Skills
+	#that are not toggles get recast as soon as their cooldown ends.
+	battleSkills = []
+	#How dark the screen gets during an announce. 0 = no darkening at all.
+	# Default: 0.72
+	# Range: 0.0 ~ 1.0
+	darkenStrength = 0.72
+	#Grouping window in ticks. Every skill unlocked during that window ends up
+	#in one single announce, and each new skill pushes the window further.
+	#Too short and one evolution gets split into several announces.
+	#Too long and the announce takes ages to start.
+	# Default: 10
+	# Range: 1 ~ 100
+	batchWindowTicks = 10
+	#How many announces can wait in line.
+	# Default: 4
+	# Range: 1 ~ 32
+	maxQueued = 4
+	#Skills that give access to the Great Sage menu. Without one of them the
+	#keybind does nothing. Great Sage evolves into Raphael, so add the evolved
+	#form here if you want to keep the menu after evolving.
+	menuSkills = ["tensura:great_sage"]
+	#Order the categories are spoken in inside one announce.
+	#Anything not listed here gets spoken at the end.
+	tierOrder = ["extra", "unique", "ultimate", "intrinsic", "common", "resistance"]
+	#Skill types that trigger an announce.
+	#Possible values: resistance, intrinsic, common, extra, unique, ultimate
+	announcedTiers = ["resistance", "intrinsic", "common", "extra", "unique", "ultimate"]
+	#A ceremony that lists skills stays open as long as new ones keep coming.
+	#This is how long it waits in silence after the last one before saying the
+	#closing line. Also used for normal announces, so Predator giving skills in
+	#waves does not trigger ten announces in a row. 40 = 2 seconds.
+	# Default: 40
+	# Range: 5 ~ 400
+	ceremonyHoldTicks = 40
+	#Skill ids that never get announced, for example "tensura:self_regeneration".
+	#They still show up in the Records page, this only silences the announce.
+	skillBlacklist = []
+	#Great Sage comments on what you are doing: ore behind a wall,
+	#incoming danger, a tool about to break...
+	#This is your own switch. The server has one too, and both have to
+	#agree: if the server turned them off you will not hear them either
+	#way. false: he only speaks for skills, ceremonies and what you ask.
+	enableTips = true
+	#Which skill classes use the corner bubble, when
+	#compactSkillAnnounce is on. The others keep the full screen.
+	#This is the 'not all or nothing' setting: picking up a resistance
+	#mid fight does not deserve the same scene as an ultimate skill.
+	#Leave every class in here and it behaves like it always did.
+	#Classes: resistance, intrinsic, common, extra, unique, ultimate.
+	compactTiers = ["resistance", "intrinsic", "common", "extra", "unique", "ultimate"]
+	#The language you speak to Great Sage in: en, fr or es.
+	#Each one has its own recognition model, fetched the first time you use it
+	#(about 40 MB). 'ask' shows a small window the first time you carry Great
+	#Sage in a world, so you can pick it there. Until you do, it listens in
+	#English. He always answers in Japanese; subtitles follow your game language.
+	voiceLanguage = "ask"
+	#A short sound played just before Great Sage speaks.
+	#Four people asked for this: without it he starts mid air and it
+	#feels like something is missing. Empty to turn it off.
+	#Point it at your own recording once you have one -- 'sfx.open'
+	#is only a stand in.
+	chimeClip = "sfx.open"
+	#A quiet loop that runs while the Great Sage menu is open.
+	#Empty for silence. There is no clip shipped under this name yet,
+	#so nothing plays until you record one and name it that.
+	menuAmbience = "sfx.ambience"
+	#How long the same line stays silent after being said, in
+	#milliseconds. He used to comment on every single click, which
+	#turned him from a companion into a parrot.
+	#0 lets him repeat himself freely.
+	# Default: 4000
+	# Range: 0 ~ 60000
+	repeatGuardMs = 4000

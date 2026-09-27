@@ -1,0 +1,392 @@
+	[dragon_races.dragon]
+		# Default: 0.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 0.0
+		# Default: 24000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 24000.0
+		# Default: 38000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 38000.0
+		# Default: 18000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 18000.0
+		# Default: 30000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 30000.0
+		# Default: 0.18
+		# Range: -0.95 ~ 8.0
+		size = 0.18
+		# Default: 120.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 120.0
+		# Default: 420.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 420.0
+		# Default: 8.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 8.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.25
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 0.25
+		# Default: -0.02
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = -0.02
+		# Default: 0.2
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.2
+
+	[dragon_races.young_dragon]
+		# Default: 90000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 90000.0
+		# Default: 70000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 70000.0
+		# Default: 115000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 115000.0
+		# Default: 55000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 55000.0
+		# Default: 90000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 90000.0
+		# Default: 0.35
+		# Range: -0.95 ~ 8.0
+		size = 0.35
+		# Default: 320.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 320.0
+		# Default: 1200.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 1200.0
+		# Default: 18.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 18.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.42
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 0.42
+		# Default: 0.03
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.03
+		# Default: 0.35
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.35
+
+	[dragon_races.ancient_dragon]
+		# Default: 550000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 550000.0
+		# Default: 320000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 320000.0
+		# Default: 520000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 520000.0
+		# Default: 240000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 240000.0
+		# Default: 420000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 420000.0
+		# Default: 0.65
+		# Range: -0.95 ~ 8.0
+		size = 0.65
+		# Default: 1100.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 1100.0
+		# Default: 5200.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 5200.0
+		# Default: 42.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 42.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.72
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 0.72
+		# Default: 0.07
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.07
+		# Default: 0.55
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.55
+
+	[dragon_races.platinum_dragon_lord]
+		# Default: 1800000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 1800000.0
+		# Default: 1600000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 1600000.0
+		# Default: 2600000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 2600000.0
+		# Default: 1500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 1500000.0
+		# Default: 2450000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 2450000.0
+		# Default: 0.95
+		# Range: -0.95 ~ 8.0
+		size = 0.95
+		# Default: 4200.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 4200.0
+		# Default: 24000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 24000.0
+		# Default: 90.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 90.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.92
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 0.92
+		# Default: 0.16
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.16
+		# Default: 0.85
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.85
+
+	[dragon_races.vampiric_dragon_lord]
+		# Default: 1900000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 1900000.0
+		# Default: 1450000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 1450000.0
+		# Default: 2350000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 2350000.0
+		# Default: 1800000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 1800000.0
+		# Default: 3000000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 3000000.0
+		# Default: 0.8
+		# Range: -0.95 ~ 8.0
+		size = 0.8
+		# Default: 3600.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 3600.0
+		# Default: 30000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 30000.0
+		# Default: 82.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 82.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.88
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 0.88
+		# Default: 0.2
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.2
+		# Default: 0.75
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.75
+
+	[dragon_races.catastrophe_dragon_lord]
+		# Default: 2200000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 2200000.0
+		# Default: 2200000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 2200000.0
+		# Default: 3600000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 3600000.0
+		# Default: 1900000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 1900000.0
+		# Default: 3100000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 3100000.0
+		# Default: 1.05
+		# Range: -0.95 ~ 8.0
+		size = 1.05
+		# Default: 5200.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 5200.0
+		# Default: 36000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 36000.0
+		# Default: 120.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 120.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 0.96
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 0.96
+		# Default: 0.12
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = 0.12
+		# Default: 0.65
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.65
+
+	[dragon_races.heavenly_dragon_lord]
+		# Default: 3500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		epRequirement = 3500000.0
+		# Default: 3500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minAura = 3500000.0
+		# Default: 6200000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxAura = 6200000.0
+		# Default: 3600000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		minMagicule = 3600000.0
+		# Default: 6500000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxMagicule = 6500000.0
+		# Default: 1.8
+		# Range: -0.95 ~ 8.0
+		size = 1.8
+		# Default: 9000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxHealth = 9000.0
+		# Default: 90000.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		maxSpiritualHealth = 90000.0
+		# Default: 165.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		attack = 165.0
+		# Default: 0.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		attackSpeed = 0.0
+		# Default: 1.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		knockbackResistance = 1.0
+		# Default: -0.06
+		# Range: -1.0 ~ 1.7976931348623157E308
+		movementSpeed = -0.06
+		# Default: 0.4
+		# Range: -1.0 ~ 1.7976931348623157E308
+		swimSpeed = 0.4
+
+[dragon_system]
+	# Default: 8
+	# Range: > 0
+	youngTreasureRequirement = 8
+	# Default: 12000
+	# Range: > 0
+	youngStoredSoulsRequirement = 12000
+	# Default: 35
+	# Range: > 0
+	ancientBreathKillRequirement = 35
+	# Default: 64
+	# Range: > 0
+	ancientTreasureRequirement = 64
+	# Default: 70000
+	# Range: > 0
+	ancientStoredSoulsRequirement = 70000
+	# Default: 5
+	# Range: > 0
+	lordDragonKillRequirement = 5
+	# Default: 8
+	# Range: > 0
+	lordHighEpKillRequirement = 8
+	# Default: 6
+	# Range: > 0
+	platinumDominionTrials = 6
+	# Default: 24000
+	# Range: > 0
+	platinumSkyTicks = 24000
+	# Default: 128
+	# Range: > 0
+	platinumTreasureRequirement = 128
+	# Default: 120
+	# Range: > 0
+	vampiricUndeadKills = 120
+	# Default: 1800
+	# Range: > 0
+	vampiricSoulsDevoured = 1800
+	# Default: 8
+	# Range: > 0
+	vampiricBloodRites = 8
+	# Default: 35000
+	# Range: > 0
+	catastropheDamageEndured = 35000
+	# Default: 8
+	# Range: > 0
+	catastropheCalamityRuptures = 8
+	# Default: 12
+	# Range: > 0
+	catastropheHighEpKills = 12
+	# Default: 36000
+	# Range: > 0
+	heavenlyAscentTicks = 36000
+	# Default: 10
+	# Range: > 0
+	heavenlyDominions = 10
+	# Default: 9
+	# Range: > 0
+	heavenlyDragonKills = 9
+	# Default: 500000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	highEpThreshold = 500000.0
+	# Default: 260.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	breathDamage = 260.0
+	# Default: 520.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	breathDamageMastered = 520.0
+	# Default: 42.0
+	# Range: 1.0 ~ 512.0
+	breathRange = 42.0
+	# Default: 4.0
+	# Range: 0.5 ~ 64.0
+	breathRadius = 4.0
+	# Default: 20
+	# Range: > 0
+	breathCooldown = 20
+	# Default: 5
+	# Range: > 0
+	hoardCooldown = 5
+	# Default: 240
+	# Range: > 0
+	riteCooldown = 240
+	# Default: 16
+	# Range: 1 ~ 64
+	hoardMaxConsume = 16
+	# Default: 1
+	# Range: 0 ~ 100000
+	hoardSoulMultiplier = 1
+	# Default: 5000
+	# Range: > 0
+	ancientRiteSoulCost = 5000
+	# Default: 180
+	# Range: -64 ~ 1024
+	heavenlySkyY = 180
+	# Default: 0.25
+	# Range: 0.0 ~ 0.95
+	scalePhysicalReduction = 0.25
+	# Default: 0.15
+	# Range: 0.0 ~ 0.95
+	scaleMagicReduction = 0.15
+	# Default: 0.22
+	# Range: 0.0 ~ 2.0
+	lordFlightSpeed = 0.22
+	grantDragonFlight = true
+	keepDragonProgressAfterRaceChange = true

@@ -1,0 +1,35 @@
+[damageCapSettings]
+	#Maximum damage any entity can receive at once. Set to 0 to disable.
+	UniversalDamageCap = 20000
+
+[godOwnerAmount]
+	#How many people may own the same God-Class Ultimate at once. Set to 0 to disable ownership slots.
+	# Default: 1
+	# Range: > 0
+	GodOwnerAmount = 1
+
+[godSkillsOwned]
+	#How many God-Class skills a player may own at once. Set to 0 to disable the slot limit.
+	# Default: 1
+	# Range: > 0
+	GodSkillsOwned = 1
+
+[demonicSkillsConfig]
+	#List of Demonic skills registry names that can be created via Demon Essence consumption. Format: modid:skill_name
+	DemonicSkillsList = [""]
+
+[angelicSkillsConfig]
+	#List of Angelic skills registry names that can be created via Holy Essence consumption. Format: modid:skill_name
+	AngelicSkillsList = ["trnightmare:inversion", "trnightmare:rigor", "tensura:murderer", "tensura:infinity_prison", "tensura:great_sage", "tensura:degenerate", "tensura:unyielding", "trnightmare:stasis"]
+
+[demonicUltconfig]
+	#List of Angelic skills registry names that can be created via Holy Essence consumption. Format: modid:skill_name
+	AngelicSkillsList = ["trnightmare:lucifer", "trnightmare:asmodeus", "trnightmare:mammon", "trnightmare:leviathan", "trnightmare:bael"]
+
+[virtueSkillsConfig]
+	#Virtue unique skill ids for Michael Ultimate Dominion.
+	VirtueSkillsList = ["tensura:great_sage", "tensura:murderer", "tensura:infinity_prison", "trnightmare:stasis", "trnightmare:cadence", "tensura:degenerate", "tensura:unyielding"]
+
+[globalSkillsBlacklist]
+	#List of Skill registry names that cannot be copied. Format: modid:skill_name
+	globalSkillsBlacklist = ["trnightmare:lore_hunter", "trnightmare:dominator", "trnightmare:michael", "trnightmare:alternative", "trnightmare:sariel"]

@@ -1,0 +1,109 @@
+[LesserFairy]
+	#Minimal aura.
+	minAura = 150.0
+	#Maximum aura.
+	maxAura = 250.0
+	#Minimal magicule.
+	minMagicule = 450.0
+	#Maximum magicule.
+	maxMagicule = 650.0
+	#Bonus Size.
+	size = -0.6000000238418579
+	#Bonus Max Health.
+	maxHealth = -12.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 65.0
+	#Bonus Attack Damage.
+	attack = -0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.25
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.0
+	#Bonus Movement Speed.
+	movementSpeed = 0.07999999821186066
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.15000000596046448
+
+[Fairy]
+	#EP requirement to evolve into Fairy.
+	epRequirement = 100000.0
+	#Minimal aura.
+	minAura = 20000.0
+	#Maximum aura.
+	maxAura = 20000.0
+	#Minimal magicule.
+	minMagicule = 80000.0
+	#Maximum magicule.
+	maxMagicule = 80000.0
+	#Bonus Size.
+	size = -0.550000011920929
+	#Bonus Max Health.
+	maxHealth = 80.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 320.0
+	#Bonus Attack Damage.
+	attack = 0.5
+	#Bonus Attack Speed.
+	attackSpeed = 0.3499999940395355
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.10000000149011612
+	#Bonus Movement Speed.
+	movementSpeed = 0.11999999731779099
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.25
+
+[FairyLord]
+	#EP requirement to evolve into Fairy Lord.
+	epRequirement = 800000.0
+	#Minimal aura.
+	minAura = 200000.0
+	#Maximum aura.
+	maxAura = 200000.0
+	#Minimal magicule.
+	minMagicule = 600000.0
+	#Maximum magicule.
+	maxMagicule = 600000.0
+	#Bonus Size.
+	size = -0.5
+	#Bonus Max Health.
+	maxHealth = 480.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 3000.0
+	#Bonus Attack Damage.
+	attack = 2.0
+	#Bonus Attack Speed.
+	attackSpeed = 0.5
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.20000000298023224
+	#Bonus Movement Speed.
+	movementSpeed = 0.18000000715255737
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.44999998807907104
+
+[FairyQueen]
+	#EP requirement to evolve into Fairy Queen.
+	epRequirement = 2000000.0
+	#Minimal aura.
+	minAura = 500000.0
+	#Maximum aura.
+	maxAura = 500000.0
+	#Minimal magicule.
+	minMagicule = 1500000.0
+	#Maximum magicule.
+	maxMagicule = 1500000.0
+	#Bonus Size.
+	size = -0.44999998807907104
+	#Bonus Max Health.
+	maxHealth = 880.0
+	#Bonus Max Spiritual Health.
+	maxSpiritualHealth = 6200.0
+	#Bonus Attack Damage.
+	attack = 3.5999999046325684
+	#Bonus Attack Speed.
+	attackSpeed = 0.699999988079071
+	#Bonus Knockback Resistance.
+	knockbackResistance = 0.4000000059604645
+	#Bonus Movement Speed.
+	movementSpeed = 0.2199999988079071
+	#Bonus Swimming Speed Multiplier.
+	swimSpeed = 0.699999988079071
